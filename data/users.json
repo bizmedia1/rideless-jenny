@@ -20,5 +20,16 @@
     "paymentId": "PAY-RIDELESSCHAT-6ED4595373C0B4D3",
     "createdAt": "2026-11-18T12:26:28.369Z",
     "activatedAt": "2026-11-18T12:26:28.369Z"
+  },
+  {
+    "id": "RC-USER-57F7EFEB02C52324",
+    "fullName": "Omala Isbaeu",
+    "email": "adeolu@gmail.com",
+    "phone": "09070007119",
+    "passwordHash": "scrypt$7b52507fe23627ccdaf0b4737da5c614$827ff5b9fbf62dc073be627693f7a4068ca7503e4989ff448c6e9cb1a28748194ad324a09ee45bee6dedbb128ee7cde51de13ae364c807dc81539a9aee8dc386",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-9F25BA428DAE4FAF",
+    "createdAt": "2026-11-18T12:36:57.500Z",
+    "activatedAt": "2026-11-18T12:36:57.500Z"
   }
 ]
