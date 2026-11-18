@@ -5,8 +5,10 @@ const { readJSON } = require("../lib/github-storage");
 const PAYMENTS_FILE = "data/payments.json";
 const USERS_FILE = "data/users.json";
 
+const ACTIVATION_AMOUNT_KOBO = 10000;
+
 function send(res, statusCode, payload) {
-  res.status(statusCode).json(payload);
+  return res.status(statusCode).json(payload);
 }
 
 function hashToken(token) {
@@ -19,7 +21,9 @@ function safeCompare(a, b) {
     typeof b !== "string" ||
     !/^[a-f0-9]{64}$/i.test(a) ||
     !/^[a-f0-9]{64}$/i.test(b)
-  ) return false;
+  ) {
+    return false;
+  }
 
   return crypto.timingSafeEqual(
     Buffer.from(a, "hex"),
@@ -73,27 +77,31 @@ module.exports = async function handler(req, res) {
       : [];
 
     const payment = payments.find(item =>
-      item.paymentId === paymentId &&
+      item.id === paymentId &&
       item.provider === "movantra" &&
       item.method === "paga" &&
-      item.activation === true
+      item.activation === true &&
+      Number(item.amountKobo) === ACTIVATION_AMOUNT_KOBO
     );
 
-    if (!payment || !safeCompare(
-      payment.statusTokenHash,
-      hashToken(statusToken)
-    )) {
+    if (
+      !payment ||
+      !safeCompare(
+        payment.statusTokenHash,
+        hashToken(statusToken)
+      )
+    ) {
       return send(res, 404, {
         status: false,
         message: "Payment record not found."
       });
     }
 
-    // Approval is only valid when the webhook has approved
-    // the payment AND the corresponding active account exists.
+    /* APPROVED PAYMENT */
+
     if (payment.status === "approved") {
       const activeUser = users.find(user =>
-        user.paymentId === payment.paymentId &&
+        user.paymentId === payment.id &&
         user.status === "active"
       );
 
@@ -104,17 +112,28 @@ module.exports = async function handler(req, res) {
           activated: true
         });
       }
+
+      return send(res, 200, {
+        status: true,
+        paymentStatus: "pending",
+        activated: false
+      });
     }
+
+    /* EXPIRED PAYMENT */
 
     const expiry = payment.activationExpiresAt
       ? new Date(payment.activationExpiresAt).getTime()
       : 0;
 
     if (
-      expiry &&
-      Number.isFinite(expiry) &&
-      Date.now() > expiry &&
-      payment.status !== "approved"
+      payment.status === "expired" ||
+      (
+        Number.isFinite(expiry) &&
+        expiry > 0 &&
+        Date.now() > expiry &&
+        payment.status !== "approved"
+      )
     ) {
       return send(res, 200, {
         status: true,
@@ -123,6 +142,8 @@ module.exports = async function handler(req, res) {
       });
     }
 
+    /* PENDING PAYMENT */
+
     return send(res, 200, {
       status: true,
       paymentStatus: "pending",
@@ -130,7 +151,10 @@ module.exports = async function handler(req, res) {
     });
 
   } catch (error) {
-    console.error("[RIDELESSCHAT PAYMENT STATUS]", error);
+    console.error(
+      "[RIDELESSCHAT PAYMENT STATUS]",
+      error.message
+    );
 
     return send(res, 500, {
       status: false,
