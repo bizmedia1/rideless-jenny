@@ -1,2 +1,19 @@
-
-[]
+[
+  {
+    "userId": "RC-USER-57F7EFEB02C52324",
+    "balance": 95000,
+    "transactions": [
+      {
+        "id": "8d582603-0365-4168-8868-92c8895fe962",
+        "title": "Welcome Bonus",
+        "amount": 95000,
+        "type": "credit",
+        "date": "2026-11-18T16:36:02.632Z"
+      }
+    ],
+    "welcomeBonusCreditedAt": "2026-11-18T16:36:02.632Z",
+    "dailyClaims": [],
+    "createdAt": "2026-11-18T16:36:02.632Z",
+    "updatedAt": "2026-11-18T16:36:02.632Z"
+  }
+]
