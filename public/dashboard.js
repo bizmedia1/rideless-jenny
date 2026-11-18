@@ -99,6 +99,7 @@ let welcomeClaimed = false;
 let dailyClaimed = false;
 let dailyClaimLoading = false;
 let walletLoading = false;
+let walletLoaded = false;
 
 let lastNigeriaDate = "";
 
@@ -197,13 +198,12 @@ welcomeName.textContent =
 }
 
 /*
-The server credits the welcome bonus automatically
-once per account. There is no longer a manual
-device-based welcome bonus claim.
+Only display the welcome overlay after the server
+has confirmed the account's welcome bonus status.
 */
 
 if (welcomeOverlay) {
-welcomeOverlay.hidden = welcomeClaimed;
+welcomeOverlay.hidden = !walletLoaded || welcomeClaimed;
 }
 }
 
@@ -321,8 +321,6 @@ walletLoading = false;
 updateDailyCheckin();
 }
 
-/* Keep other dashboard embeds informed. */
-
 window.dispatchEvent(new CustomEvent("ridelesschat:wallet-updated", {
 detail: {
 balance: balance,
@@ -400,8 +398,8 @@ LOCAL READ & EARN COMPATIBILITY
 ===================================== */
 
 /*
-This preserves the existing event for your Read & Earn
-embed. Its earnings are still local until that feature
+Preserves the existing Read & Earn event.
+Its earnings remain local until that feature
 gets its own server-side reward endpoint.
 */
 
@@ -460,12 +458,12 @@ transactions = [];
 welcomeClaimed = false;
 dailyClaimed = false;
 
+walletLoaded = false;
+walletLoading = true;
+
 updateBalanceDisplay();
 renderTransactions();
 updateWelcomeOverlay();
-updateDailyCheckin();
-
-walletLoading = true;
 updateDailyCheckin();
 
 try {
@@ -488,6 +486,9 @@ showToast(
 
 } finally {
 walletLoading = false;
+walletLoaded = true;
+
+updateWelcomeOverlay();
 updateDailyCheckin();
 }
 
@@ -531,6 +532,12 @@ return;
 
 currentSession = session;
 
+walletLoaded = false;
+
+if (welcomeOverlay) {
+welcomeOverlay.hidden = true;
+}
+
 dashboard.hidden = false;
 dashboard.style.display = "block";
 
@@ -561,10 +568,8 @@ WELCOME BONUS BUTTON
 ===================================== */
 
 /*
-The welcome bonus is now automatic.
-
-Keep this listener only as a compatibility safeguard
-for the old welcome button. It cannot credit the bonus.
+The welcome bonus is automatic and server-controlled.
+This listener cannot credit the bonus.
 */
 
 if (welcomeButton) {
@@ -700,7 +705,6 @@ const today = nigeriaDateKey();
 
 if (today !== lastNigeriaDate) {
 lastNigeriaDate = today;
-
 refreshWallet();
 }
 }
@@ -834,3 +838,4 @@ openDashboard();
 }
 
 })();
+  
