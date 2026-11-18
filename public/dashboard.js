@@ -3,57 +3,39 @@
 "use strict";
 
 const dashboard = document.getElementById("rideless-dashboard");
-
 if (!dashboard || dashboard.dataset.jsInitialized === "true") return;
-
 dashboard.dataset.jsInitialized = "true";
 
-/* =====================================
-ELEMENTS
-===================================== */
-
+/* ELEMENTS */
 const auth = document.getElementById("rideless-auth");
-
 const welcomeOverlay = document.getElementById("rc-welcome-overlay");
 const welcomeName = document.getElementById("rc-welcome-name");
 const welcomeButton = document.getElementById("rc-claim-welcome");
-
 const toast = document.getElementById("rc-dashboard-toast");
 const toastMessage = document.getElementById("rc-toast-message");
-
 const balanceAmount = document.getElementById("rc-balance-amount");
 const balanceEye = document.getElementById("rc-balance-eye");
-
 const themeButton = document.getElementById("rc-theme-toggle");
-
 const checkinButton = document.getElementById("rc-checkin-btn");
 const checkinStatus = document.getElementById("rc-checkin-status");
-
 const transactionList = document.getElementById("rc-transaction-list");
 const transactionEmpty = document.getElementById("rc-transaction-empty");
-
 const notificationButton = document.getElementById("rc-notification-btn");
+const upgradePercent = document.getElementById("rc-upgrade-percent");
+const upgradeProgress = dashboard.querySelector(".rc-upgrade-progress");
 
-/* =====================================
-CONFIGURATION
-===================================== */
-
+/* CONFIGURATION */
 const SESSION_KEY = "ridelesschat_session";
+const API_URL = "https://rideless-jenny-two.vercel.app/api/rewards";
+const UPGRADE_TARGET = 300000;
 
-const API_URL =
-"https://rideless-jenny-two.vercel.app/api/rewards";
-
-/* =====================================
-AUTHENTICATED SESSION
-===================================== */
-
+/* SESSION */
 let currentSession = null;
 let currentUser = null;
 
 function getAuthenticatedSession() {
 try {
 const raw = sessionStorage.getItem(SESSION_KEY);
-
 if (!raw) return null;
 
 const session = JSON.parse(raw);
@@ -65,9 +47,7 @@ typeof session.token !== "string" ||
 !session.expiresAt ||
 !session.user ||
 !session.user.id
-) {
-return null;
-}
+) return null;
 
 const expiry = new Date(session.expiresAt).getTime();
 
@@ -77,36 +57,27 @@ return null;
 }
 
 return session;
-
 } catch (error) {
 console.error("[RIDELESSCHAT] Session read failed:", error);
 return null;
 }
 }
 
-/* =====================================
-STATE
-===================================== */
-
+/* STATE */
 let balance = 0;
 let transactions = [];
-
 let balanceHidden = false;
 let toastTimer = null;
 let dateCheckTimer = null;
-
 let welcomeClaimed = false;
+let welcomeStatusKnown = false;
 let dailyClaimed = false;
 let dailyClaimLoading = false;
 let walletLoading = false;
 let walletLoaded = false;
-
 let lastNigeriaDate = "";
 
-/* =====================================
-DATE AND CURRENCY HELPERS
-===================================== */
-
+/* DATE AND CURRENCY */
 function nigeriaDateKey() {
 const parts = new Intl.DateTimeFormat("en-GB", {
 timeZone: "Africa/Lagos",
@@ -116,16 +87,9 @@ day: "2-digit"
 }).formatToParts(new Date());
 
 const values = {};
+parts.forEach(part => values[part.type] = part.value);
 
-parts.forEach(function (part) {
-values[part.type] = part.value;
-});
-
-return (
-values.year + "-" +
-values.month + "-" +
-values.day
-);
+return values.year + "-" + values.month + "-" + values.day;
 }
 
 function formatDate(date) {
@@ -146,15 +110,11 @@ maximumFractionDigits: 2
 });
 }
 
-/* =====================================
-TOAST
-===================================== */
-
+/* TOAST */
 function showToast(message, duration) {
 if (!toast || !toastMessage) return;
 
 clearTimeout(toastTimer);
-
 toastMessage.textContent = message;
 toast.classList.add("is-visible");
 
@@ -163,10 +123,45 @@ toast.classList.remove("is-visible");
 }, duration || 2400);
 }
 
-/* =====================================
-SERVER WALLET
-===================================== */
+/* UPGRADE EARNINGS PROGRESS */
+function getTotalEarned() {
+return transactions.reduce(function (total, item) {
+const amount = Number(item.amount) || 0;
+return total + (amount > 0 ? amount : 0);
+}, 0);
+}
 
+function updateUpgradeProgress() {
+const earned = getTotalEarned();
+const percentage = Math.min(
+100,
+Math.max(0, (earned / UPGRADE_TARGET) * 100)
+);
+
+const roundedPercentage = Math.floor(percentage);
+
+if (upgradePercent) {
+upgradePercent.textContent = roundedPercentage + "%";
+}
+
+if (upgradeProgress) {
+upgradeProgress.style.strokeDasharray = "100";
+upgradeProgress.style.strokeDashoffset = String(100 - percentage);
+}
+
+const upgradeButton = dashboard.querySelector(
+'[data-dashboard-action="upgrade"]'
+);
+
+if (upgradeButton) {
+upgradeButton.setAttribute(
+"aria-label",
+"Upgrade Account. " + roundedPercentage + "% progress. Total earnings: " + formatMoney(earned)
+);
+}
+}
+
+/* WALLET DISPLAY */
 function updateBalanceDisplay() {
 if (!balanceAmount) return;
 
@@ -183,27 +178,23 @@ transactions = Array.isArray(data.transactions)
 : [];
 
 welcomeClaimed = data.welcomeBonusCredited === true;
+welcomeStatusKnown = true;
 dailyClaimed = data.dailyClaimed === true;
 
 updateBalanceDisplay();
 renderTransactions();
 updateWelcomeOverlay();
 updateDailyCheckin();
+updateUpgradeProgress();
 }
 
 function updateWelcomeOverlay() {
 if (welcomeName && currentUser) {
-welcomeName.textContent =
-"Welcome " + (currentUser.name || "there");
+welcomeName.textContent = "Welcome " + (currentUser.name || "there");
 }
 
-/*
-Only display the welcome overlay after the server
-has confirmed the account's welcome bonus status.
-*/
-
 if (welcomeOverlay) {
-welcomeOverlay.hidden = !walletLoaded || welcomeClaimed;
+welcomeOverlay.hidden = !welcomeStatusKnown || welcomeClaimed;
 }
 }
 
@@ -213,21 +204,14 @@ if (!checkinButton) return;
 checkinButton.disabled =
 dailyClaimed || dailyClaimLoading || walletLoading;
 
-checkinButton.classList.toggle(
-"is-loading",
-dailyClaimLoading
-);
+checkinButton.classList.toggle("is-loading", dailyClaimLoading);
 
 const label = checkinButton.querySelector(".rc-checkin-label");
 
 if (label) {
-if (dailyClaimLoading) {
-label.textContent = "Claiming...";
-} else {
-label.textContent = dailyClaimed
-? "Claimed"
-: "Claim Now";
-}
+label.textContent = dailyClaimLoading
+? "Claiming..."
+: dailyClaimed ? "Claimed" : "Claim Now";
 }
 
 if (checkinStatus) {
@@ -237,6 +221,7 @@ checkinStatus.textContent = dailyClaimed
 }
 }
 
+/* SERVER WALLET */
 async function requestWallet(action) {
 if (!currentSession || !currentSession.token) {
 throw new Error("Your session is unavailable. Please sign in again.");
@@ -248,9 +233,7 @@ headers: {
 "Content-Type": "application/json",
 "Authorization": "Bearer " + currentSession.token
 },
-body: JSON.stringify({
-action: action
-}),
+body: JSON.stringify({ action: action }),
 cache: "no-store"
 });
 
@@ -263,25 +246,13 @@ throw new Error("The server returned an invalid response.");
 }
 
 if (!response.ok || !result.status) {
-const error = new Error(
-result.message || "Unable to load your wallet."
-);
-
+const error = new Error(result.message || "Unable to load your wallet.");
 error.conflict = result.conflict === true || response.status === 409;
-
 throw error;
 }
 
 return result;
 }
-
-/*
-Retry a GitHub SHA conflict once.
-
-If another device claimed the reward at the same time,
-the second request reloads the latest wallet before
-trying again.
-*/
 
 async function syncWallet(action) {
 let lastError = null;
@@ -289,17 +260,11 @@ let lastError = null;
 for (let attempt = 0; attempt < 2; attempt++) {
 try {
 const result = await requestWallet(action || "sync");
-
 updateWalletData(result);
-
 return result;
-
 } catch (error) {
 lastError = error;
-
-if (!error.conflict || attempt === 1) {
-break;
-}
+if (!error.conflict || attempt === 1) break;
 }
 }
 
@@ -330,10 +295,7 @@ dailyClaimed: dailyClaimed
 }));
 }
 
-/* =====================================
-TRANSACTION HISTORY
-===================================== */
-
+/* TRANSACTIONS */
 function renderTransactions() {
 if (!transactionList) return;
 
@@ -353,12 +315,10 @@ row.className = "rc-transaction-item";
 
 const icon = document.createElement("div");
 icon.className = "rc-transaction-icon";
-
 icon.innerHTML = `
 <svg viewBox="0 0 24 24" aria-hidden="true">
 <path d="M12 3v18M17 7H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H7"/>
-</svg>
-`;
+</svg>`;
 
 const info = document.createElement("div");
 info.className = "rc-transaction-info";
@@ -367,7 +327,6 @@ const title = document.createElement("h4");
 title.textContent = item.title || "Transaction";
 
 const date = document.createElement("p");
-
 const parsedDate = new Date(item.date);
 
 date.textContent = Number.isNaN(parsedDate.getTime())
@@ -381,47 +340,34 @@ const amount = document.createElement("div");
 amount.className = "rc-transaction-amount";
 
 const value = Number(item.amount) || 0;
-
 amount.textContent =
 (value < 0 ? "-" : "+") + formatMoney(Math.abs(value));
 
 row.appendChild(icon);
 row.appendChild(info);
 row.appendChild(amount);
-
 transactionList.appendChild(row);
 });
 }
 
-/* =====================================
-LOCAL READ & EARN COMPATIBILITY
-===================================== */
-
-/*
-Preserves the existing Read & Earn event.
-Its earnings remain local until that feature
-gets its own server-side reward endpoint.
-*/
-
+/* LOCAL READ & EARN COMPATIBILITY */
 function creditBalance(amount, title) {
 amount = Number(amount) || 0;
-
 if (amount <= 0) return;
 
 balance += amount;
 
-const transaction = {
+transactions.unshift({
 id: Date.now() + Math.random(),
 title: title || "Reward",
 amount: amount,
 date: new Date().toISOString(),
 type: "credit"
-};
-
-transactions.unshift(transaction);
+});
 
 updateBalanceDisplay();
 renderTransactions();
+updateUpgradeProgress();
 }
 
 window.addEventListener("ridelesschat:reward-earned", function (event) {
@@ -430,16 +376,10 @@ const amount = Number(detail.amount) || 0;
 
 if (amount <= 0) return;
 
-creditBalance(
-amount,
-detail.title || "Read & Earn Reward"
-);
+creditBalance(amount, detail.title || "Read & Earn Reward");
 });
 
-/* =====================================
-LOAD USER DATA
-===================================== */
-
+/* LOAD USER DATA */
 async function loadUserData(user) {
 currentUser = {
 id: user.id,
@@ -449,15 +389,14 @@ phone: user.phone || ""
 };
 
 if (welcomeName) {
-welcomeName.textContent =
-"Welcome " + (currentUser.name || "there");
+welcomeName.textContent = "Welcome " + (currentUser.name || "there");
 }
 
 balance = 0;
 transactions = [];
 welcomeClaimed = false;
+welcomeStatusKnown = false;
 dailyClaimed = false;
-
 walletLoaded = false;
 walletLoading = true;
 
@@ -465,37 +404,25 @@ updateBalanceDisplay();
 renderTransactions();
 updateWelcomeOverlay();
 updateDailyCheckin();
+updateUpgradeProgress();
 
 try {
 await syncWallet("sync");
-
 lastNigeriaDate = nigeriaDateKey();
 
 console.log("[RIDELESSCHAT] Server wallet loaded.");
-
 } catch (error) {
-console.error(
-"[RIDELESSCHAT] Initial wallet loading failed:",
-error
-);
-
-showToast(
-"Unable to load your wallet. Please try again.",
-3000
-);
-
+console.error("[RIDELESSCHAT] Initial wallet loading failed:", error);
+showToast("Unable to load your wallet. Please try again.", 3000);
 } finally {
 walletLoading = false;
 walletLoaded = true;
-
 updateWelcomeOverlay();
 updateDailyCheckin();
 }
 
 window.dispatchEvent(new CustomEvent("ridelesschat:user-loaded", {
-detail: {
-user: currentUser
-}
+detail: { user: currentUser }
 }));
 
 window.dispatchEvent(new CustomEvent("ridelesschat:wallet-updated", {
@@ -507,17 +434,12 @@ dailyClaimed: dailyClaimed
 }));
 }
 
-/* =====================================
-OPEN DASHBOARD
-===================================== */
-
+/* OPEN DASHBOARD */
 async function openDashboard() {
 const session = getAuthenticatedSession();
 
 if (!session) {
-console.error(
-"[RIDELESSCHAT] Dashboard opening failed: no valid authenticated session."
-);
+console.error("[RIDELESSCHAT] Dashboard opening failed: no valid authenticated session.");
 
 dashboard.hidden = true;
 dashboard.style.display = "none";
@@ -531,12 +453,10 @@ return;
 }
 
 currentSession = session;
-
 walletLoaded = false;
+welcomeStatusKnown = false;
 
-if (welcomeOverlay) {
-welcomeOverlay.hidden = true;
-}
+if (welcomeOverlay) welcomeOverlay.hidden = true;
 
 dashboard.hidden = false;
 dashboard.style.display = "block";
@@ -546,11 +466,7 @@ auth.hidden = true;
 auth.style.display = "none";
 }
 
-window.scrollTo({
-top: 0,
-behavior: "instant"
-});
-
+window.scrollTo({ top: 0, behavior: "instant" });
 window.__ridelessPendingDashboardUser = null;
 
 await loadUserData(session.user);
@@ -558,20 +474,9 @@ await loadUserData(session.user);
 console.log("[RIDELESSCHAT] Authenticated dashboard opened.");
 }
 
-window.addEventListener(
-"ridelesschat:dashboard-open",
-openDashboard
-);
+window.addEventListener("ridelesschat:dashboard-open", openDashboard);
 
-/* =====================================
-WELCOME BONUS BUTTON
-===================================== */
-
-/*
-The welcome bonus is automatic and server-controlled.
-This listener cannot credit the bonus.
-*/
-
+/* WELCOME BONUS BUTTON */
 if (welcomeButton) {
 welcomeButton.addEventListener("click", function () {
 if (welcomeClaimed) {
@@ -584,14 +489,10 @@ refreshWallet();
 });
 }
 
-/* =====================================
-BALANCE EYE TOGGLE
-===================================== */
-
+/* BALANCE EYE */
 if (balanceEye) {
 balanceEye.addEventListener("click", function () {
 balanceHidden = !balanceHidden;
-
 balanceEye.classList.toggle("is-hidden", balanceHidden);
 
 balanceEye.setAttribute(
@@ -603,13 +504,9 @@ updateBalanceDisplay();
 });
 }
 
-/* =====================================
-DARK / LIGHT THEME
-===================================== */
-
+/* THEME */
 function applyTheme(theme) {
 const selectedTheme = theme === "light" ? "light" : "dark";
-
 dashboard.dataset.theme = selectedTheme;
 
 if (themeButton) {
@@ -636,26 +533,16 @@ applyTheme(savedTheme);
 
 if (themeButton) {
 themeButton.addEventListener("click", function () {
-const nextTheme =
-dashboard.dataset.theme === "dark" ? "light" : "dark";
-
-applyTheme(nextTheme);
+applyTheme(
+dashboard.dataset.theme === "dark" ? "light" : "dark"
+);
 });
 }
 
-/* =====================================
-DAILY CLAIM
-===================================== */
-
+/* DAILY CLAIM */
 if (checkinButton) {
 checkinButton.addEventListener("click", async function () {
-if (
-dailyClaimed ||
-dailyClaimLoading ||
-walletLoading
-) {
-return;
-}
+if (dailyClaimed || dailyClaimLoading || walletLoading) return;
 
 dailyClaimLoading = true;
 updateDailyCheckin();
@@ -663,43 +550,33 @@ updateDailyCheckin();
 try {
 const result = await syncWallet("claim-daily");
 
-if (result.dailyClaimedNow) {
-showToast("Daily reward of ₦500 credited!", 2600);
-} else {
-showToast("You've already claimed today's reward.", 2600);
-}
-
-lastNigeriaDate = nigeriaDateKey();
-
-} catch (error) {
-console.error("[RIDELESSCHAT] Daily claim failed:", error);
-
 showToast(
-error.message || "Unable to claim your daily reward.",
-3000
+result.dailyClaimedNow
+? "Daily reward of ₦500 credited!"
+: "You've already claimed today's reward.",
+2600
 );
 
+lastNigeriaDate = nigeriaDateKey();
+} catch (error) {
+console.error("[RIDELESSCHAT] Daily claim failed:", error);
+showToast(error.message || "Unable to claim your daily reward.", 3000);
 } finally {
 dailyClaimLoading = false;
 updateDailyCheckin();
 
-window.dispatchEvent(
-new CustomEvent("ridelesschat:wallet-updated", {
+window.dispatchEvent(new CustomEvent("ridelesschat:wallet-updated", {
 detail: {
 balance: balance,
 welcomeBonusCredited: welcomeClaimed,
 dailyClaimed: dailyClaimed
 }
-})
-);
+}));
 }
 });
 }
 
-/* =====================================
-NIGERIA MIDNIGHT REFRESH
-===================================== */
-
+/* NIGERIA MIDNIGHT REFRESH */
 function checkNigeriaDate() {
 const today = nigeriaDateKey();
 
@@ -712,9 +589,7 @@ refreshWallet();
 clearInterval(dateCheckTimer);
 
 dateCheckTimer = setInterval(function () {
-if (!document.hidden && currentSession) {
-checkNigeriaDate();
-}
+if (!document.hidden && currentSession) checkNigeriaDate();
 }, 30000);
 
 document.addEventListener("visibilitychange", function () {
@@ -724,13 +599,8 @@ refreshWallet();
 }
 });
 
-/* =====================================
-DASHBOARD BUTTONS
-===================================== */
-
-const comingSoonButtons = dashboard.querySelectorAll(
-"[data-dashboard-action]"
-);
+/* DASHBOARD BUTTONS */
+const comingSoonButtons = dashboard.querySelectorAll("[data-dashboard-action]");
 
 comingSoonButtons.forEach(function (button) {
 button.addEventListener("click", function () {
@@ -748,10 +618,7 @@ showToast(messages[action] || "Coming soon.");
 });
 });
 
-/* =====================================
-OTHER HEADER / TRANSACTION BUTTONS
-===================================== */
-
+/* HEADER AND TRANSACTION BUTTONS */
 if (notificationButton) {
 notificationButton.addEventListener("click", function () {
 showToast("You're all caught up.");
@@ -766,9 +633,7 @@ showToast("Withdrawal is coming soon.");
 });
 }
 
-const seeAllButton = document.getElementById(
-"rc-see-all-transactions"
-);
+const seeAllButton = document.getElementById("rc-see-all-transactions");
 
 if (seeAllButton) {
 seeAllButton.addEventListener("click", function () {
@@ -776,10 +641,7 @@ showToast("Full transaction history is coming soon.");
 });
 }
 
-/* =====================================
-SHARED DASHBOARD API
-===================================== */
-
+/* SHARED DASHBOARD API */
 window.RidelessDashboard = {
 getCurrentUser: function () {
 return currentUser;
@@ -792,11 +654,7 @@ return getAuthenticatedSession();
 getStorage: function (key, fallback) {
 try {
 const value = sessionStorage.getItem(key);
-
-return value === null
-? fallback
-: JSON.parse(value);
-
+return value === null ? fallback : JSON.parse(value);
 } catch (error) {
 return fallback;
 }
@@ -824,17 +682,19 @@ getBalance: function () {
 return balance;
 },
 
+getTotalEarned: getTotalEarned,
+
+getUpgradeProgress: function () {
+return Math.min(100, (getTotalEarned() / UPGRADE_TARGET) * 100);
+},
+
 refreshWallet: refreshWallet
 };
 
-/* =====================================
-RESTORE EXISTING AUTHENTICATED SESSION
-===================================== */
-
+/* RESTORE EXISTING SESSION */
 const existingSession = getAuthenticatedSession();
 
-if (existingSession) {
-openDashboard();
-}
+if (existingSession) openDashboard();
 
 })();
+  
