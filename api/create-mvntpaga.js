@@ -27,7 +27,8 @@ function makeReference() {
 }
 
 function makePaymentId() {
-  return "PAY-RIDELESSCHAT-" + crypto.randomBytes(8).toString("hex").toUpperCase();
+  return "PAY-RIDELESSCHAT-" +
+    crypto.randomBytes(8).toString("hex").toUpperCase();
 }
 
 function makeStatusToken() {
@@ -39,7 +40,7 @@ function hashToken(token) {
 }
 
 function send(res, statusCode, data) {
-  res.status(statusCode).json(data);
+  return res.status(statusCode).json(data);
 }
 
 module.exports = async function handler(req, res) {
@@ -100,11 +101,18 @@ module.exports = async function handler(req, res) {
       });
     }
 
-    const usersData = await readJSON(USERS_FILE);
-    const paymentsData = await readJSON(PAYMENTS_FILE);
+    const [usersResult, paymentsResult] = await Promise.all([
+      readJSON(USERS_FILE, []),
+      readJSON(PAYMENTS_FILE, [])
+    ]);
 
-    const users = Array.isArray(usersData) ? usersData : [];
-    const payments = Array.isArray(paymentsData) ? paymentsData : [];
+    const users = Array.isArray(usersResult.data)
+      ? usersResult.data
+      : [];
+
+    const payments = Array.isArray(paymentsResult.data)
+      ? paymentsResult.data
+      : [];
 
     const existingUser = users.find(user =>
       normalizeEmail(user.email) === customerEmail ||
@@ -139,7 +147,6 @@ module.exports = async function handler(req, res) {
     const reference = makeReference();
     const paymentId = makePaymentId();
     const statusToken = makeStatusToken();
-
     const passwordHash = hashPassword(password);
 
     const providerPayload = {
@@ -186,7 +193,8 @@ module.exports = async function handler(req, res) {
 
       return send(res, 502, {
         status: false,
-        message: providerResult.message || "Unable to generate payment account. Please try again."
+        message: providerResult.message ||
+          "Unable to generate payment account. Please try again."
       });
     }
 
@@ -201,7 +209,7 @@ module.exports = async function handler(req, res) {
       email: customerEmail,
       phone: customerPhone,
       passwordHash,
-      amount: 10000,
+      amount: 100,
       amountKobo: ACTIVATION_AMOUNT_KOBO,
       method: "paga",
       provider: "movantra",
@@ -215,7 +223,12 @@ module.exports = async function handler(req, res) {
     };
 
     payments.push(paymentRecord);
-    await writeJSON(PAYMENTS_FILE, payments);
+
+    await writeJSON(
+      PAYMENTS_FILE,
+      payments,
+      paymentsResult.sha
+    );
 
     return send(res, 200, {
       status: true,
@@ -234,7 +247,10 @@ module.exports = async function handler(req, res) {
     });
 
   } catch (error) {
-    console.error("[RIDELESSCHAT] Payment creation error:", error.message);
+    console.error(
+      "[RIDELESSCHAT] Payment creation error:",
+      error.message
+    );
 
     return send(res, 500, {
       status: false,
