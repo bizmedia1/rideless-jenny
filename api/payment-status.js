@@ -1,11 +1,16 @@
 
 const crypto = require("crypto");
-const { readJSON } = require("../lib/github-storage");
+const {
+  readJSON,
+  writeJSON
+} = require("../lib/github-storage");
 
 const PAYMENTS_FILE = "data/payments.json";
 const USERS_FILE = "data/users.json";
+const SESSIONS_FILE = "data/sessions.json";
 
 const ACTIVATION_AMOUNT_KOBO = 10000;
+const SESSION_DURATION_DAYS = 30;
 
 function send(res, statusCode, payload) {
   return res.status(statusCode).json(payload);
@@ -29,6 +34,27 @@ function safeCompare(a, b) {
     Buffer.from(a, "hex"),
     Buffer.from(b, "hex")
   );
+}
+
+function createSession(user) {
+  const token = crypto.randomBytes(32).toString("hex");
+  const now = Date.now();
+
+  const expiresAt = new Date(
+    now + SESSION_DURATION_DAYS * 24 * 60 * 60 * 1000
+  ).toISOString();
+
+  return {
+    token,
+    session: {
+      id: crypto.randomUUID(),
+      tokenHash: hashToken(token),
+      userId: user.id,
+      paymentId: user.paymentId,
+      createdAt: new Date(now).toISOString(),
+      expiresAt
+    }
+  };
 }
 
 module.exports = async function handler(req, res) {
@@ -63,9 +89,14 @@ module.exports = async function handler(req, res) {
       });
     }
 
-    const [paymentsResult, usersResult] = await Promise.all([
+    const [
+      paymentsResult,
+      usersResult,
+      sessionsResult
+    ] = await Promise.all([
       readJSON(PAYMENTS_FILE, []),
-      readJSON(USERS_FILE, [])
+      readJSON(USERS_FILE, []),
+      readJSON(SESSIONS_FILE, [])
     ]);
 
     const payments = Array.isArray(paymentsResult.data)
@@ -74,6 +105,10 @@ module.exports = async function handler(req, res) {
 
     const users = Array.isArray(usersResult.data)
       ? usersResult.data
+      : [];
+
+    let sessions = Array.isArray(sessionsResult.data)
+      ? sessionsResult.data
       : [];
 
     const payment = payments.find(item =>
@@ -105,18 +140,51 @@ module.exports = async function handler(req, res) {
         user.status === "active"
       );
 
-      if (activeUser) {
+      if (!activeUser || !activeUser.id) {
         return send(res, 200, {
           status: true,
-          paymentStatus: "approved",
-          activated: true
+          paymentStatus: "pending",
+          activated: false
         });
       }
 
+      // Remove expired sessions before creating a new one.
+      const now = Date.now();
+
+      sessions = sessions.filter(session => {
+        const expiry = new Date(session.expiresAt).getTime();
+
+        return (
+          Number.isFinite(expiry) &&
+          expiry > now
+        );
+      });
+
+      // Create an authenticated session for this account.
+      const newSession = createSession(activeUser);
+
+      sessions.push(newSession.session);
+
+      await writeJSON(
+        SESSIONS_FILE,
+        sessions,
+        sessionsResult.sha
+      );
+
+      const safeUser = {
+        id: activeUser.id,
+        name: activeUser.name || activeUser.fullName || "",
+        email: activeUser.email || "",
+        phone: activeUser.phone || ""
+      };
+
       return send(res, 200, {
         status: true,
-        paymentStatus: "pending",
-        activated: false
+        paymentStatus: "approved",
+        activated: true,
+        token: newSession.token,
+        expiresAt: newSession.session.expiresAt,
+        user: safeUser
       });
     }
 
