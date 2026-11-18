@@ -34,5 +34,23 @@
     "createdAt": "2026-11-18T12:01:23.999Z",
     "processedAt": null,
     "activationExpiresAt": "2026-11-18T12:51:23.999Z"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-F14EB78A28E89BD3",
+    "customerName": "Lawkwkwms.",
+    "email": "kakakas@gmail.com",
+    "phone": "08104648498",
+    "passwordHash": "scrypt$7a57f536c79d4d92f0e4a6c444f09018$dd0ecfdd766bd480dfb8bbde73b6fc910bde9588f360c20a86c5136fcf9fc0d9f3a86de3bccab1503ce549181096a958e7643a700662a21b2ac9504b6499876d",
+    "amount": 100,
+    "amountKobo": 10000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795003897183_f87c6254ad",
+    "status": "pending",
+    "statusTokenHash": "45638ba3bbcf667ce0d23fbf63d8cb387525721a9d708e7c2a977eeb1dd3d38a",
+    "activation": true,
+    "createdAt": "2026-11-18T12:11:38.361Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-18T13:01:38.361Z"
   }
 ]
