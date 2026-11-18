@@ -1,8 +1,15 @@
 [
   {
     "userId": "RC-USER-57F7EFEB02C52324",
-    "balance": 95500,
+    "balance": 96000,
     "transactions": [
+      {
+        "id": "5f64afac-b9b5-4dad-88ed-a42df2ae4158",
+        "title": "Daily Check-In",
+        "amount": 500,
+        "type": "credit",
+        "date": "2026-11-18T23:28:08.957Z"
+      },
       {
         "id": "e6bf882c-c3bf-4ace-bc1c-107bf017ad0a",
         "title": "Daily Check-In",
@@ -24,9 +31,14 @@
         "date": "2026-11-18",
         "claimedAt": "2026-11-18T16:44:12.797Z",
         "amount": 500
+      },
+      {
+        "date": "2026-11-19",
+        "claimedAt": "2026-11-18T23:28:08.957Z",
+        "amount": 500
       }
     ],
     "createdAt": "2026-11-18T16:36:02.632Z",
-    "updatedAt": "2026-11-18T16:44:12.798Z"
+    "updatedAt": "2026-11-18T23:28:08.957Z"
   }
 ]
