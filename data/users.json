@@ -31,5 +31,16 @@
     "paymentId": "PAY-RIDELESSCHAT-9F25BA428DAE4FAF",
     "createdAt": "2026-11-18T12:36:57.500Z",
     "activatedAt": "2026-11-18T12:36:57.500Z"
+  },
+  {
+    "id": "RC-USER-D9C907A33C75CBC9",
+    "fullName": "Ofxt y",
+    "email": "okayo@gmail.com",
+    "phone": "08155559638",
+    "passwordHash": "scrypt$b62602d7835b0b8c9e1af2e6b9af2834$fa4865a6fe1bb8c91acfd53062f612725d2283646e2b82bfd45b8cf0d0e7e4bf2604ecc7233ccb189f8fcc7502ba39f8479cc7bf99bb41be04805dc5a09e1eb9",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-9CEE2464992AFC40",
+    "createdAt": "2026-11-18T13:48:12.252Z",
+    "activatedAt": "2026-11-18T13:48:12.252Z"
   }
 ]
