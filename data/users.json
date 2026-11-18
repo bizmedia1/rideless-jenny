@@ -9,5 +9,16 @@
     "paymentId": "PAY-RIDELESSCHAT-938734F19567A1A8",
     "createdAt": "2026-11-18T12:19:19.895Z",
     "activatedAt": "2026-11-18T12:19:19.895Z"
+  },
+  {
+    "id": "RC-USER-6061B43C8F0B1075",
+    "fullName": "Lawkwkwms.",
+    "email": "oaih@gmail.com",
+    "phone": "09072639985",
+    "passwordHash": "scrypt$21ad70d7ceeb5b4b97d1fb2714b82cd3$4dee62d2db3b5ecfb7ed43fc58442b8cffda95117c722bc5318a2ed04b9bf651cdab2f7308b80855d4bd8d996bd0b4a16fd7cfab40d7a8df9a7de8fff34a8a5f",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-6ED4595373C0B4D3",
+    "createdAt": "2026-11-18T12:26:28.369Z",
+    "activatedAt": "2026-11-18T12:26:28.369Z"
   }
 ]
