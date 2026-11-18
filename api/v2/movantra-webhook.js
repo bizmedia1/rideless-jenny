@@ -39,9 +39,7 @@ function verifySignature(rawBody, signature, secret) {
 }
 
 async function readRawBody(req) {
-  if (Buffer.isBuffer(req.body)) {
-    return req.body;
-  }
+  if (Buffer.isBuffer(req.body)) return req.body;
 
   if (typeof req.body === "string") {
     return Buffer.from(req.body);
@@ -131,7 +129,10 @@ module.exports = async function handler(req, res) {
       });
     }
 
-    if (!Number.isSafeInteger(amount) || amount !== ACTIVATION_AMOUNT_KOBO) {
+    if (
+      !Number.isSafeInteger(amount) ||
+      amount !== ACTIVATION_AMOUNT_KOBO
+    ) {
       return send(res, 400, {
         status: false,
         message: "Payment amount does not match the activation fee."
@@ -145,20 +146,32 @@ module.exports = async function handler(req, res) {
       });
     }
 
-    const paymentsData = await readJSON(PAYMENTS_FILE);
-    const usersData = await readJSON(USERS_FILE);
+    const [paymentsResult, usersResult] = await Promise.all([
+      readJSON(PAYMENTS_FILE, []),
+      readJSON(USERS_FILE, [])
+    ]);
 
-    const payments = Array.isArray(paymentsData) ? paymentsData : [];
-    const users = Array.isArray(usersData) ? usersData : [];
+    const payments = Array.isArray(paymentsResult.data)
+      ? paymentsResult.data
+      : [];
+
+    const users = Array.isArray(usersResult.data)
+      ? usersResult.data
+      : [];
 
     const payment = payments.find(item =>
-      item.reference === reference &&
+      String(item.reference || "").trim() === reference &&
       item.provider === "movantra" &&
       item.method === "paga" &&
       item.activation === true
     );
 
     if (!payment) {
+      console.error(
+        "[RIDELESSCHAT] Payment reference not found:",
+        reference
+      );
+
       return send(res, 404, {
         status: false,
         message: "Matching Ridelesschat activation payment was not found."
@@ -192,7 +205,12 @@ module.exports = async function handler(req, res) {
       new Date(payment.activationExpiresAt).getTime() < Date.now()
     ) {
       payment.status = "expired";
-      await writeJSON(PAYMENTS_FILE, payments);
+
+      await writeJSON(
+        PAYMENTS_FILE,
+        payments,
+        paymentsResult.sha
+      );
 
       return send(res, 400, {
         status: false,
@@ -223,7 +241,8 @@ module.exports = async function handler(req, res) {
       }
 
       user = {
-        id: "RC-USER-" + crypto.randomBytes(8).toString("hex").toUpperCase(),
+        id: "RC-USER-" +
+          crypto.randomBytes(8).toString("hex").toUpperCase(),
         fullName: payment.customerName,
         email,
         phone: payment.phone,
@@ -235,7 +254,12 @@ module.exports = async function handler(req, res) {
       };
 
       users.push(user);
-      await writeJSON(USERS_FILE, users);
+
+      await writeJSON(
+        USERS_FILE,
+        users,
+        usersResult.sha
+      );
     }
 
     payment.status = "approved";
@@ -243,9 +267,16 @@ module.exports = async function handler(req, res) {
     payment.approvalSource = "movantra_webhook";
     payment.passwordHash = null;
 
-    await writeJSON(PAYMENTS_FILE, payments);
+    await writeJSON(
+      PAYMENTS_FILE,
+      payments,
+      paymentsResult.sha
+    );
 
-    console.log("[RIDELESSCHAT] Activation payment approved:", payment.id);
+    console.log(
+      "[RIDELESSCHAT] Activation payment approved:",
+      payment.id
+    );
 
     return send(res, 200, {
       status: true,
@@ -254,7 +285,10 @@ module.exports = async function handler(req, res) {
     });
 
   } catch (error) {
-    console.error("[RIDELESSCHAT] Webhook processing error:", error.message);
+    console.error(
+      "[RIDELESSCHAT] Webhook processing error:",
+      error.message
+    );
 
     return send(res, 500, {
       status: false,
