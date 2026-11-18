@@ -1,23 +1,12 @@
 
 const crypto = require("crypto");
-const { readJSON, writeJSON } = require("../../lib/github-storage");
+const { readJSON, writeJSON } = require("../lib/github-storage");
 
 const PAYMENTS_FILE = "data/payments.json";
 const USERS_FILE = "data/users.json";
 
 const ACTIVATION_AMOUNT_KOBO = 10000;
-
-function send(res, statusCode, data) {
-  return res.status(statusCode).json(data);
-}
-
-function safeCompare(a, b) {
-  const first = Buffer.from(String(a || ""));
-  const second = Buffer.from(String(b || ""));
-
-  return first.length === second.length &&
-    crypto.timingSafeEqual(first, second);
-}
+const ACTIVATION_EXPIRY_MINUTES = 50;
 
 function normalizeEmail(value) {
   return String(value || "").trim().toLowerCase();
@@ -27,35 +16,42 @@ function normalizePhone(value) {
   return String(value || "").replace(/\D/g, "");
 }
 
-function verifySignature(rawBody, signature, secret) {
-  if (!signature || !secret) return false;
-
-  const expected = crypto
-    .createHmac("sha512", secret)
-    .update(rawBody)
-    .digest("hex");
-
-  return safeCompare(expected, signature);
+function hashPassword(password) {
+  const salt = crypto.randomBytes(16).toString("hex");
+  const hash = crypto.scryptSync(password, salt, 64).toString("hex");
+  return `scrypt$${salt}$${hash}`;
 }
 
-async function readRawBody(req) {
-  if (Buffer.isBuffer(req.body)) return req.body;
+function makeReference() {
+  return "rc_" + Date.now() + "_" + crypto.randomBytes(5).toString("hex");
+}
 
-  if (typeof req.body === "string") {
-    return Buffer.from(req.body);
-  }
+function makePaymentId() {
+  return "PAY-RIDELESSCHAT-" +
+    crypto.randomBytes(8).toString("hex").toUpperCase();
+}
 
-  const chunks = [];
+function makeStatusToken() {
+  return crypto.randomBytes(32).toString("hex");
+}
 
-  for await (const chunk of req) {
-    chunks.push(Buffer.isBuffer(chunk) ? chunk : Buffer.from(chunk));
-  }
+function hashToken(token) {
+  return crypto.createHash("sha256").update(token).digest("hex");
+}
 
-  return Buffer.concat(chunks);
+function send(res, statusCode, data) {
+  return res.status(statusCode).json(data);
 }
 
 module.exports = async function handler(req, res) {
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  res.setHeader("Access-Control-Allow-Methods", "POST, OPTIONS");
+  res.setHeader("Access-Control-Allow-Headers", "Content-Type");
   res.setHeader("Cache-Control", "no-store");
+
+  if (req.method === "OPTIONS") {
+    return res.status(200).end();
+  }
 
   if (req.method !== "POST") {
     return send(res, 405, {
@@ -65,244 +61,150 @@ module.exports = async function handler(req, res) {
   }
 
   try {
-    const secret = process.env.MOVANTRA_SECRET_KEY;
-
-    if (!secret) {
+    if (!process.env.MOVANTRA_SECRET_KEY) {
       throw new Error("Payment provider configuration is missing.");
     }
 
-    const rawBody = await readRawBody(req);
-    const signature = req.headers["x-movantra-signature"];
+    const body = req.body || {};
 
-    if (!verifySignature(rawBody, signature, secret)) {
-      console.warn("[RIDELESSCHAT] Webhook signature verification failed.");
+    const customerName = String(body.customer_name || "").trim();
+    const customerEmail = normalizeEmail(body.customer_email);
+    const customerPhone = String(body.customer_phone || "").trim();
+    const normalizedPhone = normalizePhone(customerPhone);
+    const password = String(body.password || "");
 
-      return send(res, 401, {
-        status: false,
-        message: "Invalid webhook signature."
-      });
-    }
-
-    let payload;
-
-    try {
-      payload = JSON.parse(rawBody.toString("utf8"));
-    } catch {
+    if (!customerName || customerName.length < 2) {
       return send(res, 400, {
         status: false,
-        message: "Invalid webhook payload."
+        message: "Enter your full name."
       });
     }
 
-    const data = payload.data || {};
-
-    const event = String(
-      req.headers["x-movantra-event"] ||
-      payload.event ||
-      ""
-    ).toLowerCase();
-
-    if (
-      event !== "charge.success" &&
-      event !== "virtual_account.credit"
-    ) {
-      console.log("[RIDELESSCHAT] Webhook event ignored:", event);
-
-      return send(res, 200, {
-        status: true,
-        message: "Event ignored."
-      });
-    }
-
-    const reference = String(
-      data.reference ||
-      data.externalReferenceNumber ||
-      data.referenceNumber ||
-      payload.reference ||
-      payload.externalReferenceNumber ||
-      payload.referenceNumber ||
-      ""
-    ).trim();
-
-    const currency = String(
-      data.currency || payload.currency || "NGN"
-    ).toUpperCase();
-
-    const amount = Number(
-      data.amount !== undefined ? data.amount : payload.amount
-    );
-
-    const paymentStatus = String(
-      data.status || payload.status || "success"
-    ).toLowerCase();
-
-    if (!reference) {
-      console.error(
-        "[RIDELESSCHAT] Webhook reference missing.",
-        JSON.stringify({
-          event,
-          dataKeys: Object.keys(data),
-          payloadKeys: Object.keys(payload)
-        })
-      );
-
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(customerEmail)) {
       return send(res, 400, {
         status: false,
-        message: "Payment reference is missing."
+        message: "Enter a valid email address."
       });
     }
 
-    if (currency !== "NGN") {
+    if (normalizedPhone.length < 7) {
       return send(res, 400, {
         status: false,
-        message: "Unsupported payment currency."
+        message: "Enter a valid phone number."
       });
     }
 
-    if (
-      !Number.isSafeInteger(amount) ||
-      amount !== ACTIVATION_AMOUNT_KOBO
-    ) {
+    if (password.length < 6) {
       return send(res, 400, {
         status: false,
-        message: "Payment amount does not match the activation fee."
+        message: "Password must contain at least 6 characters."
       });
     }
 
-    if (paymentStatus !== "success") {
-      return send(res, 400, {
-        status: false,
-        message: "Payment has not been confirmed as successful."
-      });
-    }
-
-    const [paymentsResult, usersResult] = await Promise.all([
-      readJSON(PAYMENTS_FILE, []),
-      readJSON(USERS_FILE, [])
+    const [usersResult, paymentsResult] = await Promise.all([
+      readJSON(USERS_FILE, []),
+      readJSON(PAYMENTS_FILE, [])
     ]);
-
-    const payments = Array.isArray(paymentsResult.data)
-      ? paymentsResult.data
-      : [];
 
     const users = Array.isArray(usersResult.data)
       ? usersResult.data
       : [];
 
-    const payment = payments.find(item =>
-      String(item.reference || "").trim() === reference &&
-      item.provider === "movantra" &&
-      item.method === "paga" &&
-      item.activation === true
+    const payments = Array.isArray(paymentsResult.data)
+      ? paymentsResult.data
+      : [];
+
+    const existingUser = users.find(user =>
+      normalizeEmail(user.email) === customerEmail ||
+      normalizePhone(user.phone) === normalizedPhone
     );
 
-    if (!payment) {
-      console.error(
-        "[RIDELESSCHAT] No matching payment found.",
-        JSON.stringify({
-          receivedReference: reference,
-          savedReferences: payments.map(item => item.reference)
-        })
-      );
-
-      return send(res, 404, {
-        status: false,
-        message: "Matching Ridelesschat activation payment was not found."
-      });
-    }
-
-    if (Number(payment.amountKobo) !== ACTIVATION_AMOUNT_KOBO) {
-      return send(res, 400, {
-        status: false,
-        message: "Stored activation amount is invalid."
-      });
-    }
-
-    if (payment.status === "approved") {
-      return send(res, 200, {
-        status: true,
-        approved: true,
-        message: "Payment was already processed."
-      });
-    }
-
-    if (payment.status !== "pending") {
+    if (existingUser) {
       return send(res, 409, {
         status: false,
-        message: "This payment is not awaiting confirmation."
+        message: "An account with this email address or phone number already exists. Please log in."
       });
     }
+
+    const reference = makeReference();
+    const paymentId = makePaymentId();
+    const statusToken = makeStatusToken();
+    const passwordHash = hashPassword(password);
+
+    const providerPayload = {
+      amount_kobo: ACTIVATION_AMOUNT_KOBO,
+      customer_name: customerName,
+      customer_email: customerEmail,
+      reference,
+      expiry_minutes: ACTIVATION_EXPIRY_MINUTES
+    };
+
+    if (customerPhone) {
+      providerPayload.customer_phone = customerPhone;
+    }
+
+    if (process.env.PAGA_CALLBACK_URL) {
+      providerPayload.callback_url = process.env.PAGA_CALLBACK_URL;
+    }
+
+    const providerResponse = await fetch(
+      "https://api.movantrapay.com/v1/paga/dynamic-accounts",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "Authorization": `Bearer ${process.env.MOVANTRA_SECRET_KEY}`
+        },
+        body: JSON.stringify(providerPayload)
+      }
+    );
+
+    const providerResult = await providerResponse.json();
 
     if (
-      !payment.activationExpiresAt ||
-      new Date(payment.activationExpiresAt).getTime() < Date.now()
+      !providerResponse.ok ||
+      providerResult.status !== true ||
+      !providerResult.account_number ||
+      !providerResult.account_name ||
+      !providerResult.bank_name
     ) {
-      payment.status = "expired";
-
-      await writeJSON(
-        PAYMENTS_FILE,
-        payments,
-        paymentsResult.sha
+      console.error(
+        "[RIDELESSCHAT] Payment account creation failed:",
+        providerResult.message || providerResponse.status
       );
 
-      return send(res, 400, {
+      return send(res, 502, {
         status: false,
-        message: "This activation payment has expired."
+        message: providerResult.message ||
+          "Unable to generate payment account. Please try again."
       });
     }
 
-    if (!payment.passwordHash) {
-      throw new Error("Pending payment has no stored password hash.");
-    }
+    const now = new Date();
+    const expiresAt = new Date(
+      now.getTime() + ACTIVATION_EXPIRY_MINUTES * 60 * 1000
+    );
 
-    let user = users.find(item => item.paymentId === payment.id);
-    let newUserCreated = false;
+    const paymentRecord = {
+      id: paymentId,
+      customerName,
+      email: customerEmail,
+      phone: customerPhone,
+      passwordHash,
+      amount: 100,
+      amountKobo: ACTIVATION_AMOUNT_KOBO,
+      method: "paga",
+      provider: "movantra",
+      reference,
+      status: "pending",
+      statusTokenHash: hashToken(statusToken),
+      activation: true,
+      createdAt: now.toISOString(),
+      processedAt: null,
+      activationExpiresAt: expiresAt.toISOString()
+    };
 
-    if (!user) {
-      const email = normalizeEmail(payment.email);
-      const phone = normalizePhone(payment.phone);
-
-      const existingAccount = users.find(item =>
-        normalizeEmail(item.email) === email ||
-        normalizePhone(item.phone) === phone
-      );
-
-      if (existingAccount) {
-        return send(res, 409, {
-          status: false,
-          message: "An account already exists with these details."
-        });
-      }
-
-      user = {
-        id: "RC-USER-" +
-          crypto.randomBytes(8).toString("hex").toUpperCase(),
-        fullName: payment.customerName,
-        email,
-        phone: payment.phone,
-        passwordHash: payment.passwordHash,
-        status: "active",
-        paymentId: payment.id,
-        createdAt: new Date().toISOString(),
-        activatedAt: new Date().toISOString()
-      };
-
-      users.push(user);
-      newUserCreated = true;
-    }
-
-    payment.status = "approved";
-    payment.processedAt = new Date().toISOString();
-    payment.approvalSource = "movantra_webhook";
-    payment.passwordHash = null;
-
-    if (newUserCreated) {
-      await writeJSON(
-        USERS_FILE,
-        users,
-        usersResult.sha
-      );
-    }
+    payments.push(paymentRecord);
 
     await writeJSON(
       PAYMENTS_FILE,
@@ -310,32 +212,31 @@ module.exports = async function handler(req, res) {
       paymentsResult.sha
     );
 
-    console.log(
-      "[RIDELESSCHAT] Activation payment approved:",
-      payment.id
-    );
-
     return send(res, 200, {
       status: true,
-      approved: true,
-      message: "Ridelesschat account activated successfully."
+      paymentId,
+      statusToken,
+      reference,
+      account_number: String(providerResult.account_number),
+      account_name: providerResult.account_name,
+      bank_name: providerResult.bank_name,
+      amount_kobo: ACTIVATION_AMOUNT_KOBO,
+      fee_kobo: providerResult.fee_kobo || 0,
+      net_kobo: providerResult.net_kobo || ACTIVATION_AMOUNT_KOBO,
+      status_text: providerResult.status_text || "Pending payment",
+      expires_at: expiresAt.toISOString(),
+      mode: "paga"
     });
 
   } catch (error) {
     console.error(
-      "[RIDELESSCHAT] Webhook processing error:",
+      "[RIDELESSCHAT] Payment creation error:",
       error.message
     );
 
     return send(res, 500, {
       status: false,
-      message: "Webhook processing failed."
+      message: "Unable to start account activation. Please try again."
     });
-  }
-};
-
-module.exports.config = {
-  api: {
-    bodyParser: false
   }
 };
