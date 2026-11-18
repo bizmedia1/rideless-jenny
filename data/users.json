@@ -1,0 +1,13 @@
+[
+  {
+    "id": "RC-USER-A15CD0B546CBF466",
+    "fullName": "Lawkwkwms.",
+    "email": "kakakas@gmail.com",
+    "phone": "08104648499",
+    "passwordHash": "scrypt$16ca649fc1bb5f99d4c4f95c04f91978$26eab492c125babbca1f19319eb1730917a1e9b07aa7915599da2d50b8ca63df1ed889fd02dcd9f5bfb9d11cb260a03fa5befa9f524142022134db83cbb22383",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-938734F19567A1A8",
+    "createdAt": "2026-11-18T12:19:19.895Z",
+    "activatedAt": "2026-11-18T12:19:19.895Z"
+  }
+]
