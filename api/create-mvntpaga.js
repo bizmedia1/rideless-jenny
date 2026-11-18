@@ -5,7 +5,7 @@ const { readJSON, writeJSON } = require("../lib/github-storage");
 const PAYMENTS_FILE = "data/payments.json";
 const USERS_FILE = "data/users.json";
 
-const ACTIVATION_AMOUNT_KOBO = 1000000;
+const ACTIVATION_AMOUNT_KOBO = 10000;
 const ACTIVATION_EXPIRY_MINUTES = 50;
 
 function normalizeEmail(value) {
