@@ -70,6 +70,12 @@ function isWriteConflict(error) {
 
 module.exports = async function handler(req, res) {
   res.setHeader("Cache-Control", "no-store");
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  res.setHeader("Access-Control-Allow-Methods", "POST, OPTIONS");
+  res.setHeader(
+    "Access-Control-Allow-Headers",
+    "Content-Type, Authorization"
+  );
 
   if (req.method === "OPTIONS") {
     return res.status(200).end();
@@ -156,7 +162,6 @@ module.exports = async function handler(req, res) {
       }
     }
 
-    // Sync does not write to GitHub.
     if (action === "sync") {
       const walletsResult = await readJSON(WALLETS_FILE, []);
       const wallets = Array.isArray(walletsResult.data)
@@ -183,14 +188,14 @@ module.exports = async function handler(req, res) {
         dailyReward: DAILY_REWARD,
         readClaimsToday: getTodayReadClaims(wallet, today),
         readReward: READ_REWARD,
+        readClaimedNow: false,
+        alreadyClaimed: false,
         transactions: Array.isArray(wallet.transactions)
           ? wallet.transactions.slice(0, 50)
           : []
       });
     }
 
-    // Retry GitHub SHA conflicts so simultaneous wallet requests
-    // do not overwrite each other's successful changes.
     for (let attempt = 0; attempt < 4; attempt++) {
       const walletsResult = await readJSON(WALLETS_FILE, []);
       const wallets = Array.isArray(walletsResult.data)
