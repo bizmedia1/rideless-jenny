@@ -193,11 +193,23 @@ module.exports = async function handler(req, res) {
       });
     }
 
+    /* ALREADY APPROVED */
+
     if (payment.status === "approved") {
       return send(res, 200, {
         status: true,
         approved: true,
         message: "Payment was already processed."
+      });
+    }
+
+    /* REJECT REPLACED PAYMENT ATTEMPTS */
+
+    if (payment.status === "superseded") {
+      return send(res, 409, {
+        status: false,
+        approved: false,
+        message: "This payment has been replaced by a newer selection."
       });
     }
 
@@ -207,6 +219,65 @@ module.exports = async function handler(req, res) {
         message: "This payment is not awaiting confirmation."
       });
     }
+
+    /*
+     * EXTRA PROTECTION:
+     * A newer payment for the same registration
+     * takes priority over this payment.
+     */
+
+    const paymentEmail = normalizeEmail(payment.email);
+    const paymentPhone = normalizePhone(payment.phone);
+
+    const newerPaymentExists = payments.some(item => {
+      if (
+        item.id === payment.id ||
+        item.activation !== true ||
+        item.provider !== "movantra" ||
+        item.method !== "paga"
+      ) {
+        return false;
+      }
+
+      const sameEmail =
+        normalizeEmail(item.email) === paymentEmail;
+
+      const samePhone =
+        normalizePhone(item.phone) === paymentPhone;
+
+      const isNewer =
+        new Date(item.createdAt || 0).getTime() >
+        new Date(payment.createdAt || 0).getTime();
+
+      return (
+        (sameEmail || samePhone) &&
+        isNewer &&
+        (
+          item.status === "pending" ||
+          item.status === "approved"
+        )
+      );
+    });
+
+    if (newerPaymentExists) {
+      payment.status = "superseded";
+      payment.supersededAt = new Date().toISOString();
+      payment.supersededReason = "A newer payment attempt exists";
+
+      await writeJSON(
+        PAYMENTS_FILE,
+        payments,
+        paymentsResult.sha
+      );
+
+      return send(res, 409, {
+        status: false,
+        approved: false,
+        message: "This payment has been replaced by a newer selection."
+      });
+    }
+
+    /* EXPIRY */
 
     if (
       !payment.activationExpiresAt ||
@@ -233,12 +304,9 @@ module.exports = async function handler(req, res) {
     let user = users.find(item => item.paymentId === payment.id);
 
     if (!user) {
-      const email = normalizeEmail(payment.email);
-      const phone = normalizePhone(payment.phone);
-
       const existingAccount = users.find(item =>
-        normalizeEmail(item.email) === email ||
-        normalizePhone(item.phone) === phone
+        normalizeEmail(item.email) === paymentEmail ||
+        normalizePhone(item.phone) === paymentPhone
       );
 
       if (existingAccount) {
@@ -252,7 +320,7 @@ module.exports = async function handler(req, res) {
         id: "RC-USER-" +
           crypto.randomBytes(8).toString("hex").toUpperCase(),
         fullName: payment.customerName,
-        email,
+        email: paymentEmail,
         phone: payment.phone,
         passwordHash: payment.passwordHash,
         status: "active",
@@ -310,4 +378,4 @@ module.exports.config = {
     bodyParser: false
   }
 };
-  
+          
