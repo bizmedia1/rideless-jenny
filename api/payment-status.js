@@ -9,7 +9,11 @@ const PAYMENTS_FILE = "data/payments.json";
 const USERS_FILE = "data/users.json";
 const SESSIONS_FILE = "data/sessions.json";
 
-const ACTIVATION_AMOUNT_KOBO = 10000;
+const ACTIVATION_PRICES_KOBO = [
+  370000,
+  520000
+];
+
 const SESSION_DURATION_DAYS = 30;
 
 function send(res, statusCode, payload) {
@@ -34,6 +38,14 @@ function safeCompare(a, b) {
     Buffer.from(a, "hex"),
     Buffer.from(b, "hex")
   );
+}
+
+function normalizeEmail(value) {
+  return String(value || "").trim().toLowerCase();
+}
+
+function normalizePhone(value) {
+  return String(value || "").replace(/\D/g, "");
 }
 
 function createSession(user) {
@@ -116,7 +128,7 @@ module.exports = async function handler(req, res) {
       item.provider === "movantra" &&
       item.method === "paga" &&
       item.activation === true &&
-      Number(item.amountKobo) === ACTIVATION_AMOUNT_KOBO
+      ACTIVATION_PRICES_KOBO.includes(Number(item.amountKobo))
     );
 
     if (
@@ -129,6 +141,17 @@ module.exports = async function handler(req, res) {
       return send(res, 404, {
         status: false,
         message: "Payment record not found."
+      });
+    }
+
+    /* SUPERSEDED PAYMENT */
+
+    if (payment.status === "superseded") {
+      return send(res, 200, {
+        status: true,
+        paymentStatus: "superseded",
+        activated: false,
+        message: "This payment has been replaced by a newly selected amount."
       });
     }
 
@@ -148,7 +171,6 @@ module.exports = async function handler(req, res) {
         });
       }
 
-      // Remove expired sessions before creating a new one.
       const now = Date.now();
 
       sessions = sessions.filter(session => {
@@ -160,7 +182,6 @@ module.exports = async function handler(req, res) {
         );
       });
 
-      // Create an authenticated session for this account.
       const newSession = createSession(activeUser);
 
       sessions.push(newSession.session);
@@ -203,6 +224,16 @@ module.exports = async function handler(req, res) {
         payment.status !== "approved"
       )
     ) {
+      if (payment.status !== "expired") {
+        payment.status = "expired";
+
+        await writeJSON(
+          PAYMENTS_FILE,
+          payments,
+          paymentsResult.sha
+        );
+      }
+
       return send(res, 200, {
         status: true,
         paymentStatus: "expired",
@@ -230,3 +261,4 @@ module.exports = async function handler(req, res) {
     });
   }
 };
+        
