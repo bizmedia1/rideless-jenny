@@ -5,7 +5,11 @@ const { readJSON, writeJSON } = require("../lib/github-storage");
 const PAYMENTS_FILE = "data/payments.json";
 const USERS_FILE = "data/users.json";
 
-const ACTIVATION_AMOUNT_KOBO = 10000;
+const ACTIVATION_PRICES = {
+  3700: 370000,
+  5200: 520000
+};
+
 const ACTIVATION_EXPIRY_MINUTES = 50;
 
 function normalizeEmail(value) {
@@ -73,6 +77,16 @@ module.exports = async function handler(req, res) {
     const normalizedPhone = normalizePhone(customerPhone);
     const password = String(body.password || "");
 
+    const selectedAmount = Number(body.amount);
+    const selectedAmountKobo = ACTIVATION_PRICES[selectedAmount];
+
+    if (!selectedAmountKobo) {
+      return send(res, 400, {
+        status: false,
+        message: "Please select a valid activation amount."
+      });
+    }
+
     if (!customerName || customerName.length < 2) {
       return send(res, 400, {
         status: false,
@@ -132,7 +146,7 @@ module.exports = async function handler(req, res) {
     const passwordHash = hashPassword(password);
 
     const providerPayload = {
-      amount_kobo: ACTIVATION_AMOUNT_KOBO,
+      amount_kobo: selectedAmountKobo,
       customer_name: customerName,
       customer_email: customerEmail,
       reference,
@@ -191,8 +205,8 @@ module.exports = async function handler(req, res) {
       email: customerEmail,
       phone: customerPhone,
       passwordHash,
-      amount: 100,
-      amountKobo: ACTIVATION_AMOUNT_KOBO,
+      amount: selectedAmount,
+      amountKobo: selectedAmountKobo,
       method: "paga",
       provider: "movantra",
       reference,
@@ -220,9 +234,10 @@ module.exports = async function handler(req, res) {
       account_number: String(providerResult.account_number),
       account_name: providerResult.account_name,
       bank_name: providerResult.bank_name,
-      amount_kobo: ACTIVATION_AMOUNT_KOBO,
+      amount: selectedAmount,
+      amount_kobo: selectedAmountKobo,
       fee_kobo: providerResult.fee_kobo || 0,
-      net_kobo: providerResult.net_kobo || ACTIVATION_AMOUNT_KOBO,
+      net_kobo: providerResult.net_kobo || selectedAmountKobo,
       status_text: providerResult.status_text || "Pending payment",
       expires_at: expiresAt.toISOString(),
       mode: "paga"
@@ -240,3 +255,4 @@ module.exports = async function handler(req, res) {
     });
   }
 };
+      
