@@ -227,9 +227,14 @@ result = await response.json();
 throw new Error("The server returned an invalid response.");
 }
 
-if (!response.ok || !result.status) {
-const error = new Error(result.message || "Unable to load your wallet.");
-error.conflict = result.conflict === true || response.status === 409;
+if (!response.ok || result.success !== true) {
+const error = new Error(
+result.message || "Unable to load your wallet."
+);
+
+error.conflict =
+result.conflict === true || response.status === 409;
+
 throw error;
 }
 
@@ -652,3 +657,4 @@ const existingSession = getAuthenticatedSession();
 if (existingSession) openDashboard();
 
 })();
+                                     
