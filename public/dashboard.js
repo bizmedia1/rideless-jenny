@@ -1,4 +1,5 @@
 
+
 (function () {
 "use strict";
 
@@ -6,7 +7,6 @@ const dashboard = document.getElementById("rideless-dashboard");
 if (!dashboard || dashboard.dataset.jsInitialized === "true") return;
 dashboard.dataset.jsInitialized = "true";
 
-/* ELEMENTS */
 const auth = document.getElementById("rideless-auth");
 const toast = document.getElementById("rc-dashboard-toast");
 const toastMessage = document.getElementById("rc-toast-message");
@@ -21,58 +21,22 @@ const notificationButton = document.getElementById("rc-notification-btn");
 const upgradePercent = document.getElementById("rc-upgrade-percent");
 const upgradeProgress = dashboard.querySelector(".rc-upgrade-progress");
 
-/* CONFIGURATION */
 const SESSION_KEY = "ridelesschat_session";
-const API_URL = "https://rideless-jenny-two.vercel.app/api/rewards";
 const UPGRADE_TARGET = 300000;
+const LEGACY_USER_ID = "RC-USER-57F7EFEB02C52324";
+const LEGACY_BALANCE = 96000;
 
-/* SESSION */
 let currentSession = null;
 let currentUser = null;
-
-function getAuthenticatedSession() {
-try {
-const raw = sessionStorage.getItem(SESSION_KEY);
-if (!raw) return null;
-
-const session = JSON.parse(raw);
-
-if (
-!session ||
-typeof session.token !== "string" ||
-!session.token ||
-!session.expiresAt ||
-!session.user ||
-!session.user.id
-) return null;
-
-const expiry = new Date(session.expiresAt).getTime();
-
-if (!Number.isFinite(expiry) || expiry <= Date.now()) {
-sessionStorage.removeItem(SESSION_KEY);
-return null;
-}
-
-return session;
-} catch (error) {
-console.error("[RIDELESSCHAT] Session read failed:", error);
-return null;
-}
-}
-
-/* STATE */
 let balance = 0;
 let transactions = [];
 let balanceHidden = false;
 let toastTimer = null;
-let dateCheckTimer = null;
-let dailyClaimed = false;
 let dailyClaimLoading = false;
-let walletLoading = false;
 let walletLoaded = false;
+let dailyClaimed = false;
 let lastNigeriaDate = "";
 
-/* DATE AND CURRENCY */
 function nigeriaDateKey() {
 const parts = new Intl.DateTimeFormat("en-GB", {
 timeZone: "Africa/Lagos",
@@ -80,47 +44,109 @@ year: "numeric",
 month: "2-digit",
 day: "2-digit"
 }).formatToParts(new Date());
-
 const values = {};
-parts.forEach(part => values[part.type] = part.value);
-
+parts.forEach(p => values[p.type] = p.value);
 return values.year + "-" + values.month + "-" + values.day;
 }
 
 function formatDate(date) {
 return new Intl.DateTimeFormat("en-NG", {
-day: "numeric",
-month: "short",
-year: "numeric",
-hour: "2-digit",
-minute: "2-digit",
-hour12: true
+day: "numeric", month: "short", year: "numeric",
+hour: "2-digit", minute: "2-digit", hour12: true
 }).format(date);
 }
 
 function formatMoney(amount) {
-return "₦" + Number(amount).toLocaleString("en-NG", {
+return "₦" + Number(amount || 0).toLocaleString("en-NG", {
 minimumFractionDigits: 2,
 maximumFractionDigits: 2
 });
 }
 
-/* TOAST */
+function userKey(user) {
+user = user || currentUser || {};
+return String(user.id || user.email || user.phone || "guest")
+.replace(/[^a-z0-9]/gi, "_");
+}
+
+function walletStorageKey(user) {
+return "ridelesschat_local_wallet_" + userKey(user);
+}
+
 function showToast(message, duration) {
 if (!toast || !toastMessage) return;
-
 clearTimeout(toastTimer);
 toastMessage.textContent = message;
 toast.classList.add("is-visible");
-
-toastTimer = setTimeout(function () {
-toast.classList.remove("is-visible");
-}, duration || 2400);
+toastTimer = setTimeout(() => toast.classList.remove("is-visible"), duration || 2400);
 }
 
-/* UPGRADE EARNINGS PROGRESS */
+function saveWallet() {
+if (!currentUser) return;
+try {
+localStorage.setItem(walletStorageKey(), JSON.stringify({
+balance: balance,
+transactions: transactions,
+dailyClaimDate: localStorage.getItem("ridelesschat_daily_" + userKey()),
+readClaims: getReadClaims()
+}));
+} catch (error) {
+console.error("[RIDELESSCHAT] Local wallet save failed:", error);
+}
+}
+
+function getReadClaims() {
+try {
+return JSON.parse(localStorage.getItem(
+"ridelesschat_read_claims_" + userKey()
+) || "{}");
+} catch (error) {
+return {};
+}
+
+}
+
+function getReadClaimsToday() {
+const claims = getReadClaims();
+return Array.isArray(claims[nigeriaDateKey()])
+? claims[nigeriaDateKey()]
+: [];
+}
+
+function loadWallet() {
+let saved = null;
+try {
+saved = JSON.parse(localStorage.getItem(walletStorageKey()) || "null");
+} catch (error) {}
+
+if (saved && typeof saved === "object") {
+balance = Math.max(0, Number(saved.balance) || 0);
+transactions = Array.isArray(saved.transactions) ? saved.transactions : [];
+} else {
+balance = currentUser && currentUser.id === LEGACY_USER_ID
+? LEGACY_BALANCE
+: 0;
+
+transactions = balance > 0 ? [{
+id: "legacy-wallet-carryover",
+title: "Existing Wallet Balance",
+amount: balance,
+date: new Date().toISOString(),
+type: "credit"
+}] : [];
+
+saveWallet();
+}
+
+dailyClaimed =
+localStorage.getItem("ridelesschat_daily_" + userKey()) === nigeriaDateKey();
+
+walletLoaded = true;
+updateWalletDisplay();
+}
+
 function getTotalEarned() {
-return transactions.reduce(function (total, item) {
+return transactions.reduce((total, item) => {
 const amount = Number(item.amount) || 0;
 return total + (amount > 0 ? amount : 0);
 }, 0);
@@ -128,163 +154,30 @@ return total + (amount > 0 ? amount : 0);
 
 function updateUpgradeProgress() {
 const earned = getTotalEarned();
-const percentage = Math.min(
-100,
-Math.max(0, (earned / UPGRADE_TARGET) * 100)
-);
+const percentage = Math.min(100, Math.max(0, earned / UPGRADE_TARGET * 100));
+const rounded = Math.floor(percentage);
 
-const roundedPercentage = Math.floor(percentage);
-
-if (upgradePercent) {
-upgradePercent.textContent = roundedPercentage + "%";
-}
-
+if (upgradePercent) upgradePercent.textContent = rounded + "%";
 if (upgradeProgress) {
 upgradeProgress.style.strokeDasharray = "100";
 upgradeProgress.style.strokeDashoffset = String(100 - percentage);
 }
 
-const upgradeButton = dashboard.querySelector(
-'[data-dashboard-action="upgrade"]'
-);
-
-if (upgradeButton) {
-upgradeButton.setAttribute(
-"aria-label",
-"Upgrade Account. " + roundedPercentage + "% progress. Total earnings: " + formatMoney(earned)
-);
+const button = dashboard.querySelector('[data-dashboard-action="upgrade"]');
+if (button) {
+button.setAttribute("aria-label",
+"Upgrade Account. " + rounded + "% progress. Total earnings: " + formatMoney(earned));
 }
 }
 
-/* WALLET DISPLAY */
 function updateBalanceDisplay() {
-if (!balanceAmount) return;
-
-balanceAmount.textContent = balanceHidden
-? "₦••••••"
-: formatMoney(balance);
-}
-
-function updateWalletData(data) {
-balance = Number(data.balance) || 0;
-
-transactions = Array.isArray(data.transactions)
-? data.transactions
-: [];
-
-dailyClaimed = data.dailyClaimed === true;
-
-updateBalanceDisplay();
-renderTransactions();
-updateDailyCheckin();
-updateUpgradeProgress();
-}
-
-function updateDailyCheckin() {
-if (!checkinButton) return;
-
-checkinButton.disabled =
-dailyClaimed || dailyClaimLoading || walletLoading;
-
-checkinButton.classList.toggle("is-loading", dailyClaimLoading);
-
-const label = checkinButton.querySelector(".rc-checkin-label");
-
-if (label) {
-label.textContent = dailyClaimLoading
-? "Claiming..."
-: dailyClaimed ? "Claimed" : "Claim Now";
-}
-
-if (checkinStatus) {
-checkinStatus.textContent = dailyClaimed
-? "You've claimed today's reward."
-: "";
+if (balanceAmount) {
+balanceAmount.textContent = balanceHidden ? "₦••••••" : formatMoney(balance);
 }
 }
 
-/* SERVER WALLET */
-async function requestWallet(action) {
-if (!currentSession || !currentSession.token) {
-throw new Error("Your session is unavailable. Please sign in again.");
-}
-
-const response = await fetch(API_URL, {
-method: "POST",
-headers: {
-"Content-Type": "application/json",
-"Authorization": "Bearer " + currentSession.token
-},
-body: JSON.stringify({ action: action }),
-cache: "no-store"
-});
-
-let result;
-
-try {
-result = await response.json();
-} catch (error) {
-throw new Error("The server returned an invalid response.");
-}
-
-if (!response.ok || result.success !== true) {
-const error = new Error(
-result.message || "Unable to load your wallet."
-);
-
-error.conflict =
-result.conflict === true || response.status === 409;
-
-throw error;
-}
-
-return result;
-}
-
-async function syncWallet(action) {
-let lastError = null;
-
-for (let attempt = 0; attempt < 2; attempt++) {
-try {
-const result = await requestWallet(action || "sync");
-updateWalletData(result);
-return result;
-} catch (error) {
-lastError = error;
-if (!error.conflict || attempt === 1) break;
-}
-}
-
-throw lastError || new Error("Wallet synchronization failed.");
-}
-
-async function refreshWallet() {
-if (!currentSession || walletLoading) return;
-
-walletLoading = true;
-updateDailyCheckin();
-
-try {
-await syncWallet("sync");
-} catch (error) {
-console.error("[RIDELESSCHAT] Wallet refresh failed:", error);
-} finally {
-walletLoading = false;
-updateDailyCheckin();
-}
-
-window.dispatchEvent(new CustomEvent("ridelesschat:wallet-updated", {
-detail: {
-balance: balance,
-dailyClaimed: dailyClaimed
-}
-}));
-}
-
-/* TRANSACTIONS */
 function renderTransactions() {
 if (!transactionList) return;
-
 transactionList.innerHTML = "";
 
 if (!transactions.length) {
@@ -295,16 +188,13 @@ transactionEmpty.style.display = "flex";
 return;
 }
 
-transactions.slice(0, 5).forEach(function (item) {
+transactions.slice(0, 5).forEach(item => {
 const row = document.createElement("div");
 row.className = "rc-transaction-item";
 
 const icon = document.createElement("div");
 icon.className = "rc-transaction-icon";
-icon.innerHTML = `
-<svg viewBox="0 0 24 24" aria-hidden="true">
-<path d="M12 3v18M17 7H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H7"/>
-</svg>`;
+icon.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v18M17 7H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H7"/></svg>';
 
 const info = document.createElement("div");
 info.className = "rc-transaction-info";
@@ -313,60 +203,155 @@ const title = document.createElement("h4");
 title.textContent = item.title || "Transaction";
 
 const date = document.createElement("p");
-const parsedDate = new Date(item.date);
-
-date.textContent = Number.isNaN(parsedDate.getTime())
-? ""
-: formatDate(parsedDate);
+const parsed = new Date(item.date);
+date.textContent = Number.isNaN(parsed.getTime()) ? "" : formatDate(parsed);
 
 info.appendChild(title);
 info.appendChild(date);
 
 const amount = document.createElement("div");
 amount.className = "rc-transaction-amount";
-
 const value = Number(item.amount) || 0;
-amount.textContent =
-(value < 0 ? "-" : "+") + formatMoney(Math.abs(value));
+amount.textContent = (value < 0 ? "-" : "+") + formatMoney(Math.abs(value));
 
-row.appendChild(icon);
-row.appendChild(info);
-row.appendChild(amount);
+row.append(icon, info, amount);
 transactionList.appendChild(row);
 });
 }
 
-/* LOCAL READ & EARN COMPATIBILITY */
-function creditBalance(amount, title) {
+function updateDailyCheckin() {
+if (!checkinButton) return;
+checkinButton.disabled = dailyClaimed || dailyClaimLoading;
+checkinButton.classList.toggle("is-loading", dailyClaimLoading);
+
+const label = checkinButton.querySelector(".rc-checkin-label");
+if (label) {
+label.textContent = dailyClaimLoading ? "Claiming..." :
+dailyClaimed ? "Claimed" : "Claim Now";
+}
+if (checkinStatus) {
+checkinStatus.textContent = dailyClaimed
+? "You've claimed today's reward." : "";
+}
+}
+
+function updateWalletDisplay() {
+updateBalanceDisplay();
+renderTransactions();
+updateDailyCheckin();
+updateUpgradeProgress();
+}
+
+function addCredit(amount, title, id) {
 amount = Number(amount) || 0;
-if (amount <= 0) return;
+if (amount <= 0 || !currentUser) return false;
+
+if (id && transactions.some(item => item.id === id)) return false;
 
 balance += amount;
-
 transactions.unshift({
-id: Date.now() + Math.random(),
+id: id || ("local-" + Date.now() + "-" + Math.random().toString(16).slice(2)),
 title: title || "Reward",
 amount: amount,
 date: new Date().toISOString(),
 type: "credit"
 });
 
-updateBalanceDisplay();
-renderTransactions();
-updateUpgradeProgress();
+saveWallet();
+updateWalletDisplay();
+
+window.dispatchEvent(new CustomEvent("ridelesschat:wallet-updated", {
+detail: { balance, dailyClaimed }
+}));
+return true;
 }
 
-window.addEventListener("ridelesschat:reward-earned", function (event) {
-const detail = event.detail || {};
-const amount = Number(detail.amount) || 0;
+function claimDailyReward() {
+if (!currentUser || dailyClaimed || dailyClaimLoading) return;
+dailyClaimLoading = true;
+updateDailyCheckin();
 
-if (amount <= 0) return;
+try {
+const today = nigeriaDateKey();
+localStorage.setItem("ridelesschat_daily_" + userKey(), today);
+dailyClaimed = true;
+addCredit(500, "Daily Check-In", "daily-" + userKey() + "-" + today);
+showToast("Daily reward of ₦500 credited!");
+} catch (error) {
+showToast("Unable to save your reward on this browser.");
+} finally {
+dailyClaimLoading = false;
+updateDailyCheckin();
+}
+}
 
-creditBalance(amount, detail.title || "Read & Earn Reward");
-});
+function claimReadReward(articleId) {
+if (!currentUser || !articleId) return { success: false };
 
-/* LOAD USER DATA */
-async function loadUserData(user) {
+const today = nigeriaDateKey();
+const claims = getReadClaims();
+const todayClaims = Array.isArray(claims[today]) ? claims[today] : [];
+
+if (todayClaims.includes(articleId)) {
+return {
+success: true,
+alreadyClaimed: true,
+readClaimsToday: todayClaims
+};
+}
+
+todayClaims.push(articleId);
+claims[today] = todayClaims;
+
+try {
+localStorage.setItem(
+"ridelesschat_read_claims_" + userKey(),
+JSON.stringify(claims)
+);
+} catch (error) {
+return { success: false };
+}
+
+const credited = addCredit(
+1500,
+"Read & Earn Reward",
+"read-" + userKey() + "-" + today + "-" + articleId
+);
+
+return {
+success: credited,
+readClaimedNow: credited,
+alreadyClaimed: !credited,
+readClaimsToday: todayClaims
+};
+}
+
+function getAuthenticatedSession() {
+try {
+let raw = localStorage.getItem(SESSION_KEY);
+if (!raw) raw = sessionStorage.getItem(SESSION_KEY);
+if (!raw) return null;
+
+const session = JSON.parse(raw);
+if (!session || typeof session.token !== "string" ||
+!session.token || !session.expiresAt || !session.user ||
+!session.user.id) return null;
+
+const expiry = new Date(session.expiresAt).getTime();
+if (!Number.isFinite(expiry) || expiry <= Date.now()) {
+localStorage.removeItem(SESSION_KEY);
+sessionStorage.removeItem(SESSION_KEY);
+return null;
+}
+
+localStorage.setItem(SESSION_KEY, JSON.stringify(session));
+return session;
+} catch (error) {
+return null;
+}
+}
+
+function loadUserData(user) {
 currentUser = {
 id: user.id,
 name: user.name || "",
@@ -374,65 +359,31 @@ email: user.email || "",
 phone: user.phone || ""
 };
 
-balance = 0;
-transactions = [];
-dailyClaimed = false;
-walletLoaded = false;
-walletLoading = true;
-
-updateBalanceDisplay();
-renderTransactions();
-updateDailyCheckin();
-updateUpgradeProgress();
-
-try {
-await syncWallet("sync");
+loadWallet();
 lastNigeriaDate = nigeriaDateKey();
-
-console.log("[RIDELESSCHAT] Server wallet loaded.");
-} catch (error) {
-console.error("[RIDELESSCHAT] Initial wallet loading failed:", error);
-showToast(error.message || "Unable to load your wallet.", 5000);
-}
-finally {
-walletLoading = false;
-walletLoaded = true;
-updateDailyCheckin();
-}
 
 window.dispatchEvent(new CustomEvent("ridelesschat:user-loaded", {
 detail: { user: currentUser }
 }));
-
 window.dispatchEvent(new CustomEvent("ridelesschat:wallet-updated", {
-detail: {
-balance: balance,
-dailyClaimed: dailyClaimed
-}
+detail: { balance, dailyClaimed }
 }));
 }
 
-/* OPEN DASHBOARD */
-async function openDashboard() {
+function openDashboard() {
 const session = getAuthenticatedSession();
 
 if (!session) {
-console.error("[RIDELESSCHAT] Dashboard opening failed: no valid authenticated session.");
-
 dashboard.hidden = true;
 dashboard.style.display = "none";
-
 if (auth) {
 auth.hidden = false;
 auth.style.display = "";
 }
-
 return;
 }
 
 currentSession = session;
-walletLoaded = false;
-
 dashboard.hidden = false;
 dashboard.style.display = "block";
 
@@ -442,220 +393,126 @@ auth.style.display = "none";
 }
 
 window.scrollTo({ top: 0, behavior: "instant" });
-window.__ridelessPendingDashboardUser = null;
-
-await loadUserData(session.user);
-
-console.log("[RIDELESSCHAT] Authenticated dashboard opened.");
+loadUserData(session.user);
 }
 
 window.addEventListener("ridelesschat:dashboard-open", openDashboard);
 
-/* BALANCE EYE */
 if (balanceEye) {
 balanceEye.addEventListener("click", function () {
 balanceHidden = !balanceHidden;
 balanceEye.classList.toggle("is-hidden", balanceHidden);
-
-balanceEye.setAttribute(
-"aria-label",
-balanceHidden ? "Show balance" : "Hide balance"
-);
-
+balanceEye.setAttribute("aria-label", balanceHidden ? "Show balance" : "Hide balance");
 updateBalanceDisplay();
 });
 }
 
-/* THEME */
 function applyTheme(theme) {
-const selectedTheme = theme === "light" ? "light" : "dark";
-dashboard.dataset.theme = selectedTheme;
-
+const selected = theme === "light" ? "light" : "dark";
+dashboard.dataset.theme = selected;
 if (themeButton) {
-themeButton.setAttribute(
-"aria-label",
-selectedTheme === "dark"
-? "Switch to light theme"
-: "Switch to dark theme"
-);
+themeButton.setAttribute("aria-label",
+selected === "dark" ? "Switch to light theme" : "Switch to dark theme");
 }
-
-try {
-localStorage.setItem("ridelesschat_theme", selectedTheme);
-} catch (error) {}
+try { localStorage.setItem("ridelesschat_theme", selected); } catch (error) {}
 }
 
 let savedTheme = "dark";
-
-try {
-savedTheme = localStorage.getItem("ridelesschat_theme") || "dark";
-} catch (error) {}
-
+try { savedTheme = localStorage.getItem("ridelesschat_theme") || "dark"; } catch (error) {}
 applyTheme(savedTheme);
 
 if (themeButton) {
-themeButton.addEventListener("click", function () {
-applyTheme(
-dashboard.dataset.theme === "dark" ? "light" : "dark"
-);
+themeButton.addEventListener("click", () => {
+applyTheme(dashboard.dataset.theme === "dark" ? "light" : "dark");
 });
 }
 
-/* DAILY CLAIM */
 if (checkinButton) {
-checkinButton.addEventListener("click", async function () {
-if (dailyClaimed || dailyClaimLoading || walletLoading) return;
-
-dailyClaimLoading = true;
-updateDailyCheckin();
-
-try {
-const result = await syncWallet("claim-daily");
-
-showToast(
-result.dailyClaimedNow
-? "Daily reward of ₦500 credited!"
-: "You've already claimed today's reward.",
-2600
-);
-
-lastNigeriaDate = nigeriaDateKey();
-} catch (error) {
-console.error("[RIDELESSCHAT] Daily claim failed:", error);
-showToast(error.message || "Unable to claim your daily reward.", 3000);
-} finally {
-dailyClaimLoading = false;
-updateDailyCheckin();
-
-window.dispatchEvent(new CustomEvent("ridelesschat:wallet-updated", {
-detail: {
-balance: balance,
-dailyClaimed: dailyClaimed
-}
-}));
-}
-});
+checkinButton.addEventListener("click", claimDailyReward);
 }
 
-/* NIGERIA MIDNIGHT REFRESH */
 function checkNigeriaDate() {
 const today = nigeriaDateKey();
-
 if (today !== lastNigeriaDate) {
 lastNigeriaDate = today;
-refreshWallet();
+dailyClaimed =
+localStorage.getItem("ridelesschat_daily_" + userKey()) === today;
+updateDailyCheckin();
 }
 }
 
-clearInterval(dateCheckTimer);
-
-dateCheckTimer = setInterval(function () {
-if (!document.hidden && currentSession) checkNigeriaDate();
+setInterval(function () {
+if (!document.hidden && currentUser) checkNigeriaDate();
 }, 30000);
 
 document.addEventListener("visibilitychange", function () {
-if (!document.hidden && currentSession) {
-checkNigeriaDate();
-refreshWallet();
-}
+if (!document.hidden && currentUser) checkNigeriaDate();
 });
 
-/* DASHBOARD BUTTONS */
-const comingSoonButtons = dashboard.querySelectorAll("[data-dashboard-action]");
-
-comingSoonButtons.forEach(function (button) {
+dashboard.querySelectorAll("[data-dashboard-action]").forEach(button => {
 button.addEventListener("click", function () {
 const action = button.dataset.dashboardAction;
-
 const messages = {
-read: "Read & Earn is coming soon.",
+read: "Open Read & Earn to start earning rewards.",
 upgrade: "Account upgrades are coming soon.",
 share: "Share Posts is coming soon.",
 chat: "Chat is coming soon.",
 support: "Support is coming soon."
 };
-
+if (action === "read" && window.RidelessReadPage) {
+window.RidelessReadPage.openReadPage();
+return;
+}
 showToast(messages[action] || "Coming soon.");
 });
 });
 
-/* HEADER AND TRANSACTION BUTTONS */
 if (notificationButton) {
-notificationButton.addEventListener("click", function () {
-showToast("You're all caught up.");
-});
+notificationButton.addEventListener("click", () => showToast("You're all caught up."));
 }
 
 const withdrawButton = document.getElementById("rc-withdraw-btn");
-
 if (withdrawButton) {
-withdrawButton.addEventListener("click", function () {
-showToast("Withdrawal is coming soon.");
-});
+withdrawButton.addEventListener("click", () => showToast("Withdrawal is coming soon."));
 }
 
 const seeAllButton = document.getElementById("rc-see-all-transactions");
-
 if (seeAllButton) {
-seeAllButton.addEventListener("click", function () {
-showToast("Full transaction history is coming soon.");
-});
+seeAllButton.addEventListener("click", () => showToast("Full transaction history is coming soon."));
 }
 
-/* SHARED DASHBOARD API */
 window.RidelessDashboard = {
-getCurrentUser: function () {
-return currentUser;
-},
-
-getSession: function () {
-return getAuthenticatedSession();
-},
-
+getCurrentUser: () => currentUser,
+getSession: getAuthenticatedSession,
 getStorage: function (key, fallback) {
 try {
-const value = sessionStorage.getItem(key);
+const value = localStorage.getItem(key);
 return value === null ? fallback : JSON.parse(value);
-} catch (error) {
-return fallback;
+} catch (error) { return fallback; }
+},
+setStorage: function (key, value) {
+try { localStorage.setItem(key, JSON.stringify(value)); } catch (error) {}
+},
+userKey: () => userKey(),
+formatMoney,
+showToast,
+creditBalance: addCredit,
+getBalance: () => balance,
+getTotalEarned,
+getUpgradeProgress: () => Math.min(100, getTotalEarned() / UPGRADE_TARGET * 100),
+refreshWallet: function () {
+if (currentUser) {
+loadWallet();
+window.dispatchEvent(new CustomEvent("ridelesschat:wallet-updated", {
+detail: { balance, dailyClaimed }
+}));
 }
 },
-
-setStorage: function (key, value) {
-try {
-sessionStorage.setItem(key, JSON.stringify(value));
-} catch (error) {}
-},
-
-userKey: function () {
-if (!currentUser) return "guest";
-
-return String(
-currentUser.id || currentUser.email || currentUser.phone || "guest"
-).replace(/[^a-z0-9]/gi, "_");
-},
-
-formatMoney: formatMoney,
-showToast: showToast,
-creditBalance: creditBalance,
-
-getBalance: function () {
-return balance;
-},
-
-getTotalEarned: getTotalEarned,
-
-getUpgradeProgress: function () {
-return Math.min(100, (getTotalEarned() / UPGRADE_TARGET) * 100);
-},
-
-refreshWallet: refreshWallet
+claimReadReward,
+getReadClaimsToday
 };
 
-/* RESTORE EXISTING SESSION */
 const existingSession = getAuthenticatedSession();
-
 if (existingSession) openDashboard();
 
 })();
-                                     
