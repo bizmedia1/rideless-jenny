@@ -57,5 +57,27 @@
     "dailyClaims": [],
     "createdAt": "2026-11-19T08:08:11.439Z",
     "updatedAt": "2026-11-19T08:08:11.439Z"
+  },
+  {
+    "userId": "RC-USER-821AC4858A613F63",
+    "balance": 500,
+    "transactions": [
+      {
+        "id": "42244b37-39c7-4f4a-9495-cdd9a80ecca1",
+        "title": "Daily Check-In",
+        "amount": 500,
+        "type": "credit",
+        "date": "2026-11-19T17:40:41.686Z"
+      }
+    ],
+    "dailyClaims": [
+      {
+        "date": "2026-11-19",
+        "claimedAt": "2026-11-19T17:40:41.686Z",
+        "amount": 500
+      }
+    ],
+    "createdAt": "2026-11-19T17:40:41.686Z",
+    "updatedAt": "2026-11-19T17:40:41.686Z"
   }
 ]
