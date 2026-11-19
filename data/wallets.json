@@ -40,5 +40,22 @@
     ],
     "createdAt": "2026-11-18T16:36:02.632Z",
     "updatedAt": "2026-11-18T23:28:08.957Z"
+  },
+  {
+    "userId": "RC-USER-E36A54D9F4150E3B",
+    "balance": 95000,
+    "transactions": [
+      {
+        "id": "3fea7e1b-18cf-4cc0-95e1-99fbb824debc",
+        "title": "Welcome Bonus",
+        "amount": 95000,
+        "type": "credit",
+        "date": "2026-11-19T08:08:11.439Z"
+      }
+    ],
+    "welcomeBonusCreditedAt": "2026-11-19T08:08:11.439Z",
+    "dailyClaims": [],
+    "createdAt": "2026-11-19T08:08:11.439Z",
+    "updatedAt": "2026-11-19T08:08:11.439Z"
   }
 ]
