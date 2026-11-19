@@ -53,5 +53,16 @@
     "paymentId": "PAY-RIDELESSCHAT-405802CC1A76556A",
     "createdAt": "2026-11-19T08:08:06.426Z",
     "activatedAt": "2026-11-19T08:08:06.426Z"
+  },
+  {
+    "id": "RC-USER-821AC4858A613F63",
+    "fullName": "Grace Obi",
+    "email": "graceobi@gmail.com",
+    "phone": "07037129944",
+    "passwordHash": "scrypt$70ef0981c234154c52c541cbd455b222$00782af18b0cb449587fb4201ab27bcb4715462bf94ff9aa6492665915ba3094299bf9f83c07c465e88b9740c596c7f1921fa06ab21c5f8c391598bd17f10a77",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-0ACD14CD6F8A966D",
+    "createdAt": "2026-11-19T17:22:52.663Z",
+    "activatedAt": "2026-11-19T17:22:52.663Z"
   }
 ]
