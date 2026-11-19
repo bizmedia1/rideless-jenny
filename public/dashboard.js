@@ -8,9 +8,6 @@ dashboard.dataset.jsInitialized = "true";
 
 /* ELEMENTS */
 const auth = document.getElementById("rideless-auth");
-const welcomeOverlay = document.getElementById("rc-welcome-overlay");
-const welcomeName = document.getElementById("rc-welcome-name");
-const welcomeButton = document.getElementById("rc-claim-welcome");
 const toast = document.getElementById("rc-dashboard-toast");
 const toastMessage = document.getElementById("rc-toast-message");
 const balanceAmount = document.getElementById("rc-balance-amount");
@@ -69,8 +66,6 @@ let transactions = [];
 let balanceHidden = false;
 let toastTimer = null;
 let dateCheckTimer = null;
-let welcomeClaimed = false;
-let welcomeStatusKnown = false;
 let dailyClaimed = false;
 let dailyClaimLoading = false;
 let walletLoading = false;
@@ -177,25 +172,12 @@ transactions = Array.isArray(data.transactions)
 ? data.transactions
 : [];
 
-welcomeClaimed = data.welcomeBonusCredited === true;
-welcomeStatusKnown = true;
 dailyClaimed = data.dailyClaimed === true;
 
 updateBalanceDisplay();
 renderTransactions();
-updateWelcomeOverlay();
 updateDailyCheckin();
 updateUpgradeProgress();
-}
-
-function updateWelcomeOverlay() {
-if (welcomeName && currentUser) {
-welcomeName.textContent = "Welcome " + (currentUser.name || "there");
-}
-
-if (welcomeOverlay) {
-welcomeOverlay.hidden = !welcomeStatusKnown || welcomeClaimed;
-}
 }
 
 function updateDailyCheckin() {
@@ -289,7 +271,6 @@ updateDailyCheckin();
 window.dispatchEvent(new CustomEvent("ridelesschat:wallet-updated", {
 detail: {
 balance: balance,
-welcomeBonusCredited: welcomeClaimed,
 dailyClaimed: dailyClaimed
 }
 }));
@@ -388,21 +369,14 @@ email: user.email || "",
 phone: user.phone || ""
 };
 
-if (welcomeName) {
-welcomeName.textContent = "Welcome " + (currentUser.name || "there");
-}
-
 balance = 0;
 transactions = [];
-welcomeClaimed = false;
-welcomeStatusKnown = false;
 dailyClaimed = false;
 walletLoaded = false;
 walletLoading = true;
 
 updateBalanceDisplay();
 renderTransactions();
-updateWelcomeOverlay();
 updateDailyCheckin();
 updateUpgradeProgress();
 
@@ -417,7 +391,6 @@ showToast("Unable to load your wallet. Please try again.", 3000);
 } finally {
 walletLoading = false;
 walletLoaded = true;
-updateWelcomeOverlay();
 updateDailyCheckin();
 }
 
@@ -428,7 +401,6 @@ detail: { user: currentUser }
 window.dispatchEvent(new CustomEvent("ridelesschat:wallet-updated", {
 detail: {
 balance: balance,
-welcomeBonusCredited: welcomeClaimed,
 dailyClaimed: dailyClaimed
 }
 }));
@@ -454,9 +426,6 @@ return;
 
 currentSession = session;
 walletLoaded = false;
-welcomeStatusKnown = false;
-
-if (welcomeOverlay) welcomeOverlay.hidden = true;
 
 dashboard.hidden = false;
 dashboard.style.display = "block";
@@ -475,19 +444,6 @@ console.log("[RIDELESSCHAT] Authenticated dashboard opened.");
 }
 
 window.addEventListener("ridelesschat:dashboard-open", openDashboard);
-
-/* WELCOME BONUS BUTTON */
-if (welcomeButton) {
-welcomeButton.addEventListener("click", function () {
-if (welcomeClaimed) {
-if (welcomeOverlay) welcomeOverlay.hidden = true;
-return;
-}
-
-showToast("Your welcome bonus is being verified.");
-refreshWallet();
-});
-}
 
 /* BALANCE EYE */
 if (balanceEye) {
@@ -568,7 +524,6 @@ updateDailyCheckin();
 window.dispatchEvent(new CustomEvent("ridelesschat:wallet-updated", {
 detail: {
 balance: balance,
-welcomeBonusCredited: welcomeClaimed,
 dailyClaimed: dailyClaimed
 }
 }));
@@ -697,4 +652,3 @@ const existingSession = getAuthenticatedSession();
 if (existingSession) openDashboard();
 
 })();
-  
