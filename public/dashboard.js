@@ -392,8 +392,9 @@ lastNigeriaDate = nigeriaDateKey();
 console.log("[RIDELESSCHAT] Server wallet loaded.");
 } catch (error) {
 console.error("[RIDELESSCHAT] Initial wallet loading failed:", error);
-showToast("Unable to load your wallet. Please try again.", 3000);
-} finally {
+showToast(error.message || "Unable to load your wallet.", 5000);
+}
+finally {
 walletLoading = false;
 walletLoaded = true;
 updateDailyCheckin();
