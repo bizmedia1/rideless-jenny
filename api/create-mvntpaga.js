@@ -140,6 +140,49 @@ module.exports = async function handler(req, res) {
       });
     }
 
+    /*
+     * INVALIDATE THE PREVIOUS PENDING PAYMENT
+     * FOR THIS REGISTRATION.
+     */
+
+    const now = new Date();
+    const nowISO = now.toISOString();
+
+    let paymentsChanged = false;
+
+    for (const oldPayment of payments) {
+      const sameEmail =
+        normalizeEmail(oldPayment.email) === customerEmail;
+
+      const samePhone =
+        normalizePhone(oldPayment.phone) === normalizedPhone;
+
+      if (
+        oldPayment.activation === true &&
+        oldPayment.status === "pending" &&
+        (sameEmail || samePhone)
+      ) {
+        oldPayment.status = "superseded";
+        oldPayment.supersededAt = nowISO;
+        oldPayment.supersededReason = "New payment amount selected";
+
+        paymentsChanged = true;
+      }
+    }
+
+    /*
+     * SAVE INVALIDATION BEFORE GENERATING
+     * THE NEW PROVIDER ACCOUNT.
+     */
+
+    if (paymentsChanged) {
+      await writeJSON(
+        PAYMENTS_FILE,
+        payments,
+        paymentsResult.sha
+      );
+    }
+
     const reference = makeReference();
     const paymentId = makePaymentId();
     const statusToken = makeStatusToken();
@@ -194,9 +237,8 @@ module.exports = async function handler(req, res) {
       });
     }
 
-    const now = new Date();
     const expiresAt = new Date(
-      now.getTime() + ACTIVATION_EXPIRY_MINUTES * 60 * 1000
+      Date.now() + ACTIVATION_EXPIRY_MINUTES * 60 * 1000
     );
 
     const paymentRecord = {
@@ -213,17 +255,28 @@ module.exports = async function handler(req, res) {
       status: "pending",
       statusTokenHash: hashToken(statusToken),
       activation: true,
-      createdAt: now.toISOString(),
+      createdAt: new Date().toISOString(),
       processedAt: null,
       activationExpiresAt: expiresAt.toISOString()
     };
 
-    payments.push(paymentRecord);
+    /*
+     * RE-READ BEFORE APPENDING SO WE DON'T
+     * OVERWRITE THE INVALIDATION WRITE.
+     */
+
+    const latestPaymentsResult = await readJSON(PAYMENTS_FILE, []);
+
+    const latestPayments = Array.isArray(latestPaymentsResult.data)
+      ? latestPaymentsResult.data
+      : [];
+
+    latestPayments.push(paymentRecord);
 
     await writeJSON(
       PAYMENTS_FILE,
-      payments,
-      paymentsResult.sha
+      latestPayments,
+      latestPaymentsResult.sha
     );
 
     return send(res, 200, {
@@ -255,4 +308,3 @@ module.exports = async function handler(req, res) {
     });
   }
 };
-      
