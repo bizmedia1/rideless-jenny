@@ -7,7 +7,6 @@ const SESSIONS_FILE = "data/sessions.json";
 const USERS_FILE = "data/users.json";
 const WALLETS_FILE = "data/wallets.json";
 
-const WELCOME_BONUS = 95000;
 const DAILY_REWARD = 500;
 
 function send(res, code, data) {
@@ -169,7 +168,6 @@ module.exports = async function handler(req, res) {
         userId: user.id,
         balance: 0,
         transactions: [],
-        welcomeBonusCreditedAt: null,
         dailyClaims: [],
         createdAt: new Date().toISOString(),
         updatedAt: new Date().toISOString()
@@ -192,25 +190,6 @@ module.exports = async function handler(req, res) {
 
     let changed = false;
     let dailyClaimedNow = false;
-
-    /*
-     * FIRST ACTIVATION WELCOME BONUS
-     *
-     * This flag is stored permanently in the
-     * server-side wallet record.
-     */
-
-    if (!wallet.welcomeBonusCreditedAt) {
-      wallet.balance += WELCOME_BONUS;
-
-      wallet.welcomeBonusCreditedAt = new Date().toISOString();
-
-      wallet.transactions.unshift(
-        makeTransaction("Welcome Bonus", WELCOME_BONUS)
-      );
-
-      changed = true;
-    }
 
     /*
      * DAILY CLAIM
@@ -246,7 +225,7 @@ module.exports = async function handler(req, res) {
     wallet.updatedAt = new Date().toISOString();
 
     /*
-     * Save the wallet and its transaction history
+     * Save the wallet and transaction history
      * together in one GitHub JSON write.
      */
 
@@ -268,11 +247,9 @@ module.exports = async function handler(req, res) {
       status: true,
       action,
       balance: Number(wallet.balance),
-      welcomeBonusCredited: Boolean(wallet.welcomeBonusCreditedAt),
       dailyClaimed,
       dailyClaimedNow,
       dailyReward: DAILY_REWARD,
-      welcomeBonus: WELCOME_BONUS,
       transactions: wallet.transactions.slice(0, 50)
     });
 
@@ -296,4 +273,3 @@ module.exports = async function handler(req, res) {
     });
   }
 };
-      
