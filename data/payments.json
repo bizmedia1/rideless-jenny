@@ -279,5 +279,23 @@
     "activationExpiresAt": "2026-11-19T17:56:51.174Z",
     "supersededAt": "2026-11-19T17:07:08.735Z",
     "supersededReason": "New payment amount selected"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-83B324AA7A03581F",
+    "customerName": "Nanans oansbs",
+    "email": "kajajak@gmail.com",
+    "phone": "09164944949",
+    "passwordHash": "scrypt$b69be8a19841e3f34c2e67ae87634121$275d669b3ed69db351d19bfdfe98b94b79d49da5c3bb033525a7429b6c7b52dadcc04271a6902f237b252702158e83eb8058ad9724e555846194403e011ae38a",
+    "amount": 3700,
+    "amountKobo": 370000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795108029842_8cb76f4daa",
+    "status": "pending",
+    "statusTokenHash": "da01b7205f89b16aa2a53a5fa72c2a6e2ab466711b42651f114f1ba40c963bf1",
+    "activation": true,
+    "createdAt": "2026-11-19T17:07:10.760Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-19T17:57:10.760Z"
   }
 ]
