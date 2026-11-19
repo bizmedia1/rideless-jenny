@@ -42,5 +42,16 @@
     "paymentId": "PAY-RIDELESSCHAT-9CEE2464992AFC40",
     "createdAt": "2026-11-18T13:48:12.252Z",
     "activatedAt": "2026-11-18T13:48:12.252Z"
+  },
+  {
+    "id": "RC-USER-E36A54D9F4150E3B",
+    "fullName": "Precious",
+    "email": "precious@gmail.com",
+    "phone": "7037129966",
+    "passwordHash": "scrypt$0ffe8d78812c3e739c237b0ffcb98c03$1d8f807ff64c2a6c77a795fc25951a085ff49aec91e54cfa5a38c7ea6814c600e35b4138f095c8f2480a4059c067bf6c39c655930a3debc0b8f4ba6c24c795d2",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-405802CC1A76556A",
+    "createdAt": "2026-11-19T08:08:06.426Z",
+    "activatedAt": "2026-11-19T08:08:06.426Z"
   }
 ]
