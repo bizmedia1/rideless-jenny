@@ -5,7 +5,10 @@ const { readJSON, writeJSON } = require("../../lib/github-storage");
 const PAYMENTS_FILE = "data/payments.json";
 const USERS_FILE = "data/users.json";
 
-const ACTIVATION_AMOUNT_KOBO = 10000;
+const ACTIVATION_PRICES_KOBO = [
+  370000,
+  520000
+];
 
 function send(res, statusCode, data) {
   return res.status(statusCode).json(data);
@@ -131,11 +134,11 @@ module.exports = async function handler(req, res) {
 
     if (
       !Number.isSafeInteger(amount) ||
-      amount !== ACTIVATION_AMOUNT_KOBO
+      !ACTIVATION_PRICES_KOBO.includes(amount)
     ) {
       return send(res, 400, {
         status: false,
-        message: "Payment amount does not match the activation fee."
+        message: "Payment amount does not match an approved activation price."
       });
     }
 
@@ -178,10 +181,15 @@ module.exports = async function handler(req, res) {
       });
     }
 
-    if (Number(payment.amountKobo) !== ACTIVATION_AMOUNT_KOBO) {
+    const storedAmount = Number(payment.amountKobo);
+
+    if (
+      !ACTIVATION_PRICES_KOBO.includes(storedAmount) ||
+      amount !== storedAmount
+    ) {
       return send(res, 400, {
         status: false,
-        message: "Stored activation amount is invalid."
+        message: "Payment amount does not match the selected activation amount."
       });
     }
 
@@ -302,3 +310,4 @@ module.exports.config = {
     bodyParser: false
   }
 };
+  
