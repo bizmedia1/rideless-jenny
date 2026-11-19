@@ -201,5 +201,23 @@
     "createdAt": "2026-11-19T15:54:59.247Z",
     "processedAt": null,
     "activationExpiresAt": "2026-11-19T16:44:59.247Z"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-FB84790F02C94E0A",
+    "customerName": "Precious mimi",
+    "email": "preciousmimi@gmail.com",
+    "phone": "07037129900",
+    "passwordHash": "scrypt$f3d5607a0099e50cfa611538c2c71fdf$a2097661a878f96447448babcab89738fc0a97c0c43a111a455d2ebb169c5ea2488190f2fe563490e27a0c382b0d68eb43d5694ec6dbf5b84af393b0f0d95b7a",
+    "amount": 100,
+    "amountKobo": 10000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795105251153_d611a32456",
+    "status": "pending",
+    "statusTokenHash": "efebdfd792f2a25157719fc1ea5caebf2365b82324f31fb48a87f0bcd0f41813",
+    "activation": true,
+    "createdAt": "2026-11-19T16:20:52.492Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-19T17:10:52.492Z"
   }
 ]
