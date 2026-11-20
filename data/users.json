@@ -317,5 +317,16 @@
     "paymentId": "PAY-RIDELESSCHAT-41549DE0919BF819",
     "createdAt": "2026-11-20T17:43:45.766Z",
     "activatedAt": "2026-11-20T17:43:45.766Z"
+  },
+  {
+    "id": "RC-USER-FC05B494B01B5435",
+    "fullName": "Chiamaka beauty",
+    "email": "chia82655@gmail.com",
+    "phone": "08025914561",
+    "passwordHash": "scrypt$b86da679298d0f59d711144c3ac2fa00$0c72beb33d49decd36fa2d6331be8f70e3ba9f47d260e4eaf4457c32696ad01e088e46ac5f9f2b646424cf8a42a68b82c6a635b96b3fa8966f67fa144f8e5af4",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-1FA7686FC536F9ED",
+    "createdAt": "2026-11-20T17:52:28.571Z",
+    "activatedAt": "2026-11-20T17:52:28.571Z"
   }
 ]
