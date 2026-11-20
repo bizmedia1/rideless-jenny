@@ -416,5 +416,16 @@
     "paymentId": "PAY-RIDELESSCHAT-E841B73C59B75506",
     "createdAt": "2026-11-20T18:47:52.616Z",
     "activatedAt": "2026-11-20T18:47:52.616Z"
+  },
+  {
+    "id": "RC-USER-48CE22C2694D2B53",
+    "fullName": "Shadrack Doukareye",
+    "email": "shadrackdoukareye57@gmail.com",
+    "phone": "09074606919",
+    "passwordHash": "scrypt$5bf1eef888deebff466993a1eb8feb12$a6dbf190f57351b33fb8b63d88dd17804ad3f63d7ff6bc858b46ac3783b77d771fe5d50964942b6303d422959b6c945c255d5d0e40b2bf61253e2f4e47883114",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-023B6404AABC7F47",
+    "createdAt": "2026-11-20T18:48:32.963Z",
+    "activatedAt": "2026-11-20T18:48:32.963Z"
   }
 ]
