@@ -548,5 +548,16 @@
     "paymentId": "PAY-RIDELESSCHAT-89ED2753523D3236",
     "createdAt": "2026-11-20T19:50:25.659Z",
     "activatedAt": "2026-11-20T19:50:25.659Z"
+  },
+  {
+    "id": "RC-USER-FF28E72546391198",
+    "fullName": "Favour Emmanuel",
+    "email": "favouremmanuel4893186@gmail.com",
+    "phone": "09031320647",
+    "passwordHash": "scrypt$6e71fb7dbd6350e33c1ce96e700c92c2$250798d186a7953a0523815b5b16823d3299497f2111a9ee12a4b19316e202ca048890830550edda81c6a9ca94d2f0445d7d850b624da02a292c31d397bc0bc9",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-86C52A91B3C11A08",
+    "createdAt": "2026-11-20T19:56:34.612Z",
+    "activatedAt": "2026-11-20T19:56:34.612Z"
   }
 ]
