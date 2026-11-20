@@ -75,5 +75,16 @@
     "paymentId": "PAY-RIDELESSCHAT-39B7BEB969C8EECF",
     "createdAt": "2026-11-20T02:11:55.923Z",
     "activatedAt": "2026-11-20T02:11:55.923Z"
+  },
+  {
+    "id": "RC-USER-AE7B84A5D512393F",
+    "fullName": "Faith",
+    "email": "iginatusfaith@gmail.com",
+    "phone": "09157542150",
+    "passwordHash": "scrypt$39bc05fbd4677194e28fafbba78ea4f6$5c46b3dc2c46e2bc39b5122638f84ebe5aaff5919813181eaffb0a193dce2fa476d6bba5576d00e8acac76f27e769378ce4c60ff7917454c86b84ff6fe3c2d90",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-911F9F7AEF74F49C",
+    "createdAt": "2026-11-20T07:28:25.406Z",
+    "activatedAt": "2026-11-20T07:28:25.406Z"
   }
 ]
