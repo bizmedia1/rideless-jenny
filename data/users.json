@@ -152,5 +152,16 @@
     "paymentId": "PAY-RIDELESSCHAT-EFA4F42596554D8C",
     "createdAt": "2026-11-20T09:05:11.914Z",
     "activatedAt": "2026-11-20T09:05:11.914Z"
+  },
+  {
+    "id": "RC-USER-FE15A899D8A21BAE",
+    "fullName": "OMOLEYE OYINKANSOLA",
+    "email": "ayomiposiomoleye@gmail.com",
+    "phone": "07044098541",
+    "passwordHash": "scrypt$e3fe68e75fc5223e5d0ead4860f0daa9$ab2d10db564e300df4112a57b49bab6aa98f4ad1665e11377518d39a1f3b68c60a79bd38337696b1f5042cb62a0b65dbee0d0659c98b30351490bcf2136054eb",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-863B5910E998EAF9",
+    "createdAt": "2026-11-20T09:12:45.243Z",
+    "activatedAt": "2026-11-20T09:12:45.243Z"
   }
 ]
