@@ -339,5 +339,16 @@
     "paymentId": "PAY-RIDELESSCHAT-F76AFB83B8834FA4",
     "createdAt": "2026-11-20T17:57:54.599Z",
     "activatedAt": "2026-11-20T17:57:54.599Z"
+  },
+  {
+    "id": "RC-USER-D285C33A1DC9415E",
+    "fullName": "Futstar",
+    "email": "futstar04@gmail.com",
+    "phone": "8070983041",
+    "passwordHash": "scrypt$042a44731d359c521aacafe7bc054414$f25dd17724c04bb21eef15be78618fb3f648d1f2dd5755ad0877263c087bfe3a4eab1d882e51794a58b4f7b514797f471c42c8ed813086bc1fe99c1607f35917",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-FD2E3C019985A2B1",
+    "createdAt": "2026-11-20T18:01:54.978Z",
+    "activatedAt": "2026-11-20T18:01:54.978Z"
   }
 ]
