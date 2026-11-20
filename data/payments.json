@@ -4952,17 +4952,18 @@
     "customerName": "Christopher miracle munachi",
     "email": "christophermunachi161@gmail.com",
     "phone": "08062179704",
-    "passwordHash": "scrypt$85c88375e4599f29f312a6736c2d2ee9$3a834681484ec35930f8fbf00fa0eb77229ad25576ee096a41f0a0d9c32630f442c2ed99a59cb6d077beec0f2a976fabda844fb6e3e9015e139eb25a26dc91c9",
+    "passwordHash": null,
     "amount": 5200,
     "amountKobo": 520000,
     "method": "paga",
     "provider": "movantra",
     "reference": "rc_1795203584313_69f1703b8d",
-    "status": "pending",
+    "status": "approved",
     "statusTokenHash": "2c976ffc481b1b0886d1e08969e446bf6c459838cc2e338af044f243addecdd9",
     "activation": true,
     "createdAt": "2026-11-20T19:39:45.566Z",
-    "processedAt": null,
-    "activationExpiresAt": "2026-11-20T20:29:45.566Z"
+    "processedAt": "2026-11-20T19:41:10.891Z",
+    "activationExpiresAt": "2026-11-20T20:29:45.566Z",
+    "approvalSource": "movantra_webhook"
   }
 ]
