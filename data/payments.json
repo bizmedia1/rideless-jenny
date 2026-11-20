@@ -6089,5 +6089,23 @@
     "activationExpiresAt": "2026-11-20T22:05:00.420Z",
     "supersededAt": "2026-11-20T21:15:27.629Z",
     "supersededReason": "New payment amount selected"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-AD4A57BECF60D02B",
+    "customerName": "David Ayo",
+    "email": "dayo59273@gmail.com",
+    "phone": "08115408350",
+    "passwordHash": "scrypt$9f176ed3dec546884be382dbc20a27e8$3adbfbfc65a3c0e722306f9b3a2316d4532ea3a26cb1b790c07cdacdac3e41068949a8ab5f79541df53b8c5f43c57038520313caca0f3d500225cf7ad071aeca",
+    "amount": 3700,
+    "amountKobo": 370000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795209328955_cb1511111b",
+    "status": "pending",
+    "statusTokenHash": "1601265fc81dcf091c0c3487ae2cbf79b9a6827ad9f5a1eaf6802f59698e7de7",
+    "activation": true,
+    "createdAt": "2026-11-20T21:15:30.052Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-20T22:05:30.052Z"
   }
 ]
