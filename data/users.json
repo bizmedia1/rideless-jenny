@@ -383,5 +383,16 @@
     "paymentId": "PAY-RIDELESSCHAT-A0BEB42B4FBF143F",
     "createdAt": "2026-11-20T18:28:30.094Z",
     "activatedAt": "2026-11-20T18:28:30.094Z"
+  },
+  {
+    "id": "RC-USER-68D4D8FDC80F8F6C",
+    "fullName": "Ojonugwa Sunday",
+    "email": "sojo23364@gmail.com",
+    "phone": "08108892376",
+    "passwordHash": "scrypt$bc938b1dc9eb1abaee7fbb634ca00d47$ac94f5413f8355736f03bbaea27908d9f28e5c19b151817674f4acdc0b0cddab5829ddf5f6eca5c5d72dbd134ebbd30ffc06b0b60f57f1fcc3a942536f753253",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-AD37F4820392AB25",
+    "createdAt": "2026-11-20T18:37:56.210Z",
+    "activatedAt": "2026-11-20T18:37:56.210Z"
   }
 ]
