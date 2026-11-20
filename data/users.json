@@ -581,5 +581,16 @@
     "paymentId": "PAY-RIDELESSCHAT-DABF226ED54AE80A",
     "createdAt": "2026-11-20T19:59:55.095Z",
     "activatedAt": "2026-11-20T19:59:55.095Z"
+  },
+  {
+    "id": "RC-USER-7B1B28ACECEFF72D",
+    "fullName": "Duru Favour",
+    "email": "mmesomaduru2005@gmail.com",
+    "phone": "07054460485",
+    "passwordHash": "scrypt$97437683a3487d166c29d91ccf65b6d2$616bd7b58f9c474e9e45b4e1fddf25e9503dbaf413e71f644d3af48c707b3eec3da72f95c2d7b79da3ac149ef29753bfee3297765bcf09139ed62c06119a7247",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-9B7C046515729289",
+    "createdAt": "2026-11-20T20:02:16.389Z",
+    "activatedAt": "2026-11-20T20:02:16.389Z"
   }
 ]
