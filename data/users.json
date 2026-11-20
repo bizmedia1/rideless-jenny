@@ -130,5 +130,16 @@
     "paymentId": "PAY-RIDELESSCHAT-CF2141A5AA275DAF",
     "createdAt": "2026-11-20T08:52:23.046Z",
     "activatedAt": "2026-11-20T08:52:23.046Z"
+  },
+  {
+    "id": "RC-USER-7EADD88C64A3C752",
+    "fullName": "Okonye Blessing",
+    "email": "blessingokonye111@gmail.com",
+    "phone": "08139434928",
+    "passwordHash": "scrypt$e4128592c8a73ab13446ee4a29f0c48d$ef03a603926db39191598ce83f7de99858e28ff45a095259071af9f27932794e24b3a2ad591b71d3f798b2a3832bc2e7b5a90f76fa3f0843629678fa87a265a6",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-0DBEF637A591408E",
+    "createdAt": "2026-11-20T08:52:48.229Z",
+    "activatedAt": "2026-11-20T08:52:48.229Z"
   }
 ]
