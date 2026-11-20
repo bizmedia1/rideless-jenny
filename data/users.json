@@ -438,5 +438,16 @@
     "paymentId": "PAY-RIDELESSCHAT-DE311B4C2BB69036",
     "createdAt": "2026-11-20T18:53:09.479Z",
     "activatedAt": "2026-11-20T18:53:09.479Z"
+  },
+  {
+    "id": "RC-USER-4820CF7522CF034B",
+    "fullName": "Funebi wodu",
+    "email": "godgreatness57@gmail.com",
+    "phone": "08128736940",
+    "passwordHash": "scrypt$55264bfcddf54c098e846d5300f75b5e$3f2356dd18bc0b3404bc9e56b2b3ddbcd7520240967d440e3729ae56b93a84b42e93f13899ea121a70af462fef11611e0618649ab530b0b6d35f1ed9534fdd3a",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-B2F75D7462BF700B",
+    "createdAt": "2026-11-20T19:02:49.056Z",
+    "activatedAt": "2026-11-20T19:02:49.056Z"
   }
 ]
