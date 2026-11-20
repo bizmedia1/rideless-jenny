@@ -378,17 +378,18 @@
     "customerName": "Oluwafemi Ayomide Akinwumi",
     "email": "akinfem44@gmail.com",
     "phone": "07044018868",
-    "passwordHash": "scrypt$485ea185a997954374b65449e13f5efe$2eb72ef164ac246d12eb6bfe5482899901d240e346124ac19aa3df9918c42bf9799b781abdb776cedeb585b1280fae61d6324bac8d7221088f43fce718ee78da",
+    "passwordHash": null,
     "amount": 3700,
     "amountKobo": 370000,
     "method": "paga",
     "provider": "movantra",
     "reference": "rc_1795140571386_667ebee22d",
-    "status": "pending",
+    "status": "approved",
     "statusTokenHash": "bbad0ad00171e11695a171deba989a854098e9821260234a6e0c8dbd9b814a0a",
     "activation": true,
     "createdAt": "2026-11-20T02:09:32.906Z",
-    "processedAt": null,
-    "activationExpiresAt": "2026-11-20T02:59:32.905Z"
+    "processedAt": "2026-11-20T02:11:57.005Z",
+    "activationExpiresAt": "2026-11-20T02:59:32.905Z",
+    "approvalSource": "movantra_webhook"
   }
 ]
