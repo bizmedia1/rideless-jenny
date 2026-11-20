@@ -119,5 +119,16 @@
     "paymentId": "PAY-RIDELESSCHAT-1E547495451B28C9",
     "createdAt": "2026-11-20T08:33:42.294Z",
     "activatedAt": "2026-11-20T08:33:42.294Z"
+  },
+  {
+    "id": "RC-USER-063F9811D3617092",
+    "fullName": "Benson",
+    "email": "b4564655@gmail.com",
+    "phone": "07063483776",
+    "passwordHash": "scrypt$bb1562eb9970cad72ed6c22e84fd21e6$91d245f1fe6c6402cfb2b64770c80f2c334f0ddecdb31da7d92a0c9e5a475e6f37fcd0b9f190815b7f2beaae5f40d32023695f4151c146d51d460adbc1e3d963",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-CF2141A5AA275DAF",
+    "createdAt": "2026-11-20T08:52:23.046Z",
+    "activatedAt": "2026-11-20T08:52:23.046Z"
   }
 ]
