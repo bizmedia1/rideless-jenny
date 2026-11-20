@@ -625,5 +625,16 @@
     "paymentId": "PAY-RIDELESSCHAT-BAA464945C7AC739",
     "createdAt": "2026-11-20T20:18:54.596Z",
     "activatedAt": "2026-11-20T20:18:54.596Z"
+  },
+  {
+    "id": "RC-USER-A4AC18DACDC3AE77",
+    "fullName": "Oginni Oluwaseun Raphael",
+    "email": "raphaeloginni2@gmail.com",
+    "phone": "09060342933",
+    "passwordHash": "scrypt$cd6d3799a198c35c44df78a917cb9a19$14414893598b16aaf04035867abffab4a5b2dba82dbb2de9d54ac91af387b585e6f26dabc5fb8ec14ddfc557837f45b4b60af63d535eeb0bcc86f490acdfd32b",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-2534143E39AA92B2",
+    "createdAt": "2026-11-20T20:37:19.179Z",
+    "activatedAt": "2026-11-20T20:37:19.179Z"
   }
 ]
