@@ -141,5 +141,16 @@
     "paymentId": "PAY-RIDELESSCHAT-0DBEF637A591408E",
     "createdAt": "2026-11-20T08:52:48.229Z",
     "activatedAt": "2026-11-20T08:52:48.229Z"
+  },
+  {
+    "id": "RC-USER-3E30A8EF2404F955",
+    "fullName": "Emeka precious",
+    "email": "lopezprecious106@gmali.com",
+    "phone": "09014280917",
+    "passwordHash": "scrypt$74b8c8aebb5d60a78d7b2e0aa5645d2a$4688665585ebf3f18d6899d236087a9fd4bfc1f05712e8cd1d7ffce59d66821397151ccd36b5982ff076449e1054f70673fa8c4d0e56cd30c8067762b99f4c8e",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-EFA4F42596554D8C",
+    "createdAt": "2026-11-20T09:05:11.914Z",
+    "activatedAt": "2026-11-20T09:05:11.914Z"
   }
 ]
