@@ -3980,5 +3980,23 @@
     "activationExpiresAt": "2026-11-20T19:26:56.979Z",
     "supersededAt": "2026-11-20T18:37:12.233Z",
     "supersededReason": "New payment amount selected"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-C1A2E5226473066A",
+    "customerName": "Timothy",
+    "email": "thimzungjesus@gmail.com",
+    "phone": "08027336066",
+    "passwordHash": "scrypt$c8880df24dca0d2f924ee0ff446f80be$8d15cbb796b856a2c13888fe06408e4240886348ac6c674d5bdaf31f31f7c336bb80719348d5b0bec3ff95adae39bd12e711eb5a913554b139af50a27beec3ab",
+    "amount": 3700,
+    "amountKobo": 370000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795199833454_e086b203d6",
+    "status": "pending",
+    "statusTokenHash": "aea591c176502241ed26bc8c11e7ee4aa4272d0247743b26cba1f8d9126450c7",
+    "activation": true,
+    "createdAt": "2026-11-20T18:37:14.564Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-20T19:27:14.564Z"
   }
 ]
