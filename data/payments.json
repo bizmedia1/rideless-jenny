@@ -2223,5 +2223,23 @@
     "createdAt": "2026-11-20T15:56:13.943Z",
     "processedAt": null,
     "activationExpiresAt": "2026-11-20T16:46:13.942Z"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-6BB88A93A4131D88",
+    "customerName": "Yaya lbrahim Yusuf",
+    "email": "yayalbrahim2008@gmail.com",
+    "phone": "08054290222",
+    "passwordHash": "scrypt$1ad20078484f6f80b296bf8e9fa5ded6$236b77e35ae7d038f41bcebb2b45ba6b9311adb143004643ee5cbf64edab63a55299fbde6eb8a635d90da7c279b8ec4dc377c26baae610e104ddc541f8b46098",
+    "amount": 3700,
+    "amountKobo": 370000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795193492138_bb781c38ce",
+    "status": "pending",
+    "statusTokenHash": "b2142b94caf86e7a6af7b69d5889734a8bebde7891fcf0ab156f22efc15128e1",
+    "activation": true,
+    "createdAt": "2026-11-20T16:51:33.409Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-20T17:41:33.409Z"
   }
 ]
