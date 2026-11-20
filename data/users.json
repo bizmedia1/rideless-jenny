@@ -405,5 +405,16 @@
     "paymentId": "PAY-RIDELESSCHAT-CB9E9C09FEFB0412",
     "createdAt": "2026-11-20T18:39:36.329Z",
     "activatedAt": "2026-11-20T18:39:36.329Z"
+  },
+  {
+    "id": "RC-USER-FA9E9B83E8EE2BD0",
+    "fullName": "Oma",
+    "email": "chukwuperpetual16@gmail.com",
+    "phone": "09033405797",
+    "passwordHash": "scrypt$b1cb03a7881bf0c1de1c5409fdab5abb$0754028fbf5438beba564fef48e8e3db9d33acad9d423533db714e3feb48017f5e735049cc381025e571e389f402aeecc943265286852fced0faab5d7d068989",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-E841B73C59B75506",
+    "createdAt": "2026-11-20T18:47:52.616Z",
+    "activatedAt": "2026-11-20T18:47:52.616Z"
   }
 ]
