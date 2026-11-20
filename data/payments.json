@@ -6343,18 +6343,19 @@
     "customerName": "Obasi Victor",
     "email": "chinonsoobasiv@gmail.com",
     "phone": "08139759806",
-    "passwordHash": "scrypt$009b11e52a24426098fe8126625f2d2d$8ca0223f285d8303e590a9849bf580f8b465f4714e4017554784ebca0a8ee213778cff4f3c1d6df461cfc137769ef9537b1491572eb7216368a75dbf7669308c",
+    "passwordHash": null,
     "amount": 3700,
     "amountKobo": 370000,
     "method": "paga",
     "provider": "movantra",
     "reference": "rc_1795210992343_2261b90169",
-    "status": "pending",
+    "status": "approved",
     "statusTokenHash": "1f94f17cc1b3af4cac040b873f371339c45d131a02a3b7515a9ec72649bdced3",
     "activation": true,
     "createdAt": "2026-11-20T21:43:13.725Z",
-    "processedAt": null,
-    "activationExpiresAt": "2026-11-20T22:33:13.724Z"
+    "processedAt": "2026-11-20T21:47:59.943Z",
+    "activationExpiresAt": "2026-11-20T22:33:13.724Z",
+    "approvalSource": "movantra_webhook"
   },
   {
     "id": "PAY-RIDELESSCHAT-A9C90AD351A22E4C",
