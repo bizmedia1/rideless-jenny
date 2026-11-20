@@ -658,5 +658,16 @@
     "paymentId": "PAY-RIDELESSCHAT-DF7BC842C1D4B4AD",
     "createdAt": "2026-11-20T20:53:57.490Z",
     "activatedAt": "2026-11-20T20:53:57.490Z"
+  },
+  {
+    "id": "RC-USER-01CCF2F9838C6DD9",
+    "fullName": "David Viashima",
+    "email": "davidviashima9@gmail.com",
+    "phone": "07014398265",
+    "passwordHash": "scrypt$80c832ec03236b632418631b1035af46$9529881b374bb4c608be7804d79d30261691f6b2d508043a3a1e4a6fce841b86362220353b5bdd21615ad8f5b34b715b3a074beacd3bea189dd3d6065dcf80bc",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-A074F9C05DA77B7A",
+    "createdAt": "2026-11-20T21:08:34.461Z",
+    "activatedAt": "2026-11-20T21:08:34.461Z"
   }
 ]
