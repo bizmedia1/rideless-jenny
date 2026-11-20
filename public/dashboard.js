@@ -397,6 +397,19 @@ loadUserData(session.user);
 }
 
 window.addEventListener("ridelesschat:dashboard-open", openDashboard);
+  /* RECEIVE CHAT REWARDS */
+
+window.addEventListener("ridelesschat:reward-earned", function (event) {
+  const detail = event.detail || {};
+  const amount = Number(detail.amount) || 0;
+
+  if (amount <= 0) return;
+
+  addCredit(
+    amount,
+    detail.title || "Chat & Earn Reward"
+  );
+});
 
 if (balanceEye) {
 balanceEye.addEventListener("click", function () {
