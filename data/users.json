@@ -570,5 +570,16 @@
     "paymentId": "PAY-RIDELESSCHAT-2ADB5DE1E33B6ADB",
     "createdAt": "2026-11-20T19:59:06.738Z",
     "activatedAt": "2026-11-20T19:59:06.738Z"
+  },
+  {
+    "id": "RC-USER-885B781164440B44",
+    "fullName": "Olobaniyi Grace Oluwatundun",
+    "email": "olobaniyitundun41@gmail.com",
+    "phone": "07026553118",
+    "passwordHash": "scrypt$77681cb066be72fc7ef5b04e78a1cf77$a3a226cdc5f7c8f2d65c42f797be49a0035ad229ace0a4c9deae629074c15d6f14a65e6ab051994a8bc201f8b6717c679588ea05dc7208c0db1aa7801f3edc6a",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-DABF226ED54AE80A",
+    "createdAt": "2026-11-20T19:59:55.095Z",
+    "activatedAt": "2026-11-20T19:59:55.095Z"
   }
 ]
