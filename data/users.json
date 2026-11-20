@@ -196,5 +196,16 @@
     "paymentId": "PAY-RIDELESSCHAT-3781EDD64AF860AC",
     "createdAt": "2026-11-20T10:37:03.999Z",
     "activatedAt": "2026-11-20T10:37:03.999Z"
+  },
+  {
+    "id": "RC-USER-3E8BCA7F065D3289",
+    "fullName": "Goodluck",
+    "email": "goodluckyohanna2424@gmail.com",
+    "phone": "07077470294",
+    "passwordHash": "scrypt$b15a76be24096193c3c033badf2848b4$f78f03f3ba97f5354f59786d0d8fff959ec852648e53b004ea0d83ce6a02a2c6444e405695ac2baa6dd7202b2c80a691cdfa69dba017c14d9dbae0192cca5d1d",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-5EDCE5ED91B625A3",
+    "createdAt": "2026-11-20T11:44:21.833Z",
+    "activatedAt": "2026-11-20T11:44:21.833Z"
   }
 ]
