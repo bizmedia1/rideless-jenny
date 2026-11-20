@@ -429,5 +429,23 @@
     "createdAt": "2026-11-20T02:39:51.701Z",
     "processedAt": null,
     "activationExpiresAt": "2026-11-20T03:29:51.700Z"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-679F23E1E515487F",
+    "customerName": "Nuku Justina",
+    "email": "nukujustina@gmail.com",
+    "phone": "09060164481",
+    "passwordHash": "scrypt$9ca3d6c8e913d380b7fa14ddc08c8db1$51ffd7a5cedfb9e86c1429c8daac0b1a2779e3bf4e25b93079d96e524154b46a0c1187a7202b0fd63d8e36f77e7f505459065863db4be70a8c429bb90c94d650",
+    "amount": 5200,
+    "amountKobo": 520000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795158980808_009d538f75",
+    "status": "pending",
+    "statusTokenHash": "488f89bde46684ee18a05e4dec8e2764fb1d454818645f4afad781b280f1654a",
+    "activation": true,
+    "createdAt": "2026-11-20T07:16:22.012Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-20T08:06:22.012Z"
   }
 ]
