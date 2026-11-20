@@ -504,5 +504,16 @@
     "paymentId": "PAY-RIDELESSCHAT-14C287981FECC709",
     "createdAt": "2026-11-20T19:29:57.613Z",
     "activatedAt": "2026-11-20T19:29:57.613Z"
+  },
+  {
+    "id": "RC-USER-E0399E6C67485C06",
+    "fullName": "Merit Obire",
+    "email": "meritobire@gmail.com",
+    "phone": "+2348160786980",
+    "passwordHash": "scrypt$691a1cde670ef173fecbdd4a076c17cf$799bba9a4b385f430a64e65b36d063d6a1c8f20e82b1d93a1e5743181ad7019dd6d7503e94286e7cc8a39b184e06ea62dd08e9f65a0d7a86d568b7fdf6918386",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-0D968F8137D5657F",
+    "createdAt": "2026-11-20T19:35:57.714Z",
+    "activatedAt": "2026-11-20T19:35:57.714Z"
   }
 ]
