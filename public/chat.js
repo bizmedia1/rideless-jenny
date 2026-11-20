@@ -15,6 +15,7 @@ const CONFIG = chat.config;
 
 /* =====================================
 10 DAILY MESSENGER PROFILES
+ALL MESSAGE TEMPLATES LIVE HERE
 ===================================== */
 
 const MESSENGERS = [
@@ -151,7 +152,7 @@ replies: [
 ];
 
 /* =====================================
-DAILY SELECTION
+DAILY DATE — NIGERIA
 ===================================== */
 
 function nigeriaDate() {
@@ -168,12 +169,24 @@ parts.forEach(function (part) {
 values[part.type] = part.value;
 });
 
-return values.year + "-" + values.month + "-" + values.day;
+return (
+values.year + "-" +
+values.month + "-" +
+values.day
+);
 }
 
+/* =====================================
+DAILY MESSENGER STORAGE
+===================================== */
+
 function storageKey() {
-return "ridelesschat_daily_messengers_" +
-chat.getUserKey() + "_" + nigeriaDate();
+return (
+"ridelesschat_daily_messengers_" +
+chat.getUserKey() +
+"_" +
+nigeriaDate()
+);
 }
 
 function getUsedMessengers() {
@@ -183,13 +196,25 @@ localStorage.getItem(storageKey()) || "[]"
 );
 
 return Array.isArray(value) ? value : [];
+
 } catch (error) {
 return [];
 }
 }
 
 function saveUsedMessengers(used) {
-localStorage.setItem(storageKey(), JSON.stringify(used));
+try {
+localStorage.setItem(
+storageKey(),
+JSON.stringify(used)
+);
+
+return true;
+
+} catch (error) {
+chat.showToast("Could not save today's messenger progress.");
+return false;
+}
 }
 
 function getAvailableMessengers() {
@@ -200,9 +225,33 @@ return !used.includes(messenger.id);
 });
 }
 
+/* =====================================
+ACTIVE MESSENGER
+===================================== */
+
 let currentMessenger = null;
 let activeMessenger = null;
 let replyIndex = 0;
+
+function getMessengerReply() {
+if (!activeMessenger) {
+return "That's interesting! Tell me a little more.";
+}
+
+const replies = activeMessenger.replies;
+
+const reply = replies[
+replyIndex % replies.length
+];
+
+replyIndex++;
+
+return reply;
+}
+
+function getRandomReply(list) {
+return list[Math.floor(Math.random() * list.length)];
+}
 
 /* =====================================
 MESSENGER DISPLAY
@@ -214,13 +263,24 @@ if (!messenger) return;
 CONFIG.senderName = messenger.name;
 CONFIG.senderAvatar = "";
 
-const senderAvatar = page.querySelector("#rc-chat-sender-avatar");
-const senderName = page.querySelector(".rc-chat-sender-name strong");
-const typingText = page.querySelector("#rc-chat-typing small");
+const senderAvatar = page.querySelector(
+"#rc-chat-sender-avatar"
+);
+
+const senderName = page.querySelector(
+".rc-chat-sender-name strong"
+);
+
+const typingText = page.querySelector(
+"#rc-chat-typing small"
+);
 
 if (senderAvatar) {
 senderAvatar.textContent = messenger.initial;
-senderAvatar.setAttribute("aria-label", messenger.name);
+senderAvatar.setAttribute(
+"aria-label",
+messenger.name
+);
 }
 
 if (senderName) {
@@ -228,13 +288,13 @@ senderName.textContent = messenger.name;
 }
 
 if (typingText) {
-typingText.textContent = messenger.name + " is typing...";
+typingText.textContent =
+messenger.name + " is typing...";
 }
-
 }
 
 /* =====================================
-PREPARE NEXT MESSENGER
+DAILY LIMIT
 ===================================== */
 
 function showDailyLimit() {
@@ -265,7 +325,13 @@ el.statusText.textContent = "Daily limit reached";
 }
 }
 
+/* =====================================
+PREPARE NEXT MESSENGER
+===================================== */
+
 function prepareNextMessenger() {
+if (state.chatStarted || state.chatFinished) return;
+
 const available = getAvailableMessengers();
 
 if (!available.length) {
@@ -273,7 +339,9 @@ showDailyLimit();
 return;
 }
 
-const randomIndex = Math.floor(Math.random() * available.length);
+const randomIndex = Math.floor(
+Math.random() * available.length
+);
 
 currentMessenger = available[randomIndex];
 
@@ -291,14 +359,17 @@ MARK MESSENGER AS USED
 ===================================== */
 
 function markMessengerUsed(messenger) {
-if (!messenger) return;
+if (!messenger) return false;
 
 const used = getUsedMessengers();
 
-if (!used.includes(messenger.id)) {
-used.push(messenger.id);
-saveUsedMessengers(used);
+if (used.includes(messenger.id)) {
+return false;
 }
+
+used.push(messenger.id);
+
+return saveUsedMessengers(used);
 }
 
 /* =====================================
@@ -307,21 +378,42 @@ START BUTTON
 
 if (el.startButton) {
 el.startButton.addEventListener("click", function (event) {
+
 if (!currentMessenger) {
 event.preventDefault();
 event.stopImmediatePropagation();
 
-chat.showToast("No more chat requests available today.");
+chat.showToast(
+"No more chat requests available today."
+);
+
 return;
 }
 
 activeMessenger = currentMessenger;
 
-markMessengerUsed(activeMessenger);
+const saved = markMessengerUsed(activeMessenger);
+
+if (!saved) {
+event.preventDefault();
+event.stopImmediatePropagation();
+
+activeMessenger = null;
+
+chat.showToast(
+"Could not save this messenger. Please try again."
+);
+
+return;
+}
 
 replyIndex = 0;
 
 updateMessengerDisplay(activeMessenger);
+
+/* Make room for the next unused messenger. */
+
+currentMessenger = null;
 
 }, true);
 }
@@ -333,31 +425,32 @@ PERSONALIZED OPENING MESSAGE
 const originalAddMessage = chat.addMessage;
 
 chat.addMessage = function (content, isMine, options) {
-if (!isMine && activeMessenger &&
-content === "Hey! Thanks for accepting my chat request.") {
+
+if (
+!isMine &&
+activeMessenger &&
+content === "Hey! Thanks for accepting my chat request."
+) {
 content = activeMessenger.greeting;
 }
 
-return originalAddMessage.call(chat, content, isMine, options);
+return originalAddMessage.call(
+chat,
+content,
+isMine,
+options
+);
 };
 
 /* =====================================
-PERSONALIZED AUTOMATIC REPLIES
+PERSONALIZED SCHEDULED REPLIES
 ===================================== */
 
 const originalScheduleReply = chat.scheduleReply;
 
 chat.scheduleReply = function (message, delay) {
-if (!activeMessenger) {
-return originalScheduleReply.call(chat, message, delay);
-}
 
-const replies = activeMessenger.replies;
-
-const personalizedReply =
-replies[replyIndex % replies.length];
-
-replyIndex++;
+const personalizedReply = getMessengerReply();
 
 return originalScheduleReply.call(
 chat,
@@ -375,7 +468,12 @@ const value = message.toLowerCase();
 
 const rules = [
 {
-words: ["how are you", "how are u", "how's your day", "how is your day"],
+words: [
+"how are you",
+"how are u",
+"how's your day",
+"how is your day"
+],
 replies: [
 "I'm doing pretty well, thanks for asking! How about you?",
 "My day has been good so far. How's yours going?",
@@ -385,12 +483,22 @@ replies: [
 {
 words: ["name", "who are you"],
 replies: [
-"I'm " + (activeMessenger ? activeMessenger.name : "your chat partner") + ". Nice meeting you!",
+"I'm " + (
+activeMessenger
+? activeMessenger.name
+: "your chat partner"
+) + ". Nice meeting you!",
 "Just someone here to have a nice conversation with you!"
 ]
 },
 {
-words: ["love", "relationship", "dating", "boyfriend", "girlfriend"],
+words: [
+"love",
+"relationship",
+"dating",
+"boyfriend",
+"girlfriend"
+],
 replies: [
 "That's an interesting topic. What do you think makes a relationship work?",
 "I think honesty and understanding matter a lot.",
@@ -406,7 +514,13 @@ replies: [
 ]
 },
 {
-words: ["food", "eat", "cooking", "rice", "jollof"],
+words: [
+"food",
+"eat",
+"cooking",
+"rice",
+"jollof"
+],
 replies: [
 "Now you're making me hungry! What's your favourite food?",
 "Good food and good conversation are a great combination.",
@@ -414,7 +528,13 @@ replies: [
 ]
 },
 {
-words: ["work", "job", "business", "money", "career"],
+words: [
+"work",
+"job",
+"business",
+"money",
+"career"
+],
 replies: [
 "That's an important part of life. How is it going?",
 "What kind of work would you really enjoy doing?",
@@ -422,7 +542,12 @@ replies: [
 ]
 },
 {
-words: ["school", "study", "university", "education"],
+words: [
+"school",
+"study",
+"university",
+"education"
+],
 replies: [
 "What are you studying?",
 "Learning new things can be challenging but rewarding.",
@@ -430,7 +555,13 @@ replies: [
 ]
 },
 {
-words: ["sad", "stress", "tired", "bad day", "upset"],
+words: [
+"sad",
+"stress",
+"tired",
+"bad day",
+"upset"
+],
 replies: [
 "I'm sorry to hear that. I hope things get better for you.",
 "Sometimes talking about it can help. What's going on?",
@@ -446,7 +577,12 @@ replies: [
 ]
 },
 {
-words: ["bye", "goodbye", "leaving", "gotta go"],
+words: [
+"bye",
+"goodbye",
+"leaving",
+"gotta go"
+],
 replies: [
 "It was nice talking with you! Take care.",
 "Already? I enjoyed our conversation!",
@@ -454,7 +590,12 @@ replies: [
 ]
 },
 {
-words: ["where", "live", "country", "city"],
+words: [
+"where",
+"live",
+"country",
+"city"
+],
 replies: [
 "That's interesting! What do you like most about where you live?",
 "I enjoy hearing about different places.",
@@ -462,7 +603,12 @@ replies: [
 ]
 },
 {
-words: ["football", "soccer", "match", "team"],
+words: [
+"football",
+"soccer",
+"match",
+"team"
+],
 replies: [
 "Are you a big football fan?",
 "Which team do you support?",
@@ -472,31 +618,24 @@ replies: [
 ];
 
 for (const rule of rules) {
-if (rule.words.some(function (word) {
+if (
+rule.words.some(function (word) {
 return value.includes(word);
-})) {
-const choices = rule.replies;
-
-return choices[Math.floor(Math.random() * choices.length)];
+})
+) {
+return getRandomReply(rule.replies);
 }
 }
 
-if (!activeMessenger) {
-return "That's interesting! Tell me a little more.";
-}
-
-const replies = activeMessenger.replies;
-
-return replies[Math.floor(Math.random() * replies.length)];
+return getMessengerReply();
 }
 
 /* =====================================
-CUSTOM MESSAGE SENDING
+PERSONALIZED MESSAGE SENDING
 ===================================== */
 
 function sendPersonalizedMessage() {
 if (!state.chatStarted || state.chatFinished) return;
-
 if (!el.messageInput) return;
 
 const message = el.messageInput.value.trim();
@@ -513,11 +652,13 @@ el.emojiPicker.hidden = true;
 
 const reply = getContextualReply(message);
 
-const delay = 1800 + Math.floor(Math.random() * 1600);
+const delay =
+1800 + Math.floor(Math.random() * 1600);
 
 chat.showTyping();
 
 const timeout = setTimeout(function () {
+
 if (!state.chatStarted || state.chatFinished) {
 chat.hideTyping();
 return;
@@ -552,6 +693,7 @@ INTERCEPT ENTER KEY
 
 if (el.messageInput) {
 el.messageInput.addEventListener("keydown", function (event) {
+
 if (event.key !== "Enter") return;
 
 event.preventDefault();
@@ -566,12 +708,12 @@ sendPersonalizedMessage();
 ATTACHMENT REPLY
 ===================================== */
 
-const originalSendAttachment = chat.sendAttachment;
-
-chat.sendAttachment = function () {
+chat.onAttachmentSent = function () {
 if (!state.chatStarted || state.chatFinished) return;
 
-return originalSendAttachment.call(chat);
+const reply = getMessengerReply();
+
+chat.scheduleReply(reply, 2500);
 };
 
 /* =====================================
@@ -579,11 +721,15 @@ REQUEST VISIBILITY WATCHER
 ===================================== */
 
 function requestIsVisible() {
-return el.requestSection && !el.requestSection.hidden;
+return (
+el.requestSection &&
+!el.requestSection.hidden
+);
 }
 
 if (el.requestSection) {
 const observer = new MutationObserver(function () {
+
 if (
 requestIsVisible() &&
 !state.chatStarted &&
@@ -592,6 +738,7 @@ requestIsVisible() &&
 ) {
 prepareNextMessenger();
 }
+
 });
 
 observer.observe(el.requestSection, {
@@ -606,17 +753,31 @@ INITIALIZE
 
 prepareNextMessenger();
 
-if (requestIsVisible() && !currentMessenger) {
-prepareNextMessenger();
-}
-
-/* Recheck after account details load. */
-
-window.addEventListener("ridelesschat:user-loaded", function () {
+window.addEventListener(
+"ridelesschat:user-loaded",
+function () {
 if (!state.chatStarted && !state.chatFinished) {
 prepareNextMessenger();
 }
-});
+}
+);
+
+/* =====================================
+PUBLIC CHAT.JS API
+===================================== */
+
+chat.messengerSystem = {
+getCurrentMessenger: function () {
+return activeMessenger || currentMessenger;
+},
+
+getAvailableCount: function () {
+return getAvailableMessengers().length;
+},
+
+getUsedMessengers: getUsedMessengers,
+
+prepareNextMessenger: prepareNextMessenger
+};
 
 })();
-
