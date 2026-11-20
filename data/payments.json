@@ -3765,18 +3765,19 @@
     "customerName": "Chibueze Daberechi Emmanuel",
     "email": "daberechiemmanuel119@gmail.com",
     "phone": "+2348084234003",
-    "passwordHash": "scrypt$b8a6afa7839c62fbed5bebd7987cb151$1cbc8684067406f1aa2984fa0b7d9bdaed08d4f628c4072dd4ce9d3f60963c7bdce1c79a2cbc29f25e5b5c0e19ba3a5d47f547767874ddbb8f3a4999830e7eda",
+    "passwordHash": null,
     "amount": 3700,
     "amountKobo": 370000,
     "method": "paga",
     "provider": "movantra",
     "reference": "rc_1795199180277_bce51bad41",
-    "status": "pending",
+    "status": "approved",
     "statusTokenHash": "608fbd6a7135ae239e9c26d46b0b44a7153221635fd084ef13650634408f74ea",
     "activation": true,
     "createdAt": "2026-11-20T18:26:21.945Z",
-    "processedAt": null,
-    "activationExpiresAt": "2026-11-20T19:16:21.944Z"
+    "processedAt": "2026-11-20T18:28:31.193Z",
+    "activationExpiresAt": "2026-11-20T19:16:21.944Z",
+    "approvalSource": "movantra_webhook"
   },
   {
     "id": "PAY-RIDELESSCHAT-3310B8811FA89652",
