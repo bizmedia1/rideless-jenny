@@ -482,5 +482,16 @@
     "paymentId": "PAY-RIDELESSCHAT-3EB15594633C716A",
     "createdAt": "2026-11-20T19:26:46.240Z",
     "activatedAt": "2026-11-20T19:26:46.240Z"
+  },
+  {
+    "id": "RC-USER-565C05B4D7B4189A",
+    "fullName": "Yaya Yusuf lbrahim",
+    "email": "jamesderick324@gmail.com",
+    "phone": "08054290222",
+    "passwordHash": "scrypt$3fa286ee20a16deb5e194adc98530a2b$ac6f35366e99ff7b23d7a4cb0a9e4f0352d3cddd6349b77399801adc3510cfe611098b2026bbc5ba6f7d3a76c5158ff4f657cac826ef6e160e04d1316040559a",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-87008F00106F39A3",
+    "createdAt": "2026-11-20T19:29:07.941Z",
+    "activatedAt": "2026-11-20T19:29:07.941Z"
   }
 ]
