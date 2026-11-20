@@ -262,5 +262,16 @@
     "paymentId": "PAY-RIDELESSCHAT-15E20AC01EDD2FA1",
     "createdAt": "2026-11-20T17:13:11.563Z",
     "activatedAt": "2026-11-20T17:13:11.563Z"
+  },
+  {
+    "id": "RC-USER-FD77AAB00ACDDF12",
+    "fullName": "Anibaba Olamilekan",
+    "email": "anibabaolami06@gmail.com",
+    "phone": "08066076728",
+    "passwordHash": "scrypt$d38a79ff1b17c9a0bb6dbfae9420a292$74c7e1d065a63d5e28317f10d7b0af5f968a0a79cd818cedc82f6e8f1a4415fb6b07f417c4a1d6e6a732016d85334f763a60837ef5aa5404b49de1fe5bd7c159",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-DC7FCCFEF69DB376",
+    "createdAt": "2026-11-20T17:18:13.464Z",
+    "activatedAt": "2026-11-20T17:18:13.464Z"
   }
 ]
