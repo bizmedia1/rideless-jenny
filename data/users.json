@@ -284,5 +284,16 @@
     "paymentId": "PAY-RIDELESSCHAT-86935175188B0849",
     "createdAt": "2026-11-20T17:25:42.849Z",
     "activatedAt": "2026-11-20T17:25:42.849Z"
+  },
+  {
+    "id": "RC-USER-65EC038025859AC8",
+    "fullName": "James emmanuella",
+    "email": "emmanuellajames498@gmail.com",
+    "phone": "07071423330",
+    "passwordHash": "scrypt$afeff519f97c0f427ef150a911c2f117$d43748528b958d438eb1e9ce12d7e92770cf306fd277b00390ed8ff26a0237eabee3880531efbd084be9d6759fb8fd497a059d6578b850880b106b684dc9ec82",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-24E56F1BB73039F4",
+    "createdAt": "2026-11-20T17:27:29.401Z",
+    "activatedAt": "2026-11-20T17:27:29.401Z"
   }
 ]
