@@ -941,5 +941,23 @@
     "activationExpiresAt": "2026-11-20T09:23:36.165Z",
     "supersededAt": "2026-11-20T08:34:08.849Z",
     "supersededReason": "New payment amount selected"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-0C4EEF4270098623",
+    "customerName": "Rose tifa Peter",
+    "email": "peterosetifa@gmail.com",
+    "phone": "09167895889",
+    "passwordHash": "scrypt$22207981143c2fcfef9ebb5d29a9d0c6$8dd011dabcf0e561f321adeefd801238b5061ec5cede85b3935354fed654f96196276088b804b94931661088c318e7e99932d539d004fd18063deea6d02d4512",
+    "amount": 5200,
+    "amountKobo": 520000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795163650004_e3b4cd9763",
+    "status": "pending",
+    "statusTokenHash": "cee2b147d8127ed4ba4ea764605673a14450d4e7b79bce67d4a54e19aac11748",
+    "activation": true,
+    "createdAt": "2026-11-20T08:34:11.139Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-20T09:24:11.138Z"
   }
 ]
