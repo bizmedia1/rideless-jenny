@@ -2901,18 +2901,19 @@
     "customerName": "Anibaba Olamilekan",
     "email": "anibabaolami06@gmail.com",
     "phone": "08066076728",
-    "passwordHash": "scrypt$d38a79ff1b17c9a0bb6dbfae9420a292$74c7e1d065a63d5e28317f10d7b0af5f968a0a79cd818cedc82f6e8f1a4415fb6b07f417c4a1d6e6a732016d85334f763a60837ef5aa5404b49de1fe5bd7c159",
+    "passwordHash": null,
     "amount": 3700,
     "amountKobo": 370000,
     "method": "paga",
     "provider": "movantra",
     "reference": "rc_1795194992551_cebe4b1374",
-    "status": "pending",
+    "status": "approved",
     "statusTokenHash": "d3d99785a7869167e0dd939c85503fc87f8616ebcd145d05a5475307c6daaa65",
     "activation": true,
     "createdAt": "2026-11-20T17:16:33.469Z",
-    "processedAt": null,
-    "activationExpiresAt": "2026-11-20T18:06:33.469Z"
+    "processedAt": "2026-11-20T17:18:14.664Z",
+    "activationExpiresAt": "2026-11-20T18:06:33.469Z",
+    "approvalSource": "movantra_webhook"
   },
   {
     "id": "PAY-RIDELESSCHAT-C22905CC2B3986DF",
