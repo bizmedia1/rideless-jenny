@@ -295,5 +295,16 @@
     "paymentId": "PAY-RIDELESSCHAT-24E56F1BB73039F4",
     "createdAt": "2026-11-20T17:27:29.401Z",
     "activatedAt": "2026-11-20T17:27:29.401Z"
+  },
+  {
+    "id": "RC-USER-6D5EECF2F74D5E88",
+    "fullName": "Ella",
+    "email": "ella@gmail.com",
+    "phone": "07037129955",
+    "passwordHash": "scrypt$d9fe3559996b31db29440786710dc92a$f120628e0b71c101ce84c27add86a404a25747207970c90ecea4116ed4bf6875165390dda9701ab0cd94d88573f8f32c7a8245a0c1dcb4f587b987e92e117934",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-1848245573B07F61",
+    "createdAt": "2026-11-20T17:39:18.876Z",
+    "activatedAt": "2026-11-20T17:39:18.876Z"
   }
 ]
