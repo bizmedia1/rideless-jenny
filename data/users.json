@@ -680,5 +680,16 @@
     "paymentId": "PAY-RIDELESSCHAT-C350F05EBA1D5DD7",
     "createdAt": "2026-11-20T21:10:04.698Z",
     "activatedAt": "2026-11-20T21:10:04.698Z"
+  },
+  {
+    "id": "RC-USER-06DEE628B29AA100",
+    "fullName": "Joy Jite",
+    "email": "jitejoy40@gmail.com",
+    "phone": "09160151914",
+    "passwordHash": "scrypt$1435d37413f175b3b7facd2cb1f2dab3$04b5257e0c2475739169e0060e30557fe61233ede3cce9e1a892603593de1ca957ff4024245106d49e04c50559e6b29f56ef23f071899a79d4dbe12f481f3164",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-EAF29AA7345C78A7",
+    "createdAt": "2026-11-20T21:17:02.707Z",
+    "activatedAt": "2026-11-20T21:17:02.707Z"
   }
 ]
