@@ -559,5 +559,16 @@
     "paymentId": "PAY-RIDELESSCHAT-86C52A91B3C11A08",
     "createdAt": "2026-11-20T19:56:34.612Z",
     "activatedAt": "2026-11-20T19:56:34.612Z"
+  },
+  {
+    "id": "RC-USER-847EE7F32A1A5C75",
+    "fullName": "Okun endurance",
+    "email": "endyayo75@gmail.com",
+    "phone": "09038258652",
+    "passwordHash": "scrypt$f83149773c3274f04d1f0e58fcf61c3a$7352f43101424520c019d050550f8243e708dafefee4fbf6c64af018ce38c7d585cb45507f24b481774acbb43ebe395efa7705e00948bf6b98df4a59b5a760c2",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-2ADB5DE1E33B6ADB",
+    "createdAt": "2026-11-20T19:59:06.738Z",
+    "activatedAt": "2026-11-20T19:59:06.738Z"
   }
 ]
