@@ -724,5 +724,16 @@
     "paymentId": "PAY-RIDELESSCHAT-0B8944CE94F85A47",
     "createdAt": "2026-11-20T21:46:58.280Z",
     "activatedAt": "2026-11-20T21:46:58.280Z"
+  },
+  {
+    "id": "RC-USER-EAA1693D892D0450",
+    "fullName": "Obasi Victor",
+    "email": "chinonsoobasiv@gmail.com",
+    "phone": "08139759806",
+    "passwordHash": "scrypt$009b11e52a24426098fe8126625f2d2d$8ca0223f285d8303e590a9849bf580f8b465f4714e4017554784ebca0a8ee213778cff4f3c1d6df461cfc137769ef9537b1491572eb7216368a75dbf7669308c",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-81D8333B4603A939",
+    "createdAt": "2026-11-20T21:47:59.032Z",
+    "activatedAt": "2026-11-20T21:47:59.032Z"
   }
 ]
