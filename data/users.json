@@ -185,5 +185,16 @@
     "paymentId": "PAY-RIDELESSCHAT-335952014C77C010",
     "createdAt": "2026-11-20T09:48:32.475Z",
     "activatedAt": "2026-11-20T09:48:32.475Z"
+  },
+  {
+    "id": "RC-USER-76420B0893054418",
+    "fullName": "Kor Agatha",
+    "email": "agathakor83@gmail.com",
+    "phone": "08133054604",
+    "passwordHash": "scrypt$66746d4efe18cbbb2c078941448cec87$76b3b78250ea02a5249e2392ee8b902314fd760b9060ff7beaba9c7c760977570552079fa267005da5a4e05e6ceca5440e898aa5be1a13da3d2479aba933664c",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-3781EDD64AF860AC",
+    "createdAt": "2026-11-20T10:37:03.999Z",
+    "activatedAt": "2026-11-20T10:37:03.999Z"
   }
 ]
