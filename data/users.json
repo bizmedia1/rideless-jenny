@@ -603,5 +603,16 @@
     "paymentId": "PAY-RIDELESSCHAT-4039D2526C1EE033",
     "createdAt": "2026-11-20T20:05:47.313Z",
     "activatedAt": "2026-11-20T20:05:47.313Z"
+  },
+  {
+    "id": "RC-USER-1303374023E72822",
+    "fullName": "Iruoma ogonnaya",
+    "email": "iruoma650@gmail.com",
+    "phone": "09136109748",
+    "passwordHash": "scrypt$fa1a90015ab661a8c6fc9320bd64d0d4$8520b300f081ecd3414c42d50a3922d622eb40fc074fde7ac2b4c1250a825f81784c1a1601ba04c9a3247d9c3d67db500f34f31145521017d89454a515b4b20b",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-DA9DE06AADA6BF68",
+    "createdAt": "2026-11-20T20:10:51.424Z",
+    "activatedAt": "2026-11-20T20:10:51.424Z"
   }
 ]
