@@ -6623,5 +6623,23 @@
     "activationExpiresAt": "2026-11-20T23:05:30.499Z",
     "supersededAt": "2026-11-20T22:15:33.033Z",
     "supersededReason": "New payment amount selected"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-5EA0FF87886C5251",
+    "customerName": "Eustache Avlessi",
+    "email": "eustoavlessi@gmail.com",
+    "phone": "7043252665",
+    "passwordHash": "scrypt$43f73d0f33c13fb7916d910eba0f2270$684b57685534aa319f6239c0029b9c72e49facf92d7db3a15f9c517f226054c83bad1043580c0733da95392eea2ca554dc95ec50c77e7c60ddaa6af2ba7d11fb",
+    "amount": 3700,
+    "amountKobo": 370000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795212934329_d6b4e04056",
+    "status": "pending",
+    "statusTokenHash": "d8dbffa05e4c846553f8054e23cfae72daea99d06f3ed6422099685bce5eb6e1",
+    "activation": true,
+    "createdAt": "2026-11-20T22:15:35.447Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-20T23:05:35.447Z"
   }
 ]
