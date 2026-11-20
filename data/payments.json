@@ -5340,5 +5340,23 @@
     "activationExpiresAt": "2026-11-20T20:56:03.260Z",
     "supersededAt": "2026-11-20T20:06:31.916Z",
     "supersededReason": "New payment amount selected"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-43607A8C36F508A0",
+    "customerName": "Favour Mutzok",
+    "email": "favourmutzok@gmail.com",
+    "phone": "07046387837",
+    "passwordHash": "scrypt$af9a9edd948ce47d7a5bc7a08f0e768e$263df86bb433b83236a218339e6741863456403acdc903e58468d7a8cc74dfe2583239de3a956ff25a2ba1058474796d1739d96e7553a4158e0926680121b6f0",
+    "amount": 5200,
+    "amountKobo": 520000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795205193149_fbaba782bf",
+    "status": "pending",
+    "statusTokenHash": "a9a0a506131c01be4663978cdd8c77b7b35f9e505f3674862d2db62370ca3a2e",
+    "activation": true,
+    "createdAt": "2026-11-20T20:06:34.089Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-20T20:56:34.089Z"
   }
 ]
