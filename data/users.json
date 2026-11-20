@@ -515,5 +515,16 @@
     "paymentId": "PAY-RIDELESSCHAT-0D968F8137D5657F",
     "createdAt": "2026-11-20T19:35:57.714Z",
     "activatedAt": "2026-11-20T19:35:57.714Z"
+  },
+  {
+    "id": "RC-USER-06510CD1221B5E65",
+    "fullName": "Christopher miracle munachi",
+    "email": "christophermunachi161@gmail.com",
+    "phone": "08062179704",
+    "passwordHash": "scrypt$85c88375e4599f29f312a6736c2d2ee9$3a834681484ec35930f8fbf00fa0eb77229ad25576ee096a41f0a0d9c32630f442c2ed99a59cb6d077beec0f2a976fabda844fb6e3e9015e139eb25a26dc91c9",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-8C6A2CC7DFDE2AF0",
+    "createdAt": "2026-11-20T19:41:09.715Z",
+    "activatedAt": "2026-11-20T19:41:09.715Z"
   }
 ]
