@@ -229,5 +229,16 @@
     "paymentId": "PAY-RIDELESSCHAT-AA5D4DC6683963E3",
     "createdAt": "2026-11-20T17:03:33.752Z",
     "activatedAt": "2026-11-20T17:03:33.752Z"
+  },
+  {
+    "id": "RC-USER-BBDE201467C45B7E",
+    "fullName": "Harmony",
+    "email": "matthewharmony246@gmail.com",
+    "phone": "7078325929",
+    "passwordHash": "scrypt$e59b98d82544da9996a1e92eef3ba68d$09558741ced687e3b4577dc5f8af635873610f2e4e5860d4b7e232f8fb22ac117973fb24cefe536904a691530ccc3da860e256aaf30adb220d7551274be83097",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-CDDBCB90D1043664",
+    "createdAt": "2026-11-20T17:05:59.663Z",
+    "activatedAt": "2026-11-20T17:05:59.663Z"
   }
 ]
