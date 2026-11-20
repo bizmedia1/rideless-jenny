@@ -592,5 +592,16 @@
     "paymentId": "PAY-RIDELESSCHAT-9B7C046515729289",
     "createdAt": "2026-11-20T20:02:16.389Z",
     "activatedAt": "2026-11-20T20:02:16.389Z"
+  },
+  {
+    "id": "RC-USER-4832668655870A59",
+    "fullName": "Nazzay beauty",
+    "email": "beautynazzy04@gmail.com",
+    "phone": "09025879950",
+    "passwordHash": "scrypt$5ffbcf3981fc26a00c1efac67a2c4b61$1ba7470380936a41e4d29b66e129401e1499d7838f879ea484839057f42959741fc8e1963f3bbfa2a047daf9e72c2de8d3bb8197ed93e69dee7c657bc85c3e17",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-4039D2526C1EE033",
+    "createdAt": "2026-11-20T20:05:47.313Z",
+    "activatedAt": "2026-11-20T20:05:47.313Z"
   }
 ]
