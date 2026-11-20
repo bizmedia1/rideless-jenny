@@ -691,5 +691,16 @@
     "paymentId": "PAY-RIDELESSCHAT-EAF29AA7345C78A7",
     "createdAt": "2026-11-20T21:17:02.707Z",
     "activatedAt": "2026-11-20T21:17:02.707Z"
+  },
+  {
+    "id": "RC-USER-DBFE26048DD6E4DB",
+    "fullName": "Amos zaphania",
+    "email": "zephaniahamos134@gmail.com",
+    "phone": "09072805164",
+    "passwordHash": "scrypt$17acf2121077f3300ce6261dffd41dee$8a39edf192b1bd24a17b7c64c278a5de6186a1391d715dace878676d2556d81b6925344588e1b0ba52279efca8167d489f870e42aff0a6918ef3cfd39ab03cdb",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-548427483CBC03D8",
+    "createdAt": "2026-11-20T21:18:42.936Z",
+    "activatedAt": "2026-11-20T21:18:42.936Z"
   }
 ]
