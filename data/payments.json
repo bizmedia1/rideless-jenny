@@ -2018,5 +2018,23 @@
     "activationExpiresAt": "2026-11-20T14:15:58.239Z",
     "supersededAt": "2026-11-20T13:26:01.230Z",
     "supersededReason": "New payment amount selected"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-F7DC9F9353934F6B",
+    "customerName": "Ugo bright Opara",
+    "email": "ugoo48585@gmail.com",
+    "phone": "+234 916-241-84-62",
+    "passwordHash": "scrypt$f146aec6636456d38905add5468d67fc$7d8c01c987cced4c0674cb873249dd0b8adcbf547688c92b379c50a229a2a42d8dedc76edfaf5ea1271b40a84f6fd0c6195a1498bb3c489c4f7a672efb0f1e90",
+    "amount": 5200,
+    "amountKobo": 520000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795181162393_9d95ac3831",
+    "status": "pending",
+    "statusTokenHash": "1b3ac4ef214492ab3423f1d2dbca87e5dba7ee35ebf1f77cdc5bc564cbcc9c9e",
+    "activation": true,
+    "createdAt": "2026-11-20T13:26:03.305Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-20T14:16:03.305Z"
   }
 ]
