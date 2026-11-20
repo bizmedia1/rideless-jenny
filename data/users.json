@@ -328,5 +328,16 @@
     "paymentId": "PAY-RIDELESSCHAT-1FA7686FC536F9ED",
     "createdAt": "2026-11-20T17:52:28.571Z",
     "activatedAt": "2026-11-20T17:52:28.571Z"
+  },
+  {
+    "id": "RC-USER-C01701D5D8E132C2",
+    "fullName": "Divine minka",
+    "email": "agbordivine008@gmail.com",
+    "phone": "09018767906",
+    "passwordHash": "scrypt$1038d6a7c79716193f2a45a94cbf9495$4235de96e99952e70b7f9a9129455557448a81952a620b9fbd8842f1c6c46e1309b3c4a699927567630dddd4c951f269c4f78aefeb51a34cbd51c0598e2db73e",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-F76AFB83B8834FA4",
+    "createdAt": "2026-11-20T17:57:54.599Z",
+    "activatedAt": "2026-11-20T17:57:54.599Z"
   }
 ]
