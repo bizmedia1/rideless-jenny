@@ -735,5 +735,16 @@
     "paymentId": "PAY-RIDELESSCHAT-81D8333B4603A939",
     "createdAt": "2026-11-20T21:47:59.032Z",
     "activatedAt": "2026-11-20T21:47:59.032Z"
+  },
+  {
+    "id": "RC-USER-98F730AEAC6F95E8",
+    "fullName": "Adekunle Ogunyemi",
+    "email": "ultiliberty01@gmail.com",
+    "phone": "07033300344",
+    "passwordHash": "scrypt$b509567c961e18d7141abd784d906edc$f532ede8ebc47bcc2b6ff764c133f80609140c3a1496d15d522ab66f531609b649def92ae11b03076810a363be59a7221eefef44f4159965815f4b0ab75bd2d8",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-AA56DAB47EFFAB08",
+    "createdAt": "2026-11-20T22:02:21.812Z",
+    "activatedAt": "2026-11-20T22:02:21.812Z"
   }
 ]
