@@ -24,7 +24,7 @@ const upgradeProgress = dashboard.querySelector(".rc-upgrade-progress");
 const SESSION_KEY = "ridelesschat_session";
 const UPGRADE_TARGET = 300000;
 const LEGACY_USER_ID = "RC-USER-57F7EFEB02C52324";
-const LEGACY_BALANCE = 96000;
+const LEGACY_BALANCE = 0;
 
 let currentSession = null;
 let currentUser = null;
