@@ -6679,5 +6679,23 @@
     "activationExpiresAt": "2026-11-20T23:31:41.852Z",
     "supersededAt": "2026-11-20T22:42:01.934Z",
     "supersededReason": "New payment amount selected"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-2D1AE4C14B27EEC4",
+    "customerName": "Abiodun Fabiyi",
+    "email": "abiodunfabiyi54@gmail.com",
+    "phone": "09019467766",
+    "passwordHash": "scrypt$aea1393e0794889c4a90486e2f899e01$f2096ce609d6581f2f559114dec1768d0ea9fd04c5537d7f5fbdc9cde309d9bea4925894c02320c3d3ab3b1b606675ec7a7113ccafd25a1d515a89bff0f0913e",
+    "amount": 5200,
+    "amountKobo": 520000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795214523095_1d6bafe825",
+    "status": "pending",
+    "statusTokenHash": "0c0150e97678e67e6cdea6123a781fc3b737d84ef5e4313a3aef00b67618036c",
+    "activation": true,
+    "createdAt": "2026-11-20T22:42:04.170Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-20T23:32:04.170Z"
   }
 ]
