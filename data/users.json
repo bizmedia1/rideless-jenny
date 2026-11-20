@@ -669,5 +669,16 @@
     "paymentId": "PAY-RIDELESSCHAT-A074F9C05DA77B7A",
     "createdAt": "2026-11-20T21:08:34.461Z",
     "activatedAt": "2026-11-20T21:08:34.461Z"
+  },
+  {
+    "id": "RC-USER-778D65345DCF042A",
+    "fullName": "Mustapha Hakeem",
+    "email": "mhbtwenty3@gmail.com",
+    "phone": "08034597305",
+    "passwordHash": "scrypt$352987f4dc820aeca5c007bb65ce6de5$4ee9dd7b70da6bdec9a0aa205ab7ce647736bf264be8471107bedceb92b4e4880f854b70c106cea141df177343fd406d64513225cb38a97bdba1ef071672f4e3",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-C350F05EBA1D5DD7",
+    "createdAt": "2026-11-20T21:10:04.698Z",
+    "activatedAt": "2026-11-20T21:10:04.698Z"
   }
 ]
