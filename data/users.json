@@ -306,5 +306,16 @@
     "paymentId": "PAY-RIDELESSCHAT-1848245573B07F61",
     "createdAt": "2026-11-20T17:39:18.876Z",
     "activatedAt": "2026-11-20T17:39:18.876Z"
+  },
+  {
+    "id": "RC-USER-19271EE1A3280C74",
+    "fullName": "Victory love",
+    "email": "giftb1675@gmail.com",
+    "phone": "07082006022",
+    "passwordHash": "scrypt$c9c6ada5e89480697fd7617cc93cb6e5$59d0ab9943b8efcf05cab37b1a7fc152b4f475a1e01f67feddca2d2a3e229e1c75f54856efdb0215c055631d6f1c3b4f1cb3137051185f32add037b18af3fdca",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-41549DE0919BF819",
+    "createdAt": "2026-11-20T17:43:45.766Z",
+    "activatedAt": "2026-11-20T17:43:45.766Z"
   }
 ]
