@@ -1188,17 +1188,18 @@
     "customerName": "Okonye Blessing",
     "email": "blessingokonye111@gmail.com",
     "phone": "08139434928",
-    "passwordHash": "scrypt$e4128592c8a73ab13446ee4a29f0c48d$ef03a603926db39191598ce83f7de99858e28ff45a095259071af9f27932794e24b3a2ad591b71d3f798b2a3832bc2e7b5a90f76fa3f0843629678fa87a265a6",
+    "passwordHash": null,
     "amount": 5200,
     "amountKobo": 520000,
     "method": "paga",
     "provider": "movantra",
     "reference": "rc_1795164722029_a0b676d268",
-    "status": "pending",
+    "status": "approved",
     "statusTokenHash": "df77af2315dfd3f720551a16d4373c1ad92e4dc67a16bca005b299c27fb242d0",
     "activation": true,
     "createdAt": "2026-11-20T08:52:02.959Z",
-    "processedAt": null,
-    "activationExpiresAt": "2026-11-20T09:42:02.959Z"
+    "processedAt": "2026-11-20T08:52:49.234Z",
+    "activationExpiresAt": "2026-11-20T09:42:02.959Z",
+    "approvalSource": "movantra_webhook"
   }
 ]
