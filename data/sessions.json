@@ -420,11 +420,10 @@
     "expiresAt": 1797796687320
   },
   {
-    "id": "17e20dc1-6848-4adb-8bc7-24080f97aa81",
-    "tokenHash": "a32154a13cdb15f1da9899a139ed1114b8a5a54fe03be6195ac2f59ef6944119",
-    "userId": "RC-USER-847EE7F32A1A5C75",
-    "paymentId": "PAY-RIDELESSCHAT-2ADB5DE1E33B6ADB",
-    "createdAt": "2026-11-20T19:59:17.208Z",
-    "expiresAt": "2026-12-20T19:59:17.208Z"
+    "id": "ec35ca8a-e8fd-4cb9-a72f-e704ba7a8bdd",
+    "userId": "RC-USER-06510CD1221B5E65",
+    "tokenHash": "30354a8e615284ff764e227d7f58091d16fcf254fbd33a868fc059cf6b830d25",
+    "createdAt": "2026-11-20T20:00:46.314Z",
+    "expiresAt": 1797796846314
   }
 ]
