@@ -372,5 +372,16 @@
     "paymentId": "PAY-RIDELESSCHAT-DEF5D2AE0F23F315",
     "createdAt": "2026-11-20T18:28:16.173Z",
     "activatedAt": "2026-11-20T18:28:16.173Z"
+  },
+  {
+    "id": "RC-USER-B783729C96777707",
+    "fullName": "Chibueze Daberechi Emmanuel",
+    "email": "daberechiemmanuel119@gmail.com",
+    "phone": "+2348084234003",
+    "passwordHash": "scrypt$b8a6afa7839c62fbed5bebd7987cb151$1cbc8684067406f1aa2984fa0b7d9bdaed08d4f628c4072dd4ce9d3f60963c7bdce1c79a2cbc29f25e5b5c0e19ba3a5d47f547767874ddbb8f3a4999830e7eda",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-A0BEB42B4FBF143F",
+    "createdAt": "2026-11-20T18:28:30.094Z",
+    "activatedAt": "2026-11-20T18:28:30.094Z"
   }
 ]
