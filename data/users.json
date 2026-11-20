@@ -350,5 +350,16 @@
     "paymentId": "PAY-RIDELESSCHAT-FD2E3C019985A2B1",
     "createdAt": "2026-11-20T18:01:54.978Z",
     "activatedAt": "2026-11-20T18:01:54.978Z"
+  },
+  {
+    "id": "RC-USER-D9F5F7806E3BCC93",
+    "fullName": "Ayomide Olamide",
+    "email": "olobaqdot12@gmail.com",
+    "phone": "07048939319",
+    "passwordHash": "scrypt$d1d0a3c0f64be672403a6659df542f33$788debe9e7123b7e3bec3fcfa59fe958643cb35361653c28be1f2bcd3dc79ba2ec2aba521667b2bbe55051727272b06f30673ae05c1d527fc5968614d7102be8",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-93512F4A0FE77195",
+    "createdAt": "2026-11-20T18:12:29.486Z",
+    "activatedAt": "2026-11-20T18:12:29.486Z"
   }
 ]
