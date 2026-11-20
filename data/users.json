@@ -614,5 +614,16 @@
     "paymentId": "PAY-RIDELESSCHAT-DA9DE06AADA6BF68",
     "createdAt": "2026-11-20T20:10:51.424Z",
     "activatedAt": "2026-11-20T20:10:51.424Z"
+  },
+  {
+    "id": "RC-USER-38D518817701A621",
+    "fullName": "bright micheal",
+    "email": "brightchimezie809792@gmail.com",
+    "phone": "09114845362",
+    "passwordHash": "scrypt$27760682ea47dc2511b95346c7dfd1b8$73afd2c4ec311705c8f8a8ac44ffeb777a1c5d01be2b7203426cf2fbdc852d3a00aaca3d47e8dc7ca63a3486e2a424158b6ec3f7ab5b038b5f72b3d84172595c",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-BAA464945C7AC739",
+    "createdAt": "2026-11-20T20:18:54.596Z",
+    "activatedAt": "2026-11-20T20:18:54.596Z"
   }
 ]
