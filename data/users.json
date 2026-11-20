@@ -394,5 +394,16 @@
     "paymentId": "PAY-RIDELESSCHAT-AD37F4820392AB25",
     "createdAt": "2026-11-20T18:37:56.210Z",
     "activatedAt": "2026-11-20T18:37:56.210Z"
+  },
+  {
+    "id": "RC-USER-E318078783F45A9A",
+    "fullName": "Chikodiri Gregory",
+    "email": "chikodirigregory510@gmail.com",
+    "phone": "9050814317",
+    "passwordHash": "scrypt$6a85a30fc6d0f3aa451211db36d5de1f$87fc619e2d6564b5cf46a4db310e16c560048dd439d15c966559d41209c7325e250dfdbe917189e6ef855ace8621eac9028d146e150bd5d3bdfd32dec99716fd",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-CB9E9C09FEFB0412",
+    "createdAt": "2026-11-20T18:39:36.329Z",
+    "activatedAt": "2026-11-20T18:39:36.329Z"
   }
 ]
