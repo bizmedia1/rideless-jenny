@@ -471,5 +471,16 @@
     "paymentId": "PAY-RIDELESSCHAT-721A943F408D9374",
     "createdAt": "2026-11-20T19:21:56.592Z",
     "activatedAt": "2026-11-20T19:21:56.592Z"
+  },
+  {
+    "id": "RC-USER-8F49BDC87D9BDDEC",
+    "fullName": "David Innocent",
+    "email": "davinno2011@gmail.com",
+    "phone": "07080855504",
+    "passwordHash": "scrypt$9a1ebaffcc51c2606974aea94b8c84f7$4913ac6dcda8544ab8876ee3d3e001eed147202679929162f35f0cffc7532ccc402504f8e3cd4104342c7e15c93f9f2120f8a4bc25e95506b149674cf2e22b56",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-3EB15594633C716A",
+    "createdAt": "2026-11-20T19:26:46.240Z",
+    "activatedAt": "2026-11-20T19:26:46.240Z"
   }
 ]
