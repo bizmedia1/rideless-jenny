@@ -460,5 +460,16 @@
     "paymentId": "PAY-RIDELESSCHAT-23CED1389CE6240F",
     "createdAt": "2026-11-20T19:15:25.427Z",
     "activatedAt": "2026-11-20T19:15:25.427Z"
+  },
+  {
+    "id": "RC-USER-CDE2DCE136D4CF77",
+    "fullName": "AISHAT Abdulhakeem",
+    "email": "aishatabdulhakeem145@gmail.com",
+    "phone": "09167133183",
+    "passwordHash": "scrypt$846169d8edb5306a36f80bd83fcdd9a5$8f6f8e0de7b1b5f420d1bfbe366aaa7febdcef58c6cf60ff4183656a3339e46ad7090f04b341612e5f572dbde8b4b6030e3f6972d711c6183ab03ca36c55ca37",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-721A943F408D9374",
+    "createdAt": "2026-11-20T19:21:56.592Z",
+    "activatedAt": "2026-11-20T19:21:56.592Z"
   }
 ]
