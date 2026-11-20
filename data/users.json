@@ -526,5 +526,16 @@
     "paymentId": "PAY-RIDELESSCHAT-8C6A2CC7DFDE2AF0",
     "createdAt": "2026-11-20T19:41:09.715Z",
     "activatedAt": "2026-11-20T19:41:09.715Z"
+  },
+  {
+    "id": "RC-USER-9ED9A79F575AA4D0",
+    "fullName": "Humphrey",
+    "email": "okechukwuebuka867@gmail.como",
+    "phone": "08033701042",
+    "passwordHash": "scrypt$875fc08a0fe583fc75e4c17cc3ae178e$7677fc43ce69713b2b9c3013fc4c81b5b2723896b3cc937ccb0105f6c77adca5068adaedf45e9ccd8a67f1fa6a8177345bb351945090617db58bfea3a45bcdc2",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-4EC145A467127712",
+    "createdAt": "2026-11-20T19:44:30.351Z",
+    "activatedAt": "2026-11-20T19:44:30.351Z"
   }
 ]
