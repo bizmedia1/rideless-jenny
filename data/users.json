@@ -207,5 +207,16 @@
     "paymentId": "PAY-RIDELESSCHAT-5EDCE5ED91B625A3",
     "createdAt": "2026-11-20T11:44:21.833Z",
     "activatedAt": "2026-11-20T11:44:21.833Z"
+  },
+  {
+    "id": "RC-USER-A4A197C626A136F5",
+    "fullName": "Chioma joy",
+    "email": "joychioma153@gmail.com",
+    "phone": "09021322321",
+    "passwordHash": "scrypt$e59065bd512da7c2cfbe3b46886ee97b$680e32e3d173d0d8dcba581f747b3aea341da327de8e3143c107efccb972f8f003d63b605cd39c68a1626178b6953a3ba477b807d0a8775d5a43c9f99b94e595",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-D6E45000F6E5D8EC",
+    "createdAt": "2026-11-20T14:57:45.731Z",
+    "activatedAt": "2026-11-20T14:57:45.731Z"
   }
 ]
