@@ -64,5 +64,16 @@
     "paymentId": "PAY-RIDELESSCHAT-0ACD14CD6F8A966D",
     "createdAt": "2026-11-19T17:22:52.663Z",
     "activatedAt": "2026-11-19T17:22:52.663Z"
+  },
+  {
+    "id": "RC-USER-DAA92BFF90F8EFBC",
+    "fullName": "Oluwafemi Ayomide Akinwumi",
+    "email": "akinfem44@gmail.com",
+    "phone": "07044018868",
+    "passwordHash": "scrypt$485ea185a997954374b65449e13f5efe$2eb72ef164ac246d12eb6bfe5482899901d240e346124ac19aa3df9918c42bf9799b781abdb776cedeb585b1280fae61d6324bac8d7221088f43fce718ee78da",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-39B7BEB969C8EECF",
+    "createdAt": "2026-11-20T02:11:55.923Z",
+    "activatedAt": "2026-11-20T02:11:55.923Z"
   }
 ]
