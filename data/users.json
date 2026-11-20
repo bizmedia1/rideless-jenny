@@ -702,5 +702,16 @@
     "paymentId": "PAY-RIDELESSCHAT-548427483CBC03D8",
     "createdAt": "2026-11-20T21:18:42.936Z",
     "activatedAt": "2026-11-20T21:18:42.936Z"
+  },
+  {
+    "id": "RC-USER-7422539BBC3FB5B3",
+    "fullName": "Edokpaigbe Maureen",
+    "email": "momosexy2011@yahoo.com",
+    "phone": "07061931533",
+    "passwordHash": "scrypt$a2626800fbe24f483feb82ff4e57d20f$d5fb10dd48e5022a5dbaf199a6d5452ea11356e17d5743b6c48f72326ad38a65b9a728a54e242eff16d1931c70016001533fafcbfb95d3e140ba89b402a7b391",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-8B73D29674420946",
+    "createdAt": "2026-11-20T21:31:52.505Z",
+    "activatedAt": "2026-11-20T21:31:52.505Z"
   }
 ]
