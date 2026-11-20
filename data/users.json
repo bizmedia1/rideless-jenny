@@ -361,5 +361,16 @@
     "paymentId": "PAY-RIDELESSCHAT-93512F4A0FE77195",
     "createdAt": "2026-11-20T18:12:29.486Z",
     "activatedAt": "2026-11-20T18:12:29.486Z"
+  },
+  {
+    "id": "RC-USER-9F89564E0706EE6D",
+    "fullName": "Ruth joseph",
+    "email": "ruthiebaby036@gmail.com",
+    "phone": "09049424864",
+    "passwordHash": "scrypt$70133a7383cb3678e7245864c1e4472b$2435f882da9b98f090caad617a081ab882cc76d7b353b9f26d7e0bd6a83adcfcf9ac3634b29ec966d3814e74353cbc74a1e332c24525db640b7f4a9e230d84cc",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-DEF5D2AE0F23F315",
+    "createdAt": "2026-11-20T18:28:16.173Z",
+    "activatedAt": "2026-11-20T18:28:16.173Z"
   }
 ]
