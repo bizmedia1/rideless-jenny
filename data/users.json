@@ -427,5 +427,16 @@
     "paymentId": "PAY-RIDELESSCHAT-023B6404AABC7F47",
     "createdAt": "2026-11-20T18:48:32.963Z",
     "activatedAt": "2026-11-20T18:48:32.963Z"
+  },
+  {
+    "id": "RC-USER-5B6B2132FC4F3959",
+    "fullName": "Offiong enaing Offiong",
+    "email": "offiongenaing7@gmail.com",
+    "phone": "08134711009",
+    "passwordHash": "scrypt$ecf80f91000f17b2f71da3020016ca97$f4bcc87affed30ac8f9078f438a55ddd71a72500d175b8ccbc4da22064e6adb5841c21d60627063cd6a7d7e1ffb3a362181211764768f6d8bc4b80726e2c808a",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-DE311B4C2BB69036",
+    "createdAt": "2026-11-20T18:53:09.479Z",
+    "activatedAt": "2026-11-20T18:53:09.479Z"
   }
 ]
