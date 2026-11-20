@@ -636,5 +636,16 @@
     "paymentId": "PAY-RIDELESSCHAT-2534143E39AA92B2",
     "createdAt": "2026-11-20T20:37:19.179Z",
     "activatedAt": "2026-11-20T20:37:19.179Z"
+  },
+  {
+    "id": "RC-USER-F20147D198E8447F",
+    "fullName": "Lekan",
+    "email": "mayj93586@gmail.com",
+    "phone": "08066767420",
+    "passwordHash": "scrypt$a4b60cdd0244f4ed26b11ac8efc625d1$ea72249419f2ed75ef6420e13b9aeb0678f375f4b9de5780d16b7a9364770884750a08b7afbfb2388e172da2637670acaa4e03e3621e17c29f9b861555dadc48",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-22427C2255944C81",
+    "createdAt": "2026-11-20T20:39:05.322Z",
+    "activatedAt": "2026-11-20T20:39:05.322Z"
   }
 ]
