@@ -218,5 +218,16 @@
     "paymentId": "PAY-RIDELESSCHAT-D6E45000F6E5D8EC",
     "createdAt": "2026-11-20T14:57:45.731Z",
     "activatedAt": "2026-11-20T14:57:45.731Z"
+  },
+  {
+    "id": "RC-USER-913D39AB697DC29B",
+    "fullName": "Bukola  olayemi kareem",
+    "email": "bukolaolayemi@gmail.com",
+    "phone": "07080989908",
+    "passwordHash": "scrypt$e12255a56c720e73c0c6fc7b26864903$af79c48edf42ec3d7e10dfa6e61bc90af845497cf0af5f8f0d0e71fd9ec1a2899f19c6326b48f04331baeb6f2544e65ba7d1c6c6ddf7928c9553c22bc96fed2e",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-AA5D4DC6683963E3",
+    "createdAt": "2026-11-20T17:03:33.752Z",
+    "activatedAt": "2026-11-20T17:03:33.752Z"
   }
 ]
