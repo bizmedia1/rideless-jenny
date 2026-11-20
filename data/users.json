@@ -251,5 +251,16 @@
     "paymentId": "PAY-RIDELESSCHAT-4BD59BB9D89C9C25",
     "createdAt": "2026-11-20T17:12:11.216Z",
     "activatedAt": "2026-11-20T17:12:11.216Z"
+  },
+  {
+    "id": "RC-USER-BEB3517347FB5025",
+    "fullName": "IGHORHIOHWUNU Joy",
+    "email": "ighorhiohwunujoy852@gmail.com",
+    "phone": "09168021135",
+    "passwordHash": "scrypt$165d289b9f3c8da8ec18d6fdab723ed2$ef436e97537a7b36c67c0142de6459087fd7ac2e52c2aaac693299a227d55607c19e2528f8058a1157b6c284f5a6aaa4a39b7f9cf1068f2ea7bdcb42f5881da1",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-15E20AC01EDD2FA1",
+    "createdAt": "2026-11-20T17:13:11.563Z",
+    "activatedAt": "2026-11-20T17:13:11.563Z"
   }
 ]
