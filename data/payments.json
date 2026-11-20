@@ -1133,18 +1133,19 @@
     "customerName": "Benson",
     "email": "b4564655@gmail.com",
     "phone": "07063483776",
-    "passwordHash": "scrypt$bb1562eb9970cad72ed6c22e84fd21e6$91d245f1fe6c6402cfb2b64770c80f2c334f0ddecdb31da7d92a0c9e5a475e6f37fcd0b9f190815b7f2beaae5f40d32023695f4151c146d51d460adbc1e3d963",
+    "passwordHash": null,
     "amount": 5200,
     "amountKobo": 520000,
     "method": "paga",
     "provider": "movantra",
     "reference": "rc_1795164683325_6c42d39005",
-    "status": "pending",
+    "status": "approved",
     "statusTokenHash": "75458dd2e728ff8f739e3ba882d3f02b7846eedc8dae780db3984c9cd4366f93",
     "activation": true,
     "createdAt": "2026-11-20T08:51:24.481Z",
-    "processedAt": null,
-    "activationExpiresAt": "2026-11-20T09:41:24.480Z"
+    "processedAt": "2026-11-20T08:52:24.364Z",
+    "activationExpiresAt": "2026-11-20T09:41:24.480Z",
+    "approvalSource": "movantra_webhook"
   },
   {
     "id": "PAY-RIDELESSCHAT-B61BFB995EC5C82B",
