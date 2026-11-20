@@ -6020,17 +6020,18 @@
     "customerName": "Mustapha Hakeem",
     "email": "mhbtwenty3@gmail.com",
     "phone": "08034597305",
-    "passwordHash": "scrypt$352987f4dc820aeca5c007bb65ce6de5$4ee9dd7b70da6bdec9a0aa205ab7ce647736bf264be8471107bedceb92b4e4880f854b70c106cea141df177343fd406d64513225cb38a97bdba1ef071672f4e3",
+    "passwordHash": null,
     "amount": 5200,
     "amountKobo": 520000,
     "method": "paga",
     "provider": "movantra",
     "reference": "rc_1795208903382_aeb684638f",
-    "status": "pending",
+    "status": "approved",
     "statusTokenHash": "bd4e45382534019d7fee045ab081a391a6cbcbce8b8d1fe0e993febb905eb965",
     "activation": true,
     "createdAt": "2026-11-20T21:08:24.735Z",
-    "processedAt": null,
-    "activationExpiresAt": "2026-11-20T21:58:24.735Z"
+    "processedAt": "2026-11-20T21:10:05.759Z",
+    "activationExpiresAt": "2026-11-20T21:58:24.735Z",
+    "approvalSource": "movantra_webhook"
   }
 ]
