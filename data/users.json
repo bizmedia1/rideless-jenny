@@ -240,5 +240,16 @@
     "paymentId": "PAY-RIDELESSCHAT-CDDBCB90D1043664",
     "createdAt": "2026-11-20T17:05:59.663Z",
     "activatedAt": "2026-11-20T17:05:59.663Z"
+  },
+  {
+    "id": "RC-USER-837741E192D98B6F",
+    "fullName": "Lilian Ozuem",
+    "email": "lilianozuem3@gmail.com",
+    "phone": "+2347068953357",
+    "passwordHash": "scrypt$f69a653c8158febe2bd64133d6fd3020$90f831cfeba5a27bd7d6171580ad6acda4c8f2a08ceddc235ec03b7c42b489e56df833458c0a947bb919f85961aca1763bb83ca7ccf66463bb7c5746f206f7fd",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-4BD59BB9D89C9C25",
+    "createdAt": "2026-11-20T17:12:11.216Z",
+    "activatedAt": "2026-11-20T17:12:11.216Z"
   }
 ]
