@@ -449,5 +449,16 @@
     "paymentId": "PAY-RIDELESSCHAT-B2F75D7462BF700B",
     "createdAt": "2026-11-20T19:02:49.056Z",
     "activatedAt": "2026-11-20T19:02:49.056Z"
+  },
+  {
+    "id": "RC-USER-01205F9CF9724499",
+    "fullName": "Blessing",
+    "email": "blessingfapohunda6@gmail.com",
+    "phone": "08037020790",
+    "passwordHash": "scrypt$b323b835233b73bcdba46b5ba05d6958$099d3e58a8eeb0a45c1bd3f0d7fae233b1e9614f0cd0cfaa13056c1a322c96b648fff4bf2998af692fe2a1c32d0cb59203c3c6801f4c491777432d08a24e2894",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-23CED1389CE6240F",
+    "createdAt": "2026-11-20T19:15:25.427Z",
+    "activatedAt": "2026-11-20T19:15:25.427Z"
   }
 ]
