@@ -757,5 +757,16 @@
     "paymentId": "PAY-RIDELESSCHAT-11DE55C8C6FAE712",
     "createdAt": "2026-11-20T22:07:37.245Z",
     "activatedAt": "2026-11-20T22:07:37.245Z"
+  },
+  {
+    "id": "RC-USER-80DB149B284E7687",
+    "fullName": "Chisom Onyeka",
+    "email": "chisomonyekamarvelous2009@gmail.com",
+    "phone": "09032505520",
+    "passwordHash": "scrypt$abd3ff30e85c8828e71572420ca77caf$3e102febb18a6bb1b0e134434de41c74dd1a78890e9c209c5ddae57192850aede2eb0d36a19bc6e3d13ff785f8f2c8b0dc37d03dd10026c7c2705bab2f464c00",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-37C6B99ECC12F2CD",
+    "createdAt": "2026-11-20T23:13:47.842Z",
+    "activatedAt": "2026-11-20T23:13:47.842Z"
   }
 ]
