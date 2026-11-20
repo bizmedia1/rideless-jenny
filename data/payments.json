@@ -5995,5 +5995,23 @@
     "createdAt": "2026-11-20T21:07:07.509Z",
     "processedAt": null,
     "activationExpiresAt": "2026-11-20T21:57:07.509Z"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-EAF29AA7345C78A7",
+    "customerName": "Joy Jite",
+    "email": "jitejoy40@gmail.com",
+    "phone": "09160151914",
+    "passwordHash": "scrypt$1435d37413f175b3b7facd2cb1f2dab3$04b5257e0c2475739169e0060e30557fe61233ede3cce9e1a892603593de1ca957ff4024245106d49e04c50559e6b29f56ef23f071899a79d4dbe12f481f3164",
+    "amount": 3700,
+    "amountKobo": 370000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795208830270_a13e223653",
+    "status": "pending",
+    "statusTokenHash": "8896c041fb73a10fb0fa8a9e35e88f804719fe3f164a3e008db7d06ce6cef06a",
+    "activation": true,
+    "createdAt": "2026-11-20T21:07:11.393Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-20T21:57:11.393Z"
   }
 ]
