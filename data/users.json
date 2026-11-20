@@ -86,5 +86,16 @@
     "paymentId": "PAY-RIDELESSCHAT-911F9F7AEF74F49C",
     "createdAt": "2026-11-20T07:28:25.406Z",
     "activatedAt": "2026-11-20T07:28:25.406Z"
+  },
+  {
+    "id": "RC-USER-0FDFFB3B9C9FB709",
+    "fullName": "sanusi jibril akanbi",
+    "email": "olawaleidris3611@gmail.com",
+    "phone": "08079455251",
+    "passwordHash": "scrypt$d208a53ae0a648a757cc1b4027bb9160$9a64a35f185baaa1c465de2226a60c3cc7ac07995be32ae98744c5151ff680669b214ff6ecd7d7682add75ee3d35100d3d7e2e4749e733722993e8a16c5694e7",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-6971FF1FCE336BCB",
+    "createdAt": "2026-11-20T08:18:00.349Z",
+    "activatedAt": "2026-11-20T08:18:00.349Z"
   }
 ]
