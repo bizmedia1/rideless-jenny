@@ -1888,5 +1888,23 @@
     "activationExpiresAt": "2026-11-20T12:38:09.701Z",
     "supersededAt": "2026-11-20T11:48:13.614Z",
     "supersededReason": "New payment amount selected"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-EB21AB717684400D",
+    "customerName": "Rifkatu Sai'du",
+    "email": "saidudaniel999@gmail.com",
+    "phone": "07088405023",
+    "passwordHash": "scrypt$2e21307e858128ca2b39bb636e398492$eea829aff78ab41bac2ed7d3576af5efd182bd6a178595d6d05fae321c93de46f2d6a7a7a447f760e9872795120ee0a0e828f661306b197cdf1937650b1a0fb1",
+    "amount": 3700,
+    "amountKobo": 370000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795175294772_93746a8a5f",
+    "status": "pending",
+    "statusTokenHash": "44634aed23db525fd43d7227928b2b034d3da5a685645c84dc224c442c14af3f",
+    "activation": true,
+    "createdAt": "2026-11-20T11:48:16.318Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-20T12:38:16.318Z"
   }
 ]
