@@ -108,5 +108,16 @@
     "paymentId": "PAY-RIDELESSCHAT-6C3F70DF6365295B",
     "createdAt": "2026-11-20T08:33:20.142Z",
     "activatedAt": "2026-11-20T08:33:20.142Z"
+  },
+  {
+    "id": "RC-USER-20724358C743B8D6",
+    "fullName": "Ikechukwu Victory",
+    "email": "victoryikechukwu28@gmail.com",
+    "phone": "09135674800",
+    "passwordHash": "scrypt$7398a4c94b4ec08001853b9a65fde740$82bfd0c0d7f9569eaa648d986696a0743fc71575f189dd109f81ad83d77f02d7d72d95b3c04acb94b9b898c25011e3e0e3c3782ea94f87b9762c1fa36a7ccf1a",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-1E547495451B28C9",
+    "createdAt": "2026-11-20T08:33:42.294Z",
+    "activatedAt": "2026-11-20T08:33:42.294Z"
   }
 ]
