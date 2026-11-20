@@ -713,5 +713,16 @@
     "paymentId": "PAY-RIDELESSCHAT-8B73D29674420946",
     "createdAt": "2026-11-20T21:31:52.505Z",
     "activatedAt": "2026-11-20T21:31:52.505Z"
+  },
+  {
+    "id": "RC-USER-51616659750FAFEF",
+    "fullName": "Promise chukwuchetam",
+    "email": "amuchearine@gmail.com",
+    "phone": "09161331757",
+    "passwordHash": "scrypt$3fc5d808424ed37ebac946b0d440a8cf$8edb837fa4582131d4ef498bd22628b204ab6329a41ea2cef7edbdbaac827b3d3a9bf79d8afad463c4648d14bf7529b31bf6e6547e6c21b034bf64f0ff4f6276",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-0B8944CE94F85A47",
+    "createdAt": "2026-11-20T21:46:58.280Z",
+    "activatedAt": "2026-11-20T21:46:58.280Z"
   }
 ]
