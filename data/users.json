@@ -746,5 +746,16 @@
     "paymentId": "PAY-RIDELESSCHAT-AA56DAB47EFFAB08",
     "createdAt": "2026-11-20T22:02:21.812Z",
     "activatedAt": "2026-11-20T22:02:21.812Z"
+  },
+  {
+    "id": "RC-USER-ABB4BF2D218AB6EB",
+    "fullName": "Godfirst andrew",
+    "email": "godfirstandrew2@gmail.com",
+    "phone": "08146583710",
+    "passwordHash": "scrypt$148a860f9fc22914bcdb777b387c3644$a6ec767b2fa00f652893f42903ee5cf5d2c06042f115f3d58bab7d1ab1f3efd3a41aa411bc26ecf4fe250cbd401a3e719eb7ba1be4908dd9c473e22c792b4b5f",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-11DE55C8C6FAE712",
+    "createdAt": "2026-11-20T22:07:37.245Z",
+    "activatedAt": "2026-11-20T22:07:37.245Z"
   }
 ]
