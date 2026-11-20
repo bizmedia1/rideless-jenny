@@ -343,51 +343,10 @@
     "expiresAt": 1797790723485
   },
   {
-    "id": "53b933ab-7421-4dda-b1ea-828fea67a76c",
-    "tokenHash": "ed1fa45a65ba57d664a74144f017dd27965f4292f773040a2d498b373c6b7013",
-    "userId": "RC-USER-9F89564E0706EE6D",
-    "paymentId": "PAY-RIDELESSCHAT-DEF5D2AE0F23F315",
-    "createdAt": "2026-11-20T18:28:39.119Z",
-    "expiresAt": "2026-12-20T18:28:39.119Z"
-  },
-  {
-    "id": "2fb4e747-e73b-456f-9671-0e9b91cfc114",
-    "tokenHash": "d2dd642bf8c546cd1561472a4f60723cad7c04c133957ddac201feb6cb9760d3",
-    "userId": "RC-USER-B783729C96777707",
-    "paymentId": "PAY-RIDELESSCHAT-A0BEB42B4FBF143F",
-    "createdAt": "2026-11-20T18:28:44.450Z",
-    "expiresAt": "2026-12-20T18:28:44.450Z"
-  },
-  {
-    "id": "74279026-4429-41e3-99db-52d9b5f899be",
-    "tokenHash": "12a5a4c724b0e7fca1b99f63086ea952647cdd3c2b85959e77791d0a953882d8",
-    "userId": "RC-USER-68D4D8FDC80F8F6C",
-    "paymentId": "PAY-RIDELESSCHAT-AD37F4820392AB25",
-    "createdAt": "2026-11-20T18:38:01.494Z",
-    "expiresAt": "2026-12-20T18:38:01.494Z"
-  },
-  {
-    "id": "5b6d4140-39f2-41f2-a05b-b6fd70459945",
-    "tokenHash": "002efdc8bfaa59afa4f4cdd667543774842042410356f350e76d58d06e0ced2e",
-    "userId": "RC-USER-E318078783F45A9A",
-    "paymentId": "PAY-RIDELESSCHAT-CB9E9C09FEFB0412",
-    "createdAt": "2026-11-20T18:40:45.602Z",
-    "expiresAt": "2026-12-20T18:40:45.602Z"
-  },
-  {
-    "id": "8bbfd0b2-f797-4e96-b05a-d56578652dce",
-    "tokenHash": "23c5161739787ebd59e5eb343f96044c0464b90c09c0fa658aa4a16ead127479",
-    "userId": "RC-USER-FA9E9B83E8EE2BD0",
-    "paymentId": "PAY-RIDELESSCHAT-E841B73C59B75506",
-    "createdAt": "2026-11-20T18:48:09.809Z",
-    "expiresAt": "2026-12-20T18:48:09.809Z"
-  },
-  {
-    "id": "64fcad65-5d3f-4445-a84e-b08056d2429d",
-    "tokenHash": "0253ee3692391849a2ce23880c6ae4afa099581c684718d5eae52010572ede16",
-    "userId": "RC-USER-48CE22C2694D2B53",
-    "paymentId": "PAY-RIDELESSCHAT-023B6404AABC7F47",
-    "createdAt": "2026-11-20T18:48:54.305Z",
-    "expiresAt": "2026-12-20T18:48:54.305Z"
+    "id": "27f5f446-f24a-421f-b5bc-34771f6f225b",
+    "userId": "RC-USER-57F7EFEB02C52324",
+    "tokenHash": "595cca95dcfe4765391604f376c1c1467eb7b2c41eaee1ef6c195421f15d8e18",
+    "createdAt": "2026-11-20T18:52:13.328Z",
+    "expiresAt": 1797792733328
   }
 ]
