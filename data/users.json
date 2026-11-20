@@ -647,5 +647,16 @@
     "paymentId": "PAY-RIDELESSCHAT-22427C2255944C81",
     "createdAt": "2026-11-20T20:39:05.322Z",
     "activatedAt": "2026-11-20T20:39:05.322Z"
+  },
+  {
+    "id": "RC-USER-EDD8F233C7E61F7E",
+    "fullName": "Olajumoke Onyinyechi chukwuani",
+    "email": "goodluckchukwuani@gmail.com",
+    "phone": "09061700940",
+    "passwordHash": "scrypt$7cd481dd34759ce904040e35d490263c$2f5b3d5e84421245cdf68f4012920d8010288b07ffba31629b2dd8d8edf185ab064f072f535b3e11d0f163b8ae088e52895697a49ca3b47d682afa858e49bd5e",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-DF7BC842C1D4B4AD",
+    "createdAt": "2026-11-20T20:53:57.490Z",
+    "activatedAt": "2026-11-20T20:53:57.490Z"
   }
 ]
