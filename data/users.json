@@ -273,5 +273,16 @@
     "paymentId": "PAY-RIDELESSCHAT-DC7FCCFEF69DB376",
     "createdAt": "2026-11-20T17:18:13.464Z",
     "activatedAt": "2026-11-20T17:18:13.464Z"
+  },
+  {
+    "id": "RC-USER-5785C7EF287900B5",
+    "fullName": "chibuzo uche",
+    "email": "uchegabriel411@gmail.com",
+    "phone": "09044904875",
+    "passwordHash": "scrypt$f8a51758b051b18703ac38f8c00e67ff$362d4fdeb32f309f6f180d2df4509db3830ab7913f6250984a16e9acdff3f5816c357a4c3648b26552d6748cc5d523faecba54ed90cf42f4382dfd32da8f9baa",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-86935175188B0849",
+    "createdAt": "2026-11-20T17:25:42.849Z",
+    "activatedAt": "2026-11-20T17:25:42.849Z"
   }
 ]
