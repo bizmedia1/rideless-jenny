@@ -97,5 +97,16 @@
     "paymentId": "PAY-RIDELESSCHAT-6971FF1FCE336BCB",
     "createdAt": "2026-11-20T08:18:00.349Z",
     "activatedAt": "2026-11-20T08:18:00.349Z"
+  },
+  {
+    "id": "RC-USER-641AF6F626EDA418",
+    "fullName": "Princess Oliha",
+    "email": "olihaprincess73@gmail.com",
+    "phone": "09159050758",
+    "passwordHash": "scrypt$381d7401f45f148b8b248e5e2294916c$d05efa89576a57aa65ab5453138db05b278010fc56f2aeb1727534b5931eb98101d189b6a54e64d90c93c09c8f3e22630b31b7259fe5e7e9c2cec28e9c976186",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-6C3F70DF6365295B",
+    "createdAt": "2026-11-20T08:33:20.142Z",
+    "activatedAt": "2026-11-20T08:33:20.142Z"
   }
 ]
