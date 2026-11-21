@@ -966,5 +966,16 @@
     "paymentId": "PAY-RIDELESSCHAT-25A69631EF132671",
     "createdAt": "2026-11-21T10:08:55.815Z",
     "activatedAt": "2026-11-21T10:08:55.815Z"
+  },
+  {
+    "id": "RC-USER-6412B788F75C214C",
+    "fullName": "Oluwatomiwa Enitan",
+    "email": "enitanoluwatomiwa2@gmail.com",
+    "phone": "08100387801",
+    "passwordHash": "scrypt$f5d5cf04a1731e01a6716ad739155afc$54d3df1d6c86719a3fe91cb489494fdb0184b1d70c8810a46293d6a5bf3d9e91363c1b90362685956137e445169cf20e358acbe2bba5588bbda92d69b96c6d8f",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-8A6E246BFBADCC19",
+    "createdAt": "2026-11-21T10:13:12.694Z",
+    "activatedAt": "2026-11-21T10:13:12.694Z"
   }
 ]
