@@ -988,5 +988,16 @@
     "paymentId": "PAY-RIDELESSCHAT-80457E3AB6F8B39C",
     "createdAt": "2026-11-21T10:14:04.719Z",
     "activatedAt": "2026-11-21T10:14:04.719Z"
+  },
+  {
+    "id": "RC-USER-36ADC238E9FC1072",
+    "fullName": "Steven Igho",
+    "email": "llloysteven90@mailom.com",
+    "phone": "8074826016",
+    "passwordHash": "scrypt$7ed54104125cddffbcf1d8adf7efd233$5b7cc0a92a95e9f239054169d0f863ea67e1465c62877cddb6fc80053cffe1b72693bf453527f1eed8515c2d4bba7f98474a36bdc8fb59a012db679819ca650c",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-EF6FF613B2318CF1",
+    "createdAt": "2026-11-21T10:17:02.933Z",
+    "activatedAt": "2026-11-21T10:17:02.933Z"
   }
 ]
