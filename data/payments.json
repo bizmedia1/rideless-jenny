@@ -9298,5 +9298,23 @@
     "activationExpiresAt": "2026-11-21T14:30:13.467Z",
     "supersededAt": "2026-11-21T13:40:50.927Z",
     "supersededReason": "New payment amount selected"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-4C8B5BFA6A706466",
+    "customerName": "David mark",
+    "email": "urielogolo7@gmail.com",
+    "phone": "08124574086",
+    "passwordHash": "scrypt$d4c8c9b6381e662f596d972a08d3cc48$6b71ddc4bfad4ee4fed4015855e9c33e6366eeca10120d96489f4d2e46f929d42a1c10acaf3d95dc6795e134e6322643373ec382350fdc922417baf7449112e9",
+    "amount": 5200,
+    "amountKobo": 520000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795268452259_eae79c3262",
+    "status": "pending",
+    "statusTokenHash": "49199a028e77f3b493218a59be05294c0dedb99ea26435072afcef8db084fd41",
+    "activation": true,
+    "createdAt": "2026-11-21T13:40:53.559Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-21T14:30:53.558Z"
   }
 ]
