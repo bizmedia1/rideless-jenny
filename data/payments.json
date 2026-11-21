@@ -10060,5 +10060,23 @@
     "activationExpiresAt": "2026-11-21T22:47:35.468Z",
     "supersededAt": "2026-11-21T21:57:45.316Z",
     "supersededReason": "New payment amount selected"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-A2DC0E8C4276CFFF",
+    "customerName": "Sunday Emmanuel",
+    "email": "se6195531@gmail.com",
+    "phone": "09044285539",
+    "passwordHash": "scrypt$3829bc9ca915ee7b14b1883a8329e245$8a6e8a174df67a16b1404d94331da7e3d9679985fa77c62357f93285ad64031a77bd823ec3d772c486fc92129222dd739613b26d71e5d896040bb7884476d3e0",
+    "amount": 5200,
+    "amountKobo": 520000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795298266491_d9aeef0d29",
+    "status": "pending",
+    "statusTokenHash": "22d3a6ace86b985103ad8ceaae9a3c8e232b1e4205619ea341f05acce79e2afa",
+    "activation": true,
+    "createdAt": "2026-11-21T21:57:47.517Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-21T22:47:47.516Z"
   }
 ]
