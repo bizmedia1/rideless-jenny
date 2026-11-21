@@ -8711,17 +8711,18 @@
     "customerName": "Grace Aderinto",
     "email": "gaderinto9@gmail.com",
     "phone": "09044833214",
-    "passwordHash": "scrypt$4b8ae64a23724768670758e28c5cea79$284fe570028fe2cbd9c026649ecb2e9a506b57aff6bece804caa56f00ec35162fea1cb5f3491951e1d32161d38a93458e79c529fd70fd3d2daafd14eaf780817",
+    "passwordHash": null,
     "amount": 3700,
     "amountKobo": 370000,
     "method": "paga",
     "provider": "movantra",
     "reference": "rc_1795256288444_34aad820a5",
-    "status": "pending",
+    "status": "approved",
     "statusTokenHash": "2a80c6e6340094e588d69bea8278504f8df86155640539fa161a5c21c2b7a2a1",
     "activation": true,
     "createdAt": "2026-11-21T10:18:09.604Z",
-    "processedAt": null,
-    "activationExpiresAt": "2026-11-21T11:08:09.603Z"
+    "processedAt": "2026-11-21T10:19:08.889Z",
+    "activationExpiresAt": "2026-11-21T11:08:09.603Z",
+    "approvalSource": "movantra_webhook"
   }
 ]
