@@ -7064,17 +7064,18 @@
     "customerName": "Olayinka iyabo aduke",
     "email": "juliedelly08@gmail.com",
     "phone": "09076099074",
-    "passwordHash": "scrypt$af49cc9f8f3dbd2f7b1d05984ebe121b$fa05bd2fca63d0d690333e02f8b1205e3b503157f91d1861d62e78183951345fd64da64740b3e0abe199ea588955f748f1ae46638c33237156f8e3764d351cac",
+    "passwordHash": null,
     "amount": 3700,
     "amountKobo": 370000,
     "method": "paga",
     "provider": "movantra",
     "reference": "rc_1795236344764_7cd373e2bc",
-    "status": "pending",
+    "status": "approved",
     "statusTokenHash": "71eec0aa346272d3f89a049c6bfc955d50390cb313db7a3fb9225f315aaa7eda",
     "activation": true,
     "createdAt": "2026-11-21T04:45:46.521Z",
-    "processedAt": null,
-    "activationExpiresAt": "2026-11-21T05:35:46.521Z"
+    "processedAt": "2026-11-21T04:49:04.908Z",
+    "activationExpiresAt": "2026-11-21T05:35:46.521Z",
+    "approvalSource": "movantra_webhook"
   }
 ]
