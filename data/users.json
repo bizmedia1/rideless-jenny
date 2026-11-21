@@ -1131,5 +1131,16 @@
     "paymentId": "PAY-RIDELESSCHAT-3E499F9C518DF357",
     "createdAt": "2026-11-21T13:52:14.376Z",
     "activatedAt": "2026-11-21T13:52:14.376Z"
+  },
+  {
+    "id": "RC-USER-40ECB3EB23EC8216",
+    "fullName": "KAMSI ESTHER MISHEAL",
+    "email": "kamsiyochukuw49@gmail.com",
+    "phone": "09037703152",
+    "passwordHash": "scrypt$5f8e05b4f3bb7ac87fb924720cc4010c$cc07744d87a42127aa99917f268e4811ee8f37b72d6f3b671b5c1f24e278cce465109a2c56ff14142fb9ff19493f97779ee6b6470119553b42b2f9e47e151e46",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-B91BEC892281284E",
+    "createdAt": "2026-11-21T14:20:00.619Z",
+    "activatedAt": "2026-11-21T14:20:00.619Z"
   }
 ]
