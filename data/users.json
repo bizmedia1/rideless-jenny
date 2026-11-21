@@ -867,5 +867,16 @@
     "paymentId": "PAY-RIDELESSCHAT-5E37B0DC41D16B9B",
     "createdAt": "2026-11-21T08:23:04.356Z",
     "activatedAt": "2026-11-21T08:23:04.356Z"
+  },
+  {
+    "id": "RC-USER-CE317FC282EC5CA6",
+    "fullName": "osereme",
+    "email": "oseremeemmanuel53@gmail.com",
+    "phone": "07060619638",
+    "passwordHash": "scrypt$95318687029817ed3d423bf1c99bcd72$6ac07dc01888ec459cb4d63822bae01de6937d34694bf2089a7e0479d1ec9c9026f3074e2d337d237e474b49136934335f5db80017b06ca80d84fac2d73ed401",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-ECB4B5985AD63F13",
+    "createdAt": "2026-11-21T08:24:16.134Z",
+    "activatedAt": "2026-11-21T08:24:16.134Z"
   }
 ]
