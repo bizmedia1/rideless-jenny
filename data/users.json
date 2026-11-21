@@ -1208,5 +1208,16 @@
     "paymentId": "PAY-RIDELESSCHAT-2D226AA3182915EB",
     "createdAt": "2026-11-21T20:11:00.055Z",
     "activatedAt": "2026-11-21T20:11:00.055Z"
+  },
+  {
+    "id": "RC-USER-D3B1BC546825B467",
+    "fullName": "Chikodili patience opene",
+    "email": "chikodiliopene235@gmail.com",
+    "phone": "08104334087",
+    "passwordHash": "scrypt$c9778d8541431d7c2917be6f63bdb97d$a7725ef2b625b8770455cf57b05c13584e362fc344aef1d2b6af1e6101d91635c1b662ba28a19233001f8a356792d461e6b02633e0c525957ec57fd7a764ba3d",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-495A0E24882355F3",
+    "createdAt": "2026-11-21T20:11:44.789Z",
+    "activatedAt": "2026-11-21T20:11:44.789Z"
   }
 ]
