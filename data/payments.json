@@ -7318,17 +7318,18 @@
     "customerName": "Gloria",
     "email": "akwudoluchetachukwu006@gmail.com",
     "phone": "08167124776",
-    "passwordHash": "scrypt$f7beb14e6ed674bafb9c50f5ac854f3b$9bc5f28a8f2dd00c6b330a38d7b739a4bdcc305366a063ac5f2712e08c6a80252fdcf34f4f6c3b8443bfc945439b2f27201eccf6a4db9b3bc6e172bbcff610cd",
+    "passwordHash": null,
     "amount": 3700,
     "amountKobo": 370000,
     "method": "paga",
     "provider": "movantra",
     "reference": "rc_1795243513358_261b786431",
-    "status": "pending",
+    "status": "approved",
     "statusTokenHash": "2a125cd199d03785a78090d3fa89d38d0aa280833127695aacb647480c6417cf",
     "activation": true,
     "createdAt": "2026-11-21T06:45:14.993Z",
-    "processedAt": null,
-    "activationExpiresAt": "2026-11-21T07:35:14.993Z"
+    "processedAt": "2026-11-21T06:46:27.478Z",
+    "activationExpiresAt": "2026-11-21T07:35:14.993Z",
+    "approvalSource": "movantra_webhook"
   }
 ]
