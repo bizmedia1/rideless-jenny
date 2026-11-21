@@ -856,5 +856,16 @@
     "paymentId": "PAY-RIDELESSCHAT-313844721D361F69",
     "createdAt": "2026-11-21T08:14:07.929Z",
     "activatedAt": "2026-11-21T08:14:07.929Z"
+  },
+  {
+    "id": "RC-USER-A7CDA328F0D82469",
+    "fullName": "Modupe Taiwo",
+    "email": "modupeblessingt@gmail.com",
+    "phone": "09160240368",
+    "passwordHash": "scrypt$684135707c91ec57e00cfe62d177595f$e6d6637d61d14087b0a715fe00958be22a9fe8a581d091daf6e227e525bc3d15a33a2ef9d389d77db29f84c8d50c1689418943c6e9098082c71c5b29318ada68",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-5E37B0DC41D16B9B",
+    "createdAt": "2026-11-21T08:23:04.356Z",
+    "activatedAt": "2026-11-21T08:23:04.356Z"
   }
 ]
