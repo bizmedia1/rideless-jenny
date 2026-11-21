@@ -999,5 +999,16 @@
     "paymentId": "PAY-RIDELESSCHAT-EF6FF613B2318CF1",
     "createdAt": "2026-11-21T10:17:02.933Z",
     "activatedAt": "2026-11-21T10:17:02.933Z"
+  },
+  {
+    "id": "RC-USER-6DA969321E68DD18",
+    "fullName": "Adam Moustapha Adam",
+    "email": "adamsypapistos@gmail.com",
+    "phone": "9066793584",
+    "passwordHash": "scrypt$0ff1574921823c2993ec6b219fc6de56$2dce380a087938dc3d21be322e7bd37e846f0987d81d2de5160cb828456af33bb34c34e7ce8b0690342c68c5b933736de647b6858b6c5edfcdfd6ae2640689d8",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-315397A48D6DF98C",
+    "createdAt": "2026-11-21T10:18:11.957Z",
+    "activatedAt": "2026-11-21T10:18:11.957Z"
   }
 ]
