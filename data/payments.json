@@ -7617,5 +7617,23 @@
     "activationExpiresAt": "2026-11-21T09:06:06.119Z",
     "supersededAt": "2026-11-21T08:16:15.381Z",
     "supersededReason": "New payment amount selected"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-2C5FF0DD6BFB72A4",
+    "customerName": "Geroge Moses",
+    "email": "tayosaint8@gmail.com",
+    "phone": "08166733913",
+    "passwordHash": "scrypt$68d49eb64a717e44a4ff60d6495a8655$a8178a6747d20a1637f14be77075b37f178b72d2e4a62049f2c2028db3654a71df8f6ad2dcb71ab0587444f719ceabe65ba17529124fc8080241e4730ce8ec6e",
+    "amount": 3700,
+    "amountKobo": 370000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795248976705_37c2026653",
+    "status": "pending",
+    "statusTokenHash": "11fb153aa9698f51c10b83cfee0887279728969a361bb92a7cf01d47cdc62ced",
+    "activation": true,
+    "createdAt": "2026-11-21T08:16:17.974Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-21T09:06:17.974Z"
   }
 ]
