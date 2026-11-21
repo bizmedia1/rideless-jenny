@@ -1087,5 +1087,16 @@
     "paymentId": "PAY-RIDELESSCHAT-CC7F350F02549FBF",
     "createdAt": "2026-11-21T12:12:22.251Z",
     "activatedAt": "2026-11-21T12:12:22.251Z"
+  },
+  {
+    "id": "RC-USER-B2CDFC8BC04F1D40",
+    "fullName": "Nwabueze Chigemezu",
+    "email": "nwabuezechigemezu90@gmail.com",
+    "phone": "+2349126238710",
+    "passwordHash": "scrypt$e04bacb98d2aebf3d7af52d497e59d10$5c58766375d9a11c1de966f4cdadf682f8b12a04c3d4aa2cd459f9f821ec8be971933746eed051eebb28672a2f83a70204cdabf5d10aa10a99da3da61e289f5e",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-CE3FB7A34AC56E2D",
+    "createdAt": "2026-11-21T12:57:38.950Z",
+    "activatedAt": "2026-11-21T12:57:38.950Z"
   }
 ]
