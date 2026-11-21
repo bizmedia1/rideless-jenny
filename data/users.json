@@ -1142,5 +1142,16 @@
     "paymentId": "PAY-RIDELESSCHAT-B91BEC892281284E",
     "createdAt": "2026-11-21T14:20:00.619Z",
     "activatedAt": "2026-11-21T14:20:00.619Z"
+  },
+  {
+    "id": "RC-USER-798C36C6DCDC95C9",
+    "fullName": "Balogun love",
+    "email": "balogun.luv@gmail.com",
+    "phone": "08035782930",
+    "passwordHash": "scrypt$21dc69d7d6957db0d7a63ea0443f1b27$a7c30c2802d5546dacd3f8cb4ad925b613d4aba0003ad6e442a5343f84245c5c7922ebd5ee0f1023dfbc88bbd7135f2d2eb12f5caf1175bf99b04e63204cb4d4",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-A6F1AEE44BA491D8",
+    "createdAt": "2026-11-21T14:34:09.638Z",
+    "activatedAt": "2026-11-21T14:34:09.638Z"
   }
 ]
