@@ -1175,5 +1175,16 @@
     "paymentId": "PAY-RIDELESSCHAT-0C11CBF05EF43FE0",
     "createdAt": "2026-11-21T15:24:13.048Z",
     "activatedAt": "2026-11-21T15:24:13.048Z"
+  },
+  {
+    "id": "RC-USER-579C384556232EDF",
+    "fullName": "Samuel Faith",
+    "email": "verasam4605@gmail.com",
+    "phone": "08130037192",
+    "passwordHash": "scrypt$9c92c5bdf12f92c19ac1727e7a8e5a9e$539263081f1f441155cfa3dc29ecb60822eb9828636079b29219f20a4b28c978415904f22915f1b4f23a7884f6bdd03105a3edb0ba984022105e456febb98649",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-CCD9F71E85489E97",
+    "createdAt": "2026-11-21T16:45:55.249Z",
+    "activatedAt": "2026-11-21T16:45:55.249Z"
   }
 ]
