@@ -8249,5 +8249,23 @@
     "createdAt": "2026-11-21T08:53:50.022Z",
     "processedAt": null,
     "activationExpiresAt": "2026-11-21T09:43:50.022Z"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-3DA25DD8EA1366A2",
+    "customerName": "Amy gold",
+    "email": "chizzychizzy331@gmail.com",
+    "phone": "07077383074",
+    "passwordHash": "scrypt$61549ec543c276537e1397f2b7ffc182$cdb0a181e7498a61d9559d9dcf328bc404cc4ecdeeb60f71d9a2a543cb5ffb678666aa7b2f79907682097afe44316f2cca791322f98866f3e88a5ba049eaf44a",
+    "amount": 5200,
+    "amountKobo": 520000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795251241134_39f19b1ed5",
+    "status": "pending",
+    "statusTokenHash": "6c644108d1ba60d832ea5d159971a2d0f73bbbaa98a321d7e0413a4ee254f881",
+    "activation": true,
+    "createdAt": "2026-11-21T08:54:02.411Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-21T09:44:02.410Z"
   }
 ]
