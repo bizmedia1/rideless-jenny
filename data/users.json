@@ -1186,5 +1186,16 @@
     "paymentId": "PAY-RIDELESSCHAT-CCD9F71E85489E97",
     "createdAt": "2026-11-21T16:45:55.249Z",
     "activatedAt": "2026-11-21T16:45:55.249Z"
+  },
+  {
+    "id": "RC-USER-389527E386D53558",
+    "fullName": "odufogbon Enoch Oluwaferanmi",
+    "email": "odufogbonoluwaferanmi@gmail.com",
+    "phone": "07061885340",
+    "passwordHash": "scrypt$7a8003c671f104df65f8e95668b79403$ed7906a0ae09f2ab932748e47e66f108817ca06da20aafe89c8b64f0f9ea0907aa0b5d2daeab1996587ca4d55923d05126b7b04bb174e6509ced04a325ac1832",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-D91431AC12E252E1",
+    "createdAt": "2026-11-21T18:11:31.506Z",
+    "activatedAt": "2026-11-21T18:11:31.506Z"
   }
 ]
