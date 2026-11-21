@@ -1076,5 +1076,16 @@
     "paymentId": "PAY-RIDELESSCHAT-B7A0D3BAAF2A4AA6",
     "createdAt": "2026-11-21T11:13:20.392Z",
     "activatedAt": "2026-11-21T11:13:20.392Z"
+  },
+  {
+    "id": "RC-USER-47DCE5CD7265CF5C",
+    "fullName": "Rahmat",
+    "email": "mhizramsy435@gmail.com",
+    "phone": "08148276632",
+    "passwordHash": "scrypt$ded75215e0da6669513b6a833154e910$85c745c79b377d225007e159ef44fbb92d7f42a533c7abee5c15da44537834284cc744d3d3f9b6a8e1979297e7e35566933b2c69878d1b9a2cafae40672b20ed",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-CC7F350F02549FBF",
+    "createdAt": "2026-11-21T12:12:22.251Z",
+    "activatedAt": "2026-11-21T12:12:22.251Z"
   }
 ]
