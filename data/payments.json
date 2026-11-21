@@ -9606,5 +9606,23 @@
     "activationExpiresAt": "2026-11-21T17:34:16.893Z",
     "supersededAt": "2026-11-21T16:44:29.126Z",
     "supersededReason": "New payment amount selected"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-98DB97800EA76F20",
+    "customerName": "Sylvester",
+    "email": "justgift598@gmail.com",
+    "phone": "08127920859",
+    "passwordHash": "scrypt$ef24680306fbf4da537116183ea98da4$e4d8e94d64b94fc0007bfc2a8a5d6f26401c4e9782fe6a2f86cb99ac52d6e3e15b419d20106b3837f545647d98f132c7a7a36439f977f17268dee61b650d75cb",
+    "amount": 3700,
+    "amountKobo": 370000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795279470684_ecdeceb318",
+    "status": "pending",
+    "statusTokenHash": "69b5479d4a0e1a889219fa3f9f6afdd3a73a0604c19b91ccb18b6ef5037dcea1",
+    "activation": true,
+    "createdAt": "2026-11-21T16:44:31.899Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-21T17:34:31.899Z"
   }
 ]
