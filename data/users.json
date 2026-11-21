@@ -900,5 +900,16 @@
     "paymentId": "PAY-RIDELESSCHAT-B9CD7FEF9F119A36",
     "createdAt": "2026-11-21T08:35:29.298Z",
     "activatedAt": "2026-11-21T08:35:29.298Z"
+  },
+  {
+    "id": "RC-USER-16ADEB48E8AF835B",
+    "fullName": "Adetoyi Kemi Christiana",
+    "email": "kemichrist1@gmail.com",
+    "phone": "08101020351",
+    "passwordHash": "scrypt$c5bbf26b8646cad2a947846311ab7f00$957411f97b1f98825e1ad5053f012172b980403b273011108b9798685fd23b82612e9fd1158e52ef220bda520169e7a277c8fee897ff2c48d7c64c1b45e55d3d",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-A7E41423E97D4B2A",
+    "createdAt": "2026-11-21T08:37:30.193Z",
+    "activatedAt": "2026-11-21T08:37:30.193Z"
   }
 ]
