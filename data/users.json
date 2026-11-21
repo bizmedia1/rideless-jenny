@@ -922,5 +922,16 @@
     "paymentId": "PAY-RIDELESSCHAT-8ED3E81CD0B21F35",
     "createdAt": "2026-11-21T08:43:22.691Z",
     "activatedAt": "2026-11-21T08:43:22.691Z"
+  },
+  {
+    "id": "RC-USER-DB475A3F14865C0E",
+    "fullName": "Amy gold",
+    "email": "chizzychizzy331@gmail.com",
+    "phone": "07077383074",
+    "passwordHash": "scrypt$61549ec543c276537e1397f2b7ffc182$cdb0a181e7498a61d9559d9dcf328bc404cc4ecdeeb60f71d9a2a543cb5ffb678666aa7b2f79907682097afe44316f2cca791322f98866f3e88a5ba049eaf44a",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-3DA25DD8EA1366A2",
+    "createdAt": "2026-11-21T08:55:38.345Z",
+    "activatedAt": "2026-11-21T08:55:38.345Z"
   }
 ]
