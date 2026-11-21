@@ -1054,5 +1054,16 @@
     "paymentId": "PAY-RIDELESSCHAT-CDB99EE3D6D14902",
     "createdAt": "2026-11-21T11:01:58.627Z",
     "activatedAt": "2026-11-21T11:01:58.627Z"
+  },
+  {
+    "id": "RC-USER-E962F0257F1CFEF6",
+    "fullName": "Doris Oghenero",
+    "email": "oghenerodoris8@gmail.com",
+    "phone": "08072394946",
+    "passwordHash": "scrypt$d6cb769349f8f3710f559f543adbc694$3e9f6ff1aa17a415c7b74b78a4daca6d728311f921f6ee5a93c5bc1ce5d2f2a82a838bed79d463d29de87560a541191075d69e24b13adc7f671d7f2a71c9b7ac",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-899CA778376713F7",
+    "createdAt": "2026-11-21T11:10:18.592Z",
+    "activatedAt": "2026-11-21T11:10:18.592Z"
   }
 ]
