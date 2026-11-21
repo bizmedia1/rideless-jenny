@@ -9417,17 +9417,18 @@
     "customerName": "Balogun love",
     "email": "balogun.luv@gmail.com",
     "phone": "08035782930",
-    "passwordHash": "scrypt$21dc69d7d6957db0d7a63ea0443f1b27$a7c30c2802d5546dacd3f8cb4ad925b613d4aba0003ad6e442a5343f84245c5c7922ebd5ee0f1023dfbc88bbd7135f2d2eb12f5caf1175bf99b04e63204cb4d4",
+    "passwordHash": null,
     "amount": 5200,
     "amountKobo": 520000,
     "method": "paga",
     "provider": "movantra",
     "reference": "rc_1795271578915_f77a0ba482",
-    "status": "pending",
+    "status": "approved",
     "statusTokenHash": "43a34ea8da84e57668e81c16455cb60e547efd8ed9e5045692050e2a94051761",
     "activation": true,
     "createdAt": "2026-11-21T14:33:00.147Z",
-    "processedAt": null,
-    "activationExpiresAt": "2026-11-21T15:23:00.146Z"
+    "processedAt": "2026-11-21T14:34:10.770Z",
+    "activationExpiresAt": "2026-11-21T15:23:00.146Z",
+    "approvalSource": "movantra_webhook"
   }
 ]
