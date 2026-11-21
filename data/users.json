@@ -1021,5 +1021,16 @@
     "paymentId": "PAY-RIDELESSCHAT-CF4CCC2A93E0C0B0",
     "createdAt": "2026-11-21T10:19:07.833Z",
     "activatedAt": "2026-11-21T10:19:07.833Z"
+  },
+  {
+    "id": "RC-USER-98CCD5809424F695",
+    "fullName": "Confidence ferdinard",
+    "email": "confi7823@gmail.com",
+    "phone": "07050213701",
+    "passwordHash": "scrypt$9a34647fc869fbd63eca9137ed3eac50$feb8820b5b6f17e0a11060275edd5b186823f0c88bc72f912316391973ea6d7521093e6342198dd7e5cd50a8904ec1165fc4b269b888ef079e88c824762d682d",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-4234243D33CE12A2",
+    "createdAt": "2026-11-21T10:35:29.957Z",
+    "activatedAt": "2026-11-21T10:35:29.957Z"
   }
 ]
