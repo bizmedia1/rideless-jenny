@@ -823,5 +823,16 @@
     "paymentId": "PAY-RIDELESSCHAT-7D154F847FB33B79",
     "createdAt": "2026-11-21T07:19:42.134Z",
     "activatedAt": "2026-11-21T07:19:42.134Z"
+  },
+  {
+    "id": "RC-USER-57697247B3FCDB7D",
+    "fullName": "Boluwatife Samuel",
+    "email": "boluwatifesamuel431@gmail.com",
+    "phone": "09041831288",
+    "passwordHash": "scrypt$c6dd602f52aafe565edf3809af124884$058d536e7e0239c2b8ae46d5aaa3475d324aa921b14c28ea990a8889bf0e708c4d635602f326078967ca4908c9bcf487139e50b380171549e8195f5160ec3e4e",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-43A2A6CD3D172471",
+    "createdAt": "2026-11-21T07:42:23.763Z",
+    "activatedAt": "2026-11-21T07:42:23.763Z"
   }
 ]
