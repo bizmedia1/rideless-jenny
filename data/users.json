@@ -1197,5 +1197,16 @@
     "paymentId": "PAY-RIDELESSCHAT-D91431AC12E252E1",
     "createdAt": "2026-11-21T18:11:31.506Z",
     "activatedAt": "2026-11-21T18:11:31.506Z"
+  },
+  {
+    "id": "RC-USER-38023285C7CCD9E5",
+    "fullName": "Effiong Ituen",
+    "email": "itueneffiong@gmail.com",
+    "phone": "07035130886",
+    "passwordHash": "scrypt$90e734891649a2a50cd8d666ddb92a1c$1a193c5d2d8fb4c576837d60e30d8f6c27895cca60654c52cb7270865ef22af8abda9f8633193ebfbc4b6904b36050d3ee9020f09694af5a29fb500c26e2c840",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-2D226AA3182915EB",
+    "createdAt": "2026-11-21T20:11:00.055Z",
+    "activatedAt": "2026-11-21T20:11:00.055Z"
   }
 ]
