@@ -9068,5 +9068,23 @@
     "createdAt": "2026-11-21T12:42:52.669Z",
     "processedAt": null,
     "activationExpiresAt": "2026-11-21T13:32:52.669Z"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-20208A1FC18B5C21",
+    "customerName": "Josef Eelu Phillipus",
+    "email": "josefphillip2002@gmail.com",
+    "phone": "+264816033369",
+    "passwordHash": "scrypt$9fe733ab14bce309c675b91a0f266d8e$79da96371b07308f4920b573417287401b9e7041465b4ab7242f5a3c63363b77a3d546ff0ddbe3013391e6a548712318cfde8053eb2b1885dcfdb2714b085d1e",
+    "amount": 5200,
+    "amountKobo": 520000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795265293728_3c78c77f0d",
+    "status": "pending",
+    "statusTokenHash": "5124917d60b3fd0a886b9973d7631c4f8378c86bfb76a4d14518b3bba4a792de",
+    "activation": true,
+    "createdAt": "2026-11-21T12:48:14.984Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-21T13:38:14.984Z"
   }
 ]
