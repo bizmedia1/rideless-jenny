@@ -7509,18 +7509,19 @@
     "customerName": "Titilayo Omoyemoga",
     "email": "omoyogatitilayo@gmail.com",
     "phone": "08140350172",
-    "passwordHash": "scrypt$307cfb7110cf2ed3d256c376e71f440e$d846eb49169086df6fc95e666ecf838455454be3e15efb9dfc58d8cd63d96544ebb4b9f4692796f71cffbc27f2973c6f5841870cf7eafc226caee03ccaaebb26",
+    "passwordHash": null,
     "amount": 3700,
     "amountKobo": 370000,
     "method": "paga",
     "provider": "movantra",
     "reference": "rc_1795248536657_0422f22456",
-    "status": "pending",
+    "status": "approved",
     "statusTokenHash": "fc0abb0a493e6933bb469bccfffe2c36b0322aba17614a854e89ac524c973c08",
     "activation": true,
     "createdAt": "2026-11-21T08:08:57.931Z",
-    "processedAt": null,
-    "activationExpiresAt": "2026-11-21T08:58:57.931Z"
+    "processedAt": "2026-11-21T08:10:42.003Z",
+    "activationExpiresAt": "2026-11-21T08:58:57.931Z",
+    "approvalSource": "movantra_webhook"
   },
   {
     "id": "PAY-RIDELESSCHAT-89E27EC30C0E809A",
