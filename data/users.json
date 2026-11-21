@@ -845,5 +845,16 @@
     "paymentId": "PAY-RIDELESSCHAT-00B07F94A0E753BE",
     "createdAt": "2026-11-21T08:10:40.739Z",
     "activatedAt": "2026-11-21T08:10:40.739Z"
+  },
+  {
+    "id": "RC-USER-D93A4A529AF997F8",
+    "fullName": "Raji faith",
+    "email": "rajifaith1234@gmail.com",
+    "phone": "07048708242",
+    "passwordHash": "scrypt$f6c293044e06cdb8d8a422345128b36a$51ec9a52c6e006f39e4078ad834ae320f3fad0193c95ede3b391b621e587da4ef144ac3410e56fc699828ce3ad3f5b6e60dae18af54e168f38e5107e36a92242",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-313844721D361F69",
+    "createdAt": "2026-11-21T08:14:07.929Z",
+    "activatedAt": "2026-11-21T08:14:07.929Z"
   }
 ]
