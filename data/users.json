@@ -889,5 +889,16 @@
     "paymentId": "PAY-RIDELESSCHAT-1C0EB7F43195907E",
     "createdAt": "2026-11-21T08:33:29.352Z",
     "activatedAt": "2026-11-21T08:33:29.352Z"
+  },
+  {
+    "id": "RC-USER-65E5B2AEBF86B5C2",
+    "fullName": "Bridget Joshua",
+    "email": "bridgetjoshua47@gmail.com",
+    "phone": "09120905445",
+    "passwordHash": "scrypt$f5d546ceb00bbfada1469d9d8bee5c58$f16b32034be28b63037de27c18095bd305d368628cf2c9e6dbec738d3456565df10b2ca516fd59f6ce27480b2ab7c658d4ff84a4178cdb40781e967a5451b3c2",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-B9CD7FEF9F119A36",
+    "createdAt": "2026-11-21T08:35:29.298Z",
+    "activatedAt": "2026-11-21T08:35:29.298Z"
   }
 ]
