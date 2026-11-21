@@ -7845,5 +7845,23 @@
     "activationExpiresAt": "2026-11-21T09:20:51.523Z",
     "supersededAt": "2026-11-21T08:32:18.739Z",
     "supersededReason": "New payment amount selected"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-7F50DA213FCDE61B",
+    "customerName": "Ogori faith amarachukwu",
+    "email": "faithogori69@gmail.com",
+    "phone": "09030388379",
+    "passwordHash": "scrypt$d0d924ff760b7910ac52d63877cff675$c2d5dce9a1c6b18fd85f13e8f045400f10a16f2ab5b28cc87349dc36302aaf29667eaae2003ac98e99216c49a787646d33aaffcd3071d3f9c388e51ca937119a",
+    "amount": 3700,
+    "amountKobo": 370000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795249939019_c854559a2b",
+    "status": "pending",
+    "statusTokenHash": "c5307c2cdf8e942d5a74655b60a395b26f54f90830c107402b3a5fb27d3b1be5",
+    "activation": true,
+    "createdAt": "2026-11-21T08:32:20.450Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-21T09:22:20.450Z"
   }
 ]
