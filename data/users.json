@@ -1219,5 +1219,16 @@
     "paymentId": "PAY-RIDELESSCHAT-495A0E24882355F3",
     "createdAt": "2026-11-21T20:11:44.789Z",
     "activatedAt": "2026-11-21T20:11:44.789Z"
+  },
+  {
+    "id": "RC-USER-9F9C7AB11E6A629E",
+    "fullName": "OBAA Rapuruchukwu",
+    "email": "samuelobaa59@gmail.com",
+    "phone": "09164088630",
+    "passwordHash": "scrypt$2337e9b86475fa39daf71a4fbe11783f$fe4933d0696a9dbedd99968e3eb807285287ae421f93cab135e5a2f91b944c40d174e76217a3a62ece57ef27bf379cf69487f44d1ebcb54aa12f861504090967",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-CBE60593C9440992",
+    "createdAt": "2026-11-21T23:29:03.685Z",
+    "activatedAt": "2026-11-21T23:29:03.685Z"
   }
 ]
