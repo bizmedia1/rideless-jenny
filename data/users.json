@@ -812,5 +812,16 @@
     "paymentId": "PAY-RIDELESSCHAT-3E6E2FD0C1998332",
     "createdAt": "2026-11-21T06:46:26.288Z",
     "activatedAt": "2026-11-21T06:46:26.288Z"
+  },
+  {
+    "id": "RC-USER-755116B6D0D673D9",
+    "fullName": "Ikenna",
+    "email": "ladyvstores52@gmail.com",
+    "phone": "08125542843",
+    "passwordHash": "scrypt$ce11afea8d3b6e1261fd0deb76058775$b112ad10bb02b81394caa7c49ef13c2ebac377195f59706be9f08cbda6f9697c06092c56e3700e43ef546f136c3c6cf9e59d456a41b325e4e3c56d11e974c13b",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-7D154F847FB33B79",
+    "createdAt": "2026-11-21T07:19:42.134Z",
+    "activatedAt": "2026-11-21T07:19:42.134Z"
   }
 ]
