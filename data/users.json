@@ -878,5 +878,16 @@
     "paymentId": "PAY-RIDELESSCHAT-ECB4B5985AD63F13",
     "createdAt": "2026-11-21T08:24:16.134Z",
     "activatedAt": "2026-11-21T08:24:16.134Z"
+  },
+  {
+    "id": "RC-USER-AA9C64060A79F79E",
+    "fullName": "Esther Doghenevwie",
+    "email": "estherdoghenevwie78@gmail.com",
+    "phone": "07089571478",
+    "passwordHash": "scrypt$1b86adcb32cca66eaa157a151ca0f257$d711bfd9aef241b9311c3ccc15d347087c09ef8f0ad4859d4d023b611880b09d543e2e3b39fa03323a795fec20c75f14705ac1470d640932d88eb7fb55ce08a1",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-1C0EB7F43195907E",
+    "createdAt": "2026-11-21T08:33:29.352Z",
+    "activatedAt": "2026-11-21T08:33:29.352Z"
   }
 ]
