@@ -9964,5 +9964,23 @@
     "activationExpiresAt": "2026-11-21T21:47:32.053Z",
     "supersededAt": "2026-11-21T21:01:30.072Z",
     "supersededReason": "New payment amount selected"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-0381837E857540C4",
+    "customerName": "Samuel Ikechukwu",
+    "email": "samuelikechukwuihuoma@gmail.com",
+    "phone": "08022794387",
+    "passwordHash": "scrypt$d345445ef6b273f597e109fc6a71e218$7f9706b1644dcd9d0b7e58dc1665e498e310496fd25d9680c9cfd6dc0227e9ec67c7bc281a1f5886e21cbeb5af9b92e90f19a4bee77f7487a569451435595209",
+    "amount": 5200,
+    "amountKobo": 520000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795294891934_2e2cb7f19b",
+    "status": "pending",
+    "statusTokenHash": "80e6f40089a042861d8bc3a7a3bed67c8ca878f40ff1fc86ccedbadac849b933",
+    "activation": true,
+    "createdAt": "2026-11-21T21:01:33.048Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-21T21:51:33.048Z"
   }
 ]
