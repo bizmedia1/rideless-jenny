@@ -779,5 +779,16 @@
     "paymentId": "PAY-RIDELESSCHAT-1FB9192BAD2F4F40",
     "createdAt": "2026-11-21T04:04:24.819Z",
     "activatedAt": "2026-11-21T04:04:24.819Z"
+  },
+  {
+    "id": "RC-USER-9A6B06A09BBAA5F3",
+    "fullName": "Olayinka iyabo aduke",
+    "email": "juliedelly08@gmail.com",
+    "phone": "09076099074",
+    "passwordHash": "scrypt$af49cc9f8f3dbd2f7b1d05984ebe121b$fa05bd2fca63d0d690333e02f8b1205e3b503157f91d1861d62e78183951345fd64da64740b3e0abe199ea588955f748f1ae46638c33237156f8e3764d351cac",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-3A8B59BA722E598E",
+    "createdAt": "2026-11-21T04:49:03.905Z",
+    "activatedAt": "2026-11-21T04:49:03.905Z"
   }
 ]
