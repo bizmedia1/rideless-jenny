@@ -1032,5 +1032,16 @@
     "paymentId": "PAY-RIDELESSCHAT-4234243D33CE12A2",
     "createdAt": "2026-11-21T10:35:29.957Z",
     "activatedAt": "2026-11-21T10:35:29.957Z"
+  },
+  {
+    "id": "RC-USER-8720747881E6C490",
+    "fullName": "Benedicta",
+    "email": "bennybeauty57@gmail.com",
+    "phone": "+2349048449550",
+    "passwordHash": "scrypt$f5e7d0aee996d75b23c110bb0dede02a$7a91b1edf553c231354875c973add47e4c9715304850274cf9b076d7d026aa6fc92c1740c67bbe9f850057513a24b64b0b4c4a72ab58ec6948e839a6290692e3",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-8337A50B77118216",
+    "createdAt": "2026-11-21T10:51:16.085Z",
+    "activatedAt": "2026-11-21T10:51:16.085Z"
   }
 ]
