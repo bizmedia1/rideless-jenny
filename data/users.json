@@ -911,5 +911,16 @@
     "paymentId": "PAY-RIDELESSCHAT-A7E41423E97D4B2A",
     "createdAt": "2026-11-21T08:37:30.193Z",
     "activatedAt": "2026-11-21T08:37:30.193Z"
+  },
+  {
+    "id": "RC-USER-29B6BB1A04C10D5A",
+    "fullName": "Rifkatu Sai'du",
+    "email": "saidudaniel999@gmail.com",
+    "phone": "07088405023",
+    "passwordHash": "scrypt$de93551a3a77fe5aaff2e0377ffbde3d$fbd02441ed3546585dc04a4052598a0115db669c9ae3ab1b21584ed5b05dfa25fa1bec0873e7745e20036c4631fd0cd9f0f9466fcbff1c000c594cd630a394f7",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-8ED3E81CD0B21F35",
+    "createdAt": "2026-11-21T08:43:22.691Z",
+    "activatedAt": "2026-11-21T08:43:22.691Z"
   }
 ]
