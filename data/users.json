@@ -955,5 +955,16 @@
     "paymentId": "PAY-RIDELESSCHAT-93F18B48AF4D2DD9",
     "createdAt": "2026-11-21T09:15:27.151Z",
     "activatedAt": "2026-11-21T09:15:27.151Z"
+  },
+  {
+    "id": "RC-USER-2BF7A1D68C66133D",
+    "fullName": "Precious Dike",
+    "email": "dikeprecious984@gmail.com",
+    "phone": "09068396975",
+    "passwordHash": "scrypt$09d662b14310acf3b15f779ccfa6f25e$6dd56a59e505094cb646c1fdcc5fe2b05cfa7227e452fcd014e277459569023a9e0094358fab74178dd79e8d994fa91056f9e75cf18a20883d6d3b3a408e2177",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-25A69631EF132671",
+    "createdAt": "2026-11-21T10:08:55.815Z",
+    "activatedAt": "2026-11-21T10:08:55.815Z"
   }
 ]
