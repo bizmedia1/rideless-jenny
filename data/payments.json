@@ -7266,11 +7266,13 @@
     "method": "paga",
     "provider": "movantra",
     "reference": "rc_1795241967983_59db24e422",
-    "status": "pending",
+    "status": "superseded",
     "statusTokenHash": "41480e1eb07d23a98b4e5a5de54e7afd12a0824177368c7b802d8fce30663e84",
     "activation": true,
     "createdAt": "2026-11-21T06:19:29.186Z",
     "processedAt": null,
-    "activationExpiresAt": "2026-11-21T07:09:29.185Z"
+    "activationExpiresAt": "2026-11-21T07:09:29.185Z",
+    "supersededAt": "2026-11-21T06:19:37.522Z",
+    "supersededReason": "New payment amount selected"
   }
 ]
