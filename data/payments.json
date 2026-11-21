@@ -8768,17 +8768,18 @@
     "customerName": "Confidence ferdinard",
     "email": "confi7823@gmail.com",
     "phone": "07050213701",
-    "passwordHash": "scrypt$9a34647fc869fbd63eca9137ed3eac50$feb8820b5b6f17e0a11060275edd5b186823f0c88bc72f912316391973ea6d7521093e6342198dd7e5cd50a8904ec1165fc4b269b888ef079e88c824762d682d",
+    "passwordHash": null,
     "amount": 5200,
     "amountKobo": 520000,
     "method": "paga",
     "provider": "movantra",
     "reference": "rc_1795257281618_1e0ae6d663",
-    "status": "pending",
+    "status": "approved",
     "statusTokenHash": "164663199b163816a0e910b2439601256807b167353751f87ce5b063dae0484c",
     "activation": true,
     "createdAt": "2026-11-21T10:34:42.874Z",
-    "processedAt": null,
-    "activationExpiresAt": "2026-11-21T11:24:42.874Z"
+    "processedAt": "2026-11-21T10:35:31.053Z",
+    "activationExpiresAt": "2026-11-21T11:24:42.874Z",
+    "approvalSource": "movantra_webhook"
   }
 ]
