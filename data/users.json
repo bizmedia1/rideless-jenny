@@ -1098,5 +1098,16 @@
     "paymentId": "PAY-RIDELESSCHAT-CE3FB7A34AC56E2D",
     "createdAt": "2026-11-21T12:57:38.950Z",
     "activatedAt": "2026-11-21T12:57:38.950Z"
+  },
+  {
+    "id": "RC-USER-D703380C3A38023E",
+    "fullName": "Maureen Delight",
+    "email": "maureendaberechi82@gmail.com",
+    "phone": "+2349039579807",
+    "passwordHash": "scrypt$0d2dc52b1d96e5b749f1f0e74d80da8f$4eaa17a45702186b203f3d2fa2fdbf638dfbe4297f8621d74197c58146175acb6b08a2b20e789967df75afe6d3a15b7ce966e93065c6d2d4fff07138fae33b16",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-F090081CB44D63DE",
+    "createdAt": "2026-11-21T13:39:10.996Z",
+    "activatedAt": "2026-11-21T13:39:10.996Z"
   }
 ]
