@@ -1010,5 +1010,16 @@
     "paymentId": "PAY-RIDELESSCHAT-315397A48D6DF98C",
     "createdAt": "2026-11-21T10:18:11.957Z",
     "activatedAt": "2026-11-21T10:18:11.957Z"
+  },
+  {
+    "id": "RC-USER-CE33F925DE10C884",
+    "fullName": "Grace Aderinto",
+    "email": "gaderinto9@gmail.com",
+    "phone": "09044833214",
+    "passwordHash": "scrypt$4b8ae64a23724768670758e28c5cea79$284fe570028fe2cbd9c026649ecb2e9a506b57aff6bece804caa56f00ec35162fea1cb5f3491951e1d32161d38a93458e79c529fd70fd3d2daafd14eaf780817",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-CF4CCC2A93E0C0B0",
+    "createdAt": "2026-11-21T10:19:07.833Z",
+    "activatedAt": "2026-11-21T10:19:07.833Z"
   }
 ]
