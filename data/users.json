@@ -1164,5 +1164,16 @@
     "paymentId": "PAY-RIDELESSCHAT-B64C1338AF64CE2F",
     "createdAt": "2026-11-21T14:53:31.804Z",
     "activatedAt": "2026-11-21T14:53:31.804Z"
+  },
+  {
+    "id": "RC-USER-FAB79494AF585AF5",
+    "fullName": "Nwachukwu favour",
+    "email": "nwachukwufavour484@gmail.com",
+    "phone": "08073695558",
+    "passwordHash": "scrypt$85383460951d665247c504f02dea8ce5$9f9671dedc8f908d20724abb9bf1a3a012e23f8537d41c07ed3e62445d96556cd3d3faff460b3e160dd0f47942b01c7b7f082509de8053b8192feac86aef2251",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-0C11CBF05EF43FE0",
+    "createdAt": "2026-11-21T15:24:13.048Z",
+    "activatedAt": "2026-11-21T15:24:13.048Z"
   }
 ]
