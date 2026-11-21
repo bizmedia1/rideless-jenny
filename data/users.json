@@ -801,5 +801,16 @@
     "paymentId": "PAY-RIDELESSCHAT-CF2874AD31454E72",
     "createdAt": "2026-11-21T06:03:54.822Z",
     "activatedAt": "2026-11-21T06:03:54.822Z"
+  },
+  {
+    "id": "RC-USER-1431F1094F79FB1D",
+    "fullName": "Gloria",
+    "email": "akwudoluchetachukwu006@gmail.com",
+    "phone": "08167124776",
+    "passwordHash": "scrypt$f7beb14e6ed674bafb9c50f5ac854f3b$9bc5f28a8f2dd00c6b330a38d7b739a4bdcc305366a063ac5f2712e08c6a80252fdcf34f4f6c3b8443bfc945439b2f27201eccf6a4db9b3bc6e172bbcff610cd",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-3E6E2FD0C1998332",
+    "createdAt": "2026-11-21T06:46:26.288Z",
+    "activatedAt": "2026-11-21T06:46:26.288Z"
   }
 ]
