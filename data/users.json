@@ -1120,5 +1120,16 @@
     "paymentId": "PAY-RIDELESSCHAT-E7C4E260CEE58446",
     "createdAt": "2026-11-21T13:46:26.529Z",
     "activatedAt": "2026-11-21T13:46:26.529Z"
+  },
+  {
+    "id": "RC-USER-61EE46D8D1C2C187",
+    "fullName": "Diana obaro",
+    "email": "favouriteonmonya00@gmail.com",
+    "phone": "07053358671",
+    "passwordHash": "scrypt$f48f2d3b25f629b03cc8643d50a47a94$88b4af6f167a2172fa079f188b829db09098b811913ea6965e1c07e25cc8fdb7959f2bd2000396c16cd97028b0c1d474f041731908f2b7f9a1e1b37dcdfd87fe",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-3E499F9C518DF357",
+    "createdAt": "2026-11-21T13:52:14.376Z",
+    "activatedAt": "2026-11-21T13:52:14.376Z"
   }
 ]
