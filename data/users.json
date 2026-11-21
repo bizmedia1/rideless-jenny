@@ -944,5 +944,16 @@
     "paymentId": "PAY-RIDELESSCHAT-781638236A92C45A",
     "createdAt": "2026-11-21T09:04:25.670Z",
     "activatedAt": "2026-11-21T09:04:25.670Z"
+  },
+  {
+    "id": "RC-USER-D5F68FD43FBE9818",
+    "fullName": "Abdulgafar Fahad Ogunsanya",
+    "email": "abdulgafarfahad@gmail.com",
+    "phone": "08140175223",
+    "passwordHash": "scrypt$c7c57b2cd07283c39827fcc7e65e7850$cb7061f4dcbcd71fbd08c80569ed226e5c5586084e44dadd0b64913d2b41d5b5ff189494f0ef8f84f67b2febb05f7dc4b87858e5831a275a9eaae9e7ab6dbef2",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-93F18B48AF4D2DD9",
+    "createdAt": "2026-11-21T09:15:27.151Z",
+    "activatedAt": "2026-11-21T09:15:27.151Z"
   }
 ]
