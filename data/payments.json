@@ -9893,17 +9893,18 @@
     "customerName": "Chikodili patience opene",
     "email": "chikodiliopene235@gmail.com",
     "phone": "08104334087",
-    "passwordHash": "scrypt$c9778d8541431d7c2917be6f63bdb97d$a7725ef2b625b8770455cf57b05c13584e362fc344aef1d2b6af1e6101d91635c1b662ba28a19233001f8a356792d461e6b02633e0c525957ec57fd7a764ba3d",
+    "passwordHash": null,
     "amount": 3700,
     "amountKobo": 370000,
     "method": "paga",
     "provider": "movantra",
     "reference": "rc_1795291821899_07114af1f1",
-    "status": "pending",
+    "status": "approved",
     "statusTokenHash": "8384df9d9d4f1bc65ed184a6a72e5d815982494e3e715a5e418bce65ca8e21b3",
     "activation": true,
     "createdAt": "2026-11-21T20:10:23.183Z",
-    "processedAt": null,
-    "activationExpiresAt": "2026-11-21T21:00:23.182Z"
+    "processedAt": "2026-11-21T20:11:45.730Z",
+    "activationExpiresAt": "2026-11-21T21:00:23.182Z",
+    "approvalSource": "movantra_webhook"
   }
 ]
