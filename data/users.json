@@ -1065,5 +1065,16 @@
     "paymentId": "PAY-RIDELESSCHAT-899CA778376713F7",
     "createdAt": "2026-11-21T11:10:18.592Z",
     "activatedAt": "2026-11-21T11:10:18.592Z"
+  },
+  {
+    "id": "RC-USER-31B5866550FFD493",
+    "fullName": "Destiny Godwin",
+    "email": "dg504221@gmail.com",
+    "phone": "08147374727",
+    "passwordHash": "scrypt$58b56fbb959936c6ed131b8a2be4e929$741c3fbc59381a86f073d02571714e1fe3b002e99ca1b94da21cc5d1d7ade1e2997b6363f899e885bde8e1fde6600b580709ab956a716baf70b26b2e12ea3446",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-B7A0D3BAAF2A4AA6",
+    "createdAt": "2026-11-21T11:13:20.392Z",
+    "activatedAt": "2026-11-21T11:13:20.392Z"
   }
 ]
