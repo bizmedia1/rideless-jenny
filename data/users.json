@@ -834,5 +834,16 @@
     "paymentId": "PAY-RIDELESSCHAT-43A2A6CD3D172471",
     "createdAt": "2026-11-21T07:42:23.763Z",
     "activatedAt": "2026-11-21T07:42:23.763Z"
+  },
+  {
+    "id": "RC-USER-D359C8C0E1B7AC2D",
+    "fullName": "Titilayo Omoyemoga",
+    "email": "omoyogatitilayo@gmail.com",
+    "phone": "08140350172",
+    "passwordHash": "scrypt$307cfb7110cf2ed3d256c376e71f440e$d846eb49169086df6fc95e666ecf838455454be3e15efb9dfc58d8cd63d96544ebb4b9f4692796f71cffbc27f2973c6f5841870cf7eafc226caee03ccaaebb26",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-00B07F94A0E753BE",
+    "createdAt": "2026-11-21T08:10:40.739Z",
+    "activatedAt": "2026-11-21T08:10:40.739Z"
   }
 ]
