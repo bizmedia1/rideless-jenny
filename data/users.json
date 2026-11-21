@@ -933,5 +933,16 @@
     "paymentId": "PAY-RIDELESSCHAT-3DA25DD8EA1366A2",
     "createdAt": "2026-11-21T08:55:38.345Z",
     "activatedAt": "2026-11-21T08:55:38.345Z"
+  },
+  {
+    "id": "RC-USER-BEE746F3107E74FE",
+    "fullName": "Ogba Ezinne Vivian",
+    "email": "vivianezinne782@gmail.com",
+    "phone": "08083372084",
+    "passwordHash": "scrypt$08c9c86f024c5c18234dccfac7c4d341$26b8332bd0f190645fa9d88a887b7e4ece386da606a0aad592746b9a98b1a01151777568f55ceca6fa306874158c491440de127b51ee493260af43d1cc411ed9",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-781638236A92C45A",
+    "createdAt": "2026-11-21T09:04:25.670Z",
+    "activatedAt": "2026-11-21T09:04:25.670Z"
   }
 ]
