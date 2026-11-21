@@ -7717,17 +7717,18 @@
     "customerName": "Modupe Taiwo",
     "email": "modupeblessingt@gmail.com",
     "phone": "09160240368",
-    "passwordHash": "scrypt$684135707c91ec57e00cfe62d177595f$e6d6637d61d14087b0a715fe00958be22a9fe8a581d091daf6e227e525bc3d15a33a2ef9d389d77db29f84c8d50c1689418943c6e9098082c71c5b29318ada68",
+    "passwordHash": null,
     "amount": 3700,
     "amountKobo": 370000,
     "method": "paga",
     "provider": "movantra",
     "reference": "rc_1795249225019_92b59ed7dc",
-    "status": "pending",
+    "status": "approved",
     "statusTokenHash": "84a106b7ea91328b2fcec3649507cf24d5f09da9fcee9fa23563f39aa2529071",
     "activation": true,
     "createdAt": "2026-11-21T08:20:25.996Z",
-    "processedAt": null,
-    "activationExpiresAt": "2026-11-21T09:10:25.995Z"
+    "processedAt": "2026-11-21T08:23:05.330Z",
+    "activationExpiresAt": "2026-11-21T09:10:25.995Z",
+    "approvalSource": "movantra_webhook"
   }
 ]
