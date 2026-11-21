@@ -9199,5 +9199,23 @@
     "activationExpiresAt": "2026-11-21T14:11:27.131Z",
     "supersededAt": "2026-11-21T13:21:31.669Z",
     "supersededReason": "New payment amount selected"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-CA3ECE779917280C",
+    "customerName": "Ibitoye bashit",
+    "email": "ibitoyebashit5@gmail.com",
+    "phone": "2348139149266",
+    "passwordHash": "scrypt$717b195108afe414477ed6d4686725a6$3eabab364c246efa8c956a479b649eed0bf28d3a9b52424cfdd57cd079522c54b154174061f707d7670a58b084afc9fc4d6e3efec2b79ad6408471b6334be26e",
+    "amount": 5200,
+    "amountKobo": 520000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795267292889_ddb2476a28",
+    "status": "pending",
+    "statusTokenHash": "a54b51252424e22e3e88ce7de3fa1b34cd76f78949d228e84f198807630094cf",
+    "activation": true,
+    "createdAt": "2026-11-21T13:21:33.805Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-21T14:11:33.805Z"
   }
 ]
