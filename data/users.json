@@ -1153,5 +1153,16 @@
     "paymentId": "PAY-RIDELESSCHAT-A6F1AEE44BA491D8",
     "createdAt": "2026-11-21T14:34:09.638Z",
     "activatedAt": "2026-11-21T14:34:09.638Z"
+  },
+  {
+    "id": "RC-USER-3715E93A3117A49A",
+    "fullName": "Divine-Favour Fabian John",
+    "email": "divinefavourfabianjohn@gmail.com",
+    "phone": "+2348106908067",
+    "passwordHash": "scrypt$5c6be4d32120e18ed935860459fe1ff6$7f25aa4c2af165d8b785aae80c0962e4fc29c7962695e10286c66377941666d57d74e2339d191c89af92ac10c6b0cef3e39e05a3a4e78a0846080063ac4f142d",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-B64C1338AF64CE2F",
+    "createdAt": "2026-11-21T14:53:31.804Z",
+    "activatedAt": "2026-11-21T14:53:31.804Z"
   }
 ]
