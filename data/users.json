@@ -790,5 +790,16 @@
     "paymentId": "PAY-RIDELESSCHAT-3A8B59BA722E598E",
     "createdAt": "2026-11-21T04:49:03.905Z",
     "activatedAt": "2026-11-21T04:49:03.905Z"
+  },
+  {
+    "id": "RC-USER-21EC39D170443093",
+    "fullName": "Olasupo Nofisat Adebomi",
+    "email": "olasuponofisat2002@gmail.com",
+    "phone": "08069061091",
+    "passwordHash": "scrypt$4de7f8c80274b5d100f375970b29a350$543cc83d9ffb168d610e8889d16d51adeb53f3984693615a58164db3b0e44acb1a6d1d37c7d2020a7571c0f311f4fe4b87d95ca8c5b27b84fef574a07a438b7f",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-CF2874AD31454E72",
+    "createdAt": "2026-11-21T06:03:54.822Z",
+    "activatedAt": "2026-11-21T06:03:54.822Z"
   }
 ]
