@@ -1109,5 +1109,16 @@
     "paymentId": "PAY-RIDELESSCHAT-F090081CB44D63DE",
     "createdAt": "2026-11-21T13:39:10.996Z",
     "activatedAt": "2026-11-21T13:39:10.996Z"
+  },
+  {
+    "id": "RC-USER-579CF4CDDB50ADDE",
+    "fullName": "Beatrice Bongnwi",
+    "email": "bbfine78@gmail.com",
+    "phone": "07082405803",
+    "passwordHash": "scrypt$7814c647207c4812c00400aa1ba5810b$9a90478109b763bebab3481c4f42806aafae80590305e3a9f9ab4a32efed605e6a07975ba2672b0fb5429a6d0a5e05fcfdcf3e3fe20abfa89cf4f4dece2ed0c6",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-E7C4E260CEE58446",
+    "createdAt": "2026-11-21T13:46:26.529Z",
+    "activatedAt": "2026-11-21T13:46:26.529Z"
   }
 ]
