@@ -9430,5 +9430,23 @@
     "processedAt": "2026-11-21T14:34:10.770Z",
     "activationExpiresAt": "2026-11-21T15:23:00.146Z",
     "approvalSource": "movantra_webhook"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-B64C1338AF64CE2F",
+    "customerName": "Divine-Favour Fabian John",
+    "email": "divinefavourfabianjohn@gmail.com",
+    "phone": "+2348106908067",
+    "passwordHash": "scrypt$5c6be4d32120e18ed935860459fe1ff6$7f25aa4c2af165d8b785aae80c0962e4fc29c7962695e10286c66377941666d57d74e2339d191c89af92ac10c6b0cef3e39e05a3a4e78a0846080063ac4f142d",
+    "amount": 5200,
+    "amountKobo": 520000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795272711014_2ff4b1d552",
+    "status": "pending",
+    "statusTokenHash": "d315db6cb220f50897d9b7b09aa6675014f741d5c7392d9ce870a970f8528661",
+    "activation": true,
+    "createdAt": "2026-11-21T14:51:52.241Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-21T15:41:52.240Z"
   }
 ]
