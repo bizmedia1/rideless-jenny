@@ -768,5 +768,16 @@
     "paymentId": "PAY-RIDELESSCHAT-37C6B99ECC12F2CD",
     "createdAt": "2026-11-20T23:13:47.842Z",
     "activatedAt": "2026-11-20T23:13:47.842Z"
+  },
+  {
+    "id": "RC-USER-B61D4CAC43A7622B",
+    "fullName": "Faith odede",
+    "email": "faithrichard655@gmail.com",
+    "phone": "08082985941",
+    "passwordHash": "scrypt$c9f4d01f5d2452fce5a10f43cb8621bf$09b16a107bbeceb50f219406efd9a8bd18a57063a999792393e9ffc4814cec29c93b420baeab0b604ada5eebc93e116b66856a712ea6c503937decc90e6d5683",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-1FB9192BAD2F4F40",
+    "createdAt": "2026-11-21T04:04:24.819Z",
+    "activatedAt": "2026-11-21T04:04:24.819Z"
   }
 ]
