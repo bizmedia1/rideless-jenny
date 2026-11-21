@@ -9265,17 +9265,18 @@
     "customerName": "Maureen Delight",
     "email": "maureendaberechi82@gmail.com",
     "phone": "+2349039579807",
-    "passwordHash": "scrypt$0d2dc52b1d96e5b749f1f0e74d80da8f$4eaa17a45702186b203f3d2fa2fdbf638dfbe4297f8621d74197c58146175acb6b08a2b20e789967df75afe6d3a15b7ce966e93065c6d2d4fff07138fae33b16",
+    "passwordHash": null,
     "amount": 3700,
     "amountKobo": 370000,
     "method": "paga",
     "provider": "movantra",
     "reference": "rc_1795268284229_24293f357d",
-    "status": "pending",
+    "status": "approved",
     "statusTokenHash": "cfb7f2ed466d78a2c8d732b9e42d12c18cfe1dbe56b70ebf5b03a9c5943e1716",
     "activation": true,
     "createdAt": "2026-11-21T13:38:05.491Z",
-    "processedAt": null,
-    "activationExpiresAt": "2026-11-21T14:28:05.491Z"
+    "processedAt": "2026-11-21T13:39:12.074Z",
+    "activationExpiresAt": "2026-11-21T14:28:05.491Z",
+    "approvalSource": "movantra_webhook"
   }
 ]
