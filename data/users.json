@@ -1043,5 +1043,16 @@
     "paymentId": "PAY-RIDELESSCHAT-8337A50B77118216",
     "createdAt": "2026-11-21T10:51:16.085Z",
     "activatedAt": "2026-11-21T10:51:16.085Z"
+  },
+  {
+    "id": "RC-USER-D9896B9BC72A3086",
+    "fullName": "Christopher Onaiwu",
+    "email": "offixiacruise01@gmail.com",
+    "phone": "08088230074",
+    "passwordHash": "scrypt$c9a4a1b4393f54d473a5ba67f75e74f8$6470a3fee1cc76a659bc5b6d3a2d1c4b33b3fdd130622371d3bc6958c95dd4cdc9c934805b66eb72f6c9a0a378cfcbd05065ecf6b6192a893211ba96f3712c58",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-CDB99EE3D6D14902",
+    "createdAt": "2026-11-21T11:01:58.627Z",
+    "activatedAt": "2026-11-21T11:01:58.627Z"
   }
 ]
