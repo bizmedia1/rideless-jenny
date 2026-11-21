@@ -977,5 +977,16 @@
     "paymentId": "PAY-RIDELESSCHAT-8A6E246BFBADCC19",
     "createdAt": "2026-11-21T10:13:12.694Z",
     "activatedAt": "2026-11-21T10:13:12.694Z"
+  },
+  {
+    "id": "RC-USER-71918FD98E1EB231",
+    "fullName": "Ngwu Ifeoma Miracle",
+    "email": "ngwuifeoma89@gmail.com",
+    "phone": "08080234364",
+    "passwordHash": "scrypt$6797e20eeaa7d6110830fc5c7dd3b4c0$c21d6a7f9213f5fb6ceec2d6608c02e65105112e838074b4a5ff5e22e87b3a0c2034392cd9ad60b84b8adb90d81c5771861ac83ad6cef00ad451c334c07fa407",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-80457E3AB6F8B39C",
+    "createdAt": "2026-11-21T10:14:04.719Z",
+    "activatedAt": "2026-11-21T10:14:04.719Z"
   }
 ]
