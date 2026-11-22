@@ -1373,5 +1373,16 @@
     "paymentId": "PAY-RIDELESSCHAT-C16A52F0EA150CC8",
     "createdAt": "2026-11-22T19:25:46.583Z",
     "activatedAt": "2026-11-22T19:25:46.584Z"
+  },
+  {
+    "id": "RC-USER-0D6713D029522C38",
+    "fullName": "Abayomi Oluwaseun",
+    "email": "abayomifatima57@gmail.com",
+    "phone": "09083025759",
+    "passwordHash": "scrypt$2b2f80b86ae893c6e8e53008f5a75be9$9f791d37da2a61eabb69d0938d1dd6fe08bc093e1ed584e251ee7983359f981e7c0fc8c36affa11243057a22a1c36dd6c7c054ca561cdc4f43d2f601ca172e93",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-C5665474634900C0",
+    "createdAt": "2026-11-22T19:34:09.731Z",
+    "activatedAt": "2026-11-22T19:34:09.731Z"
   }
 ]
