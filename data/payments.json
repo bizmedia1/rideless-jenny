@@ -11035,17 +11035,18 @@
     "customerName": "Emma",
     "email": "ec17338@gmail.com",
     "phone": "+2349025096953",
-    "passwordHash": "scrypt$973fbadd81b18564ebe3b26024d84256$d95d86d13e73d68dff52a5c16e64b755cccbdbe2f60f4b4f26c138114f196363d472e568bdfa7240a244161e8f8ac66c92282f949b39d3399d166f17a405d184",
+    "passwordHash": null,
     "amount": 3700,
     "amountKobo": 370000,
     "method": "paga",
     "provider": "movantra",
     "reference": "rc_1795371974599_abb78444eb",
-    "status": "pending",
+    "status": "approved",
     "statusTokenHash": "491fd1ee3c7915d3c4800d3833683d9a87199f5edd2de5e06ac0d0bbd2378cf8",
     "activation": true,
     "createdAt": "2026-11-22T18:26:16.453Z",
-    "processedAt": null,
-    "activationExpiresAt": "2026-11-22T19:16:16.452Z"
+    "processedAt": "2026-11-22T18:27:15.906Z",
+    "activationExpiresAt": "2026-11-22T19:16:16.452Z",
+    "approvalSource": "movantra_webhook"
   }
 ]
