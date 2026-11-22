@@ -1285,5 +1285,16 @@
     "paymentId": "PAY-RIDELESSCHAT-1AB43C1C27347DA0",
     "createdAt": "2026-11-22T14:11:43.037Z",
     "activatedAt": "2026-11-22T14:11:43.037Z"
+  },
+  {
+    "id": "RC-USER-A42241170BDF9D9A",
+    "fullName": "Emmanuel leo",
+    "email": "chukwuleo@63gmail.com",
+    "phone": "09137469297",
+    "passwordHash": "scrypt$33eb0684d355f144ce5e5ad8232894e0$5fcba1defa709ae1ffce6ecbbc981012dde0294efb33d3916ab61cedb38a4cf623fd51c1e2fdb6a0c1a17747448c486de18702aed51b8944cda4c04e821abb52",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-1AD4FACB4C4C6CA6",
+    "createdAt": "2026-11-22T16:09:19.810Z",
+    "activatedAt": "2026-11-22T16:09:19.810Z"
   }
 ]
