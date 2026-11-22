@@ -10635,5 +10635,23 @@
     "activationExpiresAt": "2026-11-22T13:50:36.778Z",
     "supersededAt": "2026-11-22T13:03:11.137Z",
     "supersededReason": "New payment amount selected"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-D79D723DBD6A3F74",
+    "customerName": "Faith Aghogho",
+    "email": "faithejemudaro145@gmail.com",
+    "phone": "08050650954",
+    "passwordHash": "scrypt$070dd26452a7ccd40a983dd781a5e8be$de46211cd8be41f1868f195bdd4d5dd5c3b4f13c1df281abe5a0f22015c68179503fb7fe3dc7092818c7749ac9a9ccafea0d99c6f87862141516268218c46f08",
+    "amount": 3700,
+    "amountKobo": 370000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795352592317_d62a186ba7",
+    "status": "pending",
+    "statusTokenHash": "a20ddec1a79d5916308cc8c3dcc6cd66a228d74fbc516a93feaad4ad5f0ce03a",
+    "activation": true,
+    "createdAt": "2026-11-22T13:03:13.581Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-22T13:53:13.581Z"
   }
 ]
