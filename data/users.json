@@ -1274,5 +1274,16 @@
     "paymentId": "PAY-RIDELESSCHAT-015A3E23A06A8FA3",
     "createdAt": "2026-11-22T11:32:54.482Z",
     "activatedAt": "2026-11-22T11:32:54.482Z"
+  },
+  {
+    "id": "RC-USER-A6645C3829B15E71",
+    "fullName": "Ayomide",
+    "email": "lovemide906@gmail.com",
+    "phone": "07018479659",
+    "passwordHash": "scrypt$0eb92431b90401ac4570af03215cef78$3f0b27b269b9958884703aafa638e2f06ec0a846207238458608e8a41215a57a04ab67709e329ace7f8764f45856149c1fab9d6db6f4c1437f55c69b4674d82d",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-1AB43C1C27347DA0",
+    "createdAt": "2026-11-22T14:11:43.037Z",
+    "activatedAt": "2026-11-22T14:11:43.037Z"
   }
 ]
