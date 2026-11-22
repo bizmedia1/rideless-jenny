@@ -1362,5 +1362,16 @@
     "paymentId": "PAY-RIDELESSCHAT-DB1DB46CD87F4C43",
     "createdAt": "2026-11-22T19:14:10.636Z",
     "activatedAt": "2026-11-22T19:14:10.636Z"
+  },
+  {
+    "id": "RC-USER-0819B23B2512611F",
+    "fullName": "Ada Ihuoma",
+    "email": "adaihuoma59@gmail.com",
+    "phone": "09079032325",
+    "passwordHash": "scrypt$0e6994343312c14cb7cbfb4398c548be$10641da5ce164e4f698c1c099eebc1b496cf28d98d9a8f786e4efd2610c804cc446c9b7760e282b8f9492dbb5afac448f4a2d4155a01a3b0993306c5d0568ccc",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-C16A52F0EA150CC8",
+    "createdAt": "2026-11-22T19:25:46.583Z",
+    "activatedAt": "2026-11-22T19:25:46.584Z"
   }
 ]
