@@ -1351,5 +1351,16 @@
     "paymentId": "PAY-RIDELESSCHAT-09244E446A5F727F",
     "createdAt": "2026-11-22T19:12:22.189Z",
     "activatedAt": "2026-11-22T19:12:22.189Z"
+  },
+  {
+    "id": "RC-USER-3D868DBCA77F1F8B",
+    "fullName": "Ivy Javic",
+    "email": "ivyjavic77@gmail.com",
+    "phone": "08143681597",
+    "passwordHash": "scrypt$1628d88a39fb6cd16c1974382b7f6c1b$5899121ee6b032bd8eef302bb5d03cc956cdb6a5b908c855bfb0cc3cb2bc538150443bb0f95bd90dbf2ddab1f34eaca40818b4cb514e2e0607e290c218529891",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-DB1DB46CD87F4C43",
+    "createdAt": "2026-11-22T19:14:10.636Z",
+    "activatedAt": "2026-11-22T19:14:10.636Z"
   }
 ]
