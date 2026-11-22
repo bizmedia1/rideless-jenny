@@ -1340,5 +1340,16 @@
     "paymentId": "PAY-RIDELESSCHAT-0A6444D3605A6884",
     "createdAt": "2026-11-22T19:03:05.738Z",
     "activatedAt": "2026-11-22T19:03:05.739Z"
+  },
+  {
+    "id": "RC-USER-6611DDDED6A338F2",
+    "fullName": "Chukwuma fidelis ugwu",
+    "email": "donwale001@gmail.com",
+    "phone": "08163864555",
+    "passwordHash": "scrypt$e6f2e9fe5220ee54130dcb0b3e7e9000$c004296b2515cba0362c4c76f3cfd6e28cac369221de40f27bb986018ac35d2775c05e4beb729184eae8720517cc7ac6054286123a782ceec175a04838bf0ccb",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-09244E446A5F727F",
+    "createdAt": "2026-11-22T19:12:22.189Z",
+    "activatedAt": "2026-11-22T19:12:22.189Z"
   }
 ]
