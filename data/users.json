@@ -1230,5 +1230,16 @@
     "paymentId": "PAY-RIDELESSCHAT-CBE60593C9440992",
     "createdAt": "2026-11-21T23:29:03.685Z",
     "activatedAt": "2026-11-21T23:29:03.685Z"
+  },
+  {
+    "id": "RC-USER-98A0C021F799E979",
+    "fullName": "Chinenye Chibueze",
+    "email": "chibuezechinenye882@gmail.com",
+    "phone": "+2347036738961",
+    "passwordHash": "scrypt$595ac89395170b91622f9748fde160f5$26366cb1f1f413745a32a52dd96c913dc2a61df3520c4c47196879ed277de402afa1141efd26ad87485bef84145e1fc387ef4708b3b498fcf15a233d1600630f",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-E660DA702D873A3D",
+    "createdAt": "2026-11-22T08:34:36.148Z",
+    "activatedAt": "2026-11-22T08:34:36.148Z"
   }
 ]
