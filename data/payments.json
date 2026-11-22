@@ -11190,17 +11190,18 @@
     "customerName": "Onyinyechi Mathew",
     "email": "onyinyechigift976@gmail.com",
     "phone": "09117680815",
-    "passwordHash": "scrypt$34114161e8dc85e745402ffa952bf171$e83910aa8ada40044851b8d20192cdc6c09c1f8745b5124d9ac79c25b16899c7491d25258d2f963ee486e805bf344d7eb29e6c001d60f0a822c4ace5f025a73e",
+    "passwordHash": null,
     "amount": 3700,
     "amountKobo": 370000,
     "method": "paga",
     "provider": "movantra",
     "reference": "rc_1795374035225_0b70af4cba",
-    "status": "pending",
+    "status": "approved",
     "statusTokenHash": "f7fefe43117bb16e5f85a09b643ae772f5ce08da3d1ce9fbdae2ead8dcf45f80",
     "activation": true,
     "createdAt": "2026-11-22T19:00:36.367Z",
-    "processedAt": null,
-    "activationExpiresAt": "2026-11-22T19:50:36.366Z"
+    "processedAt": "2026-11-22T19:03:06.827Z",
+    "activationExpiresAt": "2026-11-22T19:50:36.366Z",
+    "approvalSource": "movantra_webhook"
   }
 ]
