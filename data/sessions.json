@@ -908,5 +908,12 @@
     "tokenHash": "6efa15f21d5554e64ef5777b5a0ae18ee1ee47fbb51c4d9643ee670fa1bf23a3",
     "createdAt": "2026-11-22T14:30:18.057Z",
     "expiresAt": 1797949818057
+  },
+  {
+    "id": "0b7ab56c-3e96-4ffd-b6b7-faaaf61e1ce0",
+    "userId": "RC-USER-D3B1BC546825B467",
+    "tokenHash": "618c673ae933204d2417414b70e93f7ac3b5877de6db5d287f0f285eebbdf7ba",
+    "createdAt": "2026-11-22T15:50:25.474Z",
+    "expiresAt": 1797954625474
   }
 ]
