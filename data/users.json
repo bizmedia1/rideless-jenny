@@ -1318,5 +1318,16 @@
     "paymentId": "PAY-RIDELESSCHAT-66F6E5959A7E1BB6",
     "createdAt": "2026-11-22T18:38:17.833Z",
     "activatedAt": "2026-11-22T18:38:17.833Z"
+  },
+  {
+    "id": "RC-USER-9B9AA1B86CCDE596",
+    "fullName": "Blessing Lawson",
+    "email": "blessinglawson92@gmail.com",
+    "phone": "09015628015",
+    "passwordHash": "scrypt$368d60e6d7e343a6d78082cca76c15f4$516bfc2da5474bbef85d0f72e60591ef8b5277ae4b1b0a3f8f315fbdf12c4277bb8474af84f983cac3f43e203c2753df23e02a8bfdaf1441f79073c0a5110e25",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-99394BC4D7F64DAB",
+    "createdAt": "2026-11-22T18:56:51.676Z",
+    "activatedAt": "2026-11-22T18:56:51.676Z"
   }
 ]
