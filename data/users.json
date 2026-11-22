@@ -1252,5 +1252,16 @@
     "paymentId": "PAY-RIDELESSCHAT-227DDECC30B0971B",
     "createdAt": "2026-11-22T10:25:26.734Z",
     "activatedAt": "2026-11-22T10:25:26.734Z"
+  },
+  {
+    "id": "RC-USER-E03C9AC5380D50EB",
+    "fullName": "Daniel gold",
+    "email": "diadesdan3@gmail.com",
+    "phone": "08161689103",
+    "passwordHash": "scrypt$b3c2662311d3dc94fccb179068187712$aa622a0e0b3145a30611cb5988ed7a1ee94844c954c874bd656e2c8179385449ad42da19e30c4ecd4e022bc99e541a97c1d7ebab48b8af5c8d1c34a03730d2d3",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-DC78943623A1FCD1",
+    "createdAt": "2026-11-22T11:03:01.641Z",
+    "activatedAt": "2026-11-22T11:03:01.641Z"
   }
 ]
