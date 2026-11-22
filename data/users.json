@@ -1241,5 +1241,16 @@
     "paymentId": "PAY-RIDELESSCHAT-E660DA702D873A3D",
     "createdAt": "2026-11-22T08:34:36.148Z",
     "activatedAt": "2026-11-22T08:34:36.148Z"
+  },
+  {
+    "id": "RC-USER-B8928E7D38529A0A",
+    "fullName": "Nneeh Lazarus Chidiebere",
+    "email": "lazaruschidiebere08@gmail.com",
+    "phone": "09063497950",
+    "passwordHash": "scrypt$559f6ba9d9e1ec5121b55e61e545bff2$2358488e83d45912f956a1e9f2b36eac0492507ab4fe25c8135cec38c7a0306c39947882730225ed3891a7c93bea53b9f5aee2f68d9bafb44ed765802f3f461a",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-227DDECC30B0971B",
+    "createdAt": "2026-11-22T10:25:26.734Z",
+    "activatedAt": "2026-11-22T10:25:26.734Z"
   }
 ]
