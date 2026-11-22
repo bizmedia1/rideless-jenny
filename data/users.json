@@ -1263,5 +1263,16 @@
     "paymentId": "PAY-RIDELESSCHAT-DC78943623A1FCD1",
     "createdAt": "2026-11-22T11:03:01.641Z",
     "activatedAt": "2026-11-22T11:03:01.641Z"
+  },
+  {
+    "id": "RC-USER-8739710E13CDC8D0",
+    "fullName": "Okeke Onyeka",
+    "email": "jonesrommy@gmail.com",
+    "phone": "08065140378",
+    "passwordHash": "scrypt$f77b7c830987e98b1b9aca2c83de0f5e$03c0c96a1b679e5c2c604823e576c4a0275c2f3f30e5b181a6db282bfb6f8ebcb3d7d220d9b9041b996630cf2835a5912339c47187a25f0ce6d05ccddd078e62",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-015A3E23A06A8FA3",
+    "createdAt": "2026-11-22T11:32:54.482Z",
+    "activatedAt": "2026-11-22T11:32:54.482Z"
   }
 ]
