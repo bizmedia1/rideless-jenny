@@ -11265,18 +11265,19 @@
     "customerName": "Chukwuma fidelis ugwu",
     "email": "donwale001@gmail.com",
     "phone": "08163864555",
-    "passwordHash": "scrypt$e6f2e9fe5220ee54130dcb0b3e7e9000$c004296b2515cba0362c4c76f3cfd6e28cac369221de40f27bb986018ac35d2775c05e4beb729184eae8720517cc7ac6054286123a782ceec175a04838bf0ccb",
+    "passwordHash": null,
     "amount": 5200,
     "amountKobo": 520000,
     "method": "paga",
     "provider": "movantra",
     "reference": "rc_1795374565633_41805e9b11",
-    "status": "pending",
+    "status": "approved",
     "statusTokenHash": "7284f7e1193485a47261b655db695e4e1fc0f40c44a794d29b35dcfee30df17e",
     "activation": true,
     "createdAt": "2026-11-22T19:09:26.826Z",
-    "processedAt": null,
-    "activationExpiresAt": "2026-11-22T19:59:26.825Z"
+    "processedAt": "2026-11-22T19:12:23.249Z",
+    "activationExpiresAt": "2026-11-22T19:59:26.825Z",
+    "approvalSource": "movantra_webhook"
   },
   {
     "id": "PAY-RIDELESSCHAT-0B92C230CB6716EF",
