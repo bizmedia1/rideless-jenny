@@ -1384,5 +1384,16 @@
     "paymentId": "PAY-RIDELESSCHAT-C5665474634900C0",
     "createdAt": "2026-11-22T19:34:09.731Z",
     "activatedAt": "2026-11-22T19:34:09.731Z"
+  },
+  {
+    "id": "RC-USER-667948972B3B11F4",
+    "fullName": "Ezeonyebuchi Emmanuel Ifeanyi",
+    "email": "louisdiamondifeanyichukwu@gmail.com",
+    "phone": "09046879389",
+    "passwordHash": "scrypt$4ec1ae5ea96acd16f312afe66d17a2ec$dbb64c5bf20ec7208193bff730a29082de77f0f7747773f196236f1c60732492026efe6587e47b699e799c4c73a8fa27e9ab38792a3d755253fa9cf5235b997c",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-ECF0740AAD5D4BCF",
+    "createdAt": "2026-11-22T19:40:49.458Z",
+    "activatedAt": "2026-11-22T19:40:49.458Z"
   }
 ]
