@@ -1296,5 +1296,16 @@
     "paymentId": "PAY-RIDELESSCHAT-1AD4FACB4C4C6CA6",
     "createdAt": "2026-11-22T16:09:19.810Z",
     "activatedAt": "2026-11-22T16:09:19.810Z"
+  },
+  {
+    "id": "RC-USER-68791661A42F6995",
+    "fullName": "Emma",
+    "email": "ec17338@gmail.com",
+    "phone": "+2349025096953",
+    "passwordHash": "scrypt$973fbadd81b18564ebe3b26024d84256$d95d86d13e73d68dff52a5c16e64b755cccbdbe2f60f4b4f26c138114f196363d472e568bdfa7240a244161e8f8ac66c92282f949b39d3399d166f17a405d184",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-3012D966048F3A9E",
+    "createdAt": "2026-11-22T18:27:14.786Z",
+    "activatedAt": "2026-11-22T18:27:14.786Z"
   }
 ]
