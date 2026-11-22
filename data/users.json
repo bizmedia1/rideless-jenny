@@ -1329,5 +1329,16 @@
     "paymentId": "PAY-RIDELESSCHAT-99394BC4D7F64DAB",
     "createdAt": "2026-11-22T18:56:51.676Z",
     "activatedAt": "2026-11-22T18:56:51.676Z"
+  },
+  {
+    "id": "RC-USER-D47F903C2DB56E04",
+    "fullName": "Onyinyechi Mathew",
+    "email": "onyinyechigift976@gmail.com",
+    "phone": "09117680815",
+    "passwordHash": "scrypt$34114161e8dc85e745402ffa952bf171$e83910aa8ada40044851b8d20192cdc6c09c1f8745b5124d9ac79c25b16899c7491d25258d2f963ee486e805bf344d7eb29e6c001d60f0a822c4ace5f025a73e",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-0A6444D3605A6884",
+    "createdAt": "2026-11-22T19:03:05.738Z",
+    "activatedAt": "2026-11-22T19:03:05.739Z"
   }
 ]
