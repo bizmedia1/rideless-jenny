@@ -11203,5 +11203,23 @@
     "processedAt": "2026-11-22T19:03:06.827Z",
     "activationExpiresAt": "2026-11-22T19:50:36.366Z",
     "approvalSource": "movantra_webhook"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-69DFA96B337D00CF",
+    "customerName": "Precious lserhienrhien",
+    "email": "preciouslserhienrhien77@gmail.com",
+    "phone": "0904 796 8982",
+    "passwordHash": "scrypt$45dd56afc5e96c183bca98557565547b$1a9f346797b2ad549a35c9fccd47d7a042dfaeb74ae2c4147dfa177d71f720b44ca048981cdabb3fd5acec4d60d387174654ae6e800c134bbda500b9c9e669bf",
+    "amount": 3700,
+    "amountKobo": 370000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795374303847_a5fc2af9cf",
+    "status": "pending",
+    "statusTokenHash": "2d973f009d5986bed9b790aaa02d78803b8bbda5e0aaadfdfbfbfc83ce57598e",
+    "activation": true,
+    "createdAt": "2026-11-22T19:05:04.949Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-22T19:55:04.949Z"
   }
 ]
