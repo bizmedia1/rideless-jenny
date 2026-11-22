@@ -1307,5 +1307,16 @@
     "paymentId": "PAY-RIDELESSCHAT-3012D966048F3A9E",
     "createdAt": "2026-11-22T18:27:14.786Z",
     "activatedAt": "2026-11-22T18:27:14.786Z"
+  },
+  {
+    "id": "RC-USER-D0985D258E490162",
+    "fullName": "Favour John",
+    "email": "fj2748724@gmail.com",
+    "phone": "09122612421",
+    "passwordHash": "scrypt$f7e5f134d73c7763deb97a8284c5b1f2$0e0e2a96aa8aa7d3629dfe4d73349f07b5eed06b32da08edcbd9c55225376520732406c82d9a2a1ac83e388cbc0d64180b500a54032990035636553326755a22",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-66F6E5959A7E1BB6",
+    "createdAt": "2026-11-22T18:38:17.833Z",
+    "activatedAt": "2026-11-22T18:38:17.833Z"
   }
 ]
