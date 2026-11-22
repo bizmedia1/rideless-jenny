@@ -894,5 +894,13 @@
     "tokenHash": "18e25f486a6f0636f09572609f3b3197829e29090e5855adcfe884fb000e1091",
     "createdAt": "2026-11-22T10:30:38.728Z",
     "expiresAt": 1797935438728
+  },
+  {
+    "id": "dd9e5149-8340-4daa-a477-ade52edc4f8f",
+    "tokenHash": "96d9ef7b37626d333e5c24d8bb41d6d552c55862ff2da96c88b394d5fbb618f3",
+    "userId": "RC-USER-E03C9AC5380D50EB",
+    "paymentId": "PAY-RIDELESSCHAT-DC78943623A1FCD1",
+    "createdAt": "2026-11-22T11:03:07.630Z",
+    "expiresAt": "2026-12-22T11:03:07.630Z"
   }
 ]
