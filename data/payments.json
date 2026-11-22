@@ -11449,5 +11449,23 @@
     "activationExpiresAt": "2026-11-22T20:39:24.009Z",
     "supersededAt": "2026-11-22T20:05:58.335Z",
     "supersededReason": "New payment amount selected"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-600D0526A2555EBE",
+    "customerName": "Olivia Peter",
+    "email": "peterolivia559@gmail.com",
+    "phone": "08107468924",
+    "passwordHash": "scrypt$1d9eab4c3d9a4d7b32628ef72e6f1b07$abf856f66f04298c67d031e07e7a5e5211656ea9d52f4c9710837c54f2e311c413b2426c17c5bc18bea4af706de954e92e28b1a40f27179e5018316fe06a6016",
+    "amount": 3700,
+    "amountKobo": 370000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795377959776_0005ce108d",
+    "status": "pending",
+    "statusTokenHash": "8e8e05d18d6998af76fd4b76245cb02370124a978d75f76e05b2defa5f1f3421",
+    "activation": true,
+    "createdAt": "2026-11-22T20:06:01.087Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-22T20:56:01.086Z"
   }
 ]
