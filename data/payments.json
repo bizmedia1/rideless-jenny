@@ -13822,18 +13822,19 @@
     "customerName": "Lekia dorathy bariagara",
     "email": "lekiadorathy64@gmail.com",
     "phone": "2347083823325",
-    "passwordHash": "scrypt$5095ffc05871384c8dd233d2f8f13561$dfac3ba451da00d3e05d32b6f5127629d451ff480f421e7d61d79c65d4afd99360375c9a96471a1c39addd9858c4597f3f2ee08bda0f2e20e14735cd3cb1ec2b",
+    "passwordHash": null,
     "amount": 3700,
     "amountKobo": 370000,
     "method": "paga",
     "provider": "movantra",
     "reference": "rc_1795465208556_9bf320118c",
-    "status": "pending",
+    "status": "approved",
     "statusTokenHash": "0cc8c963076ce940ac329a23325f801c2a6c62731f5308756ad3a6f45e57cc51",
     "activation": true,
     "createdAt": "2026-11-23T20:20:09.950Z",
-    "processedAt": null,
-    "activationExpiresAt": "2026-11-23T21:10:09.950Z"
+    "processedAt": "2026-11-23T20:21:12.513Z",
+    "activationExpiresAt": "2026-11-23T21:10:09.950Z",
+    "approvalSource": "movantra_webhook"
   },
   {
     "id": "PAY-RIDELESSCHAT-227257F76FADC44D",
