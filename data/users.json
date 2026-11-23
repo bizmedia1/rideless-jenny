@@ -1461,5 +1461,16 @@
     "paymentId": "PAY-RIDELESSCHAT-94FCD4E74682585B",
     "createdAt": "2026-11-23T18:17:56.783Z",
     "activatedAt": "2026-11-23T18:17:56.783Z"
+  },
+  {
+    "id": "RC-USER-99EF997000AD19AB",
+    "fullName": "Ibitoye Marvelous Israel",
+    "email": "ibitoyemarvelousisrael@gmail.com",
+    "phone": "07017768917",
+    "passwordHash": "scrypt$63722894278ce0d5598b474f63768017$a1a7d24470c547f1595005db6f4f5f7f97cd85de72da295e981c867cf4881e89764bde9c4ca6c62bf3d583b41f77d3d02d11b7de08a746f4a72693e9454d1189",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-A60041344DCC8D3B",
+    "createdAt": "2026-11-23T18:21:11.292Z",
+    "activatedAt": "2026-11-23T18:21:11.292Z"
   }
 ]
