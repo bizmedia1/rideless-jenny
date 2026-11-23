@@ -1604,5 +1604,16 @@
     "paymentId": "PAY-RIDELESSCHAT-4E32257155BD70FA",
     "createdAt": "2026-11-23T19:09:53.054Z",
     "activatedAt": "2026-11-23T19:09:53.054Z"
+  },
+  {
+    "id": "RC-USER-422BC2619D6CD420",
+    "fullName": "Victoria Ishaku",
+    "email": "ishakuv128@gmail.com",
+    "phone": "08108021335",
+    "passwordHash": "scrypt$fdbe1c990b023948258e450739b54e93$02f93b803ad1a2e31924c7b3ef01ac2c664a3ce1db3b65a7c8bae3865c264b0f76dc092e989750df74b6d47a9fb884f986cad7a342f654f4565ebfec800cce78",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-9DAB65EB6B9C5714",
+    "createdAt": "2026-11-23T19:12:20.829Z",
+    "activatedAt": "2026-11-23T19:12:20.829Z"
   }
 ]
