@@ -1714,5 +1714,16 @@
     "paymentId": "PAY-RIDELESSCHAT-D819B13538383E17",
     "createdAt": "2026-11-23T20:31:30.406Z",
     "activatedAt": "2026-11-23T20:31:30.406Z"
+  },
+  {
+    "id": "RC-USER-E6AE8EA4183A3B37",
+    "fullName": "collins vivian",
+    "email": "nursenursevivian@gmail.com",
+    "phone": "+2349138062131",
+    "passwordHash": "scrypt$ee6825360be5267338007e844f301b61$be2f805a78ac48b68c3dc3dd087fc38ac4bbe60fbb492b02aef40dee7f8e5bd6e5dc8860f14b3ad94884783ea8adf272c2e9551ef6002c87913f2d21115ba4ec",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-8EB401EA4189A2DD",
+    "createdAt": "2026-11-23T20:36:42.517Z",
+    "activatedAt": "2026-11-23T20:36:42.517Z"
   }
 ]
