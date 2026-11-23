@@ -11623,17 +11623,18 @@
     "customerName": "Divine ogechi",
     "email": "olempromise43@gmail.com",
     "phone": "07080586455",
-    "passwordHash": "scrypt$1660e4b6d594153a69790b5248fd8b41$27ae27842f8218fdb1fad6ee9e830e8e8e8de87c188e83a839c7c9d2180ee5a0f3b7d4a4c7f8c257dccf0bf79e21d4241865f2fc4f33bd1e5160e6a9fe9bcd22",
+    "passwordHash": null,
     "amount": 3700,
     "amountKobo": 370000,
     "method": "paga",
     "provider": "movantra",
     "reference": "rc_1795408099151_24b0b95f99",
-    "status": "pending",
+    "status": "approved",
     "statusTokenHash": "67552636a5b569edd301bf50d4e904aa5465256e2e7ab561beec3898e771b271",
     "activation": true,
     "createdAt": "2026-11-23T04:28:20.555Z",
-    "processedAt": null,
-    "activationExpiresAt": "2026-11-23T05:18:20.555Z"
+    "processedAt": "2026-11-23T04:31:15.825Z",
+    "activationExpiresAt": "2026-11-23T05:18:20.555Z",
+    "approvalSource": "movantra_webhook"
   }
 ]
