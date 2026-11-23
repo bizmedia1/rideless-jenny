@@ -1417,5 +1417,16 @@
     "paymentId": "PAY-RIDELESSCHAT-DF6259B4AC2B9EFC",
     "createdAt": "2026-11-23T04:31:14.693Z",
     "activatedAt": "2026-11-23T04:31:14.693Z"
+  },
+  {
+    "id": "RC-USER-C5FB9C71347CB905",
+    "fullName": "Oyegoke Ayanfeoluwa",
+    "email": "ayanfeoluwaoyegoke8@gmail.com",
+    "phone": "08028023768",
+    "passwordHash": "scrypt$ac16b257c211395f9ec42908fb69fab9$ece635a8231238508dc3b2ccac32965955e2053d6f399e682eab5a85ef04980e1557fa424a7ac862c5d670c51303356fa33b17fbef63b50f2d24c1dfd61ab474",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-8788A542589FE21C",
+    "createdAt": "2026-11-23T06:02:56.600Z",
+    "activatedAt": "2026-11-23T06:02:56.600Z"
   }
 ]
