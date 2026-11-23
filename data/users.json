@@ -1406,5 +1406,16 @@
     "paymentId": "PAY-RIDELESSCHAT-2BF56215C19A3CF6",
     "createdAt": "2026-11-22T19:49:48.274Z",
     "activatedAt": "2026-11-22T19:49:48.274Z"
+  },
+  {
+    "id": "RC-USER-77BA3C17A2E6AC4B",
+    "fullName": "Divine ogechi",
+    "email": "olempromise43@gmail.com",
+    "phone": "07080586455",
+    "passwordHash": "scrypt$1660e4b6d594153a69790b5248fd8b41$27ae27842f8218fdb1fad6ee9e830e8e8e8de87c188e83a839c7c9d2180ee5a0f3b7d4a4c7f8c257dccf0bf79e21d4241865f2fc4f33bd1e5160e6a9fe9bcd22",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-DF6259B4AC2B9EFC",
+    "createdAt": "2026-11-23T04:31:14.693Z",
+    "activatedAt": "2026-11-23T04:31:14.693Z"
   }
 ]
