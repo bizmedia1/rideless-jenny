@@ -1681,5 +1681,16 @@
     "paymentId": "PAY-RIDELESSCHAT-F55B4172222CE674",
     "createdAt": "2026-11-23T19:47:27.128Z",
     "activatedAt": "2026-11-23T19:47:27.128Z"
+  },
+  {
+    "id": "RC-USER-2283D4B534AA50BF",
+    "fullName": "Lekia dorathy bariagara",
+    "email": "lekiadorathy64@gmail.com",
+    "phone": "2347083823325",
+    "passwordHash": "scrypt$5095ffc05871384c8dd233d2f8f13561$dfac3ba451da00d3e05d32b6f5127629d451ff480f421e7d61d79c65d4afd99360375c9a96471a1c39addd9858c4597f3f2ee08bda0f2e20e14735cd3cb1ec2b",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-C1DBFAFD9D751756",
+    "createdAt": "2026-11-23T20:21:11.020Z",
+    "activatedAt": "2026-11-23T20:21:11.020Z"
   }
 ]
