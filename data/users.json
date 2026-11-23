@@ -1505,5 +1505,16 @@
     "paymentId": "PAY-RIDELESSCHAT-08C15C60024D11A6",
     "createdAt": "2026-11-23T18:28:21.857Z",
     "activatedAt": "2026-11-23T18:28:21.857Z"
+  },
+  {
+    "id": "RC-USER-C48272F73106A439",
+    "fullName": "Ngozi loveth Sunugbe",
+    "email": "lovethngozi82@gmail.com",
+    "phone": "08141215609",
+    "passwordHash": "scrypt$91fec358a896d665f522ed6f04e60c5a$50467f67175070f2ece4d8ffe8d7816447f52090bb65d332551fef5192e4c9d3119a1f065cbc2ae1dd9afb62f077c6e0cfdbb30173085c87825574217c7e9c4b",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-F2A02416DF7688B6",
+    "createdAt": "2026-11-23T18:39:11.360Z",
+    "activatedAt": "2026-11-23T18:39:11.360Z"
   }
 ]
