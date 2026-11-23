@@ -13094,12 +13094,14 @@
     "method": "paga",
     "provider": "movantra",
     "reference": "rc_1795460838849_06e9036315",
-    "status": "pending",
+    "status": "superseded",
     "statusTokenHash": "0c5e00fe97bbdbbdbff7394c35f61dc936897aa34e8c1ea67efbb880ba97ea20",
     "activation": true,
     "createdAt": "2026-11-23T19:07:19.825Z",
     "processedAt": null,
-    "activationExpiresAt": "2026-11-23T19:57:19.825Z"
+    "activationExpiresAt": "2026-11-23T19:57:19.825Z",
+    "supersededAt": "2026-11-23T19:11:32.370Z",
+    "supersededReason": "New payment amount selected"
   },
   {
     "id": "PAY-RIDELESSCHAT-C022B5330AF67718",
