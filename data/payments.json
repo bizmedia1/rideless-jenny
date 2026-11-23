@@ -11696,5 +11696,23 @@
     "processedAt": "2026-11-23T06:22:58.129Z",
     "activationExpiresAt": "2026-11-23T07:11:04.534Z",
     "approvalSource": "movantra_webhook"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-A223DB5E59CCAC8A",
+    "customerName": "James",
+    "email": "gineprise7@gmail.com",
+    "phone": "07072096887",
+    "passwordHash": "scrypt$7e3bc40b50abc29042e92aee934f9a16$aece46a5e3e86c1e79abd4acc39864c2829f54273c0042859c74af148bf1708bea2a92f981bdf3c9ba7db7562882a594211c509a4bdaee4940f5d809cd179462",
+    "amount": 3700,
+    "amountKobo": 370000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795418530726_6266a8cb6d",
+    "status": "pending",
+    "statusTokenHash": "e167f08120edb9f2fab49d533556094caa5fe5a61a2321b87a15d116423cddca",
+    "activation": true,
+    "createdAt": "2026-11-23T07:22:11.871Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-23T08:12:11.871Z"
   }
 ]
