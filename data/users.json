@@ -1648,5 +1648,16 @@
     "paymentId": "PAY-RIDELESSCHAT-559223CC4A8AC623",
     "createdAt": "2026-11-23T19:18:04.903Z",
     "activatedAt": "2026-11-23T19:18:04.903Z"
+  },
+  {
+    "id": "RC-USER-0CBA946819E97634",
+    "fullName": "Omoregha ifeoluwapo",
+    "email": "omoreghaifeoluwapo4@gmail.com",
+    "phone": "08075649087",
+    "passwordHash": "scrypt$01433f3826f29fdd32686d148f297ba6$395bbc4edeb4b784e48ceba97ce91517f41fe35137d9f65eea7bdf0a8b14548f32039f55e329f5f7d8e639d4df880d7b05ff9bb63c1c176c7d38af5ee011f0e2",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-6AB77C5EFDC5D79F",
+    "createdAt": "2026-11-23T19:23:38.829Z",
+    "activatedAt": "2026-11-23T19:23:38.829Z"
   }
 ]
