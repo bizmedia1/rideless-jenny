@@ -1549,5 +1549,16 @@
     "paymentId": "PAY-RIDELESSCHAT-9029CC6773D9F41D",
     "createdAt": "2026-11-23T19:00:52.439Z",
     "activatedAt": "2026-11-23T19:00:52.439Z"
+  },
+  {
+    "id": "RC-USER-14E89F261424CA16",
+    "fullName": "Nurudeen nasroh",
+    "email": "nurudeentitilayo445@gmail.com",
+    "phone": "08163491948",
+    "passwordHash": "scrypt$8d5b6564b833ef880eacc536a1d31a71$00b7674dca979738f89d9b0fadcaca807f73d01a3d1ac422960a66d32459a13a8235a6c39a587efb20ece3962d3feae8d3f0a1f99d9c28f0d0f4616b075e6a32",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-BB39572C9CC5189E",
+    "createdAt": "2026-11-23T19:01:40.533Z",
+    "activatedAt": "2026-11-23T19:01:40.533Z"
   }
 ]
