@@ -1483,5 +1483,16 @@
     "paymentId": "PAY-RIDELESSCHAT-3335FF79CACABC23",
     "createdAt": "2026-11-23T18:24:40.235Z",
     "activatedAt": "2026-11-23T18:24:40.235Z"
+  },
+  {
+    "id": "RC-USER-B755531E97746B35",
+    "fullName": "Dolapo",
+    "email": "blessingfapohunda5@gmail.com",
+    "phone": "08130178315",
+    "passwordHash": "scrypt$b27dae1537b6ce8ab01c2ccef36add02$f42b4064ca260d3d46d2f15ed8d3b571b281f6d2d8d614f82882bd8fb19ae7efebf690a28ef9c5c556b9696e9fcbd6f287cb8a5b2aba476ba1d6cfa6f40732ae",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-39B07A3C925EB049",
+    "createdAt": "2026-11-23T18:25:02.871Z",
+    "activatedAt": "2026-11-23T18:25:02.871Z"
   }
 ]
