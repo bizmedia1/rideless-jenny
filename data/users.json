@@ -1725,5 +1725,16 @@
     "paymentId": "PAY-RIDELESSCHAT-8EB401EA4189A2DD",
     "createdAt": "2026-11-23T20:36:42.517Z",
     "activatedAt": "2026-11-23T20:36:42.517Z"
+  },
+  {
+    "id": "RC-USER-CB5D1DD5D52932BF",
+    "fullName": "Larry Odock",
+    "email": "larryodock200@gmail.com",
+    "phone": "08022202148",
+    "passwordHash": "scrypt$f6d385b45a261df81f081b9a24ce9bc7$cbc5925b7ccf656282e8646d2fe2732df2063ea7e24cc0d764da76b7e6404ac6bda28c9848cc6d09902b2ae1d1c5b7817389b115fd0d652df474ac746c8c5729",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-CB5360E045B41D5B",
+    "createdAt": "2026-11-23T20:38:12.917Z",
+    "activatedAt": "2026-11-23T20:38:12.917Z"
   }
 ]
