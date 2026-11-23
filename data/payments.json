@@ -11597,5 +11597,23 @@
     "activationExpiresAt": "2026-11-23T01:00:07.010Z",
     "supersededAt": "2026-11-23T03:54:57.148Z",
     "supersededReason": "New payment amount selected"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-E1A8B40517FA8485",
+    "customerName": "divine ogechi",
+    "email": "olempromise43@gmail.com",
+    "phone": "07080586455",
+    "passwordHash": "scrypt$8ce006a14c4a392cc1c2d1dfb69af72e$0497da7fb4fc698279c499903fdf6d93e9e669f7f447cb65be1faf15af4cdd64d14ee01d1a94087237a5a581580359d792a6c0066815d4ded5ae3a153147d780",
+    "amount": 3700,
+    "amountKobo": 370000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795406098507_2ee36a37d7",
+    "status": "pending",
+    "statusTokenHash": "61de374c1d88415aca4e8e94f071d135782a15ebe2476c53711126b6b3a7d7f3",
+    "activation": true,
+    "createdAt": "2026-11-23T03:54:59.680Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-23T04:44:59.679Z"
   }
 ]
