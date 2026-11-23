@@ -1747,5 +1747,16 @@
     "paymentId": "PAY-RIDELESSCHAT-046056F3A0B13188",
     "createdAt": "2026-11-23T20:57:04.227Z",
     "activatedAt": "2026-11-23T20:57:04.227Z"
+  },
+  {
+    "id": "RC-USER-582530D6559807D4",
+    "fullName": "Sunday owohor awodor",
+    "email": "sundayowohor3@gmail.com",
+    "phone": "8145063430",
+    "passwordHash": "scrypt$ba4b6e1acab6033a83d6c40ad010f579$d61bfea28269b269a772aeb029c4c2e8745d4d06771ecb5d5c304a09d6fb06720b67a4eacfbadd13f45d98c60b2ef035666cdac688cd042f880cd08ed9a95e27",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-DD7F32E3DE0E062A",
+    "createdAt": "2026-11-23T21:03:13.838Z",
+    "activatedAt": "2026-11-23T21:03:13.838Z"
   }
 ]
