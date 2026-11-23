@@ -1626,5 +1626,16 @@
     "paymentId": "PAY-RIDELESSCHAT-02C4917F7D52E4D3",
     "createdAt": "2026-11-23T19:14:01.336Z",
     "activatedAt": "2026-11-23T19:14:01.336Z"
+  },
+  {
+    "id": "RC-USER-45CCF1019D4B8E19",
+    "fullName": "Ogar helen omari",
+    "email": "helenogar999@gmail.com",
+    "phone": "09037791483",
+    "passwordHash": "scrypt$42a38f8a6d2335e9169d92868853467e$5e94fa4dfb44e750c541be9d686a89fc2a2119e18f0b4da4cbaae5dc5e52c9cbf2bcb7432fb22d45b3b54ebf872e5a1976f0eb044b2003a923b9eed94b0107ef",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-E5CD3797F08CD89A",
+    "createdAt": "2026-11-23T19:15:48.401Z",
+    "activatedAt": "2026-11-23T19:15:48.401Z"
   }
 ]
