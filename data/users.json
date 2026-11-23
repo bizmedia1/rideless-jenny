@@ -1615,5 +1615,16 @@
     "paymentId": "PAY-RIDELESSCHAT-9DAB65EB6B9C5714",
     "createdAt": "2026-11-23T19:12:20.829Z",
     "activatedAt": "2026-11-23T19:12:20.829Z"
+  },
+  {
+    "id": "RC-USER-38415EE11A0B69F3",
+    "fullName": "Blessing chidera",
+    "email": "blessdera601@gmail.com",
+    "phone": "08069703507",
+    "passwordHash": "scrypt$8a162293e938dd214adae2198bfdf309$b7172b037605d227e0333c3933673e77d96597dbeff7a6296a9f7dae57610cf8bad1c7861695342b1b7dc6721fabe99cfa45b14281e8915cd79cfbde69bc5b9f",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-02C4917F7D52E4D3",
+    "createdAt": "2026-11-23T19:14:01.336Z",
+    "activatedAt": "2026-11-23T19:14:01.336Z"
   }
 ]
