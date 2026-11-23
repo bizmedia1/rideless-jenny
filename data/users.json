@@ -1571,5 +1571,16 @@
     "paymentId": "PAY-RIDELESSCHAT-2282CC13B217A534",
     "createdAt": "2026-11-23T19:01:44.201Z",
     "activatedAt": "2026-11-23T19:01:44.201Z"
+  },
+  {
+    "id": "RC-USER-55F94AB8829290A5",
+    "fullName": "Miracle Harrison",
+    "email": "m54580781@gmail.com",
+    "phone": "07072590146",
+    "passwordHash": "scrypt$44a26c09df5ca815cc44b222e8b73ec0$cc21dcda989dfbd70f04e149b376890738e38bf92c766f6591f2ee6f0b03fb19c038ecbf67fdf370d7b05e53f4d78e1c603ed938616778be8bed9562a87ebff3",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-554F3F7AA9623526",
+    "createdAt": "2026-11-23T19:06:39.475Z",
+    "activatedAt": "2026-11-23T19:06:39.475Z"
   }
 ]
