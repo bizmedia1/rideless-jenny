@@ -1450,5 +1450,16 @@
     "paymentId": "PAY-RIDELESSCHAT-E4874724DFB0BC0F",
     "createdAt": "2026-11-23T14:04:28.181Z",
     "activatedAt": "2026-11-23T14:04:28.181Z"
+  },
+  {
+    "id": "RC-USER-534A16B3F5B682F0",
+    "fullName": "Othuke Miracle",
+    "email": "othukemiracle456@gmail.com",
+    "phone": "09026935106",
+    "passwordHash": "scrypt$c4fc113656613547b3c4836ea81c9d5f$01a585209b46934fb0be27e2b2fc664487ec021e61b3f0ae52da014bb6af3959f12386493e5093edf65c20efd22c5c357e358cc2829fed32bd0c10e1eb123586",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-94FCD4E74682585B",
+    "createdAt": "2026-11-23T18:17:56.783Z",
+    "activatedAt": "2026-11-23T18:17:56.783Z"
   }
 ]
