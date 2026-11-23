@@ -1670,5 +1670,16 @@
     "paymentId": "PAY-RIDELESSCHAT-7CCE1AD38E78B91B",
     "createdAt": "2026-11-23T19:31:09.218Z",
     "activatedAt": "2026-11-23T19:31:09.218Z"
+  },
+  {
+    "id": "RC-USER-DD7DBE98ECA97422",
+    "fullName": "Destiny Sunday",
+    "email": "destinyday143@gmail.com",
+    "phone": "07085787726",
+    "passwordHash": "scrypt$c143050dc061d1e1185df6208c9764ce$e6614a0474224cd1a9bb9eec58b273d4fd14237ac174d3ff374dba18b4df9168a02953d3987c14ae42e357459f7c5c04ddc68dc573f18885b6ad9b6b7899762d",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-F55B4172222CE674",
+    "createdAt": "2026-11-23T19:47:27.128Z",
+    "activatedAt": "2026-11-23T19:47:27.128Z"
   }
 ]
