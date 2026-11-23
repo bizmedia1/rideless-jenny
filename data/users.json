@@ -1472,5 +1472,16 @@
     "paymentId": "PAY-RIDELESSCHAT-A60041344DCC8D3B",
     "createdAt": "2026-11-23T18:21:11.292Z",
     "activatedAt": "2026-11-23T18:21:11.292Z"
+  },
+  {
+    "id": "RC-USER-14B0B714AD855619",
+    "fullName": "Ijewereme joy",
+    "email": "ijeweremejoy043@gmail.com",
+    "phone": "07041860528",
+    "passwordHash": "scrypt$6c53dadc74a88e1b076501611a6e9d60$a573b6b3bac2c454d62000c99e1e4a41ea0a8c4a417f4bca4f3bbde993dda4fe7b8f84044354443c6d91d02c91e7ca7dba9f01b5140555a0ef6ac239769d17f7",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-3335FF79CACABC23",
+    "createdAt": "2026-11-23T18:24:40.235Z",
+    "activatedAt": "2026-11-23T18:24:40.235Z"
   }
 ]
