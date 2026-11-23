@@ -1516,5 +1516,16 @@
     "paymentId": "PAY-RIDELESSCHAT-F2A02416DF7688B6",
     "createdAt": "2026-11-23T18:39:11.360Z",
     "activatedAt": "2026-11-23T18:39:11.360Z"
+  },
+  {
+    "id": "RC-USER-819A52B8D940AFB8",
+    "fullName": "kungzuwe Danladi",
+    "email": "kungzuwedanladi@gmail.com",
+    "phone": "08084780717",
+    "passwordHash": "scrypt$bfbd46da3a8b333c1484c5ffe1f5bdca$63b45db39a661347df8230806fd6b076138889d014bc6c034f2f4667edb8ed2e1009f316f828db67529d223082bbebc47e1b367cce4ef395096e6082c90ab7ff",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-343FA51F79EE4356",
+    "createdAt": "2026-11-23T18:55:50.710Z",
+    "activatedAt": "2026-11-23T18:55:50.710Z"
   }
 ]
