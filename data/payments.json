@@ -14519,5 +14519,23 @@
     "activationExpiresAt": "2026-11-23T22:36:09.529Z",
     "supersededAt": "2026-11-23T21:46:15.566Z",
     "supersededReason": "New payment amount selected"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-A46BCCDD9B3BBCE2",
+    "customerName": "Oluedude",
+    "email": "oluedeu@gmail.com",
+    "phone": "08147703988",
+    "passwordHash": "scrypt$00a6affe79f3224477915da1efa3f766$efb60bdd8df9dd0e2a3a982454fd4db7e6ee43e96f8f3513147bd9ded93d3f07935b9f43c967d1638448efff4d74a61a59282804bcabdb07402c34695da16a43",
+    "amount": 3700,
+    "amountKobo": 370000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795470377127_5b418c9922",
+    "status": "pending",
+    "statusTokenHash": "505ebfbff1c4ee031deaaf15c5c569dd8bd0f2b9b86454a8dcb3d8766878140f",
+    "activation": true,
+    "createdAt": "2026-11-23T21:46:18.041Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-23T22:36:18.041Z"
   }
 ]
