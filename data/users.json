@@ -1780,5 +1780,16 @@
     "paymentId": "PAY-RIDELESSCHAT-736522BBD58EF0E3",
     "createdAt": "2026-11-23T21:25:36.326Z",
     "activatedAt": "2026-11-23T21:25:36.326Z"
+  },
+  {
+    "id": "RC-USER-65E7D56FA7CB4DB2",
+    "fullName": "Oluedude",
+    "email": "oluedeu@gmail.com",
+    "phone": "08147703988",
+    "passwordHash": "scrypt$240b40558b695af8cb02cca211c582ae$da5acc323f3f91e6ffbd3da435bad89fe6fba1f16896ff27731c6a536018da1ff29cc1e124eadd1af02f271329ea44c5c9c388ae28b68b422fb50942b1286338",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-8E642C9FB068ADB6",
+    "createdAt": "2026-11-23T21:51:10.972Z",
+    "activatedAt": "2026-11-23T21:51:10.972Z"
   }
 ]
