@@ -1692,5 +1692,16 @@
     "paymentId": "PAY-RIDELESSCHAT-C1DBFAFD9D751756",
     "createdAt": "2026-11-23T20:21:11.020Z",
     "activatedAt": "2026-11-23T20:21:11.020Z"
+  },
+  {
+    "id": "RC-USER-63325C08C4FB60ED",
+    "fullName": "Oladunni adebayo",
+    "email": "sweetangeldxy@gmail.com",
+    "phone": "08130454323",
+    "passwordHash": "scrypt$8d0f302485278c4bc2033c49f6207ee8$9aca548c66b7555c0d87c14b73707b13ce689dd123c027495b5862fcb86fbd2f57bb56650e0e620887ce707f0c68674e2ca207167420e066b9a7722417f0e299",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-D282EC8259D0C596",
+    "createdAt": "2026-11-23T20:28:53.009Z",
+    "activatedAt": "2026-11-23T20:28:53.009Z"
   }
 ]
