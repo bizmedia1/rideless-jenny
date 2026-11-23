@@ -12679,5 +12679,23 @@
     "createdAt": "2026-11-23T18:44:36.485Z",
     "processedAt": null,
     "activationExpiresAt": "2026-11-23T19:34:36.484Z"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-C528FC1A19BF8072",
+    "customerName": "Ogar helen Omari",
+    "email": "helenogar999@gmail.com",
+    "phone": "09037791483",
+    "passwordHash": "scrypt$5b07a49c4b7b10f527cf0bbe0e67f08b$e42897879535cc827ff51d84fc09b50ed3785f3878196531e4f2b884f1b56cd90ad74f5723a9da61b612884c399128fa4c46606e5aa6cca7d120cf63c9e2e58b",
+    "amount": 5200,
+    "amountKobo": 520000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795459583116_d662ea922e",
+    "status": "pending",
+    "statusTokenHash": "17784f3b8f5240c1e2c484d75e300f3382e742997de41eb1f6aacdd7ad85b960",
+    "activation": true,
+    "createdAt": "2026-11-23T18:46:24.593Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-23T19:36:24.592Z"
   }
 ]
