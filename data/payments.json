@@ -13232,5 +13232,23 @@
     "processedAt": "2026-11-23T19:12:22.108Z",
     "activationExpiresAt": "2026-11-23T20:01:35.031Z",
     "approvalSource": "movantra_webhook"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-7A0326C51056FB05",
+    "customerName": "Etteobong",
+    "email": "effiongvictor465@gmail.com",
+    "phone": "09138726750",
+    "passwordHash": "scrypt$87da1f46c7ba1aa5dfb899d278ba2e39$0d43dadf64494c7684a72d5c53ac553ba336174e64773cb44238f669e55be1858720b735fa1fe932ceb7c5d32d95d3b78ba8ee2328b0c52211aeb4919a7602d0",
+    "amount": 3700,
+    "amountKobo": 370000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795461174620_24aea21428",
+    "status": "pending",
+    "statusTokenHash": "0926d6819dfaad0300cde63fd01c4d2956564475c633b723de608e0984df57eb",
+    "activation": true,
+    "createdAt": "2026-11-23T19:12:55.845Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-23T20:02:55.845Z"
   }
 ]
