@@ -1703,5 +1703,16 @@
     "paymentId": "PAY-RIDELESSCHAT-D282EC8259D0C596",
     "createdAt": "2026-11-23T20:28:53.009Z",
     "activatedAt": "2026-11-23T20:28:53.009Z"
+  },
+  {
+    "id": "RC-USER-22F173EB56E6B988",
+    "fullName": "Eroboghene favour",
+    "email": "erobofavour37@gmail.com",
+    "phone": "07047366962",
+    "passwordHash": "scrypt$74159dbd5eb6cf97ca96df8e6fcd916f$4aac1cd0f25292a7970442f4ac43136f2f9c9c726bbb79b543a432f1de03bc1326a5a6e6c2a203fa7c53832e71b84637fb7b12554ee4a3043f3e2ca0a59411e0",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-D819B13538383E17",
+    "createdAt": "2026-11-23T20:31:30.406Z",
+    "activatedAt": "2026-11-23T20:31:30.406Z"
   }
 ]
