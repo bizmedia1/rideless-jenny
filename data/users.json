@@ -1560,5 +1560,16 @@
     "paymentId": "PAY-RIDELESSCHAT-BB39572C9CC5189E",
     "createdAt": "2026-11-23T19:01:40.533Z",
     "activatedAt": "2026-11-23T19:01:40.533Z"
+  },
+  {
+    "id": "RC-USER-5B108E4346C70112",
+    "fullName": "Cephvibes",
+    "email": "cephvibesalu@gmail.com",
+    "phone": "07025066691",
+    "passwordHash": "scrypt$eef6fabb5e9e9f73308dca54a251f431$0db292dedd067eb312daca3077757337da6ae8fc5c32af1df82d54d486aef640b92923a284eb75461f077407b244da761f24452607494b0798dad8ce67eced77",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-2282CC13B217A534",
+    "createdAt": "2026-11-23T19:01:44.201Z",
+    "activatedAt": "2026-11-23T19:01:44.201Z"
   }
 ]
