@@ -1494,5 +1494,16 @@
     "paymentId": "PAY-RIDELESSCHAT-39B07A3C925EB049",
     "createdAt": "2026-11-23T18:25:02.871Z",
     "activatedAt": "2026-11-23T18:25:02.871Z"
+  },
+  {
+    "id": "RC-USER-954725D6CD6A5115",
+    "fullName": "Miracle oluebube",
+    "email": "miraolu2@mail.com",
+    "phone": "07047958535",
+    "passwordHash": "scrypt$47797c2778758ddb108961c57826440e$415e649de42f9e759fef177d106a7710fe291793dce4fd7f22942ceefd2f49c2ce932f321593c39a76d8296f30456c322e0474f40b3b50f152f96b19ee81c272",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-08C15C60024D11A6",
+    "createdAt": "2026-11-23T18:28:21.857Z",
+    "activatedAt": "2026-11-23T18:28:21.857Z"
   }
 ]
