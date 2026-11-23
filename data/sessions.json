@@ -966,27 +966,10 @@
     "expiresAt": 1797981448668
   },
   {
-    "id": "a3f7822b-6957-49e4-a653-17dd176e4e23",
-    "tokenHash": "1c854cba8e1c9023c3844af92694f5b795610e86587e17617583c62367158700",
-    "userId": "RC-USER-77BA3C17A2E6AC4B",
-    "paymentId": "PAY-RIDELESSCHAT-DF6259B4AC2B9EFC",
-    "createdAt": "2026-11-23T04:31:19.178Z",
-    "expiresAt": "2026-12-23T04:31:19.178Z"
-  },
-  {
-    "id": "5c70591c-c1d6-442e-b0fd-a3f1e155cc0d",
-    "tokenHash": "99e8f962451406d4cbdc2106b4f6ae89562733998e56d0f44928a0f015c95eaf",
-    "userId": "RC-USER-C5FB9C71347CB905",
-    "paymentId": "PAY-RIDELESSCHAT-8788A542589FE21C",
-    "createdAt": "2026-11-23T06:03:00.741Z",
-    "expiresAt": "2026-12-23T06:03:00.741Z"
-  },
-  {
-    "id": "40085e74-1ddf-4582-bbbd-f94c60d845ca",
-    "tokenHash": "b83bc47d025e6939e592efdf013d732a0bb61574cc916e9be7c56bf0dd3a24b0",
-    "userId": "RC-USER-61C08B55674C388B",
-    "paymentId": "PAY-RIDELESSCHAT-954F3E004E4BA4C6",
-    "createdAt": "2026-11-23T06:23:02.443Z",
-    "expiresAt": "2026-12-23T06:23:02.443Z"
+    "id": "d5b9e465-110b-4d0d-b0a7-6d725e97a48b",
+    "userId": "RC-USER-579C384556232EDF",
+    "tokenHash": "d5615fae30ce94637732cf5a8d71d874ee438e96631cd8da6b41b2cbfee48bfd",
+    "createdAt": "2026-11-23T06:33:29.202Z",
+    "expiresAt": 1798007609202
   }
 ]
