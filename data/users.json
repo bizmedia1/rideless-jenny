@@ -1527,5 +1527,16 @@
     "paymentId": "PAY-RIDELESSCHAT-343FA51F79EE4356",
     "createdAt": "2026-11-23T18:55:50.710Z",
     "activatedAt": "2026-11-23T18:55:50.710Z"
+  },
+  {
+    "id": "RC-USER-48BD88F9203AFA35",
+    "fullName": "Ogbonna chidimma peace",
+    "email": "ogbonnachidimmapeace75@gmail.com",
+    "phone": "08067945581",
+    "passwordHash": "scrypt$6fcc879b4647fb95cb04294861223587$09c9f0fcbe72e03a5877797d51c1c9afa1da38d6dc571a0b1ae7b410c1e4e123d5124f768a176e96708741cf21a60da723eb9039c68e87385419c7b4689c601f",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-D4453BDC5BB0882D",
+    "createdAt": "2026-11-23T19:00:03.034Z",
+    "activatedAt": "2026-11-23T19:00:03.034Z"
   }
 ]
