@@ -1593,5 +1593,16 @@
     "paymentId": "PAY-RIDELESSCHAT-5E56D5845CC996A5",
     "createdAt": "2026-11-23T19:08:48.754Z",
     "activatedAt": "2026-11-23T19:08:48.754Z"
+  },
+  {
+    "id": "RC-USER-58CC221A28F574E0",
+    "fullName": "Iweabunashi blessing",
+    "email": "blessingiweabunashi@gmail.com",
+    "phone": "09063215403",
+    "passwordHash": "scrypt$ec3d7f12abe1b493b1137497e2e8e976$2c083f70d1ce39b65bd962bbcb6f4f93e8a1e45f4cde6122f55ca4d83c971b004d4d8867de89caec195033cb876b0805e75c2c7c5196e06bb4494222537c83b0",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-4E32257155BD70FA",
+    "createdAt": "2026-11-23T19:09:53.054Z",
+    "activatedAt": "2026-11-23T19:09:53.054Z"
   }
 ]
