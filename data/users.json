@@ -1769,5 +1769,16 @@
     "paymentId": "PAY-RIDELESSCHAT-B605F1729DD4E47E",
     "createdAt": "2026-11-23T21:18:11.132Z",
     "activatedAt": "2026-11-23T21:18:11.132Z"
+  },
+  {
+    "id": "RC-USER-3ACFA6984126D1E9",
+    "fullName": "Firima Favour nukabari",
+    "email": "favournukabari2@gmail.com",
+    "phone": "07071754461",
+    "passwordHash": "scrypt$dc3a2a97639a1037b0728437af2c951b$a709bfe51e607415122333668f05cb7da75cb15f4a9d7a9bae26bbf716fe4c218711f6e22d175f0edf0772f0503ccda6297d87515ad55c53369e1e579219ebe3",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-736522BBD58EF0E3",
+    "createdAt": "2026-11-23T21:25:36.326Z",
+    "activatedAt": "2026-11-23T21:25:36.326Z"
   }
 ]
