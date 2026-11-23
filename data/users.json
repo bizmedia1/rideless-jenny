@@ -1659,5 +1659,16 @@
     "paymentId": "PAY-RIDELESSCHAT-6AB77C5EFDC5D79F",
     "createdAt": "2026-11-23T19:23:38.829Z",
     "activatedAt": "2026-11-23T19:23:38.829Z"
+  },
+  {
+    "id": "RC-USER-94FBFEF006C5FCD0",
+    "fullName": "Glory Ote",
+    "email": "ondaglory@gmial.com",
+    "phone": "07082485627",
+    "passwordHash": "scrypt$4903c4363a97f13123b65e0b0c31cac4$a0f15664d5cc8c32ac602611ac497fd1b8f64b09a7d7c35333b5b7068f7f44dab8f69064d5ac31cfd75c707dbdcd19e1de029aa1a1167689f4ba277aa5f2fb60",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-7CCE1AD38E78B91B",
+    "createdAt": "2026-11-23T19:31:09.218Z",
+    "activatedAt": "2026-11-23T19:31:09.218Z"
   }
 ]
