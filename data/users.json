@@ -1758,5 +1758,16 @@
     "paymentId": "PAY-RIDELESSCHAT-DD7F32E3DE0E062A",
     "createdAt": "2026-11-23T21:03:13.838Z",
     "activatedAt": "2026-11-23T21:03:13.838Z"
+  },
+  {
+    "id": "RC-USER-0B8B70D64BCBDBEB",
+    "fullName": "Ufuoma E",
+    "email": "ufuomaem@gmail.com",
+    "phone": "09069403641",
+    "passwordHash": "scrypt$e4436b0fb42dd0878c95412836ad0876$9c5f0b9ea81ea274e970b21de1c64819223b54ca64b1a7a258353c2bd0c1308c6afba40b5a97f71e96a7495315c1b2d6b9b47b2a25e8ca327f866b8090d5968e",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-B605F1729DD4E47E",
+    "createdAt": "2026-11-23T21:18:11.132Z",
+    "activatedAt": "2026-11-23T21:18:11.132Z"
   }
 ]
