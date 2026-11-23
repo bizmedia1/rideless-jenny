@@ -1582,5 +1582,16 @@
     "paymentId": "PAY-RIDELESSCHAT-554F3F7AA9623526",
     "createdAt": "2026-11-23T19:06:39.475Z",
     "activatedAt": "2026-11-23T19:06:39.475Z"
+  },
+  {
+    "id": "RC-USER-454C68348F322FED",
+    "fullName": "Amina Muntaka Liman",
+    "email": "limanaminamuntaka@gmail.com",
+    "phone": "07033335540",
+    "passwordHash": "scrypt$890bcd158fd0abaf5e859a0afb6dd028$08b9a3ca084e2c258665b280e6eb3d340da6fa9a6e6d90e924b856339dea58ca653da3d6bac266cebe666a70061b0d8d386246d29c916d7ed5ed49bc1228bcd0",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-5E56D5845CC996A5",
+    "createdAt": "2026-11-23T19:08:48.754Z",
+    "activatedAt": "2026-11-23T19:08:48.754Z"
   }
 ]
