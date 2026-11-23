@@ -1791,5 +1791,16 @@
     "paymentId": "PAY-RIDELESSCHAT-8E642C9FB068ADB6",
     "createdAt": "2026-11-23T21:51:10.972Z",
     "activatedAt": "2026-11-23T21:51:10.972Z"
+  },
+  {
+    "id": "RC-USER-681814970E25B03A",
+    "fullName": "Terungwa Judith Ngohide",
+    "email": "ngohidejudith19@gmail.com",
+    "phone": "07015950242",
+    "passwordHash": "scrypt$f32c327e9b8e2acef11e120d6933e492$a1e7da7cad15b085ee7732da8d11c3b91e158aaa5c8fce75d695cd0936b68b4794ffa119d7d794e6e71f5d852190acc63792956ebc8efa96902fc8ba24648494",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-900AF321D33C6786",
+    "createdAt": "2026-11-23T23:35:23.926Z",
+    "activatedAt": "2026-11-23T23:35:23.926Z"
   }
 ]
