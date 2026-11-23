@@ -1637,5 +1637,16 @@
     "paymentId": "PAY-RIDELESSCHAT-E5CD3797F08CD89A",
     "createdAt": "2026-11-23T19:15:48.401Z",
     "activatedAt": "2026-11-23T19:15:48.401Z"
+  },
+  {
+    "id": "RC-USER-D647E397021E6A0B",
+    "fullName": "Ekemini Alphonsus",
+    "email": "ekeminipeter363@gmail.com",
+    "phone": "+2348167751674",
+    "passwordHash": "scrypt$23b95f67fa80a0c5a8ad66544d3fec24$eb0ac8ad31913d615eb9412d170ce14ea0e899c451e8dca9911e7a71351c514e6705011f414888441759661fe83b4094aae81fa5f1fc16bb5e4d5497137c8ce3",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-559223CC4A8AC623",
+    "createdAt": "2026-11-23T19:18:04.903Z",
+    "activatedAt": "2026-11-23T19:18:04.903Z"
   }
 ]
