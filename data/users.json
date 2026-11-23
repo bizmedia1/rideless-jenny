@@ -1428,5 +1428,16 @@
     "paymentId": "PAY-RIDELESSCHAT-8788A542589FE21C",
     "createdAt": "2026-11-23T06:02:56.600Z",
     "activatedAt": "2026-11-23T06:02:56.600Z"
+  },
+  {
+    "id": "RC-USER-61C08B55674C388B",
+    "fullName": "Samuel iseoluwa adeshina",
+    "email": "iseoluwaadeshina@gmail.com",
+    "phone": "09037052170",
+    "passwordHash": "scrypt$417ddb3257b210251cb71df8350deac1$9efdc42a85c35c236ffe123c44daa788f052547c726e602f48fbe451be4f4ca9ea3e3b66dff84988627133866d0819294157dfae2a32825b149a453a7cf77f05",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-954F3E004E4BA4C6",
+    "createdAt": "2026-11-23T06:22:57.005Z",
+    "activatedAt": "2026-11-23T06:22:57.005Z"
   }
 ]
