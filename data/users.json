@@ -1736,5 +1736,16 @@
     "paymentId": "PAY-RIDELESSCHAT-CB5360E045B41D5B",
     "createdAt": "2026-11-23T20:38:12.917Z",
     "activatedAt": "2026-11-23T20:38:12.917Z"
+  },
+  {
+    "id": "RC-USER-07E333A9F313C7B6",
+    "fullName": "Juliet otuagoma",
+    "email": "otuasjuliet@gmail.com",
+    "phone": "09019091296",
+    "passwordHash": "scrypt$4d4b55b01424a1964e9a91d6eda7ee75$0a0d202c45341547851c7c51c5af8527e9e03e06d7e87cce4314d53dcfe21d79286448e0eac310b75605663730fd3e8a87b6dd0256687900169dbf911d069808",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-046056F3A0B13188",
+    "createdAt": "2026-11-23T20:57:04.227Z",
+    "activatedAt": "2026-11-23T20:57:04.227Z"
   }
 ]
