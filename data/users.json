@@ -1439,5 +1439,16 @@
     "paymentId": "PAY-RIDELESSCHAT-954F3E004E4BA4C6",
     "createdAt": "2026-11-23T06:22:57.005Z",
     "activatedAt": "2026-11-23T06:22:57.005Z"
+  },
+  {
+    "id": "RC-USER-733562B1757C8F26",
+    "fullName": "Okafor Ikechukwu",
+    "email": "okaforjessik111@gmail.com",
+    "phone": "+2349136859250",
+    "passwordHash": "scrypt$7fa26ffce204266bc670f026147fd802$219dc158ea8e5216bdc7fc5205873871c7803efff7a5f61d522542682509750e53298b907788c161f10057fcc58b4acfbd0eb70a75ec5ea091fb82566817ff59",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-E4874724DFB0BC0F",
+    "createdAt": "2026-11-23T14:04:28.181Z",
+    "activatedAt": "2026-11-23T14:04:28.181Z"
   }
 ]
