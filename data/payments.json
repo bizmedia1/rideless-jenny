@@ -12797,18 +12797,19 @@
     "customerName": "kungzuwe Danladi",
     "email": "kungzuwedanladi@gmail.com",
     "phone": "08084780717",
-    "passwordHash": "scrypt$bfbd46da3a8b333c1484c5ffe1f5bdca$63b45db39a661347df8230806fd6b076138889d014bc6c034f2f4667edb8ed2e1009f316f828db67529d223082bbebc47e1b367cce4ef395096e6082c90ab7ff",
+    "passwordHash": null,
     "amount": 3700,
     "amountKobo": 370000,
     "method": "paga",
     "provider": "movantra",
     "reference": "rc_1795460004908_d2251f9621",
-    "status": "pending",
+    "status": "approved",
     "statusTokenHash": "166322c414452a0287949da069d752b223eeece7d62cd1a8f481d65fef14e601",
     "activation": true,
     "createdAt": "2026-11-23T18:53:26.251Z",
-    "processedAt": null,
-    "activationExpiresAt": "2026-11-23T19:43:26.251Z"
+    "processedAt": "2026-11-23T18:55:51.886Z",
+    "activationExpiresAt": "2026-11-23T19:43:26.251Z",
+    "approvalSource": "movantra_webhook"
   },
   {
     "id": "PAY-RIDELESSCHAT-8509BB51665543B5",
