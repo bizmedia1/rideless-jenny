@@ -1923,5 +1923,16 @@
     "paymentId": "PAY-RIDELESSCHAT-FF3BC3DB9920A3ED",
     "createdAt": "2026-11-24T09:08:06.459Z",
     "activatedAt": "2026-11-24T09:08:06.459Z"
+  },
+  {
+    "id": "RC-USER-1F85208F4430FE98",
+    "fullName": "Samuel Ikechukwu",
+    "email": "samuelikechukwuihuoma@gmail.com",
+    "phone": "08022794387",
+    "passwordHash": "scrypt$a7a8ec1972c724e428fefa86ae45b22b$e6e419a67521a80b38d5e957ca842eb02a4059cbb663bb04d5c56c0edba0ff36d12e9bb3d64f599017491f6a9de7ca85a8cf37ab361b7a20390ca5c9519ac6ae",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-29D5C411AE32FDB3",
+    "createdAt": "2026-11-24T09:09:50.852Z",
+    "activatedAt": "2026-11-24T09:09:50.852Z"
   }
 ]
