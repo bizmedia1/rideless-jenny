@@ -15932,5 +15932,23 @@
     "activationExpiresAt": "2026-11-24T11:25:26.132Z",
     "supersededAt": "2026-11-24T10:35:29.213Z",
     "supersededReason": "New payment amount selected"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-9D49C10000698C48",
+    "customerName": "Omigade Racheal",
+    "email": "rachealomigade@gmail.com",
+    "phone": "08136403426",
+    "passwordHash": "scrypt$8effc21eb718d06a6b587e576a4815c9$6da76f2413d13c3e5b3b8dd233ebcc4b15bb8c67ccbe16ab6d3bfa93d6c16a8e5c661572922f11bbd0f9f271a9eaedc3c68c18fba72806625c721050074741b2",
+    "amount": 3700,
+    "amountKobo": 370000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795516530793_ce4e10160c",
+    "status": "pending",
+    "statusTokenHash": "5baecb888d5138edd76f26a20df2db7c5eb7354c1b27ca076de5e2a0f116506b",
+    "activation": true,
+    "createdAt": "2026-11-24T10:35:31.726Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-24T11:25:31.726Z"
   }
 ]
