@@ -15008,5 +15008,23 @@
     "activationExpiresAt": "2026-11-24T06:58:30.446Z",
     "supersededAt": "2026-11-24T06:09:19.580Z",
     "supersededReason": "New payment amount selected"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-806B553B2DB92B5A",
+    "customerName": "Godwin Albert",
+    "email": "godwinodiong633@gmail.com",
+    "phone": "08108377514",
+    "passwordHash": "scrypt$4222d95e8a594fdf21182dc1b7e59fff$9d69e389fc1da7daa54a5fd7e3ca5967c9e428162158a6d4d09663f8f68077511561bd63fbd7ce3543e8e0710aa8832dd4435eb6f958787d7964a956b48f5226",
+    "amount": 3700,
+    "amountKobo": 370000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795500560968_7b70478bd1",
+    "status": "pending",
+    "statusTokenHash": "332718cd959080fe3c2803e53f7b99c587d23d6ca177120536a585a0538a95e0",
+    "activation": true,
+    "createdAt": "2026-11-24T06:09:22.608Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-24T06:59:22.607Z"
   }
 ]
