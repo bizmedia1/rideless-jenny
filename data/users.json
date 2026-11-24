@@ -1912,5 +1912,16 @@
     "paymentId": "PAY-RIDELESSCHAT-D704BDDF5FE723E1",
     "createdAt": "2026-11-24T08:56:50.034Z",
     "activatedAt": "2026-11-24T08:56:50.034Z"
+  },
+  {
+    "id": "RC-USER-945B434267EE5074",
+    "fullName": "Kayode",
+    "email": "kayodehammond6@gmail.com",
+    "phone": "+2348134739375",
+    "passwordHash": "scrypt$c1a2bdb158629fb8bd539e37bdb0ffc1$208e0c0857a7a0a03d0e9f0ee29f5c54e8db6921c0e29bf7282479d58eb6db3d0c7952b32a18662b8cf8072aa281ef2301526ae33ec4e68c734b012acc5060e7",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-FF3BC3DB9920A3ED",
+    "createdAt": "2026-11-24T09:08:06.459Z",
+    "activatedAt": "2026-11-24T09:08:06.459Z"
   }
 ]
