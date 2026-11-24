@@ -2000,5 +2000,16 @@
     "paymentId": "PAY-RIDELESSCHAT-40CE0D78D78190BE",
     "createdAt": "2026-11-24T13:08:14.411Z",
     "activatedAt": "2026-11-24T13:08:14.411Z"
+  },
+  {
+    "id": "RC-USER-0FEAB2D099070A4F",
+    "fullName": "favour UC",
+    "email": "favourjulius1998@gmail.com",
+    "phone": "08068172603",
+    "passwordHash": "scrypt$9b01e1b96ce78f0ea65646eebc519510$74525c2f4c73261cec2233787ef9b8219db8c520b8f48ca3772c38a33e680d4bcd31cc64447a7777b0e3b69db5126bf176218530f10f381ae96d53f66eb74cbb",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-A55E422AC5C33C89",
+    "createdAt": "2026-11-24T13:56:10.402Z",
+    "activatedAt": "2026-11-24T13:56:10.402Z"
   }
 ]
