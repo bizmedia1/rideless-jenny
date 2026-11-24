@@ -1802,5 +1802,16 @@
     "paymentId": "PAY-RIDELESSCHAT-900AF321D33C6786",
     "createdAt": "2026-11-23T23:35:23.926Z",
     "activatedAt": "2026-11-23T23:35:23.926Z"
+  },
+  {
+    "id": "RC-USER-2B461414BBEF29DC",
+    "fullName": "Philip Yisa",
+    "email": "yisaphillip@gmail.com",
+    "phone": "07037510210",
+    "passwordHash": "scrypt$0892966a3ac1e1f58703dc4fc006fdeb$c89e22fd3a3e299b7d9f65e5e88e85a8da212125edb2f68d40e2a584b7464cdb37b484f271e8a6b74ac69eadce8891897bda8acb3757ec6f4801c1b83c4353c1",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-1A34E92CFC07B09C",
+    "createdAt": "2026-11-24T03:54:12.113Z",
+    "activatedAt": "2026-11-24T03:54:12.113Z"
   }
 ]
