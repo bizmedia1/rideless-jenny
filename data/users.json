@@ -2011,5 +2011,16 @@
     "paymentId": "PAY-RIDELESSCHAT-A55E422AC5C33C89",
     "createdAt": "2026-11-24T13:56:10.402Z",
     "activatedAt": "2026-11-24T13:56:10.402Z"
+  },
+  {
+    "id": "RC-USER-CDB62D93784863E9",
+    "fullName": "Chinedu Deborah",
+    "email": "ambitiousdebbie203@gmail.com",
+    "phone": "09128534580",
+    "passwordHash": "scrypt$5dc71afd462c9efdb2e615585e988545$464679c11d87195f4208f127e37668ea40de6b72829888056425c6366558f7dbb5a26b7c3baa492ae8253ac18144603bb72a48d4edd4aa5e63f3e5007a53aaab",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-13BAC54A2354C1AD",
+    "createdAt": "2026-11-24T14:41:26.642Z",
+    "activatedAt": "2026-11-24T14:41:26.642Z"
   }
 ]
