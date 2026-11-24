@@ -1989,5 +1989,16 @@
     "paymentId": "PAY-RIDELESSCHAT-7CE71F7028367F2D",
     "createdAt": "2026-11-24T11:40:20.438Z",
     "activatedAt": "2026-11-24T11:40:20.438Z"
+  },
+  {
+    "id": "RC-USER-7DD41C7867700ED3",
+    "fullName": "Adeyemi Mistura",
+    "email": "misturaadeyemi24@gmail.com",
+    "phone": "08111866380",
+    "passwordHash": "scrypt$b9d134a083d319b193161f1c3e029d70$1b2924cb37fa76e6deaa85bdfe12e01c5e51e1fc014c1126c0296aaf1d513ef13cef7fa210961f6aa5b5e0efb983e10af5a2ede5df080c8a154315e24e111509",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-40CE0D78D78190BE",
+    "createdAt": "2026-11-24T13:08:14.411Z",
+    "activatedAt": "2026-11-24T13:08:14.411Z"
   }
 ]
