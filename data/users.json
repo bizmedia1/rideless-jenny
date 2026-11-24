@@ -1879,5 +1879,16 @@
     "paymentId": "PAY-RIDELESSCHAT-5905CB9489910653",
     "createdAt": "2026-11-24T08:29:36.619Z",
     "activatedAt": "2026-11-24T08:29:36.619Z"
+  },
+  {
+    "id": "RC-USER-032BE4E329458887",
+    "fullName": "Francis",
+    "email": "francisidowu68@gmail.com",
+    "phone": "08105715008",
+    "passwordHash": "scrypt$a4fc6dadfb7f94d999f54d87491241cc$59f4930127e9d3a1ab7145ec6ef7969c54bf6b2d02cc85bc785b67039f64050993b839b03978ad1c77d19c3fb903942e5faa90e18d3f39d7ffb84b5c6f7c4d52",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-FCDBC3F4DA5C043B",
+    "createdAt": "2026-11-24T08:41:10.216Z",
+    "activatedAt": "2026-11-24T08:41:10.216Z"
   }
 ]
