@@ -1956,5 +1956,16 @@
     "paymentId": "PAY-RIDELESSCHAT-AAF83EFB94325E6D",
     "createdAt": "2026-11-24T09:26:26.554Z",
     "activatedAt": "2026-11-24T09:26:26.554Z"
+  },
+  {
+    "id": "RC-USER-C85ACDD4EB57C732",
+    "fullName": "Blessing Odowuike",
+    "email": "ifyblessed92@gmail.com",
+    "phone": "08037217066",
+    "passwordHash": "scrypt$bdb54724f8576a2c544bf71ba2bdb614$c81f130e9f756f0220c20968410dccd723089983b89986f22c48ebfce899bef7493e8052992f4a01260cd48ca96e73e8b20f31f113c3f73a53bf2656c22f4a7d",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-E682733B6C12B94F",
+    "createdAt": "2026-11-24T09:30:02.259Z",
+    "activatedAt": "2026-11-24T09:30:02.259Z"
   }
 ]
