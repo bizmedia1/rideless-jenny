@@ -2033,5 +2033,16 @@
     "paymentId": "PAY-RIDELESSCHAT-B05427F5C39C27A0",
     "createdAt": "2026-11-24T14:56:44.272Z",
     "activatedAt": "2026-11-24T14:56:44.272Z"
+  },
+  {
+    "id": "RC-USER-9705BE52B3A4A94F",
+    "fullName": "emeka uchechi joy",
+    "email": "joyuchechi072@gmail.com",
+    "phone": "09016601734",
+    "passwordHash": "scrypt$9471a3b243468f48919ca2f0f1f5641c$ce94e860e50f3713fbb3d2b902276a78d56c3a023d40f2ed454c34260945f3fdd1e544ba37db71288ec5fb67a6c75b812e4cc199e4c11f597d249c41f4f9f257",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-B701CEAFAF9A93CA",
+    "createdAt": "2026-11-24T14:59:51.471Z",
+    "activatedAt": "2026-11-24T14:59:51.471Z"
   }
 ]
