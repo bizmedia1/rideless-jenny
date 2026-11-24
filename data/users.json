@@ -1868,5 +1868,16 @@
     "paymentId": "PAY-RIDELESSCHAT-AF077FA315AE3F02",
     "createdAt": "2026-11-24T08:00:58.826Z",
     "activatedAt": "2026-11-24T08:00:58.826Z"
+  },
+  {
+    "id": "RC-USER-2BA74A28988C2EEF",
+    "fullName": "Favour Nwachukwu nkiruka",
+    "email": "favourbeauty816@gmail.com",
+    "phone": "09128538812",
+    "passwordHash": "scrypt$f1ef7a93c7ac6affce4fe5cf16dbe288$99decfd9d43eb67fb8ca34589b50c9c60828887d0ac216b0e82c77a8cc6f164aa4998deb64e71052c919c14f773cc008576fec1e9db3799acb6ef1a5e9100399",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-5905CB9489910653",
+    "createdAt": "2026-11-24T08:29:36.619Z",
+    "activatedAt": "2026-11-24T08:29:36.619Z"
   }
 ]
