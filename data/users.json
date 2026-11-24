@@ -2055,5 +2055,16 @@
     "paymentId": "PAY-RIDELESSCHAT-6AD9787C1165887D",
     "createdAt": "2026-11-24T15:32:21.599Z",
     "activatedAt": "2026-11-24T15:32:21.599Z"
+  },
+  {
+    "id": "RC-USER-A80B6A15EEF92032",
+    "fullName": "Chidi Ezioke",
+    "email": "eziokechidi@gmail.com",
+    "phone": "08140979431",
+    "passwordHash": "scrypt$99647ce6f024c3eb0ec467286d975cc9$d6985c39462ca19f1e258d3839a17376c380a36fd5b6ae894e568726a586fccb3911c41f1d9b389a15a9c7f52bf653df1816c605ab234904450652dd84bec594",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-E098977057E2C741",
+    "createdAt": "2026-11-24T15:34:35.350Z",
+    "activatedAt": "2026-11-24T15:34:35.350Z"
   }
 ]
