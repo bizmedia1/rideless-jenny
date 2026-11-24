@@ -2022,5 +2022,16 @@
     "paymentId": "PAY-RIDELESSCHAT-13BAC54A2354C1AD",
     "createdAt": "2026-11-24T14:41:26.642Z",
     "activatedAt": "2026-11-24T14:41:26.642Z"
+  },
+  {
+    "id": "RC-USER-12600DEC57EB808D",
+    "fullName": "Ogbe onyebuchi",
+    "email": "buchiogbe56@gmail.com",
+    "phone": "09031914045",
+    "passwordHash": "scrypt$b0e94e6aa163537b8bb04b82627762c8$973d1ae9fa7da02dfcdf667b012fe99d48433b1c27721813f8844a69f4a6618481ccb2f1a7d069a4f31595e5cfa641f0fc874c551298ac5b822f98d28225cef0",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-B05427F5C39C27A0",
+    "createdAt": "2026-11-24T14:56:44.272Z",
+    "activatedAt": "2026-11-24T14:56:44.272Z"
   }
 ]
