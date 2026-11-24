@@ -1978,5 +1978,16 @@
     "paymentId": "PAY-RIDELESSCHAT-C4E58DFE2DA7D186",
     "createdAt": "2026-11-24T10:41:36.403Z",
     "activatedAt": "2026-11-24T10:41:36.403Z"
+  },
+  {
+    "id": "RC-USER-86F6A464CFF28F5E",
+    "fullName": "Abiodun Charlotte",
+    "email": "charlottetope69@gmail.com",
+    "phone": "07057430414",
+    "passwordHash": "scrypt$bb12572812b3955a4843a5907f9d64cf$04304bcec265899a2538cebd5855fa42ddd2b4cb719d5e4c2beca580f8abf276932bc4f9fc8725ad6ed9d49cac8af75fc104014f64406191a92328cf9112b16a",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-7CE71F7028367F2D",
+    "createdAt": "2026-11-24T11:40:20.438Z",
+    "activatedAt": "2026-11-24T11:40:20.438Z"
   }
 ]
