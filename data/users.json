@@ -1945,5 +1945,16 @@
     "paymentId": "PAY-RIDELESSCHAT-7B1544BE1A8FA37A",
     "createdAt": "2026-11-24T09:19:05.849Z",
     "activatedAt": "2026-11-24T09:19:05.849Z"
+  },
+  {
+    "id": "RC-USER-2D36534057163CD0",
+    "fullName": "Ehichoya Stanley",
+    "email": "ehichoyastanley121@gmail.com",
+    "phone": "+2348110970140",
+    "passwordHash": "scrypt$dfaa296bcc0f25dc125535d5af826ba2$5b742e728b3244aa65eac57e7b6e232938598d72c29e621a07fbbf507ea0abc2935c9029ff7238162050abb9177517b4808097beb27250615a9b44534340522e",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-AAF83EFB94325E6D",
+    "createdAt": "2026-11-24T09:26:26.554Z",
+    "activatedAt": "2026-11-24T09:26:26.554Z"
   }
 ]
