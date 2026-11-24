@@ -2099,5 +2099,16 @@
     "paymentId": "PAY-RIDELESSCHAT-95A7156030BE9CFE",
     "createdAt": "2026-11-24T18:39:49.519Z",
     "activatedAt": "2026-11-24T18:39:49.519Z"
+  },
+  {
+    "id": "RC-USER-C923156E9DF4E4F2",
+    "fullName": "Chikezie Kalu",
+    "email": "kaluchikezie022@gmail.com",
+    "phone": "09132225496",
+    "passwordHash": "scrypt$322c63af9cc8bc33022dfc247be71790$7ef512fa606aeb32d2adf73c8da86955e4c4b4c67bfe90b059eb3bda5a4b8bfb5a808912e59156110a1dfa2f3495edbf282fe0914a35d86c081ae68a64724f5e",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-6AA8A2FF5B2CD0DE",
+    "createdAt": "2026-11-24T20:33:05.536Z",
+    "activatedAt": "2026-11-24T20:33:05.536Z"
   }
 ]
