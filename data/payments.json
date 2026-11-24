@@ -16608,17 +16608,18 @@
     "customerName": "Joy Hillary",
     "email": "joyhillary96@gmail.com",
     "phone": "08120832362",
-    "passwordHash": "scrypt$aab372798f68e4c4fd48bad39496c5bc$b395bc17719d0fd6144dc6a4e70a99ad69f1809146f2099a8c3435837c6b07a20b90997a1c6815f1ad03e093f038ca8d88561a44692ff64216ab91cdf98393e2",
+    "passwordHash": null,
     "amount": 3700,
     "amountKobo": 370000,
     "method": "paga",
     "provider": "movantra",
     "reference": "rc_1795537931278_12959dc96b",
-    "status": "pending",
+    "status": "approved",
     "statusTokenHash": "dc56ddcd68cbcdd56d8e50923e1f3af1216bc6a3bc92f9958867faf8aa2ff010",
     "activation": true,
     "createdAt": "2026-11-24T16:32:12.100Z",
-    "processedAt": null,
-    "activationExpiresAt": "2026-11-24T17:22:12.100Z"
+    "processedAt": "2026-11-24T16:33:50.514Z",
+    "activationExpiresAt": "2026-11-24T17:22:12.100Z",
+    "approvalSource": "movantra_webhook"
   }
 ]
