@@ -15725,17 +15725,18 @@
     "customerName": "Kayode",
     "email": "kayodehammond6@gmail.com",
     "phone": "+2348134739375",
-    "passwordHash": "scrypt$c1a2bdb158629fb8bd539e37bdb0ffc1$208e0c0857a7a0a03d0e9f0ee29f5c54e8db6921c0e29bf7282479d58eb6db3d0c7952b32a18662b8cf8072aa281ef2301526ae33ec4e68c734b012acc5060e7",
+    "passwordHash": null,
     "amount": 3700,
     "amountKobo": 370000,
     "method": "paga",
     "provider": "movantra",
     "reference": "rc_1795511172998_74c3644818",
-    "status": "pending",
+    "status": "approved",
     "statusTokenHash": "f3f6ff34cbe70d2cdb1d4cdf6f82531ffc615293b53c665562ea134ad8bc2b54",
     "activation": true,
     "createdAt": "2026-11-24T09:06:14.111Z",
-    "processedAt": null,
-    "activationExpiresAt": "2026-11-24T09:56:14.110Z"
+    "processedAt": "2026-11-24T09:08:07.572Z",
+    "activationExpiresAt": "2026-11-24T09:56:14.110Z",
+    "approvalSource": "movantra_webhook"
   }
 ]
