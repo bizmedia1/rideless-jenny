@@ -1857,5 +1857,16 @@
     "paymentId": "PAY-RIDELESSCHAT-95FF86E9C297D2A7",
     "createdAt": "2026-11-24T07:59:50.603Z",
     "activatedAt": "2026-11-24T07:59:50.603Z"
+  },
+  {
+    "id": "RC-USER-7BF1FA57FC4971D8",
+    "fullName": "Goodness chidera Alo",
+    "email": "goodnessalo74@gmail.com",
+    "phone": "09159252724",
+    "passwordHash": "scrypt$e5574ae0d1637e1f6c913dc38a3fcd90$efd5a442656e646233ee44a7cac150a5dba2967a5734f3a43527727ce0821de47787c4fb32b107be0ebd1281f34abb1cfed1373b27f83cf73e70e3c6b576336e",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-AF077FA315AE3F02",
+    "createdAt": "2026-11-24T08:00:58.826Z",
+    "activatedAt": "2026-11-24T08:00:58.826Z"
   }
 ]
