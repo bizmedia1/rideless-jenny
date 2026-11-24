@@ -16362,17 +16362,18 @@
     "customerName": "emeka uchechi joy",
     "email": "joyuchechi072@gmail.com",
     "phone": "09016601734",
-    "passwordHash": "scrypt$9471a3b243468f48919ca2f0f1f5641c$ce94e860e50f3713fbb3d2b902276a78d56c3a023d40f2ed454c34260945f3fdd1e544ba37db71288ec5fb67a6c75b812e4cc199e4c11f597d249c41f4f9f257",
+    "passwordHash": null,
     "amount": 3700,
     "amountKobo": 370000,
     "method": "paga",
     "provider": "movantra",
     "reference": "rc_1795532307560_5a7d5fd493",
-    "status": "pending",
+    "status": "approved",
     "statusTokenHash": "dea6c535784d05ad0cf9c5ce619239631a164eb80ce7a7cfce9dd5bf8ff0c5d9",
     "activation": true,
     "createdAt": "2026-11-24T14:58:28.586Z",
-    "processedAt": null,
-    "activationExpiresAt": "2026-11-24T15:48:28.585Z"
+    "processedAt": "2026-11-24T14:59:52.795Z",
+    "activationExpiresAt": "2026-11-24T15:48:28.585Z",
+    "approvalSource": "movantra_webhook"
   }
 ]
