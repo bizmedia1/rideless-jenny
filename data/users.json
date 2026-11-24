@@ -1890,5 +1890,16 @@
     "paymentId": "PAY-RIDELESSCHAT-FCDBC3F4DA5C043B",
     "createdAt": "2026-11-24T08:41:10.216Z",
     "activatedAt": "2026-11-24T08:41:10.216Z"
+  },
+  {
+    "id": "RC-USER-B8822F077EB797DD",
+    "fullName": "Chimchetaram Samuel",
+    "email": "chimchetaramsamuel6@gmail.com",
+    "phone": "09048655552",
+    "passwordHash": "scrypt$29b5a97788a42898c9dce957d1c69b50$f964938c9180988439deaf64b7caaa22c59e0527f3806164bd8d1975baa30fe5aac4f05d9242447892dc1cc27e4774dc1f90104bd7d2004a51246d684c0304a6",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-1C78047634484929",
+    "createdAt": "2026-11-24T08:43:52.401Z",
+    "activatedAt": "2026-11-24T08:43:52.401Z"
   }
 ]
