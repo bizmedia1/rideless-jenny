@@ -1835,5 +1835,16 @@
     "paymentId": "PAY-RIDELESSCHAT-370B3C54C0EB3E95",
     "createdAt": "2026-11-24T07:50:36.135Z",
     "activatedAt": "2026-11-24T07:50:36.135Z"
+  },
+  {
+    "id": "RC-USER-49D1D0CA936BC8BA",
+    "fullName": "Fatima isah",
+    "email": "isahabbajunior123@gmail.com",
+    "phone": "07044501288",
+    "passwordHash": "scrypt$eab2243f23d17d1724f8b3dbcfe2ccab$c3b58b207ea6f5b66a73b85704adfe7634c781762552fd747577add33b3fbca5da97b6f02dd91feddff8d99fbd69c7c60867874d9dd82381117f1a0fda64f1fb",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-AFEC3DD7F13716A5",
+    "createdAt": "2026-11-24T07:55:18.169Z",
+    "activatedAt": "2026-11-24T07:55:18.169Z"
   }
 ]
