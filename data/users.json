@@ -1967,5 +1967,16 @@
     "paymentId": "PAY-RIDELESSCHAT-E682733B6C12B94F",
     "createdAt": "2026-11-24T09:30:02.259Z",
     "activatedAt": "2026-11-24T09:30:02.259Z"
+  },
+  {
+    "id": "RC-USER-B1B75F415AC805EE",
+    "fullName": "Omigade racheal",
+    "email": "rachealomigade@gmail.com",
+    "phone": "08136403426",
+    "passwordHash": "scrypt$4ed46a95300a9944d0da30603c40555e$0ec9ef031067af79111c27a83513528dd75b896ea98bc7e8acc5e451cf0224bf564c53ea917b9263f3d64582e3da17eac439163626f1122a2b312e8267f48688",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-C4E58DFE2DA7D186",
+    "createdAt": "2026-11-24T10:41:36.403Z",
+    "activatedAt": "2026-11-24T10:41:36.403Z"
   }
 ]
