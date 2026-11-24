@@ -1934,5 +1934,16 @@
     "paymentId": "PAY-RIDELESSCHAT-29D5C411AE32FDB3",
     "createdAt": "2026-11-24T09:09:50.852Z",
     "activatedAt": "2026-11-24T09:09:50.852Z"
+  },
+  {
+    "id": "RC-USER-3DB1B5C0DD3D6940",
+    "fullName": "Ugochukwu george",
+    "email": "ugogeorges22@gmail.com",
+    "phone": "08035524417",
+    "passwordHash": "scrypt$0227ec347c6e24325a0b97bfb55da028$8e3f361f46d94b86cb5b3e8eb02eb8ef3f8c0731dc6f2518dd91688b3d87b8c1e86823d09e0553397f5f0046b893a8d2b5a47f9b0501d7bd9926ad14b40c44f3",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-7B1544BE1A8FA37A",
+    "createdAt": "2026-11-24T09:19:05.849Z",
+    "activatedAt": "2026-11-24T09:19:05.849Z"
   }
 ]
