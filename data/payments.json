@@ -16036,17 +16036,18 @@
     "customerName": "Omigade racheal",
     "email": "rachealomigade@gmail.com",
     "phone": "08136403426",
-    "passwordHash": "scrypt$4ed46a95300a9944d0da30603c40555e$0ec9ef031067af79111c27a83513528dd75b896ea98bc7e8acc5e451cf0224bf564c53ea917b9263f3d64582e3da17eac439163626f1122a2b312e8267f48688",
+    "passwordHash": null,
     "amount": 3700,
     "amountKobo": 370000,
     "method": "paga",
     "provider": "movantra",
     "reference": "rc_1795516836276_cc31de6c2f",
-    "status": "pending",
+    "status": "approved",
     "statusTokenHash": "bf0c203470b855eb074b551d133e58477da05605629a6b3448780177780a2f5e",
     "activation": true,
     "createdAt": "2026-11-24T10:40:37.485Z",
-    "processedAt": null,
-    "activationExpiresAt": "2026-11-24T11:30:37.484Z"
+    "processedAt": "2026-11-24T10:41:37.704Z",
+    "activationExpiresAt": "2026-11-24T11:30:37.484Z",
+    "approvalSource": "movantra_webhook"
   }
 ]
