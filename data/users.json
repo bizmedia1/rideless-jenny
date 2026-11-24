@@ -1813,5 +1813,16 @@
     "paymentId": "PAY-RIDELESSCHAT-1A34E92CFC07B09C",
     "createdAt": "2026-11-24T03:54:12.113Z",
     "activatedAt": "2026-11-24T03:54:12.113Z"
+  },
+  {
+    "id": "RC-USER-B0E07FEDA8EF50CA",
+    "fullName": "Adeola Ademola",
+    "email": "ademolavictor001@gmail.com",
+    "phone": "08130219452",
+    "passwordHash": "scrypt$79ff8b0df5c966d1f387097cce7d3d0f$d8bf75de83d9dcfb7d563789718e8e0a73fdc35739e6aad62b98e87f66a0aa3f12aad4c5104a28e3c2eb70a365df4976976d4333ff1f13ac74a5eeb1c0d6da89",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-232D934A0F615DC0",
+    "createdAt": "2026-11-24T06:49:00.796Z",
+    "activatedAt": "2026-11-24T06:49:00.796Z"
   }
 ]
