@@ -2066,5 +2066,16 @@
     "paymentId": "PAY-RIDELESSCHAT-E098977057E2C741",
     "createdAt": "2026-11-24T15:34:35.350Z",
     "activatedAt": "2026-11-24T15:34:35.350Z"
+  },
+  {
+    "id": "RC-USER-8FD88DD608F1F4A8",
+    "fullName": "Doris Cletus inji Cletus inji",
+    "email": "dornitadoris@gmail.com",
+    "phone": "+2349067682590",
+    "passwordHash": "scrypt$da34a6418f6f33d4c6bdb59f25954495$2b3fec9b5370fed20d05321aaaa5c2ddd0200343382375e6e532c6e96fad89af6cc1d716ef360a3850bba174cb64ed0e53cc36077af3590ccb2aeb22d01d8de6",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-6331019F06A6A557",
+    "createdAt": "2026-11-24T16:12:25.660Z",
+    "activatedAt": "2026-11-24T16:12:25.660Z"
   }
 ]
