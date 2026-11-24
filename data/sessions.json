@@ -1197,11 +1197,10 @@
     "expiresAt": 1798143375470
   },
   {
-    "id": "18b43de7-56ea-41f4-922c-c846eb6ffac9",
-    "tokenHash": "cb3e229b59366bbb39aa3e62386fb51e23721a6c3a47928d161860e6b4c26e51",
-    "userId": "RC-USER-C923156E9DF4E4F2",
-    "paymentId": "PAY-RIDELESSCHAT-6AA8A2FF5B2CD0DE",
-    "createdAt": "2026-11-24T20:33:16.763Z",
-    "expiresAt": "2026-12-24T20:33:16.763Z"
+    "id": "ce388c66-4236-432f-8b9a-70b56bad09f4",
+    "userId": "RC-USER-51616659750FAFEF",
+    "tokenHash": "2c0b631d133199d8d452c5541a9f440db724884af19849893e0881180e160593",
+    "createdAt": "2026-11-24T20:42:06.702Z",
+    "expiresAt": 1798144926702
   }
 ]
