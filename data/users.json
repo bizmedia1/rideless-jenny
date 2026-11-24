@@ -1824,5 +1824,16 @@
     "paymentId": "PAY-RIDELESSCHAT-232D934A0F615DC0",
     "createdAt": "2026-11-24T06:49:00.796Z",
     "activatedAt": "2026-11-24T06:49:00.796Z"
+  },
+  {
+    "id": "RC-USER-44CAFFF51F6EA2DA",
+    "fullName": "Love barima",
+    "email": "barimalove713@gmail.com",
+    "phone": "08148660236",
+    "passwordHash": "scrypt$b1741979af056beb75e16d01742b8ac5$a78bfff1e8889761e848ef9344d34edcf912ef4ee2174af1c41e1cc7bcfc79b844e034c3d78cc114394101b343cc956e10704e045a87909462e9010ad1fa3a10",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-370B3C54C0EB3E95",
+    "createdAt": "2026-11-24T07:50:36.135Z",
+    "activatedAt": "2026-11-24T07:50:36.135Z"
   }
 ]
