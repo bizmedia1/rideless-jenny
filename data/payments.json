@@ -15127,5 +15127,23 @@
     "activationExpiresAt": "2026-11-24T08:15:33.012Z",
     "supersededAt": "2026-11-24T07:25:40.685Z",
     "supersededReason": "New payment amount selected"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-68B42A4B47354D72",
+    "customerName": "Oswese Sun",
+    "email": "osawesesunday866@gmail.com",
+    "phone": "08039672107",
+    "passwordHash": "scrypt$434ebff40ffd33256e1cb048de1edb64$2ffd13bcae8af5fc29392f39c60926c8cf960be88357815895f22e0b26469a2c04ca987258241c626a3aad620413a42fe72f32720361735a4e729eb7e805bd3c",
+    "amount": 3700,
+    "amountKobo": 370000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795505142200_4bdb02abc1",
+    "status": "pending",
+    "statusTokenHash": "33fda348ddd1d5c231d3ac3e5d484510f2e6ce846427302f502adb404317188f",
+    "activation": true,
+    "createdAt": "2026-11-24T07:25:43.346Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-24T08:15:43.346Z"
   }
 ]
