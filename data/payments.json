@@ -16439,18 +16439,19 @@
     "customerName": "Chidi Ezioke",
     "email": "eziokechidi@gmail.com",
     "phone": "08140979431",
-    "passwordHash": "scrypt$99647ce6f024c3eb0ec467286d975cc9$d6985c39462ca19f1e258d3839a17376c380a36fd5b6ae894e568726a586fccb3911c41f1d9b389a15a9c7f52bf653df1816c605ab234904450652dd84bec594",
+    "passwordHash": null,
     "amount": 5200,
     "amountKobo": 520000,
     "method": "paga",
     "provider": "movantra",
     "reference": "rc_1795533963798_9ac85ae417",
-    "status": "pending",
+    "status": "approved",
     "statusTokenHash": "528fba12efad0423c02f23918874a753234e3e568f57e31a505b122e38e68e45",
     "activation": true,
     "createdAt": "2026-11-24T15:26:05.015Z",
-    "processedAt": null,
-    "activationExpiresAt": "2026-11-24T16:16:05.014Z"
+    "processedAt": "2026-11-24T15:34:36.831Z",
+    "activationExpiresAt": "2026-11-24T16:16:05.014Z",
+    "approvalSource": "movantra_webhook"
   },
   {
     "id": "PAY-RIDELESSCHAT-6AD9787C1165887D",
