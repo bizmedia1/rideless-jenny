@@ -15203,5 +15203,23 @@
     "processedAt": "2026-11-24T07:55:19.360Z",
     "activationExpiresAt": "2026-11-24T08:40:39.741Z",
     "approvalSource": "movantra_webhook"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-95FF86E9C297D2A7",
+    "customerName": "Olayemi",
+    "email": "oluwadabiraolami@gmail.com",
+    "phone": "+2348142176739",
+    "passwordHash": "scrypt$fe72659e5ef8147f25684e7f255b342f$6ca2c57c8dae59c16a5a97e232ed587aa9e0ffce7409ae9ead010530188f80bb3b0d6b0f7cd050ddccebf39432cae7b2e1a7e553cc01b88a4d0fd7f18697611b",
+    "amount": 5200,
+    "amountKobo": 520000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795507081756_1a6cd8beab",
+    "status": "pending",
+    "statusTokenHash": "6ba13f27087dff211ed1483eedcfd8d613e93b03982aa0a6241eb4299f244707",
+    "activation": true,
+    "createdAt": "2026-11-24T07:58:03.475Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-24T08:48:03.474Z"
   }
 ]
