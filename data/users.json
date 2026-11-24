@@ -2110,5 +2110,16 @@
     "paymentId": "PAY-RIDELESSCHAT-6AA8A2FF5B2CD0DE",
     "createdAt": "2026-11-24T20:33:05.536Z",
     "activatedAt": "2026-11-24T20:33:05.536Z"
+  },
+  {
+    "id": "RC-USER-90E5179F746A49FD",
+    "fullName": "Rachel",
+    "email": "peterrachel107@gmail.com",
+    "phone": "09029102806",
+    "passwordHash": "scrypt$d2f19fcccfece6cc5c0813170608edcf$60454ed29f7ace6b196a73bae2d86428f263478243c9f8977c00999099e770b2fce0c23da165ce68598aa3cd2e16e502068e760a0e40b78433a778e264808bcc",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-771702E73D9A907E",
+    "createdAt": "2026-11-24T21:22:40.363Z",
+    "activatedAt": "2026-11-24T21:22:40.363Z"
   }
 ]
