@@ -2088,5 +2088,16 @@
     "paymentId": "PAY-RIDELESSCHAT-C8738571D70FB2E0",
     "createdAt": "2026-11-24T16:33:48.983Z",
     "activatedAt": "2026-11-24T16:33:48.983Z"
+  },
+  {
+    "id": "RC-USER-7555182C91AB470F",
+    "fullName": "Iyabosi chukwuma victor",
+    "email": "iyabosichukwuma@gmail.com",
+    "phone": "07061708553",
+    "passwordHash": "scrypt$5231390b3f2993a755243fb8d76b58bf$9d32fd39f8f29d0f9cfe93239314c3d80b48e4975d9e3ba4630c91ea7385d21281aa04169f52a303e403fede2976f5bcea80ec8e9209eeb5b3f560e60b585303",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-95A7156030BE9CFE",
+    "createdAt": "2026-11-24T18:39:49.519Z",
+    "activatedAt": "2026-11-24T18:39:49.519Z"
   }
 ]
