@@ -15476,18 +15476,19 @@
     "customerName": "Chimchetaram Samuel",
     "email": "chimchetaramsamuel6@gmail.com",
     "phone": "09048655552",
-    "passwordHash": "scrypt$29b5a97788a42898c9dce957d1c69b50$f964938c9180988439deaf64b7caaa22c59e0527f3806164bd8d1975baa30fe5aac4f05d9242447892dc1cc27e4774dc1f90104bd7d2004a51246d684c0304a6",
+    "passwordHash": null,
     "amount": 3700,
     "amountKobo": 370000,
     "method": "paga",
     "provider": "movantra",
     "reference": "rc_1795509584126_d93e9a83ad",
-    "status": "pending",
+    "status": "approved",
     "statusTokenHash": "64e06bd559351da380f34536b4ff93bb7893b5b00495f1050c193964dec7dccd",
     "activation": true,
     "createdAt": "2026-11-24T08:39:45.392Z",
-    "processedAt": null,
-    "activationExpiresAt": "2026-11-24T09:29:45.392Z"
+    "processedAt": "2026-11-24T08:43:53.539Z",
+    "activationExpiresAt": "2026-11-24T09:29:45.392Z",
+    "approvalSource": "movantra_webhook"
   },
   {
     "id": "PAY-RIDELESSCHAT-FCDBC3F4DA5C043B",
