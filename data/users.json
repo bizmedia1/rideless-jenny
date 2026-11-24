@@ -2077,5 +2077,16 @@
     "paymentId": "PAY-RIDELESSCHAT-6331019F06A6A557",
     "createdAt": "2026-11-24T16:12:25.660Z",
     "activatedAt": "2026-11-24T16:12:25.660Z"
+  },
+  {
+    "id": "RC-USER-4E8064CBB9F7DDEE",
+    "fullName": "Joy Hillary",
+    "email": "joyhillary96@gmail.com",
+    "phone": "08120832362",
+    "passwordHash": "scrypt$aab372798f68e4c4fd48bad39496c5bc$b395bc17719d0fd6144dc6a4e70a99ad69f1809146f2099a8c3435837c6b07a20b90997a1c6815f1ad03e093f038ca8d88561a44692ff64216ab91cdf98393e2",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-C8738571D70FB2E0",
+    "createdAt": "2026-11-24T16:33:48.983Z",
+    "activatedAt": "2026-11-24T16:33:48.983Z"
   }
 ]
