@@ -1846,5 +1846,16 @@
     "paymentId": "PAY-RIDELESSCHAT-AFEC3DD7F13716A5",
     "createdAt": "2026-11-24T07:55:18.169Z",
     "activatedAt": "2026-11-24T07:55:18.169Z"
+  },
+  {
+    "id": "RC-USER-DC8F096AAE5AF947",
+    "fullName": "Olayemi",
+    "email": "oluwadabiraolami@gmail.com",
+    "phone": "+2348142176739",
+    "passwordHash": "scrypt$fe72659e5ef8147f25684e7f255b342f$6ca2c57c8dae59c16a5a97e232ed587aa9e0ffce7409ae9ead010530188f80bb3b0d6b0f7cd050ddccebf39432cae7b2e1a7e553cc01b88a4d0fd7f18697611b",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-95FF86E9C297D2A7",
+    "createdAt": "2026-11-24T07:59:50.603Z",
+    "activatedAt": "2026-11-24T07:59:50.603Z"
   }
 ]
