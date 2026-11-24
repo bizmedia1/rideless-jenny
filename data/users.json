@@ -1901,5 +1901,16 @@
     "paymentId": "PAY-RIDELESSCHAT-1C78047634484929",
     "createdAt": "2026-11-24T08:43:52.401Z",
     "activatedAt": "2026-11-24T08:43:52.401Z"
+  },
+  {
+    "id": "RC-USER-151B9B29288712DE",
+    "fullName": "Esther Lawal",
+    "email": "esther1234lawal@gmail.com",
+    "phone": "07019649149",
+    "passwordHash": "scrypt$a9b74441be50ebd391668af3711fb553$0a224c541bd4ecdfdd519371306fceea8b705ffd89143ab7c16f01c7c5967f55dd414bf739f4417870f070df37db391ec1d4bff792215c942871bf05ba6e1c3f",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-D704BDDF5FE723E1",
+    "createdAt": "2026-11-24T08:56:50.034Z",
+    "activatedAt": "2026-11-24T08:56:50.034Z"
   }
 ]
