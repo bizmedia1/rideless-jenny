@@ -2044,5 +2044,16 @@
     "paymentId": "PAY-RIDELESSCHAT-B701CEAFAF9A93CA",
     "createdAt": "2026-11-24T14:59:51.471Z",
     "activatedAt": "2026-11-24T14:59:51.471Z"
+  },
+  {
+    "id": "RC-USER-1F7E877FD3C62B29",
+    "fullName": "Ariyibi Elizabeth",
+    "email": "ariyibielizabeth67@gmail.com",
+    "phone": "07070842176",
+    "passwordHash": "scrypt$1dab755160bb78b56b3275ebaa947144$eb4c68a0492612bc246785200d95d7d1d847936afee1cc9e19eb39a74fdbdb1e15899230093c4e25bdd6488a36f90bc330399b908f288fb19e5ea1eab1049010",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-6AD9787C1165887D",
+    "createdAt": "2026-11-24T15:32:21.599Z",
+    "activatedAt": "2026-11-24T15:32:21.599Z"
   }
 ]
