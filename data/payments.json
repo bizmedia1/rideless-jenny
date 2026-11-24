@@ -15684,17 +15684,18 @@
     "customerName": "Esther Lawal",
     "email": "esther1234lawal@gmail.com",
     "phone": "07019649149",
-    "passwordHash": "scrypt$a9b74441be50ebd391668af3711fb553$0a224c541bd4ecdfdd519371306fceea8b705ffd89143ab7c16f01c7c5967f55dd414bf739f4417870f070df37db391ec1d4bff792215c942871bf05ba6e1c3f",
+    "passwordHash": null,
     "amount": 3700,
     "amountKobo": 370000,
     "method": "paga",
     "provider": "movantra",
     "reference": "rc_1795510481611_910b21f929",
-    "status": "pending",
+    "status": "approved",
     "statusTokenHash": "c3bfdfad270358e7177626a613b3a2c9ac5008972c988b52430f388b92b0638e",
     "activation": true,
     "createdAt": "2026-11-24T08:54:43.052Z",
-    "processedAt": null,
-    "activationExpiresAt": "2026-11-24T09:44:43.052Z"
+    "processedAt": "2026-11-24T08:56:51.354Z",
+    "activationExpiresAt": "2026-11-24T09:44:43.052Z",
+    "approvalSource": "movantra_webhook"
   }
 ]
