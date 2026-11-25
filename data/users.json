@@ -2242,5 +2242,16 @@
     "paymentId": "PAY-RIDELESSCHAT-8FA2F6C7694D550D",
     "createdAt": "2026-11-25T18:30:22.270Z",
     "activatedAt": "2026-11-25T18:30:22.270Z"
+  },
+  {
+    "id": "RC-USER-0CA9C0657A72D541",
+    "fullName": "Ochiaka ebere",
+    "email": "mirapauly02@gmail.com",
+    "phone": "08066101922",
+    "passwordHash": "scrypt$74f86c8e0ce1b256597bde6912b79c81$b1af6447f4daecc5ada185edc1d8a50cf010c2a65c2e612d1c5d5935bac15978d047b038673eb641a10ca785bdcf87e954f5501fdcb32313f8e88b2856a5c961",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-FDB31F70D075994E",
+    "createdAt": "2026-11-25T19:03:22.510Z",
+    "activatedAt": "2026-11-25T19:03:22.510Z"
   }
 ]
