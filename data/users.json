@@ -2121,5 +2121,16 @@
     "paymentId": "PAY-RIDELESSCHAT-771702E73D9A907E",
     "createdAt": "2026-11-24T21:22:40.363Z",
     "activatedAt": "2026-11-24T21:22:40.363Z"
+  },
+  {
+    "id": "RC-USER-658D94C14D538FEE",
+    "fullName": "Michael Bridget",
+    "email": "udumebrayeshadrach405@gmail.com",
+    "phone": "07046341925",
+    "passwordHash": "scrypt$f139302578c48d9253566150b1b00f12$da90e1944ae4b18c1d197f1233ba2ab2598a9d53a039400c285bfcf14dd299a5c74c9b5d5e56d113f4e854013dbac44c9e25ca90ee72013d7e42d3ec20db8ea5",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-D7BD850EEC568843",
+    "createdAt": "2026-11-25T05:00:08.324Z",
+    "activatedAt": "2026-11-25T05:00:08.324Z"
   }
 ]
