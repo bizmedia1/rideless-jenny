@@ -17549,5 +17549,23 @@
     "createdAt": "2026-11-25T11:55:49.015Z",
     "processedAt": null,
     "activationExpiresAt": "2026-11-25T12:45:49.014Z"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-DA9EAA238B3FACEA",
+    "customerName": "Osas",
+    "email": "osasdavid807@gmail.com",
+    "phone": "08119971410",
+    "passwordHash": "scrypt$1303650b787b38ef78a40623ba6965c0$7adf2d3e5cff998360be7dc1fe298a34cbfbe0fd6bd2221919f1370b497c50a3f2883741026612e92992a689b0406136017ad8bac189c2e7c5e4e3a9ded5bec9",
+    "amount": 3700,
+    "amountKobo": 370000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795608030168_bbde0bc909",
+    "status": "pending",
+    "statusTokenHash": "1e9b825182c85d72944374982de25091553afe922ac4da53adfb67148bf240fd",
+    "activation": true,
+    "createdAt": "2026-11-25T12:00:31.260Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-25T12:50:31.260Z"
   }
 ]
