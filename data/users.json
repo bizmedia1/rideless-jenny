@@ -2198,5 +2198,16 @@
     "paymentId": "PAY-RIDELESSCHAT-C325CA4824E09D52",
     "createdAt": "2026-11-25T12:23:52.036Z",
     "activatedAt": "2026-11-25T12:23:52.036Z"
+  },
+  {
+    "id": "RC-USER-072E5A74DF3CDFEA",
+    "fullName": "God's will Etim",
+    "email": "godswilletim863@gmail.com",
+    "phone": "09118232248",
+    "passwordHash": "scrypt$e98406f416a03d0256e14491dca6011a$a39c674ed65863c8b996c015c25a9d472174910c4fab8f524193eef1d792c65d34bc303fe75a317993ec0dd9916b8f8a05dd0d30d63f56f24f39e4632532b331",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-0EAB0DE0BB211107",
+    "createdAt": "2026-11-25T12:57:00.369Z",
+    "activatedAt": "2026-11-25T12:57:00.369Z"
   }
 ]
