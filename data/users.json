@@ -2143,5 +2143,16 @@
     "paymentId": "PAY-RIDELESSCHAT-E0EE12A98D2A90DC",
     "createdAt": "2026-11-25T06:30:21.247Z",
     "activatedAt": "2026-11-25T06:30:21.247Z"
+  },
+  {
+    "id": "RC-USER-793E8A4AAA2ABF92",
+    "fullName": "Ozoigbo Adaeze",
+    "email": "ozoada00@gmail.com",
+    "phone": "08168822682",
+    "passwordHash": "scrypt$1f935012c5c32572f2ae6e47fc2a24d5$429db6ac31e17ae1ee1884dff3f38c3f99338159785a671dfc254dfcbbf364ed091a6706302e6ada8c92b0d913061b7f0cce39655da9d42546a93453637a8c10",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-CC80941A4949D54E",
+    "createdAt": "2026-11-25T11:53:37.467Z",
+    "activatedAt": "2026-11-25T11:53:37.467Z"
   }
 ]
