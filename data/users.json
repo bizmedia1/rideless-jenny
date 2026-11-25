@@ -2253,5 +2253,16 @@
     "paymentId": "PAY-RIDELESSCHAT-FDB31F70D075994E",
     "createdAt": "2026-11-25T19:03:22.510Z",
     "activatedAt": "2026-11-25T19:03:22.510Z"
+  },
+  {
+    "id": "RC-USER-E4EEFC390EA8D786",
+    "fullName": "Judith chinaza godwin",
+    "email": "godwinjudith342@gmail.com",
+    "phone": "09125704221",
+    "passwordHash": "scrypt$be59b46701c7e8381374a58959fdfb25$f8e22d9cf43fbc2f0a5e46854cf1a44c867bb24289623bf5c70342ecb143c2e4b86b8ce0c6226dca86539afc6f24a1a88772640881f3ac56eb12689d1a4e19d1",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-E9DE49705548413D",
+    "createdAt": "2026-11-25T19:16:02.615Z",
+    "activatedAt": "2026-11-25T19:16:02.615Z"
   }
 ]
