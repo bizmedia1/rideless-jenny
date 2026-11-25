@@ -17962,17 +17962,18 @@
     "customerName": "Judith chinaza godwin",
     "email": "godwinjudith342@gmail.com",
     "phone": "09125704221",
-    "passwordHash": "scrypt$be59b46701c7e8381374a58959fdfb25$f8e22d9cf43fbc2f0a5e46854cf1a44c867bb24289623bf5c70342ecb143c2e4b86b8ce0c6226dca86539afc6f24a1a88772640881f3ac56eb12689d1a4e19d1",
+    "passwordHash": null,
     "amount": 3700,
     "amountKobo": 370000,
     "method": "paga",
     "provider": "movantra",
     "reference": "rc_1795634089580_72d14c038c",
-    "status": "pending",
+    "status": "approved",
     "statusTokenHash": "12e4fc66457dcc903d477cb10397a9c853d4a340e183301abfcccaee1cd9ff7c",
     "activation": true,
     "createdAt": "2026-11-25T19:14:50.569Z",
-    "processedAt": null,
-    "activationExpiresAt": "2026-11-25T20:04:50.568Z"
+    "processedAt": "2026-11-25T19:16:03.912Z",
+    "activationExpiresAt": "2026-11-25T20:04:50.568Z",
+    "approvalSource": "movantra_webhook"
   }
 ]
