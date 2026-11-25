@@ -2187,5 +2187,16 @@
     "paymentId": "PAY-RIDELESSCHAT-8A9F466B4BD93A73",
     "createdAt": "2026-11-25T12:12:16.817Z",
     "activatedAt": "2026-11-25T12:12:16.817Z"
+  },
+  {
+    "id": "RC-USER-071FFE26D411A453",
+    "fullName": "Esther Berthram",
+    "email": "estherbrethram81@gmail.com",
+    "phone": "08148407582",
+    "passwordHash": "scrypt$27a83026437a06a33f6283ebdb1ed683$ec91b40d313bfa7fff1cadcd1ebb0d5846ce0a3073e0a437724d8e83e343cef60f760021e83c66749e87793f3879d1b82d48fc9f4a5e98c97a5bc6f9ef73012b",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-C325CA4824E09D52",
+    "createdAt": "2026-11-25T12:23:52.036Z",
+    "activatedAt": "2026-11-25T12:23:52.036Z"
   }
 ]
