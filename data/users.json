@@ -2154,5 +2154,16 @@
     "paymentId": "PAY-RIDELESSCHAT-CC80941A4949D54E",
     "createdAt": "2026-11-25T11:53:37.467Z",
     "activatedAt": "2026-11-25T11:53:37.467Z"
+  },
+  {
+    "id": "RC-USER-CC854ED6F4DE4E7C",
+    "fullName": "Olawuni Johnson Oluwanifise",
+    "email": "blaabloo92@gmail.com",
+    "phone": "09150132934",
+    "passwordHash": "scrypt$475b948449eec2d09485990a050c1b0f$b76eba70dc67a2ae77a590af11367b57a728fb9ebb9895608e2c46fcd8e28dcf97d10dd92d56e3de7e583c9587bb5e05677fdc7bf76caad82abb7ac05044e252",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-41CF125A386909EC",
+    "createdAt": "2026-11-25T11:53:49.952Z",
+    "activatedAt": "2026-11-25T11:53:49.952Z"
   }
 ]
