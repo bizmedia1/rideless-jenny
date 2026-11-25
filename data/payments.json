@@ -17394,5 +17394,23 @@
     "createdAt": "2026-11-25T06:36:00.396Z",
     "processedAt": null,
     "activationExpiresAt": "2026-11-25T07:26:00.396Z"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-A638AF4683891FD7",
+    "customerName": "ORUMWENSE SAVOIUR FRANK",
+    "email": "saviourorumwense@gmail.com",
+    "phone": "+2349169218970",
+    "passwordHash": "scrypt$94885498c7d6ec93bab91f4046d53514$48c8723f264c1f5a711ceb8f210038f6cc71e0faf6bacd993631c4fbf9249b97ad4fec3f557b12d3fed12ba7ddd5a74dd5b95ea4a58f961f5f3b7abce46fa9a2",
+    "amount": 5200,
+    "amountKobo": 520000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795590595672_c2e3092514",
+    "status": "pending",
+    "statusTokenHash": "c1bab3110cb8da7a7a4eb4f216952b18a29c7919e32cd5776dd4e2d71f589682",
+    "activation": true,
+    "createdAt": "2026-11-25T07:09:56.763Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-25T07:59:56.763Z"
   }
 ]
