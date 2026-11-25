@@ -2176,5 +2176,16 @@
     "paymentId": "PAY-RIDELESSCHAT-97F2B06D0BFC899C",
     "createdAt": "2026-11-25T11:57:24.583Z",
     "activatedAt": "2026-11-25T11:57:24.584Z"
+  },
+  {
+    "id": "RC-USER-3AC61FA9CB7F2853",
+    "fullName": "Penda Mary Rumun",
+    "email": "pendamary96@gmail.com",
+    "phone": "09160275921",
+    "passwordHash": "scrypt$dd5252ab4a0683a4f863665b192d4e52$c206b174bfc072d1bf091dcd02e365c67c8a697fc96633fe314d80074ac304e98fb4d33f84d0ff9abe580e9661bbeda6348c98b551c5e4fbd527add30846313d",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-8A9F466B4BD93A73",
+    "createdAt": "2026-11-25T12:12:16.817Z",
+    "activatedAt": "2026-11-25T12:12:16.817Z"
   }
 ]
