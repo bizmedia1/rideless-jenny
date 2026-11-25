@@ -2165,5 +2165,16 @@
     "paymentId": "PAY-RIDELESSCHAT-41CF125A386909EC",
     "createdAt": "2026-11-25T11:53:49.952Z",
     "activatedAt": "2026-11-25T11:53:49.952Z"
+  },
+  {
+    "id": "RC-USER-FF401BDAA99E8E99",
+    "fullName": "Omoike Jeremiah",
+    "email": "jerryhens4christ@gmail.com",
+    "phone": "08050912148",
+    "passwordHash": "scrypt$37725f77b7e94b9818053d394df0ab86$66ee1e221b516528b22e60e300102450138e35d8db550ee1eb7eed7577c979a0e38813edbcfad2f54cb22503364ad9741f43238b283e0358277dbd812cf5c82d",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-97F2B06D0BFC899C",
+    "createdAt": "2026-11-25T11:57:24.583Z",
+    "activatedAt": "2026-11-25T11:57:24.584Z"
   }
 ]
