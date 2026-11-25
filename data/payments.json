@@ -17376,5 +17376,23 @@
     "activationExpiresAt": "2026-11-25T07:23:29.683Z",
     "supersededAt": "2026-11-25T06:35:57.439Z",
     "supersededReason": "New payment amount selected"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-E468D16FF8DECCAA",
+    "customerName": "Chi dera",
+    "email": "jj7346320@gmail.com",
+    "phone": "09158458112",
+    "passwordHash": "scrypt$20719c4c904c2d1931944cc590804dc1$b1750e3b9d77eb7d41f8b5aecfae874d5264253b78b0f089d5d14c623ba9a3f778a1b2953f758fe1c8d94647a30ffc9ce702b2e31aee599b1bc0f3d15eaecc8a",
+    "amount": 3700,
+    "amountKobo": 370000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795588559013_58c64376a2",
+    "status": "pending",
+    "statusTokenHash": "d26756df1d755580a1b77dc6b37b6531b697e7e22e8da765183f80c33404d2a9",
+    "activation": true,
+    "createdAt": "2026-11-25T06:36:00.396Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-25T07:26:00.396Z"
   }
 ]
