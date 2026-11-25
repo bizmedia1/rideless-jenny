@@ -18021,17 +18021,18 @@
     "customerName": "Favour Odigbo",
     "email": "odigbofavour753@gmail.com",
     "phone": "2349021591688",
-    "passwordHash": "scrypt$9e22d4e5bbf439b3347596b131555e32$a4c12fb13c8abf8ed63a439a27e01073f34a001f08da5197fb5aa654b48ea1d18cd3682b43363196e4a024461c77a80528119fbb892e3bf41ee3b29b1c8ea86e",
+    "passwordHash": null,
     "amount": 3700,
     "amountKobo": 370000,
     "method": "paga",
     "provider": "movantra",
     "reference": "rc_1795635777356_63e12a9631",
-    "status": "pending",
+    "status": "approved",
     "statusTokenHash": "208dbd669bb7380d866d074117e6ff28e0d09afcdbb16d07f848b22498c5ee31",
     "activation": true,
     "createdAt": "2026-11-25T19:42:58.459Z",
-    "processedAt": null,
-    "activationExpiresAt": "2026-11-25T20:32:58.458Z"
+    "processedAt": "2026-11-25T19:45:09.218Z",
+    "activationExpiresAt": "2026-11-25T20:32:58.458Z",
+    "approvalSource": "movantra_webhook"
   }
 ]
