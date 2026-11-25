@@ -2286,5 +2286,16 @@
     "paymentId": "PAY-RIDELESSCHAT-87C01FDCF3E27139",
     "createdAt": "2026-11-25T19:43:05.317Z",
     "activatedAt": "2026-11-25T19:43:05.317Z"
+  },
+  {
+    "id": "RC-USER-C4839216E0B198C5",
+    "fullName": "Favour Odigbo",
+    "email": "odigbofavour753@gmail.com",
+    "phone": "2349021591688",
+    "passwordHash": "scrypt$9e22d4e5bbf439b3347596b131555e32$a4c12fb13c8abf8ed63a439a27e01073f34a001f08da5197fb5aa654b48ea1d18cd3682b43363196e4a024461c77a80528119fbb892e3bf41ee3b29b1c8ea86e",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-5A7AAB6093D669F1",
+    "createdAt": "2026-11-25T19:45:07.902Z",
+    "activatedAt": "2026-11-25T19:45:07.902Z"
   }
 ]
