@@ -2308,5 +2308,16 @@
     "paymentId": "PAY-RIDELESSCHAT-E6592B3A15F3BD35",
     "createdAt": "2026-11-25T20:55:45.146Z",
     "activatedAt": "2026-11-25T20:55:45.146Z"
+  },
+  {
+    "id": "RC-USER-DE33F67506A16FDC",
+    "fullName": "Elizabeth oluwaseunfunmi",
+    "email": "elizabetholuwaseunfunmi42@gmail.com",
+    "phone": "+2348144781036",
+    "passwordHash": "scrypt$3baf71d1c8ec9c8efe88682613ed2ece$b20365cdc7ebd750c6478c0b41f764012061d8e96310250989387f1a545174074fb9e4ba317f8601c133a1b371ac0ce2af0542cd248dbc659aa4e918e5aa1835",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-BF74C4748A2CE0B0",
+    "createdAt": "2026-11-25T21:50:44.668Z",
+    "activatedAt": "2026-11-25T21:50:44.668Z"
   }
 ]
