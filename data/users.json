@@ -2297,5 +2297,16 @@
     "paymentId": "PAY-RIDELESSCHAT-5A7AAB6093D669F1",
     "createdAt": "2026-11-25T19:45:07.902Z",
     "activatedAt": "2026-11-25T19:45:07.902Z"
+  },
+  {
+    "id": "RC-USER-EF2920006B8AEB4C",
+    "fullName": "Ayoade  qudus",
+    "email": "qudusayoade853@gamil.com",
+    "phone": "07033503022",
+    "passwordHash": "scrypt$b945887fb1ed3e81c5a3f8bd11846652$9ee958efe5a65c1b720144520c9fb68894b40849362f88705010fe93a97504dcd850cdb69382668f8520ec3f9dfaf097f526c25683c3a4144b1b671f2a31c4a8",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-E6592B3A15F3BD35",
+    "createdAt": "2026-11-25T20:55:45.146Z",
+    "activatedAt": "2026-11-25T20:55:45.146Z"
   }
 ]
