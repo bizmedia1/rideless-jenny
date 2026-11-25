@@ -2231,5 +2231,16 @@
     "paymentId": "PAY-RIDELESSCHAT-12A8BF40C22B070F",
     "createdAt": "2026-11-25T15:38:01.776Z",
     "activatedAt": "2026-11-25T15:38:01.776Z"
+  },
+  {
+    "id": "RC-USER-1E874F24773FA854",
+    "fullName": "Etteobong",
+    "email": "effiongvictor465@gmail.com",
+    "phone": "09138726750",
+    "passwordHash": "scrypt$7c6f2d6b22802c164ddc1677facda956$bea1e7d2032de4f060a34f12fdfa05b589ac6e73e5b51745b90dc84869ebc3a8d6f5acd6964edb006c4c36908ebb5bbe2934b7237a3140e004452d8f80c41bce",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-8FA2F6C7694D550D",
+    "createdAt": "2026-11-25T18:30:22.270Z",
+    "activatedAt": "2026-11-25T18:30:22.270Z"
   }
 ]
