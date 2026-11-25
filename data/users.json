@@ -2220,5 +2220,16 @@
     "paymentId": "PAY-RIDELESSCHAT-A1CAF71DBD69DDD7",
     "createdAt": "2026-11-25T14:15:52.360Z",
     "activatedAt": "2026-11-25T14:15:52.360Z"
+  },
+  {
+    "id": "RC-USER-731CA2A4E11C825D",
+    "fullName": "Uchenna Maltida",
+    "email": "butvery441@gmail.com",
+    "phone": "08034302501",
+    "passwordHash": "scrypt$9c0094b7cf82a995e0f3b5be520698db$e17fba866d54a2a16ae0ea45931604384746b14992111ee1d93fbab7d1ec59cff3608e3e654e0a4d2ddb520d9bb7952782dbe027f957ede82fc370dee5475896",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-12A8BF40C22B070F",
+    "createdAt": "2026-11-25T15:38:01.776Z",
+    "activatedAt": "2026-11-25T15:38:01.776Z"
   }
 ]
