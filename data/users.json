@@ -2132,5 +2132,16 @@
     "paymentId": "PAY-RIDELESSCHAT-D7BD850EEC568843",
     "createdAt": "2026-11-25T05:00:08.324Z",
     "activatedAt": "2026-11-25T05:00:08.324Z"
+  },
+  {
+    "id": "RC-USER-6461CAF12951E978",
+    "fullName": "Esther Iwenofu",
+    "email": "iwenofuesther94@gmail.com",
+    "phone": "07068167588",
+    "passwordHash": "scrypt$e24cebe7b925baf07b868328bf712dd6$59c70d37e12e6dbc08a2c710fd8032d275f9d854646284b14ec90e689531252e2c141ff7f809382c6acb3e6938b83a7f545d95fe213fb42d51d4f020fa809ae4",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-E0EE12A98D2A90DC",
+    "createdAt": "2026-11-25T06:30:21.247Z",
+    "activatedAt": "2026-11-25T06:30:21.247Z"
   }
 ]
