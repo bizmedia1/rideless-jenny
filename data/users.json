@@ -2209,5 +2209,16 @@
     "paymentId": "PAY-RIDELESSCHAT-0EAB0DE0BB211107",
     "createdAt": "2026-11-25T12:57:00.369Z",
     "activatedAt": "2026-11-25T12:57:00.369Z"
+  },
+  {
+    "id": "RC-USER-0D3EB81EDA940868",
+    "fullName": "Eze Daniel",
+    "email": "starboy1940806@gmail.com",
+    "phone": "09045014367",
+    "passwordHash": "scrypt$401a04c7dfcd6fcf296a8ca3345f3055$0e61c5f975ed65d46a2445577e0a56046987b4d5b8001b6d3dc70509d55556c5f840a497c61234bfe09fa1bf399300c67940ba80da80ab0edf4c1ef5190a177f",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-A1CAF71DBD69DDD7",
+    "createdAt": "2026-11-25T14:15:52.360Z",
+    "activatedAt": "2026-11-25T14:15:52.360Z"
   }
 ]
