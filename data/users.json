@@ -2429,5 +2429,16 @@
     "paymentId": "PAY-RIDELESSCHAT-5D1FD81D8F260871",
     "createdAt": "2026-11-26T17:09:11.998Z",
     "activatedAt": "2026-11-26T17:09:11.998Z"
+  },
+  {
+    "id": "RC-USER-340064A4B18B4249",
+    "fullName": "Ndulue blessing chidimma",
+    "email": "blessingndulue16@gmail.com",
+    "phone": "2349164954529",
+    "passwordHash": "scrypt$2b035c40bf551401b3f92d1328c8abcb$7ef35ef8fb5436d31d81432f45f5dfe6f3bb4660ce742733bde94e09890c6a7d0dc24204609e81a94a39e679377c5bce9f8c377546f51148cd897f0d644b5afa",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-E96FC37B437DB53A",
+    "createdAt": "2026-11-26T17:19:00.272Z",
+    "activatedAt": "2026-11-26T17:19:00.272Z"
   }
 ]
