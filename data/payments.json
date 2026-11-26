@@ -18267,17 +18267,18 @@
     "customerName": "Oti ella",
     "email": "ellaoti249@gnail.com",
     "phone": "09059027304",
-    "passwordHash": "scrypt$d31dcf351a391bb572d30c3a0c574f1f$360dbbb897bdefabf1eaa913af55574a1b93047dbd587faad7874e6817feb06a85b13abacf5145ba45085ca291096795b32e7c89d6b6beb9c7319f58afffdd6c",
+    "passwordHash": null,
     "amount": 3700,
     "amountKobo": 370000,
     "method": "paga",
     "provider": "movantra",
     "reference": "rc_1795656955097_b77c6b48bc",
-    "status": "pending",
+    "status": "approved",
     "statusTokenHash": "aeeac11a1604da500cf0ad6798d46eeb69fd0152addb6953f5905f824291ebb9",
     "activation": true,
     "createdAt": "2026-11-26T01:35:56.622Z",
-    "processedAt": null,
-    "activationExpiresAt": "2026-11-26T02:25:56.622Z"
+    "processedAt": "2026-11-26T01:36:42.990Z",
+    "activationExpiresAt": "2026-11-26T02:25:56.622Z",
+    "approvalSource": "movantra_webhook"
   }
 ]
