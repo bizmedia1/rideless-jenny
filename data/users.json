@@ -2726,5 +2726,16 @@
     "paymentId": "PAY-RIDELESSCHAT-9DE477B31A8E29BE",
     "createdAt": "2026-11-26T20:26:58.653Z",
     "activatedAt": "2026-11-26T20:26:58.653Z"
+  },
+  {
+    "id": "RC-USER-AB451A9D76A8605A",
+    "fullName": "Victory Onyinyechi Anthony",
+    "email": "victoryanthony239@gmail.com",
+    "phone": "09038638027",
+    "passwordHash": "scrypt$798de5707e7b047839aceb322f7463b3$d17104cda014a32ee6f4935f47ba0ff1fbf5fadceae68ef29016f3717d30443873bb2e77b1e627e3a2090ab5dc5b6b743918f665c7afcc2f3343c949ddcf499c",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-CDF378012947D460",
+    "createdAt": "2026-11-26T20:35:38.730Z",
+    "activatedAt": "2026-11-26T20:35:38.730Z"
   }
 ]
