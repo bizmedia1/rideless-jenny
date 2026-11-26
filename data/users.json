@@ -2682,5 +2682,16 @@
     "paymentId": "PAY-RIDELESSCHAT-D3CDA5A57B0CAF5D",
     "createdAt": "2026-11-26T20:02:26.014Z",
     "activatedAt": "2026-11-26T20:02:26.014Z"
+  },
+  {
+    "id": "RC-USER-AEB86A90886612CF",
+    "fullName": "Ezeh Vivian",
+    "email": "ezehviga365@gmail.com",
+    "phone": "9032467944",
+    "passwordHash": "scrypt$2877271e797d803aaaff2e6458534c70$c037d5322ba6cfdafdf42577dcc386653a236d4a4a985e2bd67b27c54b16cf031952b0d43138c685291b51c87d6e72ee78ae85188534f7e51726f127cd3e2d99",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-F78E39D1FFB9CD9F",
+    "createdAt": "2026-11-26T20:05:02.937Z",
+    "activatedAt": "2026-11-26T20:05:02.937Z"
   }
 ]
