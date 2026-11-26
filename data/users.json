@@ -2605,5 +2605,16 @@
     "paymentId": "PAY-RIDELESSCHAT-77E78AF75B2AF051",
     "createdAt": "2026-11-26T19:38:10.813Z",
     "activatedAt": "2026-11-26T19:38:10.813Z"
+  },
+  {
+    "id": "RC-USER-7325E2F58BBC9C49",
+    "fullName": "Yusuf",
+    "email": "yo7948651@gmail.com",
+    "phone": "09055784841",
+    "passwordHash": "scrypt$2fa506d75ad4142dae2e1efd011be738$9757324421d4fd9a17e170256c15aa3ea416ad18dbbb6d0f5f2b55c173d59bc2226b21205078fd51292a494b5954915e631fc78abdacbc2fb93e79f8566c4717",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-5AEFC9B58310BF9B",
+    "createdAt": "2026-11-26T19:39:15.594Z",
+    "activatedAt": "2026-11-26T19:39:15.594Z"
   }
 ]
