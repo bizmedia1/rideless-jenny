@@ -2781,5 +2781,16 @@
     "paymentId": "PAY-RIDELESSCHAT-7AB46FEA25E95C16",
     "createdAt": "2026-11-26T20:57:17.077Z",
     "activatedAt": "2026-11-26T20:57:17.077Z"
+  },
+  {
+    "id": "RC-USER-1B8CC4F9C1089B6C",
+    "fullName": "MARTINS",
+    "email": "paloidpapii@gmail.com",
+    "phone": "09137566006",
+    "passwordHash": "scrypt$24cc09b05cb6526983b5404a85610450$04c8bfbb0851c1af135835af728252e1fec7a9ea7ce3adb078901937e89b021598c711467af09c79c9387934ed042b32e1df73b026ae86b3f4117c24e07dd754",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-07FB3E6277378D76",
+    "createdAt": "2026-11-26T21:45:42.806Z",
+    "activatedAt": "2026-11-26T21:45:42.806Z"
   }
 ]
