@@ -528,4 +528,24 @@ getReadClaimsToday
 const existingSession = getAuthenticatedSession();
 if (existingSession) openDashboard();
 
+  (function () {
+  const withdrawBtn = document.getElementById("rc-withdraw-btn");
+  const overlay = document.getElementById("rc-withdraw-overlay");
+  const okayBtn = document.getElementById("rc-withdraw-okay");
+
+  if (!withdrawBtn || !overlay || !okayBtn) return;
+
+  withdrawBtn.addEventListener("click", function (e) {
+    e.preventDefault();
+    overlay.hidden = false;
+  });
+
+  okayBtn.addEventListener("click", function () {
+    overlay.hidden = true;
+  });
+
+  overlay.addEventListener("click", function (e) {
+    if (e.target === overlay) overlay.hidden = true;
+  });
+})();
 })();
