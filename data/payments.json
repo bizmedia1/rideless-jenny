@@ -18661,5 +18661,23 @@
     "createdAt": "2026-11-26T16:47:32.395Z",
     "processedAt": null,
     "activationExpiresAt": "2026-11-26T17:37:32.394Z"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-AB8B4BDE4253E67C",
+    "customerName": "Ojiyovwi Sophia",
+    "email": "ojiyovwisophia601@gmail.com",
+    "phone": "2347064599149",
+    "passwordHash": "scrypt$74d6198042366acc8b38dc3dcfea1d08$f788056a86e7207afa2586f95fd83625af4d7bf6ec3771a54cb4ba278c0040b32f1794681e255a31b65ec3f731c8394404f6d24341f7c44061a74a0c1ce07c5f",
+    "amount": 5200,
+    "amountKobo": 520000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795711656031_1c47cdeee8",
+    "status": "pending",
+    "statusTokenHash": "162f2a79d4be0f652baa00bfe408f8e3f54c4bffde11dac52851e9a21ffe4096",
+    "activation": true,
+    "createdAt": "2026-11-26T16:47:36.890Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-26T17:37:36.890Z"
   }
 ]
