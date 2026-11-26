@@ -2440,5 +2440,16 @@
     "paymentId": "PAY-RIDELESSCHAT-E96FC37B437DB53A",
     "createdAt": "2026-11-26T17:19:00.272Z",
     "activatedAt": "2026-11-26T17:19:00.272Z"
+  },
+  {
+    "id": "RC-USER-8B06B2AEB2AE527D",
+    "fullName": "Lilian Ekpereamaka umenwa",
+    "email": "lilianekpereamaka85@gmail.com",
+    "phone": "+2349126231931",
+    "passwordHash": "scrypt$0586118bda6dd7fbfbf5fde5ec0756f3$e1eb90b73fb6aa473bd68b1feae1b18fb6f33d1017c24123e018d178c888902f2db0f91a8f0bf5191337b2ce8376f80f9ef045decb959b06d4837aba42ac0d34",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-BCBA6090A8DB1ADA",
+    "createdAt": "2026-11-26T17:20:39.469Z",
+    "activatedAt": "2026-11-26T17:20:39.469Z"
   }
 ]
