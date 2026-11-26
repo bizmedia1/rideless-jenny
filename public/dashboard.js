@@ -1,5 +1,4 @@
 
-
 (function () {
 "use strict";
 
@@ -103,7 +102,6 @@ return JSON.parse(localStorage.getItem(
 } catch (error) {
 return {};
 }
-
 }
 
 function getReadClaimsToday() {
@@ -397,18 +395,18 @@ loadUserData(session.user);
 }
 
 window.addEventListener("ridelesschat:dashboard-open", openDashboard);
-  /* RECEIVE CHAT REWARDS */
 
+/* RECEIVE CHAT REWARDS */
 window.addEventListener("ridelesschat:reward-earned", function (event) {
-  const detail = event.detail || {};
-  const amount = Number(detail.amount) || 0;
+const detail = event.detail || {};
+const amount = Number(detail.amount) || 0;
 
-  if (amount <= 0) return;
+if (amount <= 0) return;
 
-  addCredit(
-    amount,
-    detail.title || "Chat & Earn Reward"
-  );
+addCredit(
+amount,
+detail.title || "Chat & Earn Reward"
+);
 });
 
 if (balanceEye) {
@@ -484,11 +482,6 @@ if (notificationButton) {
 notificationButton.addEventListener("click", () => showToast("You're all caught up."));
 }
 
-const withdrawButton = document.getElementById("rc-withdraw-btn");
-if (withdrawButton) {
-withdrawButton.addEventListener("click", () => showToast("Withdrawal is coming soon."));
-}
-
 const seeAllButton = document.getElementById("rc-see-all-transactions");
 if (seeAllButton) {
 seeAllButton.addEventListener("click", () => showToast("Full transaction history is coming soon."));
@@ -528,24 +521,26 @@ getReadClaimsToday
 const existingSession = getAuthenticatedSession();
 if (existingSession) openDashboard();
 
-  (function () {
-  const withdrawBtn = document.getElementById("rc-withdraw-btn");
-  const overlay = document.getElementById("rc-withdraw-overlay");
-  const okayBtn = document.getElementById("rc-withdraw-okay");
+/* WITHDRAW ELIGIBILITY POPUP */
+(function () {
+const withdrawBtn = document.getElementById("rc-withdraw-btn");
+const overlay = document.getElementById("rc-withdraw-overlay");
+const okayBtn = document.getElementById("rc-withdraw-okay");
 
-  if (!withdrawBtn || !overlay || !okayBtn) return;
+if (!withdrawBtn || !overlay || !okayBtn) return;
 
-  withdrawBtn.addEventListener("click", function (e) {
-    e.preventDefault();
-    overlay.hidden = false;
-  });
+withdrawBtn.addEventListener("click", function (e) {
+e.preventDefault();
+overlay.hidden = false;
+});
 
-  okayBtn.addEventListener("click", function () {
-    overlay.hidden = true;
-  });
+okayBtn.addEventListener("click", function () {
+overlay.hidden = true;
+});
 
-  overlay.addEventListener("click", function (e) {
-    if (e.target === overlay) overlay.hidden = true;
-  });
+overlay.addEventListener("click", function (e) {
+if (e.target === overlay) overlay.hidden = true;
+});
 })();
+
 })();
