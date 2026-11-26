@@ -1407,19 +1407,10 @@
     "expiresAt": 1798304618524
   },
   {
-    "id": "76d125e8-dfa9-426c-bd85-9af2becc9d51",
-    "tokenHash": "208ade2b1b9dc82fe48226705093245c1c1af01c4768a5b3bdd26fbf29287818",
-    "userId": "RC-USER-EC3A7DB876E2918C",
-    "paymentId": "PAY-RIDELESSCHAT-5D1FD81D8F260871",
-    "createdAt": "2026-11-26T17:09:19.530Z",
-    "expiresAt": "2026-12-26T17:09:19.530Z"
-  },
-  {
-    "id": "14ff8542-12cc-4bc1-b8f8-2cf2cdb045d4",
-    "tokenHash": "bfa258cf230c7c3d99a066078b5b28a2ded9c9a2605ec0ef789b55606142451e",
-    "userId": "RC-USER-8B06B2AEB2AE527D",
-    "paymentId": "PAY-RIDELESSCHAT-BCBA6090A8DB1ADA",
-    "createdAt": "2026-11-26T17:20:46.387Z",
-    "expiresAt": "2026-12-26T17:20:46.387Z"
+    "id": "e9d2ab02-93d8-4db2-8898-02c4e972f7d6",
+    "userId": "RC-USER-340064A4B18B4249",
+    "tokenHash": "5f7ec1b99ede83774971c1abe0c38de9cae2d7a1aeea4dd6d10597064fc07acb",
+    "createdAt": "2026-11-26T17:22:25.880Z",
+    "expiresAt": 1798305745880
   }
 ]
