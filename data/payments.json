@@ -19708,5 +19708,23 @@
     "activationExpiresAt": "2026-11-26T18:42:51.916Z",
     "supersededAt": "2026-11-26T17:52:56.901Z",
     "supersededReason": "New payment amount selected"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-A3F515C97CADDE34",
+    "customerName": "Ufuoma favour",
+    "email": "glkmoney6394@gmail.com",
+    "phone": "07035807942",
+    "passwordHash": "scrypt$54a78afcc5523c5d6c7006c24f6bd88d$3ccf93edd15210fac99a629e4ebb51f58282533a2c3a1b927e35991db7e52be817912471fbbc508c06ab0a90b5081f9e69b77a84d5b32bd8940fd76675700063",
+    "amount": 3700,
+    "amountKobo": 370000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795715578237_0319bab402",
+    "status": "pending",
+    "statusTokenHash": "cdb845304ad1b8f038818cbece8e915a89fef63b448c11ac80b04da8ec46fec2",
+    "activation": true,
+    "createdAt": "2026-11-26T17:52:59.279Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-26T18:42:59.279Z"
   }
 ]
