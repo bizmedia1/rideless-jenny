@@ -2517,5 +2517,16 @@
     "paymentId": "PAY-RIDELESSCHAT-252860EE70702720",
     "createdAt": "2026-11-26T18:27:33.542Z",
     "activatedAt": "2026-11-26T18:27:33.542Z"
+  },
+  {
+    "id": "RC-USER-D1486D433902C0F9",
+    "fullName": "Magdalene Ekanem",
+    "email": "magdaleneekanem910@gmail.com",
+    "phone": "07049522445",
+    "passwordHash": "scrypt$83c201c45e7eb5776317151c799f50ee$ec6ae2af5a75171b6c6c594d748c6ebf79e338f02f2f85373a2a476e4ad75479507e8def9a89681fdbc8894c5f0bdaa91035b9a9e96e84b5576917d5b8217a15",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-0CC36A3D346F526C",
+    "createdAt": "2026-11-26T18:49:31.610Z",
+    "activatedAt": "2026-11-26T18:49:31.610Z"
   }
 ]
