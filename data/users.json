@@ -2594,5 +2594,16 @@
     "paymentId": "PAY-RIDELESSCHAT-BE195711D015FD3C",
     "createdAt": "2026-11-26T19:28:49.951Z",
     "activatedAt": "2026-11-26T19:28:49.951Z"
+  },
+  {
+    "id": "RC-USER-F6594356E6BDE6F4",
+    "fullName": "Simon Godiya",
+    "email": "simongodiya640@gmail.com",
+    "phone": "09110381925",
+    "passwordHash": "scrypt$12e0897b2db24b3341a86a475dc6511d$d8255eb51b9904723cc3ccad3172a12cf5e9f1d04d479f9f56ad07f0a557264654bf4bbf45dc152b51f6ad31a2c786c94dde70e7402482cd296446bf399c59bb",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-77E78AF75B2AF051",
+    "createdAt": "2026-11-26T19:38:10.813Z",
+    "activatedAt": "2026-11-26T19:38:10.813Z"
   }
 ]
