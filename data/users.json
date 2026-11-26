@@ -2583,5 +2583,16 @@
     "paymentId": "PAY-RIDELESSCHAT-576925E1E2AC21A0",
     "createdAt": "2026-11-26T19:26:36.894Z",
     "activatedAt": "2026-11-26T19:26:36.894Z"
+  },
+  {
+    "id": "RC-USER-785A6771515BA07A",
+    "fullName": "Victoria Henry usen",
+    "email": "vickyhenry978@gmail.com",
+    "phone": "09131118911",
+    "passwordHash": "scrypt$ec62749746dbf0dfff09ca42a9787138$57d2cdca67ed9f41fe05d525af234a0815dfac1bfc84b3eb6cadd018c5c9294eeade4dd525eda0cc8f6f9f0f900dc2ad2a93c0c14927f3b9d12546d82f37de39",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-BE195711D015FD3C",
+    "createdAt": "2026-11-26T19:28:49.951Z",
+    "activatedAt": "2026-11-26T19:28:49.951Z"
   }
 ]
