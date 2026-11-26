@@ -2352,5 +2352,16 @@
     "paymentId": "PAY-RIDELESSCHAT-5401568840B63AA7",
     "createdAt": "2026-11-26T03:10:32.929Z",
     "activatedAt": "2026-11-26T03:10:32.929Z"
+  },
+  {
+    "id": "RC-USER-0EFD3F69A112C1FC",
+    "fullName": "Precious Ashien",
+    "email": "naomigodgift973@gmail.com",
+    "phone": "08120841071",
+    "passwordHash": "scrypt$4f465240ffca854e4a1b13af3790b824$323ef14d41411932b4e62b9d48cfa68cc7e8ecf78e2648c17187135d6d2c5a8f011f55ffc7ef6dc7b241f5e8c26611c50a4a75c0affbe05b12822d88afd5f337",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-CCB6EC5F29EBFD75",
+    "createdAt": "2026-11-26T11:04:00.946Z",
+    "activatedAt": "2026-11-26T11:04:00.946Z"
   }
 ]
