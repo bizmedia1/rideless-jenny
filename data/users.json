@@ -2704,5 +2704,16 @@
     "paymentId": "PAY-RIDELESSCHAT-5146DF1546C6FDB9",
     "createdAt": "2026-11-26T20:07:39.186Z",
     "activatedAt": "2026-11-26T20:07:39.186Z"
+  },
+  {
+    "id": "RC-USER-B6F550E35BDCDB82",
+    "fullName": "Shekinah ezichi",
+    "email": "shekinahezichi806@gmail.com",
+    "phone": "08101842542",
+    "passwordHash": "scrypt$01d19e8a231324e46539f5da2c26c1ef$14b02bdce11ec7b471b8602e5645037c79bc82a776fe1ad370461093f50b1dba67df5216b02e4004abbfd39f5857be668037421a1786d7e453c86699e02c255b",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-D38E12C921980049",
+    "createdAt": "2026-11-26T20:12:16.734Z",
+    "activatedAt": "2026-11-26T20:12:16.734Z"
   }
 ]
