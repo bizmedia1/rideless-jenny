@@ -21862,5 +21862,23 @@
     "activationExpiresAt": "2026-11-26T22:08:07.259Z",
     "supersededAt": "2026-11-26T21:18:29.883Z",
     "supersededReason": "New payment amount selected"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-53D2AD8524C748AE",
+    "customerName": "Giftbello",
+    "email": "nohasarah90@gmail.com",
+    "phone": "0907 892 0711",
+    "passwordHash": "scrypt$00c4f825a6a3d211dbf58c97c58679e3$922bc900d5250b516ccf22c6b4b53d0f44610f48cf31480b7783b6a525a78ba2c413dd2734a036e9ce25a4e9cf1276d89fcc8fdae90d09b36461f154547ac78e",
+    "amount": 5200,
+    "amountKobo": 520000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795727911282_a531dc2073",
+    "status": "pending",
+    "statusTokenHash": "d2da914e6d4c5c9a2a7732f9dca3dfd9ec953e58bc6aeb564d080fde0241a44d",
+    "activation": true,
+    "createdAt": "2026-11-26T21:18:32.413Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-26T22:08:32.413Z"
   }
 ]
