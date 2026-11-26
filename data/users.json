@@ -2572,5 +2572,16 @@
     "paymentId": "PAY-RIDELESSCHAT-8B0D757B46F52329",
     "createdAt": "2026-11-26T19:22:15.571Z",
     "activatedAt": "2026-11-26T19:22:15.571Z"
+  },
+  {
+    "id": "RC-USER-9083D4B768807E9B",
+    "fullName": "Elizabeth Asuakak",
+    "email": "lizzieokokon@gmail.com",
+    "phone": "7065102238",
+    "passwordHash": "scrypt$6d7cc554348fa3c7404606776d2f0f22$ba458e1dc0451617c7e4195cefa9673ad271240d4f5ec0a0ab0569599ee1cc99b0f4dce7f1c6ebae6de211184d9b7416ef6faedc304c15745d19ecb2e73b2c86",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-576925E1E2AC21A0",
+    "createdAt": "2026-11-26T19:26:36.894Z",
+    "activatedAt": "2026-11-26T19:26:36.894Z"
   }
 ]
