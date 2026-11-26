@@ -2759,5 +2759,16 @@
     "paymentId": "PAY-RIDELESSCHAT-B8FDD8913315ECC4",
     "createdAt": "2026-11-26T20:39:18.067Z",
     "activatedAt": "2026-11-26T20:39:18.067Z"
+  },
+  {
+    "id": "RC-USER-9F190713F4DDA1A8",
+    "fullName": "Samuel christiana",
+    "email": "jdf.nb123@gmail.com",
+    "phone": "09037439078",
+    "passwordHash": "scrypt$430a4ea7a4a318ce73c21b0507459c03$d9ca62725c1fe5569600dc7a650762754882881f8fc2cddad098d340b7d5ac5bbee6c3577616f5b2528bf95ac2ba80fbd16c0e4af1ca24dc4941d72741f3831a",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-EC879AE92E78BC1B",
+    "createdAt": "2026-11-26T20:47:47.388Z",
+    "activatedAt": "2026-11-26T20:47:47.388Z"
   }
 ]
