@@ -19823,5 +19823,23 @@
     "createdAt": "2026-11-26T18:02:16.629Z",
     "processedAt": null,
     "activationExpiresAt": "2026-11-26T18:52:16.629Z"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-2829D3C787CA68B4",
+    "customerName": "Baby",
+    "email": "baby@gmail.com",
+    "phone": "80869237132",
+    "passwordHash": "scrypt$69ec53ed8a17abd73d0c5eb6fbe20a38$48cc00f757e486bcf8f8a4f3530f706a01021c635755174466dad9e9ab90e2364183688d965498856ebc69d856d7945690e452c60bef1436c73afbb5ab0f97f7",
+    "amount": 5200,
+    "amountKobo": 520000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795716289053_c62f2c17f8",
+    "status": "pending",
+    "statusTokenHash": "47666a12c61534c47ab425a7ef03bb267002f15a0f8f14be3514413c2359b0f7",
+    "activation": true,
+    "createdAt": "2026-11-26T18:04:50.211Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-26T18:54:50.211Z"
   }
 ]
