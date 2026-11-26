@@ -2319,5 +2319,16 @@
     "paymentId": "PAY-RIDELESSCHAT-BF74C4748A2CE0B0",
     "createdAt": "2026-11-25T21:50:44.668Z",
     "activatedAt": "2026-11-25T21:50:44.668Z"
+  },
+  {
+    "id": "RC-USER-E1AB5318F64590CC",
+    "fullName": "Moyosore maimunah",
+    "email": "musamaimunah654@gmail.com",
+    "phone": "08086653968",
+    "passwordHash": "scrypt$37f128d59e017c326e707515cc8cbe93$720ddff74e53537c4196580e25c1a3b1afcc75f2bdb2fb082e5c008c096795efe6381be9bf3074a6949ee3befe8f0d760dd63dd636f6d0f0f7d7c0a2bd8c2e86",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-DFEC75D77195502E",
+    "createdAt": "2026-11-26T01:24:25.776Z",
+    "activatedAt": "2026-11-26T01:24:25.776Z"
   }
 ]
