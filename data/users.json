@@ -2814,5 +2814,16 @@
     "paymentId": "PAY-RIDELESSCHAT-31E34C3BD408D2EF",
     "createdAt": "2026-11-26T22:12:37.644Z",
     "activatedAt": "2026-11-26T22:12:37.644Z"
+  },
+  {
+    "id": "RC-USER-C166EDF37990D3C5",
+    "fullName": "Chinaza",
+    "email": "chinazaosigwe93@gmail.com",
+    "phone": "09166023794",
+    "passwordHash": "scrypt$4044f94adcb40b6128690a570aa84f18$a77df4869fa70ecb0bb00157f546e4d74de502859b6b43056dc639a55570e7dc74608653886a30f48b628e44f3f392f8f77675f073a07094fe441d27b68ea664",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-131DA01EE3B85859",
+    "createdAt": "2026-11-26T22:33:19.598Z",
+    "activatedAt": "2026-11-26T22:33:19.598Z"
   }
 ]
