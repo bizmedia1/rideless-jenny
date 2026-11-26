@@ -18643,5 +18643,23 @@
     "activationExpiresAt": "2026-11-26T17:36:57.370Z",
     "supersededAt": "2026-11-26T16:47:29.518Z",
     "supersededReason": "New payment amount selected"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-773AD08BF03630B0",
+    "customerName": "Wisdom",
+    "email": "wisdomirikefe2@gmail.com",
+    "phone": "09159254179",
+    "passwordHash": "scrypt$c2033b0b8c31a6b2fcf6ea015c5202e3$6d97ac611caecfd814aa3d72af805fa7d27bb64516829beffe659191e5a32ddeaac507c0fe8aec089c41e1ebae2983fbe887f6b4ed6f94dc8efb54a310b2a41b",
+    "amount": 3700,
+    "amountKobo": 370000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795711651149_af60b1c1a1",
+    "status": "pending",
+    "statusTokenHash": "6c0198e7b1b08d5e5b862ee3fdc6e4ea1f45c1e2cc66ffb84a12362d83c4422e",
+    "activation": true,
+    "createdAt": "2026-11-26T16:47:32.395Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-26T17:37:32.394Z"
   }
 ]
