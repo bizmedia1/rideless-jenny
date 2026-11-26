@@ -2495,5 +2495,16 @@
     "paymentId": "PAY-RIDELESSCHAT-4E340F959448E1E0",
     "createdAt": "2026-11-26T18:13:26.289Z",
     "activatedAt": "2026-11-26T18:13:26.289Z"
+  },
+  {
+    "id": "RC-USER-D2A99D6585AB1DC0",
+    "fullName": "Pretty Ella",
+    "email": "prettyellaj@gmail.com",
+    "phone": "08145498503",
+    "passwordHash": "scrypt$fba78833c68640cf06450cf880c6120a$420cd1b7a21d08788cf0e813ad49f73fc810bf3c89668e23b4ca0a5de86fa0391f69d1126146b56856674ed8c6374acc94cdb38c385f36f739b5dad5d650aada",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-D6026CC7E61E06B4",
+    "createdAt": "2026-11-26T18:18:40.376Z",
+    "activatedAt": "2026-11-26T18:18:40.376Z"
   }
 ]
