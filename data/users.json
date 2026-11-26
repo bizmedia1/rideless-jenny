@@ -2550,5 +2550,16 @@
     "paymentId": "PAY-RIDELESSCHAT-747D48CAD19D1BE4",
     "createdAt": "2026-11-26T18:59:45.684Z",
     "activatedAt": "2026-11-26T18:59:45.684Z"
+  },
+  {
+    "id": "RC-USER-AF51CFA957E2AB21",
+    "fullName": "Ojelere favour kristipelumi",
+    "email": "favourojelere4@gmail.com",
+    "phone": "09012456382",
+    "passwordHash": "scrypt$a4f846c1d823306481fc32de11936613$8a1ad01f4c3aedde005ac965bb431b8f831e018929172673e52e3cb325b1cd192d732eca6ad9b69549d79df3a7906e8050f1b5c68d72e5f707e19aeb456d106b",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-41BFD8F9331A5DCF",
+    "createdAt": "2026-11-26T19:17:54.335Z",
+    "activatedAt": "2026-11-26T19:17:54.335Z"
   }
 ]
