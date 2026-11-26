@@ -19633,5 +19633,23 @@
     "createdAt": "2026-11-26T17:46:22.640Z",
     "processedAt": null,
     "activationExpiresAt": "2026-11-26T18:36:22.640Z"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-2368596DBEA4271E",
+    "customerName": "Sammy Odey",
+    "email": "sammyodey81@gmail.com",
+    "phone": "+237673137930",
+    "passwordHash": "scrypt$2747b50208540e448ade6f2f1b802ff4$635efe81d7b58ab80ef0ea32e657772355ba886bcee954c0b54acd824531f382f9e12b94f1e25553acf21a1e1c2d1b2d9835d40c8cc6880fd8783d5e8832c560",
+    "amount": 5200,
+    "amountKobo": 520000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795715196179_8730ae1955",
+    "status": "pending",
+    "statusTokenHash": "db01e17fb11ae80dc6806f9a5cf83c1769faa42b9d2936b9a6c0151ac48733be",
+    "activation": true,
+    "createdAt": "2026-11-26T17:46:37.301Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-26T18:36:37.301Z"
   }
 ]
