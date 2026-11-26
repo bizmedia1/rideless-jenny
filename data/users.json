@@ -2418,5 +2418,16 @@
     "paymentId": "PAY-RIDELESSCHAT-DD65E8BE29EB98E7",
     "createdAt": "2026-11-26T17:00:21.398Z",
     "activatedAt": "2026-11-26T17:00:21.398Z"
+  },
+  {
+    "id": "RC-USER-EC3A7DB876E2918C",
+    "fullName": "Chinenye nwosu",
+    "email": "chinexnenye@gmail.com",
+    "phone": "09124721338",
+    "passwordHash": "scrypt$53ce5a57068838a00d0e37aff9995be6$c412ea2f1f44323601ddce53a6900d1d6ce53033a73b7d81bc0373a8a4b08b54d198bfc9a023b3d2fbdf92c6175a31c90636bb70402c09ac7b90005bd58b5f31",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-5D1FD81D8F260871",
+    "createdAt": "2026-11-26T17:09:11.998Z",
+    "activatedAt": "2026-11-26T17:09:11.998Z"
   }
 ]
