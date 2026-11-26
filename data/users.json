@@ -2836,5 +2836,16 @@
     "paymentId": "PAY-RIDELESSCHAT-5C7776D2C3446F07",
     "createdAt": "2026-11-26T22:40:07.923Z",
     "activatedAt": "2026-11-26T22:40:07.923Z"
+  },
+  {
+    "id": "RC-USER-0B401908E874D44A",
+    "fullName": "God's time Edwin",
+    "email": "edwingodstime888@gmail.com",
+    "phone": "07064537869",
+    "passwordHash": "scrypt$03f77211403bcfa12788969b61189669$b299cffe6f3fc268d42d9f4a1cc40b00e3d8cef7dbf4436975d77431f9b1cfe674f829615387e7229a33f6e9f18e3420b12d7ea5d39688c3d2d968c1a33c6e56",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-AABB92B0E5CA58ED",
+    "createdAt": "2026-11-26T23:15:49.831Z",
+    "activatedAt": "2026-11-26T23:15:49.831Z"
   }
 ]
