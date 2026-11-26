@@ -2616,5 +2616,16 @@
     "paymentId": "PAY-RIDELESSCHAT-5AEFC9B58310BF9B",
     "createdAt": "2026-11-26T19:39:15.594Z",
     "activatedAt": "2026-11-26T19:39:15.594Z"
+  },
+  {
+    "id": "RC-USER-88B50E15CA16DC10",
+    "fullName": "Musa NanaAisha",
+    "email": "nanaaisham50@gmail.com",
+    "phone": "09042934338",
+    "passwordHash": "scrypt$f6f42c34e4f86b1357bddf76e8509666$582268e54d5146ee7a48d1c6a08f44f07d4384b2fb283afd9df2c24f70a995e39315566d98e91ba4cf605ba373c8fa9252bff9d67d9fc86bf2a34cd9bd0e3ae4",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-C9573FD375FF3920",
+    "createdAt": "2026-11-26T19:42:06.977Z",
+    "activatedAt": "2026-11-26T19:42:06.977Z"
   }
 ]
