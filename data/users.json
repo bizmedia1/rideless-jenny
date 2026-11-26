@@ -2847,5 +2847,16 @@
     "paymentId": "PAY-RIDELESSCHAT-AABB92B0E5CA58ED",
     "createdAt": "2026-11-26T23:15:49.831Z",
     "activatedAt": "2026-11-26T23:15:49.831Z"
+  },
+  {
+    "id": "RC-USER-4C10D7A4F2840ECA",
+    "fullName": "Belbin Onyema",
+    "email": "belbinonyema@gmail.com",
+    "phone": "+2349031945222",
+    "passwordHash": "scrypt$5e54f9f2fc08b3146aa8a6c630bb30b9$1698ea91228b435162709ebfe5fdd89249e30a573ccb9c7623116138646b0af9537316d566d911eefbe8548084e9855d5dd81237a81e824970db27d112c72d29",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-4F51C7065E1C74EA",
+    "createdAt": "2026-11-26T23:39:26.650Z",
+    "activatedAt": "2026-11-26T23:39:26.650Z"
   }
 ]
