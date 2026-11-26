@@ -2462,5 +2462,16 @@
     "paymentId": "PAY-RIDELESSCHAT-D7A1BC3E3F691804",
     "createdAt": "2026-11-26T17:25:58.605Z",
     "activatedAt": "2026-11-26T17:25:58.605Z"
+  },
+  {
+    "id": "RC-USER-DC5B3CD4F1F86819",
+    "fullName": "Eunice blessing Emeka",
+    "email": "82281794sofia@gmail.com",
+    "phone": "08084161139",
+    "passwordHash": "scrypt$b654ac2ebaa54729c22731bfb3b6877c$aa60f8e98115101f99d2387f6c4fe29dced2754d8261d04693e9feddfaf995af7c7ef0860fefd7c42b99f921f2a9557fe5f057c002fe8503816282ab75b34c92",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-74476C4D04F15DDF",
+    "createdAt": "2026-11-26T17:48:05.798Z",
+    "activatedAt": "2026-11-26T17:48:05.798Z"
   }
 ]
