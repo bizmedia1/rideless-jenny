@@ -2737,5 +2737,16 @@
     "paymentId": "PAY-RIDELESSCHAT-CDF378012947D460",
     "createdAt": "2026-11-26T20:35:38.730Z",
     "activatedAt": "2026-11-26T20:35:38.730Z"
+  },
+  {
+    "id": "RC-USER-7300A8D38092B0F6",
+    "fullName": "Big Ck",
+    "email": "bigck277@gmail.com",
+    "phone": "09043707777",
+    "passwordHash": "scrypt$2c15aaba2c96b86d693849be781e286a$4e204108e717af68a7bbdd8665d35a20629d6c9e39f0567a9afd100f2ebde18fa2e0dc608b06d95f086a38342cdf6a2e7ff9cd19f1a5a2b0511b55eecc720b85",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-40044C145C0587A5",
+    "createdAt": "2026-11-26T20:36:12.427Z",
+    "activatedAt": "2026-11-26T20:36:12.427Z"
   }
 ]
