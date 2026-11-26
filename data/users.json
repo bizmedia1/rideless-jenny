@@ -2539,5 +2539,16 @@
     "paymentId": "PAY-RIDELESSCHAT-8BF0B7C9038E7488",
     "createdAt": "2026-11-26T18:53:26.149Z",
     "activatedAt": "2026-11-26T18:53:26.149Z"
+  },
+  {
+    "id": "RC-USER-252A8D80A74D5C70",
+    "fullName": "Nwalunor chijekwu Michael",
+    "email": "unclemic9@gmail.com",
+    "phone": "08053678025",
+    "passwordHash": "scrypt$ea3eb5095325a3da1a07574d70f11895$dd19bd65c571545654ffc8ef1859400a917e0ace17c7d3243bb5e2f1b34f8aec8cebcd190cc038d6f04cfe89779c8916ea289890af88ba2162577ee549b7db06",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-747D48CAD19D1BE4",
+    "createdAt": "2026-11-26T18:59:45.684Z",
+    "activatedAt": "2026-11-26T18:59:45.684Z"
   }
 ]
