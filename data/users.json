@@ -2561,5 +2561,16 @@
     "paymentId": "PAY-RIDELESSCHAT-41BFD8F9331A5DCF",
     "createdAt": "2026-11-26T19:17:54.335Z",
     "activatedAt": "2026-11-26T19:17:54.335Z"
+  },
+  {
+    "id": "RC-USER-94593A3E7F0F7F5A",
+    "fullName": "Juliet Nwankwo",
+    "email": "kosisoj251@gmail.com",
+    "phone": "09131580436",
+    "passwordHash": "scrypt$372e32d4009de2fbcc23a85d969958c7$1fc57dc671579628e774d5f48342ba1620a8ee9ee45dac1e7764679a42023bcdf6e3f0b2b0ad7d991f848035d2306ece42b599c818c77bac61d1dc4412a878dc",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-8B0D757B46F52329",
+    "createdAt": "2026-11-26T19:22:15.571Z",
+    "activatedAt": "2026-11-26T19:22:15.571Z"
   }
 ]
