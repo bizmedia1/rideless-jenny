@@ -18288,17 +18288,18 @@
     "customerName": "Sulemon Abdullah",
     "email": "abdulsulemon76@gmail.com",
     "phone": "09132918974",
-    "passwordHash": "scrypt$4137c9ca0ad8f1a80bf7ce5d1e0de40c$8f829a185ea87b043f5192172cb63bd1d3cb723563d21857dba3b6d57dc82d0c3d4c7fef3e54ba941449433d99f25397ff037863b701a618327b24c24e5e5d54",
+    "passwordHash": null,
     "amount": 3700,
     "amountKobo": 370000,
     "method": "paga",
     "provider": "movantra",
     "reference": "rc_1795661034183_73e7f0bd4e",
-    "status": "pending",
+    "status": "approved",
     "statusTokenHash": "68127956fcad0b98f6aa03d38317c2d0f2590de76b4312eb37da5a5e4e190578",
     "activation": true,
     "createdAt": "2026-11-26T02:43:55.553Z",
-    "processedAt": null,
-    "activationExpiresAt": "2026-11-26T03:33:55.552Z"
+    "processedAt": "2026-11-26T03:10:34.242Z",
+    "activationExpiresAt": "2026-11-26T03:33:55.552Z",
+    "approvalSource": "movantra_webhook"
   }
 ]
