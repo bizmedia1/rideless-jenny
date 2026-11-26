@@ -2528,5 +2528,16 @@
     "paymentId": "PAY-RIDELESSCHAT-0CC36A3D346F526C",
     "createdAt": "2026-11-26T18:49:31.610Z",
     "activatedAt": "2026-11-26T18:49:31.610Z"
+  },
+  {
+    "id": "RC-USER-160F62667AF6E5D6",
+    "fullName": "Thompson goodnews",
+    "email": "goodnewsthompson3825@gmail.com",
+    "phone": "09068054639",
+    "passwordHash": "scrypt$3d9f48c966ff47ea016c1a320caae44a$5e06ad613ea5839fcd210bf1747f8351669ce1e8c8d8353e6f6cfb5c041454aa0725c45b5a80ad9fc28fba525ae78d74031252de1880dee4be000d05cbfcb8fd",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-8BF0B7C9038E7488",
+    "createdAt": "2026-11-26T18:53:26.149Z",
+    "activatedAt": "2026-11-26T18:53:26.149Z"
   }
 ]
