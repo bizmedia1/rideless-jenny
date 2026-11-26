@@ -20595,5 +20595,23 @@
     "createdAt": "2026-11-26T19:30:42.767Z",
     "processedAt": null,
     "activationExpiresAt": "2026-11-26T20:20:42.766Z"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-D127DA0091FD5C31",
+    "customerName": "Musa adamu",
+    "email": "abdullahimusaadamu323@gmail.com",
+    "phone": "07040094691",
+    "passwordHash": "scrypt$0f5ecae07655853aa43e080f9a898bab$b7bd74fcfbd1b348fb4ed4b65cb521cd56f35fb784bf83ea9211ca10b54cd3743b6b12e3a9c0852a9594942473c6be2c20055c8c894f3435457810a3b9aaa799",
+    "amount": 3700,
+    "amountKobo": 370000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795721491617_9dc84cdeac",
+    "status": "pending",
+    "statusTokenHash": "bc54b0928881b2214133402f676faabe2a8c2e97a78f67be6b4ef3dd22fa79cf",
+    "activation": true,
+    "createdAt": "2026-11-26T19:31:32.858Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-26T20:21:32.858Z"
   }
 ]
