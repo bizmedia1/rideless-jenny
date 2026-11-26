@@ -20465,5 +20465,23 @@
     "activationExpiresAt": "2026-11-26T20:05:48.051Z",
     "supersededAt": "2026-11-26T19:16:06.813Z",
     "supersededReason": "New payment amount selected"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-8A6FDAADA814303E",
+    "customerName": "Small funds",
+    "email": "smallfunds555@gmail.com",
+    "phone": "07078445584",
+    "passwordHash": "scrypt$472f988a5c528e3605d2f83cd6d201cc$28845f4b553f5b0d0fcc235ce007529b63185152a85cd176f1f1b741d8949a2c4597d046b6454acd3d536be5f6e65ab8b568de017cb36545e4cf4d4e5738d572",
+    "amount": 3700,
+    "amountKobo": 370000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795720568315_a779c602d0",
+    "status": "pending",
+    "statusTokenHash": "e52b2b96c95e874ebae13e98efe7c9708fdd125b388e4f34ca96d99b8c9e2652",
+    "activation": true,
+    "createdAt": "2026-11-26T19:16:09.273Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-26T20:06:09.273Z"
   }
 ]
