@@ -1358,19 +1358,10 @@
     "expiresAt": 1798241792399
   },
   {
-    "id": "3962f376-b929-4ea6-a6ed-94d4c4269365",
-    "tokenHash": "20abe0a2959dcc3090c0b8edcde280abddd3965a21714d7c2400e87127f97ce2",
-    "userId": "RC-USER-E1AB5318F64590CC",
-    "paymentId": "PAY-RIDELESSCHAT-DFEC75D77195502E",
-    "createdAt": "2026-11-26T01:24:46.774Z",
-    "expiresAt": "2026-12-26T01:24:46.774Z"
-  },
-  {
-    "id": "5886561b-ac71-4f05-9a66-01170a073cd8",
-    "tokenHash": "68921232f83cd57e4fb547fa0e7f8926018cb25a1b14326f342b9a1fbd44933c",
-    "userId": "RC-USER-0482D34AAFE466E5",
-    "paymentId": "PAY-RIDELESSCHAT-B32B2E420E91F779",
-    "createdAt": "2026-11-26T01:37:01.629Z",
-    "expiresAt": "2026-12-26T01:37:01.629Z"
+    "id": "22d5bb0c-0edb-4511-9b46-e0a345f1f1fa",
+    "userId": "RC-USER-D359C8C0E1B7AC2D",
+    "tokenHash": "0ca51a7aca5ebb1b1429236b30778cb607cb635f0d88dc4e592f5f1e774c7cb5",
+    "createdAt": "2026-11-26T06:36:44.858Z",
+    "expiresAt": 1798267004858
   }
 ]
