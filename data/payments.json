@@ -21788,5 +21788,23 @@
     "activationExpiresAt": "2026-11-26T22:04:12.336Z",
     "supersededAt": "2026-11-26T21:14:32.915Z",
     "supersededReason": "New payment amount selected"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-F0E9114341715993",
+    "customerName": "MARTINS",
+    "email": "paloidpapii@gmail.com",
+    "phone": "09137526006",
+    "passwordHash": "scrypt$8d46a500c8e654bad4a32fb7f9458ef0$8f785eaf1052dd247d900b5a3fe9e8a8b5274a8844c6cfc3d70fbf585e3d6af3cdc52e2c266e06fc11cf275cbafa9e02c7cb250b54275f2224248947b861e2a4",
+    "amount": 5200,
+    "amountKobo": 520000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795727674528_102cc06917",
+    "status": "pending",
+    "statusTokenHash": "0e846ed26ca041f2d5ffb660fdfb0afe166e60d6814bbcac60dbb2abb10608f0",
+    "activation": true,
+    "createdAt": "2026-11-26T21:14:35.743Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-26T22:04:35.743Z"
   }
 ]
