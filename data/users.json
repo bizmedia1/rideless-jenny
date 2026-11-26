@@ -2660,5 +2660,16 @@
     "paymentId": "PAY-RIDELESSCHAT-9AB5A663FDC4BCA0",
     "createdAt": "2026-11-26T19:58:36.413Z",
     "activatedAt": "2026-11-26T19:58:36.413Z"
+  },
+  {
+    "id": "RC-USER-4DF590741AE3A22B",
+    "fullName": "Great Iyebalumen Eromosele",
+    "email": "odianoseeromosele@gmail.com",
+    "phone": "08053743787",
+    "passwordHash": "scrypt$f30790555f3467b931b3652eb7f61596$0d578c71988be66cabb6d117ad07588bd7e5c1851f633f57ca08a7d9b685b851ecf3a6e38ac2dcaddc73355f1f8218a51151d4af7f7dde60287e4887e757f7e4",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-72E08AB1752C1C75",
+    "createdAt": "2026-11-26T19:58:48.990Z",
+    "activatedAt": "2026-11-26T19:58:48.990Z"
   }
 ]
