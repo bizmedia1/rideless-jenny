@@ -2627,5 +2627,16 @@
     "paymentId": "PAY-RIDELESSCHAT-C9573FD375FF3920",
     "createdAt": "2026-11-26T19:42:06.977Z",
     "activatedAt": "2026-11-26T19:42:06.977Z"
+  },
+  {
+    "id": "RC-USER-F922E687841BA796",
+    "fullName": "Blessing Elohor",
+    "email": "blessingelohor234@gmail.com",
+    "phone": "09150582593",
+    "passwordHash": "scrypt$158d3ffd4ac1859d356cdc17ab97df22$db85250642195b762943e9351606f372e0ddf4247824c40853770379d54b6647b803c8feac02e344dccda41b455c21de93f6c6394f02567e27d69414fa687ef5",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-3633449D7F4AE258",
+    "createdAt": "2026-11-26T19:50:22.504Z",
+    "activatedAt": "2026-11-26T19:50:22.504Z"
   }
 ]
