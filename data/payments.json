@@ -19359,18 +19359,19 @@
     "customerName": "Lilian Ekpereamaka umenwa",
     "email": "lilianekpereamaka85@gmail.com",
     "phone": "+2349126231931",
-    "passwordHash": "scrypt$0586118bda6dd7fbfbf5fde5ec0756f3$e1eb90b73fb6aa473bd68b1feae1b18fb6f33d1017c24123e018d178c888902f2db0f91a8f0bf5191337b2ce8376f80f9ef045decb959b06d4837aba42ac0d34",
+    "passwordHash": null,
     "amount": 5200,
     "amountKobo": 520000,
     "method": "paga",
     "provider": "movantra",
     "reference": "rc_1795713413880_f0af612b1c",
-    "status": "pending",
+    "status": "approved",
     "statusTokenHash": "03eda8ab50e3bbd44431d90fde135f3a2c8d0e34eaaef308e13ee68c0e86b004",
     "activation": true,
     "createdAt": "2026-11-26T17:16:55.049Z",
-    "processedAt": null,
-    "activationExpiresAt": "2026-11-26T18:06:55.048Z"
+    "processedAt": "2026-11-26T17:20:40.751Z",
+    "activationExpiresAt": "2026-11-26T18:06:55.048Z",
+    "approvalSource": "movantra_webhook"
   },
   {
     "id": "PAY-RIDELESSCHAT-23C895EEA8FE0AB4",
