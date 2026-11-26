@@ -22159,17 +22159,18 @@
     "customerName": "God's time Edwin",
     "email": "edwingodstime888@gmail.com",
     "phone": "07064537869",
-    "passwordHash": "scrypt$03f77211403bcfa12788969b61189669$b299cffe6f3fc268d42d9f4a1cc40b00e3d8cef7dbf4436975d77431f9b1cfe674f829615387e7229a33f6e9f18e3420b12d7ea5d39688c3d2d968c1a33c6e56",
+    "passwordHash": null,
     "amount": 5200,
     "amountKobo": 520000,
     "method": "paga",
     "provider": "movantra",
     "reference": "rc_1795734861919_31613f3ccf",
-    "status": "pending",
+    "status": "approved",
     "statusTokenHash": "c7ea6e4343071e73b7f8b1952c1d585707585153686f07aa358b9870ee9c252d",
     "activation": true,
     "createdAt": "2026-11-26T23:14:23.563Z",
-    "processedAt": null,
-    "activationExpiresAt": "2026-11-27T00:04:23.562Z"
+    "processedAt": "2026-11-26T23:15:51.068Z",
+    "activationExpiresAt": "2026-11-27T00:04:23.562Z",
+    "approvalSource": "movantra_webhook"
   }
 ]
