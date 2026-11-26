@@ -18518,17 +18518,18 @@
     "customerName": "Anifowose Joshua",
     "email": "anifowosejoshua156@gmail.com",
     "phone": "0 905 632 4543",
-    "passwordHash": "scrypt$2556d11273362946fd5ce4e171eaec69$80a6f0977ec9c01aea58480abaeedf4b94ed47b33ec6f05afc101d01f23ac3f66b370d050b4856f452070be496d3ff1a203ca110a1564e9719b9ae809449ef26",
+    "passwordHash": null,
     "amount": 3700,
     "amountKobo": 370000,
     "method": "paga",
     "provider": "movantra",
     "reference": "rc_1795707202879_3f2632d5c1",
-    "status": "pending",
+    "status": "approved",
     "statusTokenHash": "7b0d7956219e7c8692dbff6d0d681f6d012f7d9f0a9fd99b7352639a43fb6b31",
     "activation": true,
     "createdAt": "2026-11-26T15:33:24.263Z",
-    "processedAt": null,
-    "activationExpiresAt": "2026-11-26T16:23:24.263Z"
+    "processedAt": "2026-11-26T15:34:55.183Z",
+    "activationExpiresAt": "2026-11-26T16:23:24.263Z",
+    "approvalSource": "movantra_webhook"
   }
 ]
