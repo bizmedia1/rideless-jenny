@@ -21717,18 +21717,19 @@
     "customerName": "Keziah Manasseh",
     "email": "keziahmanasseh8@gmail.com",
     "phone": "07015282386",
-    "passwordHash": "scrypt$ff5bc3e654736267923404dfab294f7c$da00db25c712c9b16dc138ed87b69df74f690b5e67a1ae17ea2d3871f5750d33bbf4c6e4a5aa30166888b5c164904e6f1ceea98a861afc5e326b0715b80a6f4e",
+    "passwordHash": null,
     "amount": 3700,
     "amountKobo": 370000,
     "method": "paga",
     "provider": "movantra",
     "reference": "rc_1795726398912_7be600c2e3",
-    "status": "pending",
+    "status": "approved",
     "statusTokenHash": "5e186319f0e464a3c9df2b1c9f2573739d8024c62d900928246a8871cb5a2c7c",
     "activation": true,
     "createdAt": "2026-11-26T20:53:20.281Z",
-    "processedAt": null,
-    "activationExpiresAt": "2026-11-26T21:43:20.280Z"
+    "processedAt": "2026-11-26T20:57:18.254Z",
+    "activationExpiresAt": "2026-11-26T21:43:20.280Z",
+    "approvalSource": "movantra_webhook"
   },
   {
     "id": "PAY-RIDELESSCHAT-216F280922A258E6",
