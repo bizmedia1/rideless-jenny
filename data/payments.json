@@ -20976,18 +20976,19 @@
     "customerName": "Charlie",
     "email": "charlieezumaasante096@gmail.com",
     "phone": "09155729410",
-    "passwordHash": "scrypt$9a0e4c541898bf7d942f7558f28cc0b5$4ae5e3a129f25ebe31eef237e2e9a94fc470ec926bad4c684f4adfd480e794df8211796b10cffde0f0de4eeec10344338774a2b693ba33fa816885c88330571d",
+    "passwordHash": null,
     "amount": 3700,
     "amountKobo": 370000,
     "method": "paga",
     "provider": "movantra",
     "reference": "rc_1795723021786_09623cb20e",
-    "status": "pending",
+    "status": "approved",
     "statusTokenHash": "1c84b0709c04d2d15d2392328c9abbfb7b98dff89fd1d539c0334cbb8ca6c4d5",
     "activation": true,
     "createdAt": "2026-11-26T19:57:02.946Z",
-    "processedAt": null,
-    "activationExpiresAt": "2026-11-26T20:47:02.946Z"
+    "processedAt": "2026-11-26T19:58:37.548Z",
+    "activationExpiresAt": "2026-11-26T20:47:02.946Z",
+    "approvalSource": "movantra_webhook"
   },
   {
     "id": "PAY-RIDELESSCHAT-72E08AB1752C1C75",
