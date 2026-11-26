@@ -18605,5 +18605,23 @@
     "createdAt": "2026-11-26T16:46:30.200Z",
     "processedAt": null,
     "activationExpiresAt": "2026-11-26T17:36:30.200Z"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-158129F80B47D66E",
+    "customerName": "Leesi Alawa",
+    "email": "alawaleesi6@gmail.com",
+    "phone": "2348151330039",
+    "passwordHash": "scrypt$a5df7922823d8ed1c8338ea065b8f7a9$c6b716c8fb54368d063a688ec46dc78c7e7d0e16b163593dd1377f4abc2dd0cae11b7eb8f5064ef47005d67c0c504292572d58a4b986a241efdaac75e6358543",
+    "amount": 3700,
+    "amountKobo": 370000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795711605889_d5a9df06f7",
+    "status": "pending",
+    "statusTokenHash": "e38f11002aee0bdadbe8539d38131e4ecf58927526279d448be3403fa819d811",
+    "activation": true,
+    "createdAt": "2026-11-26T16:46:47.194Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-26T17:36:47.193Z"
   }
 ]
