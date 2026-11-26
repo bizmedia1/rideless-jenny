@@ -2715,5 +2715,16 @@
     "paymentId": "PAY-RIDELESSCHAT-D38E12C921980049",
     "createdAt": "2026-11-26T20:12:16.734Z",
     "activatedAt": "2026-11-26T20:12:16.734Z"
+  },
+  {
+    "id": "RC-USER-C7B34120FEBBCE3C",
+    "fullName": "Ubah chinaza perpetual",
+    "email": "ubachinaza773@gmail.com",
+    "phone": "+2348109691634",
+    "passwordHash": "scrypt$a7fc0d5602c8ed45862362c1216fbaa4$4be9965de600f8734b5d4f2a7c769de073e07b7484972022e56339260c1779ca78c9da9702c10c3729a6e4d608c6529b06f2d815fecd399ec079269d255a097c",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-9DE477B31A8E29BE",
+    "createdAt": "2026-11-26T20:26:58.653Z",
+    "activatedAt": "2026-11-26T20:26:58.653Z"
   }
 ]
