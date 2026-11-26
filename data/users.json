@@ -2341,5 +2341,16 @@
     "paymentId": "PAY-RIDELESSCHAT-B32B2E420E91F779",
     "createdAt": "2026-11-26T01:36:41.670Z",
     "activatedAt": "2026-11-26T01:36:41.670Z"
+  },
+  {
+    "id": "RC-USER-0FA39D9A9D680739",
+    "fullName": "Sulemon Abdullah",
+    "email": "abdulsulemon76@gmail.com",
+    "phone": "09132918974",
+    "passwordHash": "scrypt$4137c9ca0ad8f1a80bf7ce5d1e0de40c$8f829a185ea87b043f5192172cb63bd1d3cb723563d21857dba3b6d57dc82d0c3d4c7fef3e54ba941449433d99f25397ff037863b701a618327b24c24e5e5d54",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-5401568840B63AA7",
+    "createdAt": "2026-11-26T03:10:32.929Z",
+    "activatedAt": "2026-11-26T03:10:32.929Z"
   }
 ]
