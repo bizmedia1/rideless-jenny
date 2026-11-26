@@ -2825,5 +2825,16 @@
     "paymentId": "PAY-RIDELESSCHAT-131DA01EE3B85859",
     "createdAt": "2026-11-26T22:33:19.598Z",
     "activatedAt": "2026-11-26T22:33:19.598Z"
+  },
+  {
+    "id": "RC-USER-20E2AC8EF4B67623",
+    "fullName": "Saadatu Garba",
+    "email": "gsaadatu1985@gmail.com",
+    "phone": "8034522492",
+    "passwordHash": "scrypt$b156527bccdb82fde6ed616207eab387$5588710c5d68a6b4977793978df118d5aeae1c2910f22aca5644f8f692a14cae1a51c74d0e27198457b495d1d0ff2aabd051b821c19d319ec8b863f74a39cbbc",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-5C7776D2C3446F07",
+    "createdAt": "2026-11-26T22:40:07.923Z",
+    "activatedAt": "2026-11-26T22:40:07.923Z"
   }
 ]
