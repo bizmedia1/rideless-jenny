@@ -21014,17 +21014,18 @@
     "customerName": "Ese Jabin",
     "email": "esejabin0@gmail.com",
     "phone": "08063155868",
-    "passwordHash": "scrypt$8a806e479a690d3949397a3f77b4a260$e68e31e7f269181126eae89b346b3108f751a83630c0c078a671855906c190e06d154852964d6757a1694d871275e42332dd744c93a3a6e7ec8ad832cdac34bc",
+    "passwordHash": null,
     "amount": 3700,
     "amountKobo": 370000,
     "method": "paga",
     "provider": "movantra",
     "reference": "rc_1795723287201_23ce2bafd7",
-    "status": "pending",
+    "status": "approved",
     "statusTokenHash": "e63d2c27756535f0b142ad3a020b03039c5102303a911efa3c2f9259d4993559",
     "activation": true,
     "createdAt": "2026-11-26T20:01:28.637Z",
-    "processedAt": null,
-    "activationExpiresAt": "2026-11-26T20:51:28.637Z"
+    "processedAt": "2026-11-26T20:02:27.247Z",
+    "activationExpiresAt": "2026-11-26T20:51:28.637Z",
+    "approvalSource": "movantra_webhook"
   }
 ]
