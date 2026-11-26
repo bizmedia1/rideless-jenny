@@ -2770,5 +2770,16 @@
     "paymentId": "PAY-RIDELESSCHAT-EC879AE92E78BC1B",
     "createdAt": "2026-11-26T20:47:47.388Z",
     "activatedAt": "2026-11-26T20:47:47.388Z"
+  },
+  {
+    "id": "RC-USER-D39935692325DC15",
+    "fullName": "Keziah Manasseh",
+    "email": "keziahmanasseh8@gmail.com",
+    "phone": "07015282386",
+    "passwordHash": "scrypt$ff5bc3e654736267923404dfab294f7c$da00db25c712c9b16dc138ed87b69df74f690b5e67a1ae17ea2d3871f5750d33bbf4c6e4a5aa30166888b5c164904e6f1ceea98a861afc5e326b0715b80a6f4e",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-7AB46FEA25E95C16",
+    "createdAt": "2026-11-26T20:57:17.077Z",
+    "activatedAt": "2026-11-26T20:57:17.077Z"
   }
 ]
