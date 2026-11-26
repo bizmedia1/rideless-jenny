@@ -18809,5 +18809,23 @@
     "activationExpiresAt": "2026-11-26T17:41:25.954Z",
     "supersededAt": "2026-11-26T16:51:46.136Z",
     "supersededReason": "New payment amount selected"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-86AC95C61B0A1B37",
+    "customerName": "Gabriel favour",
+    "email": "favourgabriel8967@gmail.com",
+    "phone": "09153262769",
+    "passwordHash": "scrypt$dd7090a6b9ac51667b029a37164f47ab$408abbe9761dd4e78350a251ccbf13625a7c38da077159dbbf4d50751ec802a5fa1cd354a5e2c0c655d0022d455aa00aaa777ec26dad3ab194040f0b128ebb84",
+    "amount": 5200,
+    "amountKobo": 520000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795711907632_96688d47e2",
+    "status": "pending",
+    "statusTokenHash": "65a3c6bd2b14ee21ea32494e046fa82e5c7675cb45d392b6fce4b17076a78e75",
+    "activation": true,
+    "createdAt": "2026-11-26T16:51:48.591Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-26T17:41:48.591Z"
   }
 ]
