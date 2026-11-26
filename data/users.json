@@ -2330,5 +2330,16 @@
     "paymentId": "PAY-RIDELESSCHAT-DFEC75D77195502E",
     "createdAt": "2026-11-26T01:24:25.776Z",
     "activatedAt": "2026-11-26T01:24:25.776Z"
+  },
+  {
+    "id": "RC-USER-0482D34AAFE466E5",
+    "fullName": "Oti ella",
+    "email": "ellaoti249@gnail.com",
+    "phone": "09059027304",
+    "passwordHash": "scrypt$d31dcf351a391bb572d30c3a0c574f1f$360dbbb897bdefabf1eaa913af55574a1b93047dbd587faad7874e6817feb06a85b13abacf5145ba45085ca291096795b32e7c89d6b6beb9c7319f58afffdd6c",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-B32B2E420E91F779",
+    "createdAt": "2026-11-26T01:36:41.670Z",
+    "activatedAt": "2026-11-26T01:36:41.670Z"
   }
 ]
