@@ -2803,5 +2803,16 @@
     "paymentId": "PAY-RIDELESSCHAT-AAEDADB4906E2563",
     "createdAt": "2026-11-26T21:50:22.225Z",
     "activatedAt": "2026-11-26T21:50:22.225Z"
+  },
+  {
+    "id": "RC-USER-1C9238B6F25A7D3A",
+    "fullName": "Justina Emmanuel Dominic",
+    "email": "ejustina494@email.com",
+    "phone": "08029822061",
+    "passwordHash": "scrypt$460d4834f73f24ff2417f02ac1832f77$ca3ba6d831897ca79c4da65940483520011dfabaea5600c44f2fa668c05ef75b722b85e5481d7b790d04ca94dc51b62b22e43314c19753064b4748028a1c1e99",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-31E34C3BD408D2EF",
+    "createdAt": "2026-11-26T22:12:37.644Z",
+    "activatedAt": "2026-11-26T22:12:37.644Z"
   }
 ]
