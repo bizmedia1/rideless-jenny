@@ -2451,5 +2451,16 @@
     "paymentId": "PAY-RIDELESSCHAT-BCBA6090A8DB1ADA",
     "createdAt": "2026-11-26T17:20:39.469Z",
     "activatedAt": "2026-11-26T17:20:39.469Z"
+  },
+  {
+    "id": "RC-USER-66927B9861F0E798",
+    "fullName": "Victoria munachi",
+    "email": "vicky200@gmail.com",
+    "phone": "07078186131",
+    "passwordHash": "scrypt$08f021f145ceb62d5f3613d9e35f2a2f$5764495feb2c10194034699ff8f17f760977bccacce7e3178f515849e3bbeb623808ec2ccc9d63ecc4af49a69be965afe362b813e4f70eca378a25eb83a6676f",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-D7A1BC3E3F691804",
+    "createdAt": "2026-11-26T17:25:58.605Z",
+    "activatedAt": "2026-11-26T17:25:58.605Z"
   }
 ]
