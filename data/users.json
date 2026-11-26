@@ -2484,5 +2484,16 @@
     "paymentId": "PAY-RIDELESSCHAT-C70643665365B9A3",
     "createdAt": "2026-11-26T17:55:31.771Z",
     "activatedAt": "2026-11-26T17:55:31.771Z"
+  },
+  {
+    "id": "RC-USER-2378458757F377BE",
+    "fullName": "KELVIN CHIGOZIE",
+    "email": "kelvinslimpheat@gmail.com",
+    "phone": "08169821125",
+    "passwordHash": "scrypt$91d93df09ff60e018e98d4a571157a5a$2a289e11d4810ca5c9b682543fb32f8298ae7bb4a9df03d3cd0195db00deb9b9c34900aa0f0190cf9a6121d1aebe0d2ecbcf57acfa55a14afe3ebd7e592a470b",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-4E340F959448E1E0",
+    "createdAt": "2026-11-26T18:13:26.289Z",
+    "activatedAt": "2026-11-26T18:13:26.289Z"
   }
 ]
