@@ -2473,5 +2473,16 @@
     "paymentId": "PAY-RIDELESSCHAT-74476C4D04F15DDF",
     "createdAt": "2026-11-26T17:48:05.798Z",
     "activatedAt": "2026-11-26T17:48:05.798Z"
+  },
+  {
+    "id": "RC-USER-67AD637F6DA27152",
+    "fullName": "Aimienoho Faith",
+    "email": "aimienohofaith22@gmail.com",
+    "phone": "08139465408",
+    "passwordHash": "scrypt$1efa5b33ef07d0edf7a4390bae1a49b5$00e4c0731e202b5e88dcc256aec9a170f3fe83b5fc144ca63bd22152f81b2d66b106138670967dc6b59beec75c1a07694ef832f1265b0aab6279486814745846",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-C70643665365B9A3",
+    "createdAt": "2026-11-26T17:55:31.771Z",
+    "activatedAt": "2026-11-26T17:55:31.771Z"
   }
 ]
