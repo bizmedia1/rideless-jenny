@@ -2374,5 +2374,16 @@
     "paymentId": "PAY-RIDELESSCHAT-FEC546F0643BEAC2",
     "createdAt": "2026-11-26T11:29:13.372Z",
     "activatedAt": "2026-11-26T11:29:13.372Z"
+  },
+  {
+    "id": "RC-USER-5B31D31F307B161E",
+    "fullName": "Rume",
+    "email": "rumeegigba57@gmail.com",
+    "phone": "9074646206",
+    "passwordHash": "scrypt$b49de73682ea8266d30fb19940bd557b$ed80f27f0403f105072c3dfda85fb1b59cef2e1da49f4a9097163b926daeb074e4e716fa14ae210150af8206bdc7a647929d9c1efed45f39c152fb035501e9c1",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-B02AED3029AA21E4",
+    "createdAt": "2026-11-26T12:38:28.453Z",
+    "activatedAt": "2026-11-26T12:38:28.453Z"
   }
 ]
