@@ -22172,5 +22172,23 @@
     "processedAt": "2026-11-26T23:15:51.068Z",
     "activationExpiresAt": "2026-11-27T00:04:23.562Z",
     "approvalSource": "movantra_webhook"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-828C57CCE0EF6AF6",
+    "customerName": "Chibueze Blessing Chikamso",
+    "email": "bestemma869@gmail.com",
+    "phone": "09057119036",
+    "passwordHash": "scrypt$8e3e03e81ef278c0e458f9828561f23c$3536bfb6fe6b03ed62c5af0822e4c42eddaadebe4a052a295283912079ee0b78aeb1beecef1d49645adce6cdac42803ea2cbb7b71e6662c3c8e29a1d2ea89450",
+    "amount": 5200,
+    "amountKobo": 520000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795735194470_91afa22ffe",
+    "status": "pending",
+    "statusTokenHash": "6104d240f020f730caacdf355f5fb45dea1f6d02e9d595a031f890f5ae7b01cf",
+    "activation": true,
+    "createdAt": "2026-11-26T23:19:56.108Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-27T00:09:56.108Z"
   }
 ]
