@@ -18985,18 +18985,19 @@
     "customerName": "Hope Okon",
     "email": "okonhope60@gmail.com",
     "phone": "08141952066",
-    "passwordHash": "scrypt$f828796bfa51923ef8b820510ac88e65$03b3827ca7f9e217ca586ae538b49b700245f9b65c60b313e477fd6a1170dcb2393186a604cb88572864a13189721c6e039b06b5dbaed8f6809a7f33721eaf53",
+    "passwordHash": null,
     "amount": 3700,
     "amountKobo": 370000,
     "method": "paga",
     "provider": "movantra",
     "reference": "rc_1795712174152_b079160fc2",
-    "status": "pending",
+    "status": "approved",
     "statusTokenHash": "54ea2335cfc5ab494a0499f46c845d442086002466d60161e04438d879a92474",
     "activation": true,
     "createdAt": "2026-11-26T16:56:15.197Z",
-    "processedAt": null,
-    "activationExpiresAt": "2026-11-26T17:46:15.197Z"
+    "processedAt": "2026-11-26T16:59:38.772Z",
+    "activationExpiresAt": "2026-11-26T17:46:15.197Z",
+    "approvalSource": "movantra_webhook"
   },
   {
     "id": "PAY-RIDELESSCHAT-F9512013603150EB",
