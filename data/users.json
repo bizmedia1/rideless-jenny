@@ -2506,5 +2506,16 @@
     "paymentId": "PAY-RIDELESSCHAT-D6026CC7E61E06B4",
     "createdAt": "2026-11-26T18:18:40.376Z",
     "activatedAt": "2026-11-26T18:18:40.376Z"
+  },
+  {
+    "id": "RC-USER-5B6EEAD1DDB38157",
+    "fullName": "Esther Joshua",
+    "email": "prettypresh559@gmail.com",
+    "phone": "08111450530",
+    "passwordHash": "scrypt$77590ed69162628a9b715ef9acd974b1$3ba23da0f1fa6f25edfee0f43fd68598f3f849ddfa8d8254a2cbfa23ee923d4c1f3127477881e3ea00a2b5df444227db132731bc263e074dacadf7538429ab45",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-252860EE70702720",
+    "createdAt": "2026-11-26T18:27:33.542Z",
+    "activatedAt": "2026-11-26T18:27:33.542Z"
   }
 ]
