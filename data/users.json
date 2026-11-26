@@ -2385,5 +2385,16 @@
     "paymentId": "PAY-RIDELESSCHAT-B02AED3029AA21E4",
     "createdAt": "2026-11-26T12:38:28.453Z",
     "activatedAt": "2026-11-26T12:38:28.453Z"
+  },
+  {
+    "id": "RC-USER-0D69D473E64AF3EA",
+    "fullName": "Anifowose Joshua",
+    "email": "anifowosejoshua156@gmail.com",
+    "phone": "0 905 632 4543",
+    "passwordHash": "scrypt$2556d11273362946fd5ce4e171eaec69$80a6f0977ec9c01aea58480abaeedf4b94ed47b33ec6f05afc101d01f23ac3f66b370d050b4856f452070be496d3ff1a203ca110a1564e9719b9ae809449ef26",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-5A9707CE1D9B3285",
+    "createdAt": "2026-11-26T15:34:53.973Z",
+    "activatedAt": "2026-11-26T15:34:53.973Z"
   }
 ]
