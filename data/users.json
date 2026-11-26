@@ -2693,5 +2693,16 @@
     "paymentId": "PAY-RIDELESSCHAT-F78E39D1FFB9CD9F",
     "createdAt": "2026-11-26T20:05:02.937Z",
     "activatedAt": "2026-11-26T20:05:02.937Z"
+  },
+  {
+    "id": "RC-USER-425E001F11545E39",
+    "fullName": "Moraine Emmanuel",
+    "email": "pinkeygift99@gmail.com",
+    "phone": "09131326892",
+    "passwordHash": "scrypt$5b17eaca156ed79b806509a4a7a4bb18$caaf42f6f0dbddec519b3bf38d9b04a4815d797208f09bad82a4d1a348296ffc9f759d0c01b0382168822947df9f63d7c4f1ad75329fa876d60cae2f232e47a4",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-5146DF1546C6FDB9",
+    "createdAt": "2026-11-26T20:07:39.186Z",
+    "activatedAt": "2026-11-26T20:07:39.186Z"
   }
 ]
