@@ -2363,5 +2363,16 @@
     "paymentId": "PAY-RIDELESSCHAT-CCB6EC5F29EBFD75",
     "createdAt": "2026-11-26T11:04:00.946Z",
     "activatedAt": "2026-11-26T11:04:00.946Z"
+  },
+  {
+    "id": "RC-USER-F2DCE19DB3B502AF",
+    "fullName": "Tina Godson",
+    "email": "emmyrea5@gmail.com",
+    "phone": "09018592304",
+    "passwordHash": "scrypt$cf8fc9056b2abfe1a602ba4bb1ed9327$0a7387e86e725e167cddfffbc26c226a901fa0dd93abf5e88b14c2f84ef0322845e4ab000bf1fd036bd38a8529f3b1f87b09f8015dca6f3c1f162a60879fe70f",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-FEC546F0643BEAC2",
+    "createdAt": "2026-11-26T11:29:13.372Z",
+    "activatedAt": "2026-11-26T11:29:13.372Z"
   }
 ]
