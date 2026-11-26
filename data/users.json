@@ -2748,5 +2748,16 @@
     "paymentId": "PAY-RIDELESSCHAT-40044C145C0587A5",
     "createdAt": "2026-11-26T20:36:12.427Z",
     "activatedAt": "2026-11-26T20:36:12.427Z"
+  },
+  {
+    "id": "RC-USER-E9FDEC40A18CB516",
+    "fullName": "Edet, victory Anietie",
+    "email": "edetvictory466@gmail.com",
+    "phone": "08163125866",
+    "passwordHash": "scrypt$da0c5b5cc8af6f633e10f95a640643f6$8fadc6bb65702be1a39c3b91018564942dbfb1d1f39ff148389aa1d89b682a934518b7be05020899e22433c0a73dac75175d227a8e7652124eff3fcb180da00e",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-B8FDD8913315ECC4",
+    "createdAt": "2026-11-26T20:39:18.067Z",
+    "activatedAt": "2026-11-26T20:39:18.067Z"
   }
 ]
