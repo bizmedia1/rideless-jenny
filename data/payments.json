@@ -21658,18 +21658,19 @@
     "customerName": "Samuel christiana",
     "email": "jdf.nb123@gmail.com",
     "phone": "09037439078",
-    "passwordHash": "scrypt$430a4ea7a4a318ce73c21b0507459c03$d9ca62725c1fe5569600dc7a650762754882881f8fc2cddad098d340b7d5ac5bbee6c3577616f5b2528bf95ac2ba80fbd16c0e4af1ca24dc4941d72741f3831a",
+    "passwordHash": null,
     "amount": 5200,
     "amountKobo": 520000,
     "method": "paga",
     "provider": "movantra",
     "reference": "rc_1795725907474_396efd6747",
-    "status": "pending",
+    "status": "approved",
     "statusTokenHash": "bffdc15983a4fdabfc4cbefb9b8112354dbc746df4852ae2561a5f639cc6933b",
     "activation": true,
     "createdAt": "2026-11-26T20:45:08.769Z",
-    "processedAt": null,
-    "activationExpiresAt": "2026-11-26T21:35:08.768Z"
+    "processedAt": "2026-11-26T20:47:48.506Z",
+    "activationExpiresAt": "2026-11-26T21:35:08.768Z",
+    "approvalSource": "movantra_webhook"
   },
   {
     "id": "PAY-RIDELESSCHAT-34B0723C3F3577E9",
