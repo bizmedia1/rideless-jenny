@@ -2407,5 +2407,16 @@
     "paymentId": "PAY-RIDELESSCHAT-1BCC38DC47349D7B",
     "createdAt": "2026-11-26T16:59:37.683Z",
     "activatedAt": "2026-11-26T16:59:37.683Z"
+  },
+  {
+    "id": "RC-USER-EC931AAD20E58207",
+    "fullName": "Melody Teinbo",
+    "email": "teinbomelody2008@gmail.com",
+    "phone": "09165804065",
+    "passwordHash": "scrypt$fd2c30a1638d06abd21add1e7f637abc$604ef865dcf0693997775883e0c5fd6e0ef62f624be4e2c7d5d72ae1d09b9f136c361606991f3da873889e6f44a83517fb211f62aa73bab22f904e4068fbae05",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-DD65E8BE29EB98E7",
+    "createdAt": "2026-11-26T17:00:21.398Z",
+    "activatedAt": "2026-11-26T17:00:21.398Z"
   }
 ]
