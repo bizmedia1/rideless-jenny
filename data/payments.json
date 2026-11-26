@@ -21457,5 +21457,23 @@
     "activationExpiresAt": "2026-11-26T21:23:23.128Z",
     "supersededAt": "2026-11-26T20:33:26.514Z",
     "supersededReason": "New payment amount selected"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-5B3C99CB1CA086DE",
+    "customerName": "Victory Onyinyechi Anthony",
+    "email": "victoryanthony239@gmail.com",
+    "phone": "09038638027",
+    "passwordHash": "scrypt$e477f54aff30d8ae9e19c8f6bd7e9a57$467817536043fc8068319a4cbc2b41d7724f09a9ed8c3e957eac127489dd70a4f3e9c44b9890d2cd25d35f27c03fbf876cc81b9e9f83f0ac93d0145b5d4fe859",
+    "amount": 5200,
+    "amountKobo": 520000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795725207981_cf0411e0cf",
+    "status": "pending",
+    "statusTokenHash": "d85a7cd52429ef9377dfa2c11cc6b43f52f952f35ab7021a487e0f1a6467e0fe",
+    "activation": true,
+    "createdAt": "2026-11-26T20:33:29.104Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-26T21:23:29.104Z"
   }
 ]
