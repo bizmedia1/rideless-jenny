@@ -2396,5 +2396,16 @@
     "paymentId": "PAY-RIDELESSCHAT-5A9707CE1D9B3285",
     "createdAt": "2026-11-26T15:34:53.973Z",
     "activatedAt": "2026-11-26T15:34:53.973Z"
+  },
+  {
+    "id": "RC-USER-3FE362013EA5C328",
+    "fullName": "Hope Okon",
+    "email": "okonhope60@gmail.com",
+    "phone": "08141952066",
+    "passwordHash": "scrypt$f828796bfa51923ef8b820510ac88e65$03b3827ca7f9e217ca586ae538b49b700245f9b65c60b313e477fd6a1170dcb2393186a604cb88572864a13189721c6e039b06b5dbaed8f6809a7f33721eaf53",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-1BCC38DC47349D7B",
+    "createdAt": "2026-11-26T16:59:37.683Z",
+    "activatedAt": "2026-11-26T16:59:37.683Z"
   }
 ]
