@@ -18961,5 +18961,23 @@
     "activationExpiresAt": "2026-11-26T17:45:25.546Z",
     "supersededAt": "2026-11-26T16:55:33.002Z",
     "supersededReason": "New payment amount selected"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-5D1FD81D8F260871",
+    "customerName": "Chinenye nwosu",
+    "email": "chinexnenye@gmail.com",
+    "phone": "09124721338",
+    "passwordHash": "scrypt$53ce5a57068838a00d0e37aff9995be6$c412ea2f1f44323601ddce53a6900d1d6ce53033a73b7d81bc0373a8a4b08b54d198bfc9a023b3d2fbdf92c6175a31c90636bb70402c09ac7b90005bd58b5f31",
+    "amount": 3700,
+    "amountKobo": 370000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795712134370_48c9dae223",
+    "status": "pending",
+    "statusTokenHash": "61418401fe76ad2793f224c11b19d1dcf43f99d6b216c6eb1d9ff94c094909a6",
+    "activation": true,
+    "createdAt": "2026-11-26T16:55:35.372Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-26T17:45:35.372Z"
   }
 ]
