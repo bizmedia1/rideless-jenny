@@ -2792,5 +2792,16 @@
     "paymentId": "PAY-RIDELESSCHAT-07FB3E6277378D76",
     "createdAt": "2026-11-26T21:45:42.806Z",
     "activatedAt": "2026-11-26T21:45:42.806Z"
+  },
+  {
+    "id": "RC-USER-F8BB40044B9D2933",
+    "fullName": "Ani Mercy",
+    "email": "animercy1220@gmail.com",
+    "phone": "08122245417",
+    "passwordHash": "scrypt$ba26c9d1550cdaf7a071a10c116e8fe3$a93c405e3b89fdb9e01e54f5e294e66c84f8e1927a624b95d42b2f4083bc905d33bb71b36e6221a04f6d3637649170f8ec6ba4c0a7676a8a255c4db03b718e70",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-AAEDADB4906E2563",
+    "createdAt": "2026-11-26T21:50:22.225Z",
+    "activatedAt": "2026-11-26T21:50:22.225Z"
   }
 ]
