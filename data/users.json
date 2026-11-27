@@ -2869,5 +2869,16 @@
     "paymentId": "PAY-RIDELESSCHAT-E2018B7A3F0871B8",
     "createdAt": "2026-11-27T05:05:17.820Z",
     "activatedAt": "2026-11-27T05:05:17.820Z"
+  },
+  {
+    "id": "RC-USER-18224F32E1EDA4BC",
+    "fullName": "Ukpai Ama Ndukwe",
+    "email": "chiboi@gmail.com",
+    "phone": "08105263247",
+    "passwordHash": "scrypt$736d882eb319a67cbad328cd4ae86a4b$95d73b63eb5ab6e95791ed5a11103114c325903811a9680065a5dee7d07162ac6e96644ae9ab5d6e151d09ef80692d5746766fc6caed05e66c1d0eeb9947035b",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-823EC61C673F6E04",
+    "createdAt": "2026-11-27T06:53:19.768Z",
+    "activatedAt": "2026-11-27T06:53:19.768Z"
   }
 ]
