@@ -2924,5 +2924,16 @@
     "paymentId": "PAY-RIDELESSCHAT-02FE2D7BE746489A",
     "createdAt": "2026-11-27T18:27:12.197Z",
     "activatedAt": "2026-11-27T18:27:12.197Z"
+  },
+  {
+    "id": "RC-USER-74E69EF6635438E1",
+    "fullName": "Oladeji Mercy",
+    "email": "mercyoladeji63@gmail.com",
+    "phone": "09161053904",
+    "passwordHash": "scrypt$084d8752e3a649b50d5cc7ab77554e99$c6e42286116cf0f3f4f9761c47fcccb5e0fa5654ece7b4088abe4baad47d78caa50dfea61a57967dca69877f74c260a3f72cfd447f458f321951c83713b80946",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-797FFCE2407E47D5",
+    "createdAt": "2026-11-27T19:13:31.032Z",
+    "activatedAt": "2026-11-27T19:13:31.032Z"
   }
 ]
