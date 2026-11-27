@@ -22361,5 +22361,23 @@
     "activationExpiresAt": "2026-11-27T08:47:00.139Z",
     "supersededAt": "2026-11-27T07:57:35.806Z",
     "supersededReason": "New payment amount selected"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-A00F86BF2E781D23",
+    "customerName": "Samuel nuna",
+    "email": "samuelnuna937@gmail.com",
+    "phone": "08135881291",
+    "passwordHash": "scrypt$b99208540de77573e801905c26d39178$94ade998ddc85456a948ebd3871a5248ed16aec6eb0ed83378a91059868b29258710d09e51bfff4c2140ad91447899b979479bb09c0d556da97c60314fa7d7c8",
+    "amount": 5200,
+    "amountKobo": 520000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795766257469_919bd54a3c",
+    "status": "pending",
+    "statusTokenHash": "6930cf0601ff9e26962028692174f650fb3af61a2777d4671db64ebac54ccb0f",
+    "activation": true,
+    "createdAt": "2026-11-27T07:57:38.550Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-27T08:47:38.550Z"
   }
 ]
