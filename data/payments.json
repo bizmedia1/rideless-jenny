@@ -22934,5 +22934,23 @@
     "createdAt": "2026-11-27T17:18:15.838Z",
     "processedAt": null,
     "activationExpiresAt": "2026-11-27T18:08:15.838Z"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-5D930C590A92553D",
+    "customerName": "Uchechwukwu Cynthia",
+    "email": "uchechwukwucynthia@gmail.com",
+    "phone": "09167608910",
+    "passwordHash": "scrypt$ded5fe37aa6c883cc8b56b799857aaad$0626148b4ce5b564d3f41cbafce5533788f9448ca3f907c6645d8cbfc4391fe569aeb58d613b3bf160aa8c98d2e4dfe03b1740c9d8216fbbd5fa5a8c7892d9a0",
+    "amount": 5200,
+    "amountKobo": 520000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795801333567_e66219b58c",
+    "status": "pending",
+    "statusTokenHash": "355ff26b10b9007ececde54c385de79b4eb6984545889a9caba88cc6568e33b2",
+    "activation": true,
+    "createdAt": "2026-11-27T17:42:14.906Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-27T18:32:14.906Z"
   }
 ]
