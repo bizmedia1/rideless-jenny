@@ -23289,5 +23289,23 @@
     "createdAt": "2026-11-27T19:10:17.000Z",
     "processedAt": null,
     "activationExpiresAt": "2026-11-27T20:00:16.999Z"
+  },
+  {
+    "id": "PAY-RIDELESSCHAT-A2DB2552A590FCBA",
+    "customerName": "Opuro Gabriel",
+    "email": "opurogabriel3@gmail.com",
+    "phone": "08083384555",
+    "passwordHash": "scrypt$58458cbfb3ac0e372d1797032ead5d1b$c9041dd37b94b3e87361fc9e70fa777db5872e9ba4e476c4970220c6af0e243377d9eace644adbe61247f01802edd86893b37a3f6471ec3c18ab3fd5f8abdd3f",
+    "amount": 5200,
+    "amountKobo": 520000,
+    "method": "paga",
+    "provider": "movantra",
+    "reference": "rc_1795806679000_5a0720ccbc",
+    "status": "pending",
+    "statusTokenHash": "1cecdcce281b8f2ee138a44c96ac0a46be643e42875716847c38a0212e60c0cf",
+    "activation": true,
+    "createdAt": "2026-11-27T19:11:20.121Z",
+    "processedAt": null,
+    "activationExpiresAt": "2026-11-27T20:01:20.120Z"
   }
 ]
