@@ -2891,5 +2891,16 @@
     "paymentId": "PAY-RIDELESSCHAT-235296325E46D730",
     "createdAt": "2026-11-27T10:37:40.802Z",
     "activatedAt": "2026-11-27T10:37:40.802Z"
+  },
+  {
+    "id": "RC-USER-BD8FC2231F23CEA2",
+    "fullName": "Peace ubong nyiong",
+    "email": "peaceubon42@gmail.com",
+    "phone": "09030541503",
+    "passwordHash": "scrypt$9478f921e43968913a254d10df1c2406$ee91e6d82d6f42742579453981e7d7c477f4af5e7850af1c750768ffcce40ca14da45350dcb5301083d7653aeefc2bbda32c3f3d3a28c62698fe8dfdca8051fd",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-9FF1D329A3A5F8E0",
+    "createdAt": "2026-11-27T13:41:23.911Z",
+    "activatedAt": "2026-11-27T13:41:23.911Z"
   }
 ]
