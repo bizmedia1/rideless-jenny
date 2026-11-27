@@ -2902,5 +2902,16 @@
     "paymentId": "PAY-RIDELESSCHAT-9FF1D329A3A5F8E0",
     "createdAt": "2026-11-27T13:41:23.911Z",
     "activatedAt": "2026-11-27T13:41:23.911Z"
+  },
+  {
+    "id": "RC-USER-8781A8723844D1BF",
+    "fullName": "Ogechi Udebunu",
+    "email": "ogechiudebunu0@gmail.com",
+    "phone": "+2347085312997",
+    "passwordHash": "scrypt$68ee77b9c73c588920245c6e69bbd676$ab03643c449be0cd20c3b487f07d23202f7622b97bcdfce32b29604f90abe9eabf86dec48c88ff39dc83f2b14063c04b38b6d6902fa9fd9443e70e47c79a4119",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-8A6658C32EADB8EC",
+    "createdAt": "2026-11-27T14:54:59.276Z",
+    "activatedAt": "2026-11-27T14:54:59.276Z"
   }
 ]
