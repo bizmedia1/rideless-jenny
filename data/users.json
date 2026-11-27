@@ -2880,5 +2880,16 @@
     "paymentId": "PAY-RIDELESSCHAT-823EC61C673F6E04",
     "createdAt": "2026-11-27T06:53:19.768Z",
     "activatedAt": "2026-11-27T06:53:19.768Z"
+  },
+  {
+    "id": "RC-USER-026D9E607F40ADDA",
+    "fullName": "Okafor Nelson",
+    "email": "okaforchinedumnelson@gmail.com",
+    "phone": "09073434630",
+    "passwordHash": "scrypt$1200ac4bac352968e61bfd52a1ed345e$9009df88ad5a4c9633f65d84b766fe495b634ad1c0b3f38d81ad00b5b2a31dad35cdc55c4ab0318ea899f5a24eccbfe18360f42a201fddd25bfa6983b72ebc35",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-235296325E46D730",
+    "createdAt": "2026-11-27T10:37:40.802Z",
+    "activatedAt": "2026-11-27T10:37:40.802Z"
   }
 ]
