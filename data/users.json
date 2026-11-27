@@ -2913,5 +2913,16 @@
     "paymentId": "PAY-RIDELESSCHAT-8A6658C32EADB8EC",
     "createdAt": "2026-11-27T14:54:59.276Z",
     "activatedAt": "2026-11-27T14:54:59.276Z"
+  },
+  {
+    "id": "RC-USER-FA2EC7AA0BA54926",
+    "fullName": "Anne Monday Benson",
+    "email": "bensonanne48@gmail.com",
+    "phone": "+2349046114561",
+    "passwordHash": "scrypt$6fe565253e464e4413c82b7ddb4cf330$d54a5042e155aa1eaded14df7fecbf7f880a46b1a55c59094b10e8419db6674902af4acbe3b0411a82fe7e4121d1e4434ff0032ae2c7bde49bea3ce9199a2b26",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-02FE2D7BE746489A",
+    "createdAt": "2026-11-27T18:27:12.197Z",
+    "activatedAt": "2026-11-27T18:27:12.197Z"
   }
 ]
