@@ -22251,17 +22251,18 @@
     "customerName": "Godstime Ehizobhanodion",
     "email": "gatecynthia@gmail.com",
     "phone": "09057586025",
-    "passwordHash": "scrypt$0da97e67cd93cb1821d732fc516c04e1$0b8a6ad7d8380520a4e6d9365d160f316c85fa2ff8b3858f30fe40a3775515468a7a525ed138f57932e109125d13b933c991457635e5c6c4e716fd4ce07079b3",
+    "passwordHash": null,
     "amount": 3700,
     "amountKobo": 370000,
     "method": "paga",
     "provider": "movantra",
     "reference": "rc_1795755450816_0c313087e9",
-    "status": "pending",
+    "status": "approved",
     "statusTokenHash": "14938a13e81b9215e8be6ab65ac858cb4a508f445ee83bfe670de8543549c90a",
     "activation": true,
     "createdAt": "2026-11-27T04:57:31.910Z",
-    "processedAt": null,
-    "activationExpiresAt": "2026-11-27T05:47:31.910Z"
+    "processedAt": "2026-11-27T05:05:19.017Z",
+    "activationExpiresAt": "2026-11-27T05:47:31.910Z",
+    "approvalSource": "movantra_webhook"
   }
 ]
