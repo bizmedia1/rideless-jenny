@@ -2935,5 +2935,16 @@
     "paymentId": "PAY-RIDELESSCHAT-797FFCE2407E47D5",
     "createdAt": "2026-11-27T19:13:31.032Z",
     "activatedAt": "2026-11-27T19:13:31.032Z"
+  },
+  {
+    "id": "RC-USER-E192F2B2AD7B1AB9",
+    "fullName": "Makata Divine favour",
+    "email": "callmeeze2026@gmail.com",
+    "phone": "08156552561",
+    "passwordHash": "scrypt$e01e04338f099e5d26e71bb1d4225c6a$1acbe99061836b992c87f6d9934ef600d1b2678cc6a1b3992633b33f6928f0a884da9a26f07dc6d6a120fe417375da84d57d5e050fdece5cb75278e54699eec4",
+    "status": "active",
+    "paymentId": "PAY-RIDELESSCHAT-12B725EC2B788BC8",
+    "createdAt": "2026-11-28T14:23:18.398Z",
+    "activatedAt": "2026-11-28T14:23:18.398Z"
   }
 ]
